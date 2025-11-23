@@ -18,9 +18,22 @@ import level1_lesson13 from "@/data/lessons/level1/lesson13.json";
 import level1_lesson14 from "@/data/lessons/level1/lesson14.json";
 import level1_lesson15 from "@/data/lessons/level1/lesson15.json";
 
-// Level 2 lessons - Add imports here as files are created
-// import level2_lesson1 from "@/data/lessons/level2/lesson1.json";
-// etc...
+// Level 2 lessons
+import level2_lesson16 from "@/data/lessons/level2/lesson16.json";
+import level2_lesson17 from "@/data/lessons/level2/lesson17.json";
+import level2_lesson18 from "@/data/lessons/level2/lesson18.json";
+import level2_lesson19 from "@/data/lessons/level2/lesson19.json";
+import level2_lesson20 from "@/data/lessons/level2/lesson20.json";
+import level2_lesson21 from "@/data/lessons/level2/lesson21.json";
+import level2_lesson22 from "@/data/lessons/level2/lesson22.json";
+import level2_lesson23 from "@/data/lessons/level2/lesson23.json";
+import level2_lesson24 from "@/data/lessons/level2/lesson24.json";
+import level2_lesson25 from "@/data/lessons/level2/lesson25.json";
+import level2_lesson26 from "@/data/lessons/level2/lesson26.json";
+import level2_lesson27 from "@/data/lessons/level2/lesson27.json";
+import level2_lesson28 from "@/data/lessons/level2/lesson28.json";
+import level2_lesson29 from "@/data/lessons/level2/lesson29.json";
+import level2_lesson30 from "@/data/lessons/level2/lesson30.json";
 
 // Level 3 lessons - Add imports here as files are created
 // import level3_lesson1 from "@/data/lessons/level3/lesson1.json";
@@ -44,9 +57,23 @@ const level1Lessons: Record<string, LessonData> = {
   lesson15: level1_lesson15 as LessonData,
 };
 
-// Level 2 lessons structure - will be filled with data
+// Level 2 lessons structure
 const level2Lessons: Record<string, LessonData> = {
-  // Add Level 2 lessons here
+  lesson16: level2_lesson16 as LessonData,
+  lesson17: level2_lesson17 as LessonData,
+  lesson18: level2_lesson18 as LessonData,
+  lesson19: level2_lesson19 as LessonData,
+  lesson20: level2_lesson20 as LessonData,
+  lesson21: level2_lesson21 as LessonData,
+  lesson22: level2_lesson22 as LessonData,
+  lesson23: level2_lesson23 as LessonData,
+  lesson24: level2_lesson24 as LessonData,
+  lesson25: level2_lesson25 as LessonData,
+  lesson26: level2_lesson26 as LessonData,
+  lesson27: level2_lesson27 as LessonData,
+  lesson28: level2_lesson28 as LessonData,
+  lesson29: level2_lesson29 as LessonData,
+  lesson30: level2_lesson30 as LessonData,
 };
 
 // Level 3 lessons structure - will be filled with data
@@ -72,28 +99,28 @@ export function getLessonByLevelAndId(level: ThresholdLevel, lessonId: string): 
 
 export function getLevelSessions(level: ThresholdLevel) {
   const lessons = getLessonsByLevel(level);
-  
+
   // Group lessons into sessions (every 3-5 lessons per session)
-  const sessions = [];
+  const sessions: any[] = [];
   let currentSession: any = null;
   let sessionIndex = 0;
 
   Object.entries(lessons).forEach(([lessonId, lesson], index) => {
-    if (!currentSession || Object.keys(currentSession.lessons).length >= 3) {
+    if (!currentSession || currentSession.lessons.length >= 3) {
       if (currentSession) sessions.push(currentSession);
-      
+
       sessionIndex++;
       currentSession = {
         id: `session${sessionIndex}`,
         title: `Session ${sessionIndex}`,
-        lessons: {},
+        lessons: [],
       };
     }
 
-    currentSession.lessons[lessonId] = {
+    currentSession.lessons.push({
       id: lessonId,
       title: lesson.title,
-    };
+    });
   });
 
   if (currentSession) sessions.push(currentSession);

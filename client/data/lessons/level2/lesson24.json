@@ -1,1 +1,95 @@
-{"id":"lesson24","sessionId":"session4","title":"Lesson 24: 她出去了","englishTitle":"She Has Gone Out","pageNumber":99,"difficulty":"intermediate","objectives":[],"vocabulary":[],"dialogue":{"title":"她出去了","lines":[]},"characters":[],"grammar":[],"exercises":[],"quiz":{"title":"Lesson 24 Quiz","questions":[]}}
+{
+  "id": "lesson24",
+  "sessionId": "session4",
+  "title": "Lesson 24: 她出去了",
+  "englishTitle": "She Has Gone Out",
+  "pageNumber": 99,
+  "difficulty": "intermediate",
+  "objectives": ["Learn directional complements", "Understand 要是...就 construction", "Practice pivotal sentences with 请/叫/让"],
+  "vocabulary": [
+    {"id": "v1", "character": "出", "pinyin": "chū", "english": "to go out", "partOfSpeech": "verb", "example": "出去了", "exampleTranslation": "has gone out"},
+    {"id": "v2", "character": "妨碍", "pinyin": "fáng'ài", "english": "to hinder", "partOfSpeech": "verb", "example": "不妨碍", "exampleTranslation": "no inconvenience"},
+    {"id": "v3", "character": "屋", "pinyin": "wū", "english": "room", "partOfSpeech": "noun", "example": "进屋", "exampleTranslation": "enter room"},
+    {"id": "v4", "character": "那么", "pinyin": "nàme", "english": "then", "partOfSpeech": "conjunction", "example": "那么打扰你了", "exampleTranslation": "then I'm troubling you"},
+    {"id": "v5", "character": "打扰", "pinyin": "dărão", "english": "to bother", "partOfSpeech": "verb", "example": "打扰你", "exampleTranslation": "bother you"},
+    {"id": "v6", "character": "抱歉", "pinyin": "bàoqiàn", "english": "sorry", "partOfSpeech": "adjective", "example": "真抱歉", "exampleTranslation": "truly sorry"},
+    {"id": "v7", "character": "让", "pinyin": "ràng", "english": "to let", "partOfSpeech": "verb", "example": "让你久等", "exampleTranslation": "keep you waiting"},
+    {"id": "v8", "character": "久", "pinyin": "jiǔ", "english": "long", "partOfSpeech": "adjective", "example": "久等", "exampleTranslation": "wait long"},
+    {"id": "v9", "character": "帮", "pinyin": "bāng", "english": "to help", "partOfSpeech": "verb", "example": "帮忙", "exampleTranslation": "to help"},
+    {"id": "v10", "character": "送", "pinyin": "sòng", "english": "to deliver", "partOfSpeech": "verb", "example": "送来", "exampleTranslation": "deliver"},
+    {"id": "v11", "character": "不好意思", "pinyin": "bù hǎo yìsi", "english": "embarrassed", "partOfSpeech": "phrase", "example": "真不好意思", "exampleTranslation": "very embarrassed"},
+    {"id": "v12", "character": "又", "pinyin": "yòu", "english": "again", "partOfSpeech": "adverb", "example": "又买回来", "exampleTranslation": "bought again"},
+    {"id": "v13", "character": "帮忙", "pinyin": "bāng máng", "english": "to help", "partOfSpeech": "verb", "example": "要我帮忙吗", "exampleTranslation": "need help"},
+    {"id": "v14", "character": "别", "pinyin": "bié", "english": "don't", "partOfSpeech": "adverb", "example": "别客气", "exampleTranslation": "don't be polite"},
+    {"id": "v15", "character": "上", "pinyin": "shàng", "english": "to go up", "partOfSpeech": "verb", "example": "上楼去", "exampleTranslation": "go upstairs"},
+    {"id": "v16", "character": "要是", "pinyin": "yàoshi", "english": "if", "partOfSpeech": "conjunction", "example": "要是...就", "exampleTranslation": "if...then"},
+    {"id": "v17", "character": "马上", "pinyin": "măshàng", "english": "at once", "partOfSpeech": "adverb", "example": "马上就下来", "exampleTranslation": "coming down right away"},
+    {"id": "v18", "character": "下", "pinyin": "xià", "english": "to go down", "partOfSpeech": "verb", "example": "下来", "exampleTranslation": "come down"}
+  ],
+  "dialogue": {
+    "title": "她出去了",
+    "lines": [
+      {"speaker": "小叶", "chinese": "莉莉呢?", "pinyin": "Lili ne?", "english": "Where is Lili?"},
+      {"speaker": "直美", "chinese": "她出去了。可能一会儿就回来。", "pinyin": "Tã chuqu le. Kěnéng yíhuir jiù huílai.", "english": "She has gone out. She may be back soon."},
+      {"speaker": "小叶", "chinese": "她到哪儿去了?", "pinyin": "Tã dào năr qù le?", "english": "Where has she gone?"},
+      {"speaker": "直美", "chinese": "到书店去了。你进来等她吧。", "pinyin": "Dào shūdiàn qù le. Nĩ jinlai děng tā ba.", "english": "She has gone to the bookstore. Come in and wait for her."},
+      {"speaker": "小叶", "chinese": "你正在学习吧?不妨碍你吗?", "pinyin": "Nĩ zhèngzài xuéxí ba? Búfáng'ài ni ma?", "english": "You are studying, aren't you? Won't I bother you?"},
+      {"speaker": "直美", "chinese": "没关系,快进屋来吧。", "pinyin": "Méi guãnxi, kuài jin wũ lái ba.", "english": "No problem, come in quickly."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "出", "pinyin": "chu", "meaning": "to go out", "radical": "山", "radicalMeaning": "mountain", "strokeCount": 5, "strokeOrder": ["vertical", "horizontal-vertical", "horizontal", "horizontal-vertical", "horizontal"]},
+    {"id": "c2", "character": "去", "pinyin": "qù", "meaning": "to go", "radical": "廿", "radicalMeaning": "twenty", "strokeCount": 5, "strokeOrder": ["horizontal", "horizontal", "vertical", "horizontal", "horizontal"]},
+    {"id": "c3", "character": "来", "pinyin": "lái", "meaning": "to come", "radical": "木", "radicalMeaning": "wood", "strokeCount": 7, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal-vertical", "horizontal", "dot"]}
+  ],
+  "grammar": [
+    {
+      "point": "Directional complements",
+      "explanation": "来/去 after verbs shows direction. Complex directionals add 上/下/进/出/回/过/起 before 来/去.",
+      "example": "莉莉出去了。可能一会儿就回来。",
+      "translation": "Lili has gone out. She may come back soon."
+    },
+    {
+      "point": "要是...就... construction",
+      "explanation": "Expresses condition and result: if...then.",
+      "example": "要是方便的话,明天你去办公室时,帮我把这张表送到办公室。",
+      "translation": "If convenient, tomorrow when you go to the office, help me deliver this form to the office."
+    },
+    {
+      "point": "Pivotal sentences with 请/叫/让",
+      "explanation": "These causative verbs link two verb phrases where the object of the first becomes the subject of the second.",
+      "example": "我请你帮我买书。",
+      "translation": "I ask you to help me buy books."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete with directional complement",
+      "sentence": "莉莉___了,可能一会儿就___。",
+      "options": [
+        {"text": "出去 回来", "correct": true},
+        {"text": "进来 出去", "correct": false},
+        {"text": "去了 回了", "correct": false},
+        {"text": "上去 下来", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 24 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "莉莉去哪儿了?",
+        "options": [
+          {"text": "到书店去了", "correct": true},
+          {"text": "到商店去了", "correct": false},
+          {"text": "到学校去了", "correct": false},
+          {"text": "到医院去了", "correct": false}
+        ]
+      }
+    ]
+  }
+}

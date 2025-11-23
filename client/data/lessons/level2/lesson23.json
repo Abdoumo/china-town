@@ -1,1 +1,90 @@
-{"id":"lesson23","sessionId":"session3","title":"Lesson 23: 你打错了","englishTitle":"You Dialed Wrong","pageNumber":84,"difficulty":"intermediate","objectives":[],"vocabulary":[],"dialogue":{"title":"你打错了","lines":[]},"characters":[],"grammar":[],"exercises":[],"quiz":{"title":"Lesson 23 Quiz","questions":[]}}
+{
+  "id": "lesson23",
+  "sessionId": "session4",
+  "title": "Lesson 23: 你打错了",
+  "englishTitle": "You've Got the Wrong Number",
+  "pageNumber": 84,
+  "difficulty": "intermediate",
+  "objectives": ["Learn resultant complements", "Understand 到/在/给 resultant complements", "Practice the 一...就 construction"],
+  "vocabulary": [
+    {"id": "v1", "character": "喂", "pinyin": "wèi", "english": "hello", "partOfSpeech": "interjection", "example": "喂,你好", "exampleTranslation": "hello"},
+    {"id": "v2", "character": "错", "pinyin": "cuò", "english": "wrong", "partOfSpeech": "adjective", "example": "打错了", "exampleTranslation": "dialed wrong"},
+    {"id": "v3", "character": "对", "pinyin": "duì", "english": "correct", "partOfSpeech": "adjective", "example": "猜对了", "exampleTranslation": "guessed correctly"},
+    {"id": "v4", "character": "一直", "pinyin": "yìzhí", "english": "all along, until", "partOfSpeech": "adverb", "example": "一直呆到", "exampleTranslation": "stayed until"},
+    {"id": "v5", "character": "呆", "pinyin": "dāi", "english": "to stay", "partOfSpeech": "verb", "example": "一直呆到", "exampleTranslation": "stay until"},
+    {"id": "v6", "character": "回来", "pinyin": "huílai", "english": "to come back", "partOfSpeech": "verb", "example": "十点才回来", "exampleTranslation": "came back at ten"},
+    {"id": "v7", "character": "取", "pinyin": "qǔ", "english": "to take", "partOfSpeech": "verb", "example": "去取", "exampleTranslation": "go take"},
+    {"id": "v8", "character": "一...就", "pinyin": "yī...jiù", "english": "as soon as", "partOfSpeech": "phrase", "example": "一吃完就去", "exampleTranslation": "as soon as finish eating, go"},
+    {"id": "v9", "character": "完", "pinyin": "wán", "english": "to finish", "partOfSpeech": "verb", "example": "吃完了", "exampleTranslation": "finished eating"},
+    {"id": "v10", "character": "麻烦", "pinyin": "máfan", "english": "trouble, to bother", "partOfSpeech": "verb/noun", "example": "麻烦您", "exampleTranslation": "may I trouble you"},
+    {"id": "v11", "character": "转告", "pinyin": "zhuǎngào", "english": "to pass on", "partOfSpeech": "verb", "example": "转告他", "exampleTranslation": "pass on to him"},
+    {"id": "v12", "character": "票", "pinyin": "piào", "english": "ticket", "partOfSpeech": "noun", "example": "火车票", "exampleTranslation": "train ticket"},
+    {"id": "v13", "character": "清楚", "pinyin": "qīngchu", "english": "clear", "partOfSpeech": "adjective", "example": "听清楚", "exampleTranslation": "hear clearly"},
+    {"id": "v14", "character": "看见", "pinyin": "kànjiàn", "english": "to see", "partOfSpeech": "verb", "example": "看见了", "exampleTranslation": "saw"}
+  ],
+  "dialogue": {
+    "title": "你打错了",
+    "lines": [
+      {"speaker": "小叶", "chinese": "喂,是留学生宿舍吗?", "pinyin": "Wèi, shì liúxuéshẽng sushè ma?", "english": "Hello, is this the international student dorm?"},
+      {"speaker": "一位小姐", "chinese": "你打错了。", "pinyin": "Nĩ dă cuò le.", "english": "You've got the wrong number."},
+      {"speaker": "小叶", "chinese": "喂,我找莉莉。", "pinyin": "Wèi. wỏ zhão Lili.", "english": "Hello, I'm looking for Lili."},
+      {"speaker": "莉莉", "chinese": "我就是,你是小叶吧?", "pinyin": "Wo jiù shì, nĩ shì Xiăoyè ba?", "english": "That's me. Are you Xiaoye?"},
+      {"speaker": "小叶", "chinese": "猜对了。昨天你去哪儿了?我找了你一天也没找到。", "pinyin": "Cãi dui le. Zuótiān nĩ qù năr le? Wo zhảole ni yì tiãn yě méi zhào dào.", "english": "Right. Where were you yesterday? I looked for you all day but couldn't find you."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "打", "pinyin": "dǎ", "meaning": "to hit, to make", "radical": "扌", "radicalMeaning": "hand", "strokeCount": 5, "strokeOrder": ["left-falling", "horizontal", "dot", "vertical", "horizontal"]},
+    {"id": "c2", "character": "错", "pinyin": "cuò", "meaning": "wrong", "radical": "钅", "radicalMeaning": "metal", "strokeCount": 13, "strokeOrder": ["left-falling", "horizontal", "vertical", "dot", "horizontal", "vertical", "horizontal", "vertical", "dot", "horizontal", "vertical", "horizontal", "horizontal"]},
+    {"id": "c3", "character": "找", "pinyin": "zhǎo", "meaning": "to find", "radical": "扌", "radicalMeaning": "hand", "strokeCount": 7, "strokeOrder": ["left-falling", "horizontal", "dot", "vertical", "horizontal-vertical", "horizontal", "dot"]}
+  ],
+  "grammar": [
+    {
+      "point": "Resultant complement 到",
+      "explanation": "到 indicates that an action reaches a goal or continues to a point in time.",
+      "example": "我一直呆到十点才回来。",
+      "translation": "I stayed until ten o'clock."
+    },
+    {
+      "point": "Resultant complement 清楚",
+      "explanation": "Indicates achieving clarity or understanding as the result of an action.",
+      "example": "对不起,我没听清楚。",
+      "translation": "Sorry, I didn't hear clearly."
+    },
+    {
+      "point": "一...就... construction",
+      "explanation": "Indicates two consecutive actions with 一 and 就.",
+      "example": "我一吃完晚饭就去。",
+      "translation": "I'll go as soon as I finish dinner."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete with resultant complement",
+      "sentence": "我一下课___给他打电话。",
+      "options": [
+        {"text": "就", "correct": true},
+        {"text": "了", "correct": false},
+        {"text": "着", "correct": false},
+        {"text": "过", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 23 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "小叶打错了什么?",
+        "options": [
+          {"text": "电话号码", "correct": true},
+          {"text": "说的话", "correct": false},
+          {"text": "人名", "correct": false},
+          {"text": "地址", "correct": false}
+        ]
+      }
+    ]
+  }
+}

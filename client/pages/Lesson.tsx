@@ -13,10 +13,33 @@ import { getLessonByLevelAndId, getLevelSessions } from "@/utils/levelsLoader";
 
 export default function Lesson() {
   const { lessonId } = useParams<{ lessonId: string }>();
-  const { selectedLevel } = useLevel();
-  const lessonData = lessonId ? getLessonByLevelAndId(selectedLevel, lessonId) : null;
+  const { selectedLevel, setSelectedLevel } = useLevel();
+  const [detectedLevel, setDetectedLevel] = useState(selectedLevel);
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set());
-  const SESSIONS = getLevelSessions(selectedLevel);
+
+  // Effect to detect and update level based on lesson ID
+  useEffect(() => {
+    if (lessonId) {
+      const lessonNum = parseInt(lessonId.replace('lesson', ''));
+      let newLevel: typeof selectedLevel = selectedLevel;
+
+      if (lessonNum >= 1 && lessonNum <= 15) {
+        newLevel = 'level1';
+      } else if (lessonNum >= 16 && lessonNum <= 30) {
+        newLevel = 'level2';
+      } else if (lessonNum >= 31 && lessonNum <= 45) {
+        newLevel = 'level3';
+      }
+
+      setDetectedLevel(newLevel);
+      if (newLevel !== selectedLevel) {
+        setSelectedLevel(newLevel);
+      }
+    }
+  }, [lessonId, selectedLevel, setSelectedLevel]);
+
+  const lessonData = lessonId ? getLessonByLevelAndId(detectedLevel, lessonId) : null;
+  const SESSIONS = getLevelSessions(detectedLevel);
 
   useEffect(() => {
     const stored = localStorage.getItem("completedLessons");
@@ -35,7 +58,7 @@ export default function Lesson() {
   }, [completedLessons]);
 
   const handleQuizComplete = (score: number) => {
-    if (lessonId && score === 100) {
+    if (lessonId && score >= 70) {
       setCompletedLessons((prev) => new Set([...prev, lessonId]));
     }
   };
@@ -60,11 +83,30 @@ export default function Lesson() {
     }))
   );
 
+  // Create level sections for sidebar
+  const levelSections = [
+    {
+      level: "level1" as const,
+      title: "Threshold Level 1",
+      sessions: getLevelSessions("level1"),
+    },
+    {
+      level: "level2" as const,
+      title: "Threshold Level 2",
+      sessions: getLevelSessions("level2"),
+    },
+    {
+      level: "level3" as const,
+      title: "Threshold Level 3",
+      sessions: getLevelSessions("level3"),
+    },
+  ].filter((section) => section.sessions.length > 0);
+
   return (
     <div className="min-h-screen bg-gray-50">
       <NavBar />
       <div className="flex">
-        <Sidebar sessions={SESSIONS} />
+        <Sidebar levelSections={levelSections} />
         <div className="flex-1 p-8">
           <div className="max-w-6xl mx-auto">
             <div className="mb-8">

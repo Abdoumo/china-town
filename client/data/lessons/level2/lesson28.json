@@ -1,0 +1,100 @@
+{
+  "id": "lesson28",
+  "sessionId": "session5",
+  "title": "Lesson 28: 快把空调关上",
+  "englishTitle": "Quickly Turn Off the Air Conditioner",
+  "pageNumber": 154,
+  "difficulty": "intermediate",
+  "objectives": ["Review 把字句 emphatic form", "Learn about health and illness vocabulary", "Practice medical consultations"],
+  "vocabulary": [
+    {"id": "v1", "character": "关", "pinyin": "guān", "english": "to turn off", "partOfSpeech": "verb", "example": "关空调", "exampleTranslation": "turn off AC"},
+    {"id": "v2", "character": "感冒", "pinyin": "gănmào", "english": "cold, flu", "partOfSpeech": "noun", "example": "感冒了", "exampleTranslation": "caught a cold"},
+    {"id": "v3", "character": "��烧", "pinyin": "fāshāo", "english": "to have fever", "partOfSpeech": "verb", "example": "发烧了", "exampleTranslation": "have a fever"},
+    {"id": "v4", "character": "哟", "pinyin": "yō", "english": "oh", "partOfSpeech": "interjection", "example": "哟,这么烫", "exampleTranslation": "oh, so hot"},
+    {"id": "v5", "character": "赶快", "pinyin": "gănkuài", "english": "quickly", "partOfSpeech": "adverb", "example": "赶快去", "exampleTranslation": "go quickly"},
+    {"id": "v6", "character": "愿意", "pinyin": "yuànyì", "english": "to want, willing", "partOfSpeech": "auxiliary verb", "example": "不愿意去", "exampleTranslation": "don't want to go"},
+    {"id": "v7", "character": "怕", "pinyin": "pà", "english": "to be afraid", "partOfSpeech": "verb", "example": "怕打针", "exampleTranslation": "afraid of injection"},
+    {"id": "v8", "character": "打针", "pinyin": "dǎ zhēn", "english": "to have injection", "partOfSpeech": "verb", "example": "不怕打针", "exampleTranslation": "not afraid of injection"},
+    {"id": "v9", "character": "大夫", "pinyin": "dàifu", "english": "doctor", "partOfSpeech": "noun", "example": "去看大夫", "exampleTranslation": "go see doctor"},
+    {"id": "v10", "character": "开始", "pinyin": "kāishǐ", "english": "to begin", "partOfSpeech": "verb", "example": "昨天开始", "exampleTranslation": "started yesterday"},
+    {"id": "v11", "character": "头疼", "pinyin": "tóu téng", "english": "headache", "partOfSpeech": "verb", "example": "头疼", "exampleTranslation": "have headache"},
+    {"id": "v12", "character": "嗓子", "pinyin": "săngzi", "english": "throat", "partOfSpeech": "noun", "example": "嗓子疼", "exampleTranslation": "sore throat"},
+    {"id": "v13", "character": "咳嗽", "pinyin": "késou", "english": "cough", "partOfSpeech": "verb", "example": "有点儿咳嗽", "exampleTranslation": "slight cough"},
+    {"id": "v14", "character": "量", "pinyin": "liáng", "english": "to measure, take", "partOfSpeech": "verb", "example": "量体温", "exampleTranslation": "take temperature"},
+    {"id": "v15", "character": "体温", "pinyin": "tiwēn", "english": "body temperature", "partOfSpeech": "noun", "example": "量体温", "exampleTranslation": "take temperature"},
+    {"id": "v16", "character": "度", "pinyin": "dù", "english": "degree", "partOfSpeech": "measure word", "example": "三十八度", "exampleTranslation": "38 degrees"},
+    {"id": "v17", "character": "嘴", "pinyin": "zuǐ", "english": "mouth", "partOfSpeech": "noun", "example": "张嘴", "exampleTranslation": "open mouth"},
+    {"id": "v18", "character": "张", "pinyin": "zhāng", "english": "to open", "partOfSpeech": "verb", "example": "张开嘴", "exampleTranslation": "open mouth"},
+    {"id": "v19", "character": "开(药)", "pinyin": "kāi(yào)", "english": "to write out prescription", "partOfSpeech": "verb", "example": "开药", "exampleTranslation": "prescribe"}
+  ],
+  "dialogue": {
+    "title": "快把空调关上",
+    "lines": [
+      {"speaker": "小雨", "chinese": "怎么这么冷?快把空调关上吧。", "pinyin": "Zěnme zhème lěng? Kuài bǎ kōngtiáo guān shang ba.", "english": "Why is it so cold? Quickly turn off the AC."},
+      {"speaker": "姐姐", "chinese": "你是不是感冒了?", "pinyin": "Nĩ shì bu shì gănmào le?", "english": "Did you catch a cold?"},
+      {"speaker": "小雨", "chinese": "我可能有点儿发烧。", "pinyin": "Wo kěnéng youdiănr fāshāo.", "english": "I might have a slight fever."},
+      {"speaker": "姐姐", "chinese": "哟,这么烫!赶快��衣服穿上,我陪你去医院。", "pinyin": "Yo, zhème tàng! Gănkuài bă yīfu chuān shang, wo péi nĩ qù yīyuàn.", "english": "Oh, you're so hot! Quickly put on your clothes. I'll go with you to the hospital."},
+      {"speaker": "小雨", "chinese": "我不愿意去,我最怕打针。", "pinyin": "Wỏ bú yuànyì qù, wo zuì pà dă zhēn.", "english": "I don't want to go. I'm most afraid of injections."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "冷", "pinyin": "l��ng", "meaning": "cold", "radical": "冫", "radicalMeaning": "ice", "strokeCount": 7, "strokeOrder": ["left-falling", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal"]},
+    {"id": "c2", "character": "病", "pinyin": "bìng", "meaning": "illness", "radical": "疒", "radicalMeaning": "illness", "strokeCount": 10, "strokeOrder": ["left-falling", "horizontal", "vertical", "horizontal", "horizontal", "horizontal", "vertical", "horizontal", "dot", "dot"]},
+    {"id": "c3", "character": "烧", "pinyin": "shāo", "meaning": "to burn, fever", "radical": "火", "radicalMeaning": "fire", "strokeCount": 10, "strokeOrder": ["horizontal", "vertical", "horizontal", "dot", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "horizontal"]}
+  ],
+  "grammar": [
+    {
+      "point": "把字句 for emphasis",
+      "explanation": "Using 把 makes the request more emphatic and urgent.",
+      "example": "快把空调关上。",
+      "translation": "Quickly turn off the AC."
+    },
+    {
+      "point": "Health and illness expressions",
+      "explanation": "Common expressions for describing symptoms and medical visits.",
+      "example": "我感冒了,有点儿发烧。",
+      "translation": "I have a cold and a slight fever."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete the sentence",
+      "sentence": "大夫:先___一下儿体温。",
+      "options": [
+        {"text": "量", "correct": true},
+        {"text": "测", "correct": false},
+        {"text": "看", "correct": false},
+        {"text": "查", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 28 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "小雨的问题是什么?",
+        "options": [
+          {"text": "感冒,有点儿发烧", "correct": true},
+          {"text": "头疼", "correct": false},
+          {"text": "腿疼", "correct": false},
+          {"text": "只是感冒", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "小雨最怕什么?",
+        "options": [
+          {"text": "打针", "correct": true},
+          {"text": "看医生", "correct": false},
+          {"text": "吃药", "correct": false},
+          {"text": "去医院", "correct": false}
+        ]
+      }
+    ]
+  }
+}

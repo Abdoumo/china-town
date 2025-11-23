@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Volume2, ChevronLeft, ChevronRight, Repeat2, Mic, CheckCircle, XCircle } from "lucide-react";
+import { Volume2, ChevronLeft, ChevronRight, Repeat2, Mic, CheckCircle, XCircle, Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useSpeechRecognition } from "@/hooks/use-speech-recognition";
+import PronunciationTest from "@/components/PronunciationTest";
 
 interface VocabularyItem {
   id: string;
@@ -21,10 +22,19 @@ interface VocabularyTrainerProps {
 export default function VocabularyTrainer({
   vocabulary,
 }: VocabularyTrainerProps) {
+  if (!vocabulary || vocabulary.length === 0) {
+    return (
+      <div className="flex items-center justify-center p-8">
+        <p className="text-gray-500">No vocabulary items available.</p>
+      </div>
+    );
+  }
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [viewMode, setViewMode] = useState<"card" | "list">("card");
   const [speakingMode, setSpeakingMode] = useState<"character" | "pinyin" | null>(null);
+  const [showPronunciationTest, setShowPronunciationTest] = useState(false);
 
   const speechRecognition = useSpeechRecognition();
 
@@ -132,10 +142,19 @@ export default function VocabularyTrainer({
     );
   };
 
+  if (showPronunciationTest) {
+    return (
+      <PronunciationTest
+        vocabulary={vocabulary}
+        onClose={() => setShowPronunciationTest(false)}
+      />
+    );
+  }
+
   return (
     <div className="space-y-6">
       {/* View Mode Toggle */}
-      <div className="flex gap-2 justify-center">
+      <div className="flex gap-2 justify-center flex-wrap">
         <Button
           variant={viewMode === "card" ? "default" : "outline"}
           onClick={() => setViewMode("card")}
@@ -147,6 +166,14 @@ export default function VocabularyTrainer({
           onClick={() => setViewMode("list")}
         >
           List
+        </Button>
+        <Button
+          variant="outline"
+          onClick={() => setShowPronunciationTest(true)}
+          className="gap-2 bg-gradient-to-r from-blue-50 to-purple-50 border-blue-300 hover:border-blue-500"
+        >
+          <Zap className="w-4 h-4 text-blue-600" />
+          <span className="text-blue-600 font-semibold">Pronunciation Test</span>
         </Button>
       </div>
 

@@ -1,1 +1,94 @@
-{"id":"lesson18","sessionId":"session2","title":"Lesson 18: 秋天了","englishTitle":"It's Autumn","pageNumber":23,"difficulty":"intermediate","objectives":[],"vocabulary":[],"dialogue":{"title":"秋天了","lines":[]},"characters":[],"grammar":[],"exercises":[],"quiz":{"title":"Lesson 18 Quiz","questions":[]}}
+{
+  "id": "lesson18",
+  "sessionId": "session2",
+  "title": "Lesson 18: 秋天了",
+  "englishTitle": "Autumn Has Come",
+  "pageNumber": 23,
+  "difficulty": "intermediate",
+  "objectives": ["Learn seasonal changes", "Practice 要...了 construction", "Understand modal verbs 能/可以"],
+  "vocabulary": [
+    {"id": "v1", "character": "秋天", "pinyin": "qiūtiān", "english": "autumn", "partOfSpeech": "noun", "example": "秋天来了", "exampleTranslation": "autumn has come"},
+    {"id": "v2", "character": "天气", "pinyin": "tiānqì", "english": "weather", "partOfSpeech": "noun", "example": "秋天天气凉", "exampleTranslation": "autumn weather is cool"},
+    {"id": "v3", "character": "山", "pinyin": "shān", "english": "hill, mountain", "partOfSpeech": "noun", "example": "山上", "exampleTranslation": "on the mountain"},
+    {"id": "v4", "character": "树叶", "pinyin": "shùyè", "english": "leaf", "partOfSpeech": "noun", "example": "红树叶", "exampleTranslation": "red leaves"},
+    {"id": "v5", "character": "巧", "pinyin": "qiǎo", "english": "opportunely", "partOfSpeech": "adjective", "example": "真不巧", "exampleTranslation": "unfortunately"},
+    {"id": "v6", "character": "阴", "pinyin": "yīn", "english": "overcast", "partOfSpeech": "adjective", "example": "天阴了", "exampleTranslation": "it became overcast"},
+    {"id": "v7", "character": "能", "pinyin": "néng", "english": "can", "partOfSpeech": "auxiliary verb", "example": "能睡觉", "exampleTranslation": "able to sleep"},
+    {"id": "v8", "character": "睡觉", "pinyin": "shuì jiào", "english": "to sleep", "partOfSpeech": "verb", "example": "睡���觉", "exampleTranslation": "to sleep late"},
+    {"id": "v9", "character": "懒", "pinyin": "lǎn", "english": "lazy", "partOfSpeech": "adjective", "example": "很懒", "exampleTranslation": "very lazy"},
+    {"id": "v10", "character": "瘦", "pinyin": "shòu", "english": "thin", "partOfSpeech": "adjective", "example": "变瘦了", "exampleTranslation": "became thinner"}
+  ],
+  "dialogue": {
+    "title": "秋天了",
+    "lines": [
+      {"speaker": "Narrator", "chinese": "秋天了,天气凉了,山上的树叶都红了。", "pinyin": "Qiūtiān le, tiānqì liáng le, shān shang de shùyè dõu hóng le.", "english": "Autumn has come, the weather is cool, and all the leaves on the mountain are red."},
+      {"speaker": "Narrator", "chinese": "小雨现在是职员了,工作很忙,玩儿的时间少了,也不能睡懒觉了。", "pinyin": "Xiǎo yǔ xiànzài shì zhíyuán le, gōngzuò hěn máng, wánr de shíjiān shăo le, yě bù néng shui lănjiào le.", "english": "Xiaoyu is now an employee. His work is very busy, he has less time to play, and he can no longer sleep late."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "秋", "pinyin": "qiū", "meaning": "autumn", "radical": "禾", "radicalMeaning": "grain", "strokeCount": 9, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "dot", "horizontal"]},
+    {"id": "c2", "character": "天", "pinyin": "tiān", "meaning": "sky", "radical": "大", "radicalMeaning": "big", "strokeCount": 4, "strokeOrder": ["horizontal", "vertical", "horizontal", "horizontal"]},
+    {"id": "c3", "character": "凉", "pinyin": "liáng", "meaning": "cool", "radical": "冂", "radicalMeaning": "enclosure", "strokeCount": 10, "strokeOrder": ["left-falling", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "dot", "dot"]}
+  ],
+  "grammar": [
+    {
+      "point": "Modal particle 了 - Situation change",
+      "explanation": "The modal particle 了 expresses that the situation has changed or a new situation has appeared.",
+      "example": "秋天了,天气凉了。",
+      "translation": "Autumn has come, the weather is cool."
+    },
+    {
+      "point": "要...了 - About to happen",
+      "explanation": "This construction indicates that something is about to happen or change soon.",
+      "example": "要下课了。",
+      "translation": "Class is about to end."
+    },
+    {
+      "point": "能/���以 - Ability and Permission",
+      "explanation": "Both express ability or permission, but 能 emphasizes ability while 可以 emphasizes permission.",
+      "example": "他不能睡懒觉了。",
+      "translation": "He can no longer sleep late."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete the sentence",
+      "sentence": "秋天了,___凉了。",
+      "options": [
+        {"text": "天气", "correct": true},
+        {"text": "树叶", "correct": false},
+        {"text": "工作", "correct": false},
+        {"text": "时间", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 18 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "秋天山上怎么样?",
+        "options": [
+          {"text": "树叶都红了", "correct": true},
+          {"text": "树叶都绿了", "correct": false},
+          {"text": "树叶都掉了", "correct": false},
+          {"text": "没有树叶", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "小雨现在为什么不能睡懒觉?",
+        "options": [
+          {"text": "因为他是职员,工作很忙", "correct": true},
+          {"text": "因为他病了", "correct": false},
+          {"text": "因为他很懒", "correct": false},
+          {"text": "因为天气凉了", "correct": false}
+        ]
+      }
+    ]
+  }
+}

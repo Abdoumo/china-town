@@ -1,1 +1,98 @@
-{"id":"lesson20","sessionId":"session3","title":"Lesson 20: 明天我就要回国了","englishTitle":"I'm Going Back to My Country Tomorrow","pageNumber":47,"difficulty":"intermediate","objectives":[],"vocabulary":[],"dialogue":{"title":"明天我就要回国了","lines":[]},"characters":[],"grammar":[],"exercises":[],"quiz":{"title":"Lesson 20 Quiz","questions":[]}}
+{
+  "id": "lesson20",
+  "sessionId": "session3",
+  "title": "Lesson 20: 明天我就要回国了",
+  "englishTitle": "I'm Going Back to My Country Tomorrow",
+  "pageNumber": 47,
+  "difficulty": "intermediate",
+  "objectives": ["Learn time-measure complements", "Practice 就/才 distinction", "Understand 虽然...但是 construction"],
+  "vocabulary": [
+    {"id": "v1", "character": "过", "pinyin": "guò", "english": "to pass", "partOfSpeech": "verb", "example": "时间过得快", "exampleTranslation": "time passes quickly"},
+    {"id": "v2", "character": "虽然", "pinyin": "suīrán", "english": "though, although", "partOfSpeech": "conjunction", "example": "虽然...但是", "exampleTranslation": "although...but"},
+    {"id": "v3", "character": "紧张", "pinyin": "jinzhāng", "english": "intense, tense", "partOfSpeech": "adjective", "example": "学习很紧张", "exampleTranslation": "study is very intense"},
+    {"id": "v4", "character": "但是", "pinyin": "dànshì", "english": "but", "partOfSpeech": "conjunction", "example": "但是很愉快", "exampleTranslation": "but very happy"},
+    {"id": "v5", "character": "愉快", "pinyin": "yúkuài", "english": "happy, pleasant", "partOfSpeech": "adjective", "example": "过得很愉快", "exampleTranslation": "spend time happily"},
+    {"id": "v6", "character": "小时", "pinyin": "xiǎoshí", "english": "hour", "partOfSpeech": "noun", "example": "坐十个小时", "exampleTranslation": "sit for ten hours"},
+    {"id": "v7", "character": "送", "pinyin": "sòng", "english": "to see off, send", "partOfSpeech": "verb", "example": "送你", "exampleTranslation": "to see you off"},
+    {"id": "v8", "character": "才", "pinyin": "cái", "english": "just, only then", "partOfSpeech": "adverb", "example": "才来", "exampleTranslation": "just arrived"},
+    {"id": "v9", "character": "半天", "pinyin": "bàntiān", "english": "a long time", "partOfSpeech": "noun", "example": "等了半天", "exampleTranslation": "waited for a long time"},
+    {"id": "v10", "character": "因为", "pinyin": "yīnwèi", "english": "because", "partOfSpeech": "conjunction", "example": "因为...所以", "exampleTranslation": "because...therefore"},
+    {"id": "v11", "character": "堵车", "pinyin": "dǔ chē", "english": "traffic jam", "partOfSpeech": "verb", "example": "路上堵车", "exampleTranslation": "traffic jam on the way"},
+    {"id": "v12", "character": "所以", "pinyin": "suǒyi", "english": "therefore", "partOfSpeech": "conjunction", "example": "所以才到", "exampleTranslation": "therefore just arrived"}
+  ],
+  "dialogue": {
+    "title": "明天我就要回国了",
+    "lines": [
+      {"speaker": "保罗", "chinese": "时间过得真快,我们来中国已经一个多月了。", "pinyin": "Shíjiān guò de zhen kuài, wõmen lái Zhöngguó yijing yí ge duo yuè le.", "english": "Time passes so quickly. We've been in China for over a month."},
+      {"speaker": "西蒙", "chinese": "是啊,明天我就要回国了。", "pinyin": "Shì a. mingtian wõ jiù yào huí guó le.", "english": "Yes. I'm going back to my country tomorrow."},
+      {"speaker": "保罗", "chinese": "你觉得在这儿过得怎么样?", "pinyin": "Ni juéde zài zhèr guò de zěnmeyàng?", "english": "How do you feel spending time here?"},
+      {"speaker": "西蒙", "chinese": "虽然学习很紧张,但是我过得挺愉快。", "pinyin": "Suīrán xuéxí hěn jinzhāng. dànshì wo guò de ting yúkuài.", "english": "Although the studies are intense, I've spent time quite happily."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "过", "pinyin": "guò", "meaning": "to pass", "radical": "辶", "radicalMeaning": "walk", "strokeCount": 6, "strokeOrder": ["horizontal", "vertical", "left-falling", "horizontal", "vertical", "horizontal"]},
+    {"id": "c2", "character": "虽", "pinyin": "suī", "meaning": "although", "radical": "虫", "radicalMeaning": "insect", "strokeCount": 9, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal", "dot", "horizontal", "dot", "dot"]},
+    {"id": "c3", "character": "然", "pinyin": "rán", "meaning": "then", "radical": "火", "radicalMeaning": "fire", "strokeCount": 12, "strokeOrder": ["horizontal", "vertical", "horizontal", "dot", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "dot"]}
+  ],
+  "grammar": [
+    {
+      "point": "Time-measure complement",
+      "explanation": "Shows the duration of an action. Object must be repeated if present.",
+      "example": "我们来中国已经一个多月了。",
+      "translation": "We have been in China for over a month."
+    },
+    {
+      "point": "就 vs 才 - Comparison",
+      "explanation": "就 (early/quick) vs 才 (late/slow). 我七点就出来了 vs 我八点才出来。",
+      "example": "他比我更忙。",
+      "translation": "He is busier than me."
+    },
+    {
+      "point": "虽然...但是... - Concession",
+      "explanation": "Expresses contrast between two statements.",
+      "example": "虽然学习很紧张,但是我过得很愉快。",
+      "translation": "Although studying is intense, I spend time happily."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete the sentence",
+      "sentence": "他们来中国已经___一个多月了。",
+      "options": [
+        {"text": "有", "correct": true},
+        {"text": "是", "correct": false},
+        {"text": "在", "correct": false},
+        {"text": "过", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 20 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "西蒙在中国过得怎么样?",
+        "options": [
+          {"text": "虽然学习紧张,但过得很愉快", "correct": true},
+          {"text": "过得不开心", "correct": false},
+          {"text": "过得很轻松", "correct": false},
+          {"text": "不想待了", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "他们在中国多久了?",
+        "options": [
+          {"text": "一个多月", "correct": true},
+          {"text": "一个星期", "correct": false},
+          {"text": "两个月", "correct": false},
+          {"text": "半个月", "correct": false}
+        ]
+      }
+    ]
+  }
+}

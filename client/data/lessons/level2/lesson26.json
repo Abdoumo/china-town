@@ -1,0 +1,105 @@
+{
+  "id": "lesson26",
+  "sessionId": "session5",
+  "title": "Lesson 26: 西安比北京还热",
+  "englishTitle": "Xi'an Is Even Hotter Than Beijing",
+  "pageNumber": 123,
+  "difficulty": "intermediate",
+  "objectives": ["Learn comparative sentences with 比", "Understand 跟...一样 comparison", "Practice with 有/没有 comparison"],
+  "vocabulary": [
+    {"id": "v1", "character": "结束", "pinyin": "jiéshù", "english": "to finish", "partOfSpeech": "verb", "example": "学习结束", "exampleTranslation": "study finished"},
+    {"id": "v2", "character": "名胜", "pinyin": "míngshèng", "english": "scenic spot", "partOfSpeech": "noun", "example": "名胜古迹", "exampleTranslation": "historical sites"},
+    {"id": "v3", "character": "古迹", "pinyin": "gǔji", "english": "historical site", "partOfSpeech": "noun", "example": "古迹很多", "exampleTranslation": "many historical sites"},
+    {"id": "v4", "character": "比", "pinyin": "bǐ", "english": "than", "partOfSpeech": "preposition", "example": "比北京还热", "exampleTranslation": "even hotter than Beijing"},
+    {"id": "v5", "character": "建议", "pinyin": "jiànyì", "english": "to suggest", "partOfSpeech": "verb", "example": "我建议", "exampleTranslation": "I suggest"},
+    {"id": "v6", "character": "还", "pinyin": "háishi", "english": "still, or", "partOfSpeech": "adverb", "example": "还是...好", "exampleTranslation": "or ... is better"},
+    {"id": "v7", "character": "凉快", "pinyin": "liángkuai", "english": "cool", "partOfSpeech": "adjective", "example": "比较凉快", "exampleTranslation": "comparatively cool"},
+    {"id": "v8", "character": "预报", "pinyin": "yùbào", "english": "to forecast", "partOfSpeech": "verb", "example": "天气预报", "exampleTranslation": "weather forecast"},
+    {"id": "v9", "character": "方便", "pinyin": "fāngbiàn", "english": "convenient", "partOfSpeech": "adjective", "example": "更方便", "exampleTranslation": "more convenient"},
+    {"id": "v10", "character": "最好", "pinyin": "zuihǎo", "english": "had better", "partOfSpeech": "adverb", "example": "最好找个伴儿", "exampleTranslation": "had better find a companion"},
+    {"id": "v11", "character": "伴儿", "pinyin": "bànr", "english": "companion", "partOfSpeech": "noun", "example": "一个伴儿", "exampleTranslation": "one companion"},
+    {"id": "v12", "character": "互相", "pinyin": "hùxiāng", "english": "each other", "partOfSpeech": "adverb", "example": "互相帮助", "exampleTranslation": "help each other"},
+    {"id": "v13", "character": "帮助", "pinyin": "bāngzhù", "english": "to help", "partOfSpeech": "verb", "example": "可以帮助", "exampleTranslation": "can help"},
+    {"id": "v14", "character": "壮", "pinyin": "zhuàng", "english": "strong", "partOfSpeech": "adjective", "example": "又壮", "exampleTranslation": "strong"},
+    {"id": "v15", "character": "一样", "pinyin": "yīyàng", "english": "same", "partOfSpeech": "adjective", "example": "跟我一样高", "exampleTranslation": "same height as me"},
+    {"id": "v16", "character": "希望", "pinyin": "xīwàng", "english": "to hope", "partOfSpeech": "verb", "example": "我希望", "exampleTranslation": "I hope"},
+    {"id": "v17", "character": "同意", "pinyin": "tóngyì", "english": "to agree", "partOfSpeech": "verb", "example": "不同意", "exampleTranslation": "don't agree"},
+    {"id": "v18", "character": "办", "pinyin": "bàn", "english": "to do", "partOfSpeech": "verb", "example": "怎么办", "exampleTranslation": "what to do"},
+    {"id": "v19", "character": "国外", "pinyin": "guówài", "english": "abroad", "partOfSpeech": "noun", "example": "在国外", "exampleTranslation": "abroad"},
+    {"id": "v20", "character": "生活", "pinyin": "shēnghuó", "english": "life", "partOfSpeech": "noun", "example": "国外生活", "exampleTranslation": "life abroad"}
+  ],
+  "dialogue": {
+    "title": "西安比北京还热",
+    "lines": [
+      {"speaker": "英男", "chinese": "学习结束后,我打算去旅行。您说去西安好,还是去大同好?", "pinyin": "Xuéxí jiéshù hòu, wỏ dăsuan qu luxíng. Nín shuō qù Xī'an hão. háishi qù Dàtóng hão?", "english": "After classes end, I plan to travel. Do you think it's better to go to Xi'an or Datong?"},
+      {"speaker": "老师", "chinese": "西安的名胜古迹比大同多,我建议你去西安看看。", "pinyin": "Xī'an de mingshèng güji bi Dàtóng duo. wõ jiànyi ní qù Xi'an kànkan.", "english": "Xi'an has more scenic spots than Datong. I suggest you go to Xi'an."},
+      {"speaker": "英男", "chinese": "我听说西安比北京还热,大同是不是比北京凉快一点儿?", "pinyin": "Wo ting shuo Xī'ān bĩ Běijīng hái rè, Dàtóng shì bu shi bi Běijīng liángkuai yidiănr?", "english": "I heard Xi'an is even hotter than Beijing. Is Datong cooler than Beijing?"}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "西", "pinyin": "xī", "meaning": "west", "radical": "襾", "radicalMeaning": "roof", "strokeCount": 6, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal", "horizontal"]},
+    {"id": "c2", "character": "安", "pinyin": "ān", "meaning": "safe", "radical": "宀", "radicalMeaning": "roof", "strokeCount": 6, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal", "horizontal"]},
+    {"id": "c3", "character": "比", "pinyin": "bǐ", "meaning": "than", "radical": "比", "radicalMeaning": "compare", "strokeCount": 4, "strokeOrder": ["vertical", "horizontal", "vertical", "horizontal"]}
+  ],
+  "grammar": [
+    {
+      "point": "Comparative with 比",
+      "explanation": "A 比 B + adjective shows comparison. Cannot use degree words like 很/太/非常 with 比.",
+      "example": "西安比北京还热。",
+      "translation": "Xi'an is even hotter than Beijing."
+    },
+    {
+      "point": "比 with quantity complement",
+      "explanation": "Show specific differences with numerals after the adjective.",
+      "example": "他比我大一岁。",
+      "translation": "He is one year older than me."
+    },
+    {
+      "point": "跟...一样 comparison",
+      "explanation": "Shows two things are the same or similar.",
+      "example": "他跟我一样高。",
+      "translation": "He is the same height as me."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete the comparative",
+      "sentence": "西安___北京___热。",
+      "options": [
+        {"text": "比 还", "correct": true},
+        {"text": "跟 一样", "correct": false},
+        {"text": "不 比", "correct": false},
+        {"text": "有 没有", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 26 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "老师建议英男去哪儿?",
+        "options": [
+          {"text": "去西安", "correct": true},
+          {"text": "去大同", "correct": false},
+          {"text": "去北京", "correct": false},
+          {"text": "都可以", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "西安和北京比怎么样?",
+        "options": [
+          {"text": "西安比北京还热", "correct": true},
+          {"text": "西安比北京凉快", "correct": false},
+          {"text": "一样热", "correct": false},
+          {"text": "西安更凉快", "correct": false}
+        ]
+      }
+    ]
+  }
+}

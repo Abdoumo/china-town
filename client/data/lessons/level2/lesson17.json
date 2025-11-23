@@ -5,21 +5,106 @@
   "englishTitle": "Where Were You Just Now?",
   "pageNumber": 13,
   "difficulty": "intermediate",
-  "objectives": [
-    "Learn past tense expressions",
-    "Practice location questions",
-    "Understand time references"
+  "objectives": ["Learn past tense with 了", "Practice location and activity questions", "Understand measure words"],
+  "vocabulary": [
+    {"id": "v1", "character": "逛", "pinyin": "guàng", "english": "to ramble, browse", "partOfSpeech": "verb", "example": "逛商店", "exampleTranslation": "to browse a shop"},
+    {"id": "v2", "character": "裙子", "pinyin": "qúnzi", "english": "skirt", "partOfSpeech": "noun", "example": "两条裙子", "exampleTranslation": "two skirts"},
+    {"id": "v3", "character": "顶", "pinyin": "dǐng", "english": "measure word for hats", "partOfSpeech": "measure word", "example": "一顶帽子", "exampleTranslation": "one hat"},
+    {"id": "v4", "character": "帽子", "pinyin": "màozi", "english": "hat", "partOfSpeech": "noun", "example": "新帽子", "exampleTranslation": "new hat"},
+    {"id": "v5", "character": "这么", "pinyin": "zhème", "english": "so, this much", "partOfSpeech": "demonstrative", "example": "这么多", "exampleTranslation": "so much"},
+    {"id": "v6", "character": "陪", "pinyin": "péi", "english": "to accompany", "partOfSpeech": "verb", "example": "陪他去", "exampleTranslation": "accompany him"},
+    {"id": "v7", "character": "风景", "pinyin": "fëngjing", "english": "scenery", "partOfSpeech": "noun", "example": "美丽的风景", "exampleTranslation": "beautiful scenery"},
+    {"id": "v8", "character": "特别", "pinyin": "tèbié", "english": "especially", "partOfSpeech": "adverb", "example": "特别美", "exampleTranslation": "especially beautiful"},
+    {"id": "v9", "character": "美", "pinyin": "měi", "english": "beautiful", "partOfSpeech": "adjective", "example": "很美", "exampleTranslation": "very beautiful"},
+    {"id": "v10", "character": "烤鸭", "pinyin": "kăoyā", "english": "roast duck", "partOfSpeech": "noun", "example": "北京烤鸭", "exampleTranslation": "Peking roast duck"},
+    {"id": "v11", "character": "只", "pinyin": "zhī", "english": "measure word for animals", "partOfSpeech": "measure word", "example": "一只鸭子", "exampleTranslation": "one duck"},
+    {"id": "v12", "character": "病", "pinyin": "bìng", "english": "to be ill", "partOfSpeech": "verb/noun", "example": "病了", "exampleTranslation": "became ill"},
+    {"id": "v13", "character": "抽(时间)", "pinyin": "chōu(shíjiān)", "english": "to find time", "partOfSpeech": "verb", "example": "抽时间", "exampleTranslation": "to find time"},
+    {"id": "v14", "character": "时间", "pinyin": "shíjiān", "english": "time", "partOfSpeech": "noun", "example": "有时间", "exampleTranslation": "to have time"},
+    {"id": "v15", "character": "看", "pinyin": "kàn", "english": "to visit, call on", "partOfSpeech": "verb", "example": "去看他", "exampleTranslation": "to visit him"},
+    {"id": "v16", "character": "已经", "pinyin": "yǐjing", "english": "already", "partOfSpeech": "adverb", "example": "已经去���", "exampleTranslation": "already went"}
   ],
-  "vocabulary": [],
   "dialogue": {
     "title": "刚才你去哪儿了",
-    "lines": []
+    "lines": [
+      {"speaker": "小叶", "chinese": "刚才你去哪儿了?", "pinyin": "Gangcái nĩ qù năr le?", "english": "Where were you just now?"},
+      {"speaker": "莉莉", "chinese": "我跟直美逛商店去了。", "pinyin": "Wo gen Zhíměi guàng shãngdiàn qù le.", "english": "I went shopping with Zhimei."},
+      {"speaker": "小叶", "chinese": "你买东西了吗?", "pinyin": "Nĩ măi dõngxi le ma?", "english": "Did you buy anything?"},
+      {"speaker": "莉莉", "chinese": "我没买东西,直美买了。", "pinyin": "Wỏ méi măi dõngxi. Zhíměi măi le.", "english": "I didn't buy anything, but Zhimei did."},
+      {"speaker": "小叶", "chinese": "她买了什么东西?", "pinyin": "Tā măile shénme döngxi?", "english": "What did she buy?"},
+      {"speaker": "莉莉", "chinese": "她买了三件衬衣,两条裙子,还有一顶帽子。", "pinyin": "Tā măile sãn jiàn chènyĩ, liăng tiáo qúnzi, háiyou yì dǐng màozi.", "english": "She bought three shirts, two skirts, and one hat."},
+      {"speaker": "小叶", "chinese": "哈,买了这么多!", "pinyin": "Hã, măile zhème duo!", "english": "Wow, she bought so much!"}
+    ]
   },
-  "characters": [],
-  "grammar": [],
-  "exercises": [],
+  "characters": [
+    {"id": "c1", "character": "逛", "pinyin": "guàng", "meaning": "to ramble", "radical": "辶", "radicalMeaning": "walk", "strokeCount": 10, "strokeOrder": ["horizontal", "horizontal-vertical", "horizontal", "vertical", "horizontal-vertical", "horizontal", "dot", "horizontal", "vertical", "horizontal"]},
+    {"id": "c2", "character": "已", "pinyin": "yǐ", "meaning": "already", "radical": "己", "radicalMeaning": "self", "strokeCount": 3, "strokeOrder": ["vertical", "horizontal-vertical", "horizontal"]},
+    {"id": "c3", "character": "经", "pinyin": "jīng", "meaning": "to go through", "radical": "糸", "radicalMeaning": "silk", "strokeCount": 8, "strokeOrder": ["vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "dot", "dot"]}
+  ],
+  "grammar": [
+    {
+      "point": "Aspect particle 了",
+      "explanation": "了 placed after a verb denotes that an action is accomplished or completed.",
+      "example": "她买了三件衬衣。",
+      "translation": "She bought three shirts."
+    },
+    {
+      "point": "Format: 了...就",
+      "explanation": "This construction indicates two consecutive actions happening one after another.",
+      "example": "我下了课就给他打电话。",
+      "translation": "I called him as soon as class ended."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Chinese with English",
+      "pairs": [
+        {"chinese": "逛商店", "english": "to go shopping", "id": "m1"},
+        {"chinese": "买东西", "english": "to buy things", "id": "m2"},
+        {"chinese": "陪他", "english": "to accompany him", "id": "m3"},
+        {"chinese": "看风景", "english": "to see the scenery", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "title": "Choose the correct measure word",
+      "sentence": "她买了三___衬衣。",
+      "options": [
+        {"text": "件", "correct": true},
+        {"text": "条", "correct": false},
+        {"text": "顶", "correct": false},
+        {"text": "只", "correct": false}
+      ]
+    }
+  ],
   "quiz": {
     "title": "Lesson 17 Quiz",
-    "questions": []
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "直美买了什么?",
+        "options": [
+          {"text": "三件衬衣、两条裙子和一顶帽子", "correct": true},
+          {"text": "只买了衬衣", "correct": false},
+          {"text": "只买了裙子", "correct": false},
+          {"text": "只买了帽子", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "莉莉买东西了吗?",
+        "options": [
+          {"text": "没有,莉莉没买", "correct": true},
+          {"text": "买了", "correct": false},
+          {"text": "买了很多", "correct": false},
+          {"text": "不知道", "correct": false}
+        ]
+      }
+    ]
   }
 }

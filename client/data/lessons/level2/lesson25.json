@@ -1,1 +1,109 @@
-{"id":"lesson25","sessionId":"session4","title":"Lesson 25: 他恐怕去不了","englishTitle":"I'm Afraid He Can't Go","pageNumber":113,"difficulty":"intermediate","objectives":[],"vocabulary":[],"dialogue":{"title":"他恐怕去不了","lines":[]},"characters":[],"grammar":[],"exercises":[],"quiz":{"title":"Lesson 25 Quiz","questions":[]}}
+{
+  "id": "lesson25",
+  "sessionId": "session4",
+  "title": "Lesson 25: 他恐怕去不了",
+  "englishTitle": "I'm Afraid He Can't Go",
+  "pageNumber": 113,
+  "difficulty": "intermediate",
+  "objectives": ["Learn potential complements", "Understand 了(liǎo) as potential complement", "Practice 怎么(能)...呢 rhetorical questions"],
+  "vocabulary": [
+    {"id": "v1", "character": "空儿", "pinyin": "kòngr", "english": "spare time", "partOfSpeech": "noun", "example": "有空儿", "exampleTranslation": "have spare time"},
+    {"id": "v2", "character": "的话", "pinyin": "dehuà", "english": "if", "partOfSpeech": "particle", "example": "有空儿的话", "exampleTranslation": "if you have spare time"},
+    {"id": "v3", "character": "对话", "pinyin": "duihuà", "english": "dialogue", "partOfSpeech": "noun", "example": "电影对话", "exampleTranslation": "movie dialogue"},
+    {"id": "v4", "character": "中文", "pinyin": "Zhōngwén", "english": "Chinese language", "partOfSpeech": "noun", "example": "中文字幕", "exampleTranslation": "Chinese subtitles"},
+    {"id": "v5", "character": "字幕", "pinyin": "zimù", "english": "subtitles", "partOfSpeech": "noun", "example": "有字幕", "exampleTranslation": "have subtitles"},
+    {"id": "v6", "character": "大概", "pinyin": "dàgài", "english": "general", "partOfSpeech": "adjective", "example": "大概的意思", "exampleTranslation": "general meaning"},
+    {"id": "v7", "character": "意思", "pinyin": "yìsi", "english": "meaning", "partOfSpeech": "noun", "example": "什么意思", "exampleTranslation": "what does it mean"},
+    {"id": "v8", "character": "肯定", "pinyin": "kěndìng", "english": "sure", "partOfSpeech": "adjective", "example": "肯定能看懂", "exampleTranslation": "definitely can understand"},
+    {"id": "v9", "character": "恐怕", "pinyin": "kōngpà", "english": "I'm afraid", "partOfSpeech": "adverb", "example": "恐怕去不了", "exampleTranslation": "afraid can't go"},
+    {"id": "v10", "character": "为什么", "pinyin": "wèi shénme", "english": "why", "partOfSpeech": "question word", "example": "为什���?", "exampleTranslation": "why?"},
+    {"id": "v11", "character": "受伤", "pinyin": "shòu shāng", "english": "to be injured", "partOfSpeech": "verb", "example": "受伤了", "exampleTranslation": "got injured"},
+    {"id": "v12", "character": "俩", "pinyin": "liǎ", "english": "two", "partOfSpeech": "numeral", "example": "咱们俩", "exampleTranslation": "the two of us"},
+    {"id": "v13", "character": "座位", "pinyin": "zuòwèi", "english": "seat", "partOfSpeech": "noun", "example": "换座位", "exampleTranslation": "change seat"},
+    {"id": "v14", "character": "邀请", "pinyin": "yāoqing", "english": "to invite", "partOfSpeech": "verb", "example": "邀请我们", "exampleTranslation": "invite us"},
+    {"id": "v15", "character": "郊游", "pinyin": "jiāoyóu", "english": "outing", "partOfSpeech": "verb", "example": "去郊游", "exampleTranslation": "go for an outing"},
+    {"id": "v16", "character": "约", "pinyin": "yuē", "english": "to arrange", "partOfSpeech": "verb", "example": "约好", "exampleTranslation": "arranged"},
+    {"id": "v17", "character": "长途", "pinyin": "chángtú", "english": "long-distance", "partOfSpeech": "adjective", "example": "长途汽车", "exampleTranslation": "long-distance bus"},
+    {"id": "v18", "character": "赶", "pinyin": "gǎn", "english": "to catch", "partOfSpeech": "verb", "example": "赶不上", "exampleTranslation": "can't catch"},
+    {"id": "v19", "character": "约会", "pinyin": "yuēhui", "english": "appointment", "partOfSpeech": "noun", "example": "有约会", "exampleTranslation": "have an appointment"},
+    {"id": "v20", "character": "放心", "pinyin": "fàng xīn", "english": "to feel relieved", "partOfSpeech": "verb", "example": "放心吧", "exampleTranslation": "don't worry"}
+  ],
+  "dialogue": {
+    "title": "他恐怕去不了",
+    "lines": [
+      {"speaker": "小雨", "chinese": "今晚你和保罗有空儿的话,我想请你们去看电影。", "pinyin": "Jinwan ni hé Băoluó you kòngr dehuà. wo xiăng qing nimen qù kàn diànying.", "english": "If you and Paulo are free tonight, I'd like to invite you to see a movie."},
+      {"speaker": "英男", "chinese": "我不太想去,电影里的对话太快了,我可能听不懂。", "pinyin": "Wỏ bú tài xiăng qù, diànying li de duihuà tài kuài le, wo kěnéng tĩng bu dong.", "english": "I don't really want to go. The dialogue in the movie is too fast. I might not understand."},
+      {"speaker": "小雨", "chinese": "有中文字幕,大概的意思你肯定看得懂。", "pinyin": "Yǒu Zhōngwén zìmù, dàgài de yìsi nǐ kěndìng kàn de dǒng.", "english": "There are Chinese subtitles. You can definitely understand the general meaning."},
+      {"speaker": "小雨", "chinese": "保罗去得了去不了?", "pinyin": "Báoluo qù de liǎo qù bu liǎo?", "english": "Can Paulo go or not?"},
+      {"speaker": "英男", "chinese": "他恐怕去不了。", "pinyin": "Tā kōngpà qù bu liǎo.", "english": "I'm afraid he can't."},
+      {"speaker": "小雨", "chinese": "为什么?", "pinyin": "Wèi shénme?", "english": "Why?"},
+      {"speaker": "英男", "chinese": "昨天他踢球的时候受伤了,现在走不了路了。", "pinyin": "Zuótiān tã tī qiú de shíhou shòu shang le. xiànzài zou bu lião lù le.", "english": "He got injured while playing football yesterday. He can't walk now."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "恐", "pinyin": "kōng", "meaning": "afraid", "radical": "忄", "radicalMeaning": "heart", "strokeCount": 10, "strokeOrder": ["vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "dot", "horizontal", "horizontal"]},
+    {"id": "c2", "character": "怕", "pinyin": "pà", "meaning": "afraid", "radical": "忄", "radicalMeaning": "heart", "strokeCount": 8, "strokeOrder": ["vertical", "horizontal", "vertical", "horizontal", "horizontal", "vertical", "dot", "horizontal"]},
+    {"id": "c3", "character": "去", "pinyin": "qù", "meaning": "to go", "radical": "廿", "radicalMeaning": "twenty", "strokeCount": 5, "strokeOrder": ["horizontal", "horizontal", "vertical", "horizontal", "horizontal"]}
+  ],
+  "grammar": [
+    {
+      "point": "Potential complements with 得/不",
+      "explanation": "Formed by inserting 得 (can) or 不 (can't) between a verb and its complement.",
+      "example": "坐这儿不错,看得清楚,也听得清楚。",
+      "translation": "This seat is good, I can see clearly and hear clearly."
+    },
+    {
+      "point": "了(liǎo) as potential complement",
+      "explanation": "Indicates the possibility of accomplishing an action.",
+      "example": "保罗去得了去不了?他恐怕去不了。",
+      "translation": "Can Paulo go or not? I'm afraid he can't."
+    },
+    {
+      "point": "怎么(能)...呢 - Rhetorical question",
+      "explanation": "Expresses disagreement or impossibility through a question.",
+      "example": "这么早,我怎么起得来呢?",
+      "translation": "How can I possibly get up so early?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete with potential complement",
+      "sentence": "电影对话太快了,我___听不懂。",
+      "options": [
+        {"text": "可能", "correct": true},
+        {"text": "肯定", "correct": false},
+        {"text": "一定", "correct": false},
+        {"text": "恐怕", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 25 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "保罗为什么去不了?",
+        "options": [
+          {"text": "因为他踢球时受伤了,现在走不了路", "correct": true},
+          {"text": "因为他没有时间", "correct": false},
+          {"text": "因为他不想去", "correct": false},
+          {"text": "因为他病了", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "英男为什么不想看电影?",
+        "options": [
+          {"text": "因为对话太快,听不懂", "correct": true},
+          {"text": "因为没有中文字幕", "correct": false},
+          {"text": "因为没有时间", "correct": false},
+          {"text": "因为票太贵", "correct": false}
+        ]
+      }
+    ]
+  }
+}

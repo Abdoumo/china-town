@@ -1,0 +1,111 @@
+{
+  "id": "lesson30",
+  "sessionId": "session5",
+  "title": "Lesson 30: 祝你一路平安",
+  "englishTitle": "Wishing You a Safe Journey",
+  "pageNumber": 173,
+  "difficulty": "intermediate",
+  "objectives": ["Learn farewell expressions", "Understand notional passive sentences", "Practice wishes and blessings"],
+  "vocabulary": [
+    {"id": "v1", "character": "向", "pinyin": "xiàng", "english": "to, towards", "partOfSpeech": "preposition", "example": "向您告别", "exampleTranslation": "say goodbye to you"},
+    {"id": "v2", "character": "告别", "pinyin": "gào bié", "english": "to say goodbye", "partOfSpeech": "verb", "example": "来告别", "exampleTranslation": "come to say goodbye"},
+    {"id": "v3", "character": "行李", "pinyin": "xíngli", "english": "luggage", "partOfSpeech": "noun", "example": "行李都收拾好了", "exampleTranslation": "luggage all packed"},
+    {"id": "v4", "character": "收拾", "pinyin": "shōushi", "english": "to pack up", "partOfSpeech": "verb", "example": "收拾行李", "exampleTranslation": "pack luggage"},
+    {"id": "v5", "character": "上班", "pinyin": "shàng bān", "english": "to go to work", "partOfSpeech": "verb", "example": "还得上班", "exampleTranslation": "still have to work"},
+    {"id": "v6", "character": "保重", "pinyin": "băozhòng", "english": "to take care", "partOfSpeech": "verb", "example": "多保重", "exampleTranslation": "take good care"},
+    {"id": "v7", "character": "饯行", "pinyin": "jiànxíng", "english": "to have farewell dinner", "partOfSpeech": "verb", "example": "给她饯行", "exampleTranslation": "give her a farewell dinner"},
+    {"id": "v8", "character": "祝", "pinyin": "zhù", "english": "to wish", "partOfSpeech": "verb", "example": "祝你平安", "exampleTranslation": "wish you safe"},
+    {"id": "v9", "character": "平安", "pinyin": "píng'ān", "english": "safe and sound", "partOfSpeech": "adjective", "example": "一路平安", "exampleTranslation": "safe journey"},
+    {"id": "v10", "character": "幸福", "pinyin": "xìngfú", "english": "happy", "partOfSpeech": "adjective", "example": "生活幸福", "exampleTranslation": "happy life"},
+    {"id": "v11", "character": "顺利", "pinyin": "shùnlì", "english": "smooth", "partOfSpeech": "adjective", "example": "工作顺利", "exampleTranslation": "work smoothly"},
+    {"id": "v12", "character": "刚", "pinyin": "gāng", "english": "just, only", "partOfSpeech": "adverb", "example": "刚来的时候", "exampleTranslation": "when just arrived"},
+    {"id": "v13", "character": "句", "pinyin": "jù", "english": "sentence", "partOfSpeech": "measure word", "example": "一句汉语", "exampleTranslation": "one sentence of Chinese"},
+    {"id": "v14", "character": "感谢", "pinyin": "gănxiè", "english": "to thank", "partOfSpeech": "verb", "example": "感谢你们", "exampleTranslation": "thank you"},
+    {"id": "v15", "character": "舍不得", "pinyin": "shěbude", "english": "hate to part with", "partOfSpeech": "verb", "example": "舍不得你走", "exampleTranslation": "hate to see you go"},
+    {"id": "v16", "character": "举", "pinyin": "jǔ", "english": "to raise", "partOfSpeech": "verb", "example": "举杯", "exampleTranslation": "raise a glass"},
+    {"id": "v17", "character": "为", "pinyin": "wèi", "english": "for", "partOfSpeech": "preposition", "example": "为了友谊", "exampleTranslation": "for friendship"},
+    {"id": "v18", "character": "友谊", "pinyin": "youyì", "english": "friendship", "partOfSpeech": "noun", "example": "我们的友谊", "exampleTranslation": "our friendship"},
+    {"id": "v19", "character": "干杯", "pinyin": "gān bēi", "english": "cheers", "partOfSpeech": "verb", "example": "干杯!", "exampleTranslation": "cheers!"},
+    {"id": "v20", "character": "洗(照片)", "pinyin": "xǐ(zhàopiàn)", "english": "to develop (photos)", "partOfSpeech": "verb", "example": "洗照片", "exampleTranslation": "develop photos"}
+  ],
+  "dialogue": {
+    "title": "祝你一路平安",
+    "lines": [
+      {"speaker": "莉莉", "chinese": "下星期我就要回国了,我来向您告别。", "pinyin": "Xià xīngqī wǒ jiù yào huí guó le, wo lái xiàng nín gào bié.", "english": "I'm going back to my country next week. I've come to say goodbye to you."},
+      {"speaker": "老师", "chinese": "行李都收拾好了吗?", "pinyin": "Xíngli dõu shōushi hảo le ma?", "english": "Have you packed all your luggage?"},
+      {"speaker": "莉莉", "chinese": "都收拾好了。", "pinyin": "Dõu shōushi hảo le.", "english": "Yes, all packed."},
+      {"speaker": "小叶", "chinese": "莉莉,今天我们给你饯行,祝你一路平安。", "pinyin": "Lìli, jīntiān wǒmen gěi nǐ jiànxíng, zhù nǐ yī lù píng'ān.", "english": "Lili, today we're giving you a farewell dinner. Wishing you a safe journey."},
+      {"speaker": "莉莉", "chinese": "我也祝你们生活幸福,工作顺利。", "pinyin": "Wǒ yě zhù nǐmen shēnghuó xìngfú, gōngzuò shùnlì.", "english": "I also wish you all a happy life and smooth work."},
+      {"speaker": "���叶", "chinese": "刚来中国的时候,你连一句汉语也不会说。现在说得真不错。", "pinyin": "Gāng lái Zhōngguó de shíhou, nĩ lián yì jù Hànyŭ yě bu huì shuo. Xiànzài shuō de zhẽn búcuò.", "english": "When you first came to China, you couldn't speak even one sentence of Chinese. Now you speak really well."},
+      {"speaker": "莉莉", "chinese": "你们给了我很多��助,我真不知道怎么感谢你们才好。", "pinyin": "Nimen gěile wo hěn duō bãngzhù. wo zhen bu zhīdào zěnme gănxiè nimen cái hão.", "english": "You've given me so much help. I don't know how to thank you enough."},
+      {"speaker": "小叶", "chinese": "我们真舍不得你走。", "pinyin": "Wǒmen zhēn shěbude nǐ zǒu.", "english": "We really hate to see you go."},
+      {"speaker": "小叶", "chinese": "来,大家举杯,为我们的友谊干杯。", "pinyin": "Lái, dàjiā jǔ bēi, wèi wǒmen de yǒuyì gān bēi.", "english": "Come on, everyone. Let's raise our glasses to our friendship!"}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "祝", "pinyin": "zhù", "meaning": "to wish", "radical": "礻", "radicalMeaning": "ritual", "strokeCount": 10, "strokeOrder": ["left-falling", "horizontal", "vertical", "horizontal", "vertical", "dot", "horizontal", "vertical", "horizontal", "horizontal"]},
+    {"id": "c2", "character": "平", "pinyin": "píng", "meaning": "flat, peaceful", "radical": "干", "radicalMeaning": "trunk", "strokeCount": 5, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal"]},
+    {"id": "c3", "character": "安", "pinyin": "ān", "meaning": "safe", "radical": "宀", "radicalMeaning": "roof", "strokeCount": 6, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal", "horizontal"]}
+  ],
+  "grammar": [
+    {
+      "point": "Notional passive sentences",
+      "explanation": "Sentences where the subject receives an action but don't explicitly show the agent.",
+      "example": "行李都收拾好了吗?",
+      "translation": "Has all the luggage been packed?"
+    },
+    {
+      "point": "Wishes and blessings",
+      "explanation": "Common expressions used for farewells and blessings.",
+      "example": "祝你一路平安。",
+      "translation": "Wishing you a safe journey."
+    },
+    {
+      "point": "Farewell expressions",
+      "explanation": "Common phrases used when saying goodbye.",
+      "example": "我们真舍不得你走。",
+      "translation": "We really hate to see you go."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete the blessing",
+      "sentence": "祝你___平安。",
+      "options": [
+        {"text": "一路", "correct": true},
+        {"text": "一直", "correct": false},
+        {"text": "总是", "correct": false},
+        {"text": "永远", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 30 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "莉莉下星期要做什么?",
+        "options": [
+          {"text": "回国", "correct": true},
+          {"text": "去香山", "correct": false},
+          {"text": "去西安", "correct": false},
+          {"text": "留在中国", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "小叶他们为什么给莉莉饯行?",
+        "options": [
+          {"text": "因为莉莉要回国,他们舍不得她走", "correct": true},
+          {"text": "因为莉莉生日了", "correct": false},
+          {"text": "因为莉莉工作了", "correct": false},
+          {"text": "因为莉莉获奖了", "correct": false}
+        ]
+      }
+    ]
+  }
+}

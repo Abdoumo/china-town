@@ -1,0 +1,108 @@
+{
+  "id": "lesson29",
+  "sessionId": "session5",
+  "title": "Lesson 29: 钱包被小偷偷走了",
+  "englishTitle": "My Wallet Was Stolen",
+  "pageNumber": 164,
+  "difficulty": "intermediate",
+  "objectives": ["Learn passive sentences with 被/叫/让", "Understand 连...也 emphasis", "Practice expressing bad luck"],
+  "vocabulary": [
+    {"id": "v1", "character": "提", "pinyin": "tí", "english": "to mention", "partOfSpeech": "verb", "example": "别提了", "exampleTranslation": "don't mention it"},
+    {"id": "v2", "character": "被", "pinyin": "bèi", "english": "by (passive)", "partOfSpeech": "preposition", "example": "被撞倒", "exampleTranslation": "knocked down"},
+    {"id": "v3", "character": "三轮车", "pinyin": "sānlúnchē", "english": "tricycle", "partOfSpeech": "noun", "example": "三轮车撞倒", "exampleTranslation": "knocked down by tricycle"},
+    {"id": "v4", "character": "撞", "pinyin": "zhuàng", "english": "to knock", "partOfSpeech": "verb", "example": "被撞", "exampleTranslation": "knocked"},
+    {"id": "v5", "character": "倒", "pinyin": "dào", "english": "down", "partOfSpeech": "verb", "example": "倒了", "exampleTranslation": "fell down"},
+    {"id": "v6", "character": "胳膊", "pinyin": "gēbo", "english": "arm", "partOfSpeech": "noun", "example": "胳膊疼", "exampleTranslation": "arm hurts"},
+    {"id": "v7", "character": "腿", "pinyin": "tuǐ", "english": "leg", "partOfSpeech": "noun", "example": "腿疼", "exampleTranslation": "leg hurts"},
+    {"id": "v8", "character": "青", "pinyin": "qing", "english": "blue, bruised", "partOfSpeech": "adjective", "example": "撞青了", "exampleTranslation": "bruised"},
+    {"id": "v9", "character": "倒霉", "pinyin": "dàoméi", "english": "unlucky", "partOfSpeech": "adjective", "example": "真倒霉", "exampleTranslation": "really unlucky"},
+    {"id": "v10", "character": "小心", "pinyin": "xiǎoxīn", "english": "careful", "partOfSpeech": "adjective", "example": "小心点儿", "exampleTranslation": "be careful"},
+    {"id": "v11", "character": "像话", "pinyin": "xiànghuà", "english": "proper", "partOfSpeech": "adjective", "example": "真不像话", "exampleTranslation": "really improper"},
+    {"id": "v12", "character": "小偷", "pinyin": "xiǎotōu", "english": "thief", "partOfSpeech": "noun", "example": "小偷偷走", "exampleTranslation": "thief stole"},
+    {"id": "v13", "character": "��", "pinyin": "tōu", "english": "to steal", "partOfSpeech": "verb", "example": "偷走了", "exampleTranslation": "stole"},
+    {"id": "v14", "character": "丢", "pinyin": "diū", "english": "to lose", "partOfSpeech": "verb", "example": "丢了钱", "exampleTranslation": "lost money"},
+    {"id": "v15", "character": "气", "pinyin": "qì", "english": "to get angry", "partOfSpeech": "verb", "example": "真气人", "exampleTranslation": "so frustrating"},
+    {"id": "v16", "character": "考", "pinyin": "kăo", "english": "to examine", "partOfSpeech": "verb", "example": "考听力", "exampleTranslation": "listening test"},
+    {"id": "v17", "character": "听力", "pinyin": "tīnglì", "english": "listening", "partOfSpeech": "noun", "example": "听力考试", "exampleTranslation": "listening exam"},
+    {"id": "v18", "character": "复习", "pinyin": "fùxí", "english": "to review", "partOfSpeech": "verb", "example": "复习怎么样", "exampleTranslation": "how is review"},
+    {"id": "v19", "character": "连...也", "pinyin": "lián...yě", "english": "even", "partOfSpeech": "conjunction", "example": "连录音机也摔坏了", "exampleTranslation": "even the recorder was broken"}
+  ],
+  "dialogue": {
+    "title": "钱包被小偷偷走了",
+    "lines": [
+      {"speaker": "直美", "chinese": "别提了,刚才骑车出去,被一辆三轮车撞倒了。", "pinyin": "Bié tí le, gangcái qí chē chuqu, bèi yí liàng sānlúnchē zhuàng dào le.", "english": "Don't mention it. I was knocked down by a tricycle while riding."},
+      {"speaker": "莉莉", "chinese": "是吗?受伤了没有?", "pinyin": "Shì ma? Shòu shang le méiyou?", "english": "Really? Did you get hurt?"},
+      {"speaker": "直美", "chinese": "你看,胳膊和腿都被撞青了。真倒霉。", "pinyin": "Ni kàn, gēbo hé tuǐ dõu bèi zhuàng qing le. Zhen dàoméi.", "english": "Look, my arms and legs are all bruised. Really unlucky."},
+      {"speaker": "莉莉", "chinese": "以后骑车的时候小心点儿。", "pinyin": "Yǐhòu qí chē de shíhou xiǎoxīn diǎnr.", "english": "Be more careful when riding next time."},
+      {"speaker": "直美", "chinese": "上午逛商店的时候,钱包叫小偷偷走了。", "pinyin": "Shàngwǔ guàng shāngdiàn de shíhou, qiánbào jiào xiǎotōu tōu zou le.", "english": "This morning, my wallet was stolen by a thief while shopping."},
+      {"speaker": "莉莉", "chinese": "丢了多少钱?", "pinyin": "Diūle duōshao qián?", "english": "How much money did you lose?"},
+      {"speaker": "直美", "chinese": "五百多块。真气人!", "pinyin": "Wǔbăi duo kuài. Zhen qì rén!", "english": "Over 500 yuan. So frustrating!"}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "被", "pinyin": "bèi", "meaning": "by, to cover", "radical": "衤", "radicalMeaning": "cloth", "strokeCount": 10, "strokeOrder": ["left-falling", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "dot", "horizontal"]},
+    {"id": "c2", "character": "偷", "pinyin": "tōu", "meaning": "to steal", "radical": "亻", "radicalMeaning": "person", "strokeCount": 11, "strokeOrder": ["left-falling", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "dot", "horizontal", "horizontal"]},
+    {"id": "c3", "character": "走", "pinyin": "zǒu", "meaning": "to walk, to leave", "radical": "走", "radicalMeaning": "walk", "strokeCount": 7, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal-vertical", "horizontal", "dot"]}
+  ],
+  "grammar": [
+    {
+      "point": "Passive sentences with 被/叫/让",
+      "explanation": "被 is formal, 叫 and 让 are colloquial. Pattern: subject + 被/叫/让 + agent + verb + complement.",
+      "example": "钱包叫小偷偷走了。",
+      "translation": "The wallet was stolen by a thief."
+    },
+    {
+      "point": "连...也 - Emphasis",
+      "explanation": "Emphasizes the extent or degree of something, often with negative meaning.",
+      "example": "连录音机也让我给摔坏了。",
+      "translation": "I even broke the recorder."
+    },
+    {
+      "point": "Expressing misfortune",
+      "explanation": "Common expressions using 倒霉, 气人, etc.",
+      "example": "真倒霉,真气人。",
+      "translation": "Really unlucky, so frustrating."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete the passive sentence",
+      "sentence": "钱包___小偷___走了。",
+      "options": [
+        {"text": "叫 偷", "correct": true},
+        {"text": "被 拿", "correct": false},
+        {"text": "让 抓", "correct": false},
+        {"text": "给 丢", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 29 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "直美今天遇到了什么倒霉的事?",
+        "options": [
+          {"text": "被三轮车撞倒,钱包也被小偷偷走了", "correct": true},
+          {"text": "只是被撞倒", "correct": false},
+          {"text": "只是丢了钱包", "correct": false},
+          {"text": "录��机坏了", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "直美丢了多少钱?",
+        "options": [
+          {"text": "五百多块", "correct": true},
+          {"text": "一百块", "correct": false},
+          {"text": "两百块", "correct": false},
+          {"text": "一千块", "correct": false}
+        ]
+      }
+    ]
+  }
+}

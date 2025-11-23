@@ -1,1 +1,102 @@
-{"id":"lesson21","sessionId":"session3","title":"Lesson 21: 你去过香山吗","englishTitle":"Have You Been to Xiangshan?","pageNumber":61,"difficulty":"intermediate","objectives":[],"vocabulary":[],"dialogue":{"title":"你去过香山吗","lines":[]},"characters":[],"grammar":[],"exercises":[],"quiz":{"title":"Lesson 21 Quiz","questions":[]}}
+{
+  "id": "lesson21",
+  "sessionId": "session3",
+  "title": "Lesson 21: 你去过香山吗",
+  "englishTitle": "Have You Been to Fragrant Hills?",
+  "pageNumber": 61,
+  "difficulty": "intermediate",
+  "objectives": ["Learn aspect particle 过", "Understand 是...的 construction", "Practice action-measure complements"],
+  "vocabulary": [
+    {"id": "v1", "character": "过", "pinyin": "guò", "english": "aspect particle", "partOfSpeech": "particle", "example": "去过", "exampleTranslation": "have been"},
+    {"id": "v2", "character": "自己", "pinyin": "zìjǐ", "english": "oneself", "partOfSpeech": "pronoun", "example": "自己去", "exampleTranslation": "go by oneself"},
+    {"id": "v3", "character": "行", "pinyin": "xíng", "english": "capable", "partOfSpeech": "adjective", "example": "你真行", "exampleTranslation": "you are amazing"},
+    {"id": "v4", "character": "次", "pinyin": "cì", "english": "time, occurrence", "partOfSpeech": "measure word", "example": "两次", "exampleTranslation": "twice"},
+    {"id": "v5", "character": "第", "pinyin": "dì", "english": "ordinal prefix", "partOfSpeech": "prefix", "example": "第一次", "exampleTranslation": "first time"},
+    {"id": "v6", "character": "除了...以外", "pinyin": "chúle...yǐwài", "english": "besides, except", "partOfSpeech": "phrase", "example": "除了...以外", "exampleTranslation": "apart from..."},
+    {"id": "v7", "character": "些", "pinyin": "xiē", "english": "some", "partOfSpeech": "measure word", "example": "一些", "exampleTranslation": "some"},
+    {"id": "v8", "character": "有名", "pinyin": "yǒumíng", "english": "famous", "partOfSpeech": "adjective", "example": "有名的菜", "exampleTranslation": "famous dish"},
+    {"id": "v9", "character": "风味", "pinyin": "fēngwèi", "english": "flavor", "partOfSpeech": "noun", "example": "地方风味菜", "exampleTranslation": "local flavor food"},
+    {"id": "v10", "character": "小吃", "pinyin": "xiǎochī", "english": "snack", "partOfSpeech": "noun", "example": "北京小吃", "exampleTranslation": "Beijing snacks"},
+    {"id": "v11", "character": "差不多", "pinyin": "chàbuduo", "english": "almost", "partOfSpeech": "adverb", "example": "差不多都吃过", "exampleTranslation": "have eaten almost all"},
+    {"id": "v12", "character": "盘", "pinyin": "pán", "english": "measure word", "partOfSpeech": "measure word", "example": "一盘磁带", "exampleTranslation": "one tape"},
+    {"id": "v13", "character": "磁带", "pinyin": "cídài", "english": "tape", "partOfSpeech": "noun", "example": "音乐磁带", "exampleTranslation": "music tape"},
+    {"id": "v14", "character": "好听", "pinyin": "hǎotīng", "english": "pleasant to hear", "partOfSpeech": "adjective", "example": "真好听", "exampleTranslation": "really pleasant"}
+  ],
+  "dialogue": {
+    "title": "你去过香山吗",
+    "lines": [
+      {"speaker": "直美", "chinese": "你去过香山吗?", "pinyin": "Ni qùguo Xiāngshãn ma?", "english": "Have you been to Fragrant Hills?"},
+      {"speaker": "田中", "chinese": "去过。", "pinyin": "Qùguo.", "english": "Yes, I have."},
+      {"speaker": "直美", "chinese": "你是什么时候去的?", "pinyin": "Ni shi shénme shíhou qù de?", "english": "When did you go?"},
+      {"speaker": "田中", "chinese": "我是上个月去的。", "pinyin": "Wo shi shàng ge yuè qù de.", "english": "I went last month."},
+      {"speaker": "直美", "chinese": "你跟谁一起去的?", "pinyin": "Ni gën shuí yiqi qù de?", "english": "Who did you go with?"},
+      {"speaker": "田中", "chinese": "我自己去的。", "pinyin": "Wo ziji qù de.", "english": "I went by myself."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "去", "pinyin": "qù", "meaning": "to go", "radical": "廿", "radicalMeaning": "twenty", "strokeCount": 5, "strokeOrder": ["horizontal", "horizontal", "vertical", "horizontal", "horizontal"]},
+    {"id": "c2", "character": "过", "pinyin": "guò", "meaning": "to pass", "radical": "辶", "radicalMeaning": "walk", "strokeCount": 6, "strokeOrder": ["horizontal", "vertical", "left-falling", "horizontal", "vertical", "horizontal"]},
+    {"id": "c3", "character": "香", "pinyin": "xiāng", "meaning": "fragrant", "radical": "香", "radicalMeaning": "fragrant", "strokeCount": 9, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "dot", "dot"]}
+  ],
+  "grammar": [
+    {
+      "point": "Aspect particle 过",
+      "explanation": "Indicates an experience or something that happened in the past.",
+      "example": "来北京以后,我去过香山和颐和园。",
+      "translation": "After coming to Beijing, I have been to Fragrant Hills and the Summer Palace."
+    },
+    {
+      "point": "是...的 construction",
+      "explanation": "Emphasizes the time, place, or manner of a past action.",
+      "example": "我是上个月去的。",
+      "translation": "I went last month."
+    },
+    {
+      "point": "Action-measure complement",
+      "explanation": "Shows the frequency of an action using measure words like 次, 遍.",
+      "example": "我去过三次香山。",
+      "translation": "I've been to Fragrant Hills three times."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete the sentence",
+      "sentence": "来北京以后,你吃___烤鸭没有?",
+      "options": [
+        {"text": "过", "correct": true},
+        {"text": "了", "correct": false},
+        {"text": "着", "correct": false},
+        {"text": "到", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 21 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "田中什么时候去���香山?",
+        "options": [
+          {"text": "上个月", "correct": true},
+          {"text": "两个月前", "correct": false},
+          {"text": "去年", "correct": false},
+          {"text": "今年", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "田中是跟谁一起去的?",
+        "options": [
+          {"text": "自己去的", "correct": true},
+          {"text": "跟朋友一起", "correct": false},
+          {"text": "跟家人一起", "correct": false},
+          {"text": "跟直美一起", "correct": false}
+        ]
+      }
+    ]
+  }
+}

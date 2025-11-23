@@ -1,1 +1,85 @@
-{"id":"lesson22","sessionId":"session3","title":"Lesson 22: 门开着","englishTitle":"The Door Is Open","pageNumber":74,"difficulty":"intermediate","objectives":[],"vocabulary":[],"dialogue":{"title":"门开着","lines":[]},"characters":[],"grammar":[],"exercises":[],"quiz":{"title":"Lesson 22 Quiz","questions":[]}}
+{
+  "id": "lesson22",
+  "sessionId": "session4",
+  "title": "Lesson 22: 门开着",
+  "englishTitle": "The Door Is Open",
+  "pageNumber": 74,
+  "difficulty": "intermediate",
+  "objectives": ["Learn continuous aspect with 着", "Understand structural particle 地", "Practice adjective reduplication"],
+  "vocabulary": [
+    {"id": "v1", "character": "开", "pinyin": "kāi", "english": "to open", "partOfSpeech": "verb", "example": "门开着", "exampleTranslation": "door is open"},
+    {"id": "v2", "character": "着", "pinyin": "zhe", "english": "aspect particle", "partOfSpeech": "particle", "example": "开着", "exampleTranslation": "open (state)"},
+    {"id": "v3", "character": "书架", "pinyin": "shūjià", "english": "bookshelf", "partOfSpeech": "noun", "example": "书架上", "exampleTranslation": "on the bookshelf"},
+    {"id": "v4", "character": "放", "pinyin": "fàng", "english": "to put", "partOfSpeech": "verb", "example": "放着", "exampleTranslation": "placing"},
+    {"id": "v5", "character": "椅子", "pinyin": "yǐzi", "english": "chair", "partOfSpeech": "noun", "example": "坐椅子", "exampleTranslation": "sit on chair"},
+    {"id": "v6", "character": "躺", "pinyin": "tǎng", "english": "to lie", "partOfSpeech": "verb", "example": "躺着", "exampleTranslation": "lying"},
+    {"id": "v7", "character": "地", "pinyin": "de", "english": "particle for adverbials", "partOfSpeech": "particle", "example": "紧张地", "exampleTranslation": "tensely"},
+    {"id": "v8", "character": "超级", "pinyin": "chāojí", "english": "super, supermarket", "partOfSpeech": "adjective/noun", "example": "超级市场", "exampleTranslation": "supermarket"},
+    {"id": "v9", "character": "市场", "pinyin": "shìchǎng", "english": "market", "partOfSpeech": "noun", "example": "超级市场", "exampleTranslation": "supermarket"},
+    {"id": "v10", "character": "排", "pinyin": "pái", "english": "row", "partOfSpeech": "measure word", "example": "一排", "exampleTranslation": "one row"},
+    {"id": "v11", "character": "货架", "pinyin": "huòjià", "english": "display shelf", "partOfSpeech": "noun", "example": "货架上", "exampleTranslation": "on the shelf"},
+    {"id": "v12", "character": "整齐", "pinyin": "zhěngqí", "english": "in good order", "partOfSpeech": "adjective", "example": "整整齐齐", "exampleTranslation": "very orderly"}
+  ],
+  "dialogue": {
+    "title": "门开着",
+    "lines": [
+      {"speaker": "Narrator", "chinese": "这是英男和保罗的房间,门开着,电视也开着。", "pinyin": "Zhè shì Yīngnán hé Báoluo de fángjiān. Mén kāizhe. Diànshì yě kāizhe.", "english": "This is Yingnan and Paulo's room. The door is open and the TV is also on."},
+      {"speaker": "Narrator", "chinese": "这是一家超级市场。漂漂亮亮的大厅里立着��排一排的货架。", "pinyin": "Zhè shì yì jia chāojí shichăng. Piàopiaoliāngliãng de dàting li lizhe yì pái yì pái de huòjià.", "english": "This is a supermarket. In the beautiful hall, there are rows and rows of display shelves."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "开", "pinyin": "kāi", "meaning": "to open", "radical": "廾", "radicalMeaning": "two hands", "strokeCount": 4, "strokeOrder": ["horizontal", "vertical", "horizontal", "horizontal"]},
+    {"id": "c2", "character": "着", "pinyin": "zhe", "meaning": "particle", "radical": "艹", "radicalMeaning": "grass", "strokeCount": 11, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "dot", "dot"]},
+    {"id": "c3", "character": "放", "pinyin": "fàng", "meaning": "to put", "radical": "攵", "radicalMeaning": "action", "strokeCount": 8, "strokeOrder": ["vertical", "horizontal", "vertical", "dot", "horizontal", "vertical", "horizontal", "vertical"]}
+  ],
+  "grammar": [
+    {
+      "point": "Continuous aspect with 着",
+      "explanation": "着 indicates an action or state that is continuing or in progress.",
+      "example": "门开着,电视也开着。",
+      "translation": "The door is open and the TV is also on."
+    },
+    {
+      "point": "Structural particle 地 (de)",
+      "explanation": "Used after adjectives to form adverbials modifying verbs.",
+      "example": "他们正在紧张地看电视。",
+      "translation": "They are watching TV tensely."
+    },
+    {
+      "point": "Adjective reduplication",
+      "explanation": "Repeating adjectives emphasizes the degree or quality.",
+      "example": "漂漂亮亮的大厅",
+      "translation": "a very beautiful hall"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete with 着",
+      "sentence": "他在床上___。",
+      "options": [
+        {"text": "躺着", "correct": true},
+        {"text": "坐着", "correct": false},
+        {"text": "站着", "correct": false},
+        {"text": "跑着", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 22 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "房间里什么开着?",
+        "options": [
+          {"text": "门和电视都开着", "correct": true},
+          {"text": "只有门���着", "correct": false},
+          {"text": "只有电视开着", "correct": false},
+          {"text": "都没有开", "correct": false}
+        ]
+      }
+    ]
+  }
+}

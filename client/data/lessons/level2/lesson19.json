@@ -1,1 +1,104 @@
-{"id":"lesson19","sessionId":"session2","title":"Lesson 19: 你游泳游得怎么样","englishTitle":"How Is Your Swimming?","pageNumber":35,"difficulty":"intermediate","objectives":[],"vocabulary":[],"dialogue":{"title":"你游泳游得怎么样","lines":[]},"characters":[],"grammar":[],"exercises":[],"quiz":{"title":"Lesson 19 Quiz","questions":[]}}
+{
+  "id": "lesson19",
+  "sessionId": "session3",
+  "title": "Lesson 19: 你游泳游得怎么样",
+  "englishTitle": "How Do You Swim?",
+  "pageNumber": 35,
+  "difficulty": "intermediate",
+  "objectives": ["Learn degree complements", "Practice ability evaluation", "Discuss sports activities"],
+  "vocabulary": [
+    {"id": "v1", "character": "会", "pinyin": "huì", "english": "can, be able to", "partOfSpeech": "modal verb", "example": "会游泳", "exampleTranslation": "can swim"},
+    {"id": "v2", "character": "游��", "pinyin": "yóuyǒng", "english": "to swim", "partOfSpeech": "verb", "example": "去游泳", "exampleTranslation": "to go swimming"},
+    {"id": "v3", "character": "得", "pinyin": "de", "english": "particle for complements", "partOfSpeech": "particle", "example": "游得怎么样", "exampleTranslation": "how well do you swim"},
+    {"id": "v4", "character": "能", "pinyin": "néng", "english": "can", "partOfSpeech": "modal verb", "example": "能游800米", "exampleTranslation": "can swim 800 meters"},
+    {"id": "v5", "character": "羡慕", "pinyin": "xiànmù", "english": "to admire", "partOfSpeech": "verb", "example": "真羡慕你", "exampleTranslation": "I really admire you"},
+    {"id": "v6", "character": "旱鸭子", "pinyin": "hànyāzi", "english": "non-swimmer", "partOfSpeech": "noun", "example": "我是旱鸭子", "exampleTranslation": "I'm a non-swimmer"},
+    {"id": "v7", "character": "运动", "pinyin": "yùndòng", "english": "sports", "partOfSpeech": "noun", "example": "喜欢运动", "exampleTranslation": "like sports"},
+    {"id": "v8", "character": "爱", "pinyin": "ài", "english": "to like, love", "partOfSpeech": "verb", "example": "爱踢��球", "exampleTranslation": "love to play football"},
+    {"id": "v9", "character": "踢", "pinyin": "tī", "english": "to kick, play", "partOfSpeech": "verb", "example": "踢足球", "exampleTranslation": "to play football"},
+    {"id": "v10", "character": "足球", "pinyin": "zúqiú", "english": "football, soccer", "partOfSpeech": "noun", "example": "喜欢足球", "exampleTranslation": "like football"},
+    {"id": "v11", "character": "球星", "pinyin": "qiúxīng", "english": "football star", "partOfSpeech": "noun", "example": "著名的球星", "exampleTranslation": "famous football star"},
+    {"id": "v12", "character": "棒", "pinyin": "bàng", "english": "excellent, great", "partOfSpeech": "adjective", "example": "踢得真棒", "exampleTranslation": "really great at playing"}
+  ],
+  "dialogue": {
+    "title": "你游泳游得怎么样",
+    "lines": [
+      {"speaker": "直美", "chinese": "你会游泳吗?", "pinyin": "Nĩ hui youyong ma?", "english": "Can you swim?"},
+      {"speaker": "小叶", "chinese": "我会游泳。", "pinyin": "Wo hui youyong.", "english": "Yes, I can swim."},
+      {"speaker": "直美", "chinese": "你游泳游得怎么样?", "pinyin": "Nĩ youyöng yóu de zěnmeyàng?", "english": "How well do you swim?"},
+      {"speaker": "小叶", "chinese": "我游得不错,能游八百米呢。", "pinyin": "Wo yóu de búcuò, néng yóu bābăi mi ne.", "english": "I swim pretty well, I can swim 800 meters."},
+      {"speaker": "直美", "chinese": "我真羡慕你,我是个旱鸭子。", "pinyin": "Wỏ zhẽn xiànmù ni. wo shi ge hànyäzi.", "english": "I really admire you. I'm a non-swimmer."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "游", "pinyin": "yóu", "meaning": "to swim", "radical": "氵", "radicalMeaning": "water", "strokeCount": 12, "strokeOrder": ["left-falling", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "horizontal", "horizontal", "dot", "horizontal"]},
+    {"id": "c2", "character": "会", "pinyin": "huì", "meaning": "can", "radical": "人", "radicalMeaning": "person", "strokeCount": 6, "strokeOrder": ["left-falling", "horizontal", "vertical", "horizontal", "horizontal", "dot"]},
+    {"id": "c3", "character": "得", "pinyin": "de", "meaning": "particle", "radical": "彳", "radicalMeaning": "step", "strokeCount": 11, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "left-falling", "horizontal", "vertical", "horizontal", "vertical", "horizontal", "horizontal"]}
+  ],
+  "grammar": [
+    {
+      "point": "Degree complement - V+得+Adj",
+      "explanation": "A degree complement shows the degree or manner of an action. Formed by V + 得 + adjective.",
+      "example": "你游泳游得怎么样? 我游得不错。",
+      "translation": "How well do you swim? I swim pretty well."
+    },
+    {
+      "point": "Modal verb 会 - Ability",
+      "explanation": "会 denotes skill acquired through study or practice.",
+      "example": "我会游泳。",
+      "translation": "I can swim."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Choose the correct answer",
+      "sentence": "小叶游泳游得___。",
+      "options": [
+        {"text": "不错", "correct": true},
+        {"text": "不好", "correct": false},
+        {"text": "糟糕", "correct": false},
+        {"text": "一般", "correct": false}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match activities",
+      "pairs": [
+        {"chinese": "游泳", "english": "swimming", "id": "m1"},
+        {"chinese": "踢足球", "english": "playing football", "id": "m2"},
+        {"chinese": "打网球", "english": "playing tennis", "id": "m3"},
+        {"chinese": "打篮球", "english": "playing basketball", "id": "m4"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 19 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "小叶会游泳吗?",
+        "options": [
+          {"text": "会,而且游得不错", "correct": true},
+          {"text": "不会", "correct": false},
+          {"text": "会,但不太好", "correct": false},
+          {"text": "不知道", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "直美是什么?",
+        "options": [
+          {"text": "旱鸭子", "correct": true},
+          {"text": "游泳运动员", "correct": false},
+          {"text": "足球运动员", "correct": false},
+          {"text": "网球运动员", "correct": false}
+        ]
+      }
+    ]
+  }
+}

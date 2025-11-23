@@ -1,0 +1,101 @@
+{
+  "id": "lesson27",
+  "sessionId": "session5",
+  "title": "Lesson 27: 你把自行车放哪儿了",
+  "englishTitle": "Where Did You Put the Bicycle?",
+  "pageNumber": 140,
+  "difficulty": "intermediate",
+  "objectives": ["Learn 把字句 (BA sentences)", "Practice resultant complements", "Understand 不是...吗 rhetorical questions"],
+  "vocabulary": [
+    {"id": "v1", "character": "把", "pinyin": "bă", "english": "particle for disposal", "partOfSpeech": "preposition", "example": "把车放在", "exampleTranslation": "put the bike"},
+    {"id": "v2", "character": "钥匙", "pinyin": "yàoshi", "english": "key", "partOfSpeech": "noun", "example": "车钥匙", "exampleTranslation": "bike key"},
+    {"id": "v3", "character": "车棚", "pinyin": "chēpéng", "english": "bike shed", "partOfSpeech": "noun", "example": "在车棚里", "exampleTranslation": "in the shed"},
+    {"id": "v4", "character": "还", "pinyin": "huán", "english": "to return", "partOfSpeech": "verb", "example": "还给你", "exampleTranslation": "return to you"},
+    {"id": "v5", "character": "着急", "pinyin": "zháojí", "english": "to worry", "partOfSpeech": "adjective", "example": "不用着急", "exampleTranslation": "no need to worry"},
+    {"id": "v6", "character": "表", "pinyin": "biǎo", "english": "form", "partOfSpeech": "noun", "example": "这张表", "exampleTranslation": "this form"},
+    {"id": "v7", "character": "交", "pinyin": "jiāo", "english": "to give", "partOfSpeech": "verb", "example": "交给谁", "exampleTranslation": "give to whom"},
+    {"id": "v8", "character": "篇", "pinyin": "piān", "english": "measure word", "partOfSpeech": "measure word", "example": "一篇文章", "exampleTranslation": "one article"},
+    {"id": "v9", "character": "文章", "pinyin": "wénzhāng", "english": "article", "partOfSpeech": "noun", "example": "翻译文章", "exampleTranslation": "translate article"},
+    {"id": "v10", "character": "翻译", "pinyin": "fānyi", "english": "to translate", "partOfSpeech": "verb", "example": "翻译成英文", "exampleTranslation": "translate to English"},
+    {"id": "v11", "character": "水平", "pinyin": "shuǐpíng", "english": "level", "partOfSpeech": "noun", "example": "英文水平", "exampleTranslation": "English level"},
+    {"id": "v12", "character": "法语", "pinyin": "Fǎyǔ", "english": "French", "partOfSpeech": "noun", "example": "学法语", "exampleTranslation": "study French"},
+    {"id": "v13", "character": "当", "pinyin": "dàng", "english": "to regard", "partOfSpeech": "verb", "example": "当成", "exampleTranslation": "regard as"},
+    {"id": "v14", "character": "成", "pinyin": "chéng", "english": "to become", "partOfSpeech": "verb", "example": "当成学英语的", "exampleTranslation": "regard as one studying English"}
+  ],
+  "dialogue": {
+    "title": "你把自行车放在哪儿了",
+    "lines": [
+      {"speaker": "田中", "chinese": "你能不能把你的自行车借给我用用?", "pinyin": "Nĩ néng bu néng bă ni de zixíngche jiè gěi wo yongyong?", "english": "Can you lend me your bike?"},
+      {"speaker": "英男", "chinese": "没问题。给你钥匙。", "pinyin": "Méi wèntí. Gěi nĩ yàoshi.", "english": "No problem. Here's the key."},
+      {"speaker": "田中", "chinese": "你把自行车放在哪儿了?", "pinyin": "Nĩ bă zixíngche fàng zài năr le?", "english": "Where did you put the bike?"},
+      {"speaker": "英男", "chinese": "放在楼下的车棚里了。", "pinyin": "Fàng zài lóu xià de chēpéng li le.", "english": "I put it in the bike shed downstairs."},
+      {"speaker": "田中", "chinese": "我用完就马上还给你。", "pinyin": "Wo yòng wán jiù măshàng huán gěi nĩ.", "english": "I'll return it to you right away when I'm done."}
+    ]
+  },
+  "characters": [
+    {"id": "c1", "character": "把", "pinyin": "bă", "meaning": "handle", "radical": "手", "radicalMeaning": "hand", "strokeCount": 4, "strokeOrder": ["left-falling", "horizontal", "dot", "horizontal"]},
+    {"id": "c2", "character": "放", "pinyin": "fàng", "meaning": "to put", "radical": "攵", "radicalMeaning": "action", "strokeCount": 8, "strokeOrder": ["vertical", "horizontal", "vertical", "dot", "horizontal", "vertical", "horizontal", "vertical"]},
+    {"id": "c3", "character": "交", "pinyin": "jiāo", "meaning": "to deliver", "radical": "父", "radicalMeaning": "father", "strokeCount": 6, "strokeOrder": ["horizontal", "vertical", "horizontal", "vertical", "dot", "horizontal"]}
+  ],
+  "grammar": [
+    {
+      "point": "把字句 (BA sentence)",
+      "explanation": "Used to emphasize how an object is disposed of or dealt with. Word order: subject + 把 + object + verb + complement.",
+      "example": "请帮我把这张表送到办公室。",
+      "translation": "Please help me deliver this form to the office."
+    },
+    {
+      "point": "Resultant complements with 到/在/给/成",
+      "explanation": "These show the result or destination of an action.",
+      "example": "我把自行车放在楼下的车棚里了。",
+      "translation": "I put the bike in the shed downstairs."
+    },
+    {
+      "point": "不是...吗 rhetorical question",
+      "explanation": "Used to emphasize something already known.",
+      "example": "你不是学英语的吗?",
+      "translation": "You study English, don't you?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Complete the 把 sentence",
+      "sentence": "请你把这张表___给赵老师。",
+      "options": [
+        {"text": "交", "correct": true},
+        {"text": "送", "correct": false},
+        {"text": "放", "correct": false},
+        {"text": "给", "correct": false}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 27 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "英男把自行车放在哪儿?",
+        "options": [
+          {"text": "在楼下的车棚里", "correct": true},
+          {"text": "在房间里", "correct": false},
+          {"text": "在楼上", "correct": false},
+          {"text": "在外面", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "小雨学的是什么?",
+        "options": [
+          {"text": "法语", "correct": true},
+          {"text": "英语", "correct": false},
+          {"text": "日语", "correct": false},
+          {"text": "德语", "correct": false}
+        ]
+      }
+    ]
+  }
+}
