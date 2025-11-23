@@ -1,0 +1,345 @@
+{
+  "id": "lesson5",
+  "sessionId": "session2",
+  "title": "图书馆在哪儿",
+  "englishTitle": "Where Is the Library?",
+  "pageNumber": 31,
+  "difficulty": "beginner",
+  "objectives": [
+    "Ask for locations",
+    "Learn place words",
+    "Understand directional questions",
+    "Practice 'where' questions"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "请问",
+      "pinyin": "qǐngwèn",
+      "english": "excuse me, may I ask",
+      "partOfSpeech": "phrase",
+      "example": "请问，图书馆在哪儿？",
+      "exampleTranslation": "Excuse me, where is the library?"
+    },
+    {
+      "id": "v2",
+      "character": "图书馆",
+      "pinyin": "túshūguǎn",
+      "english": "library",
+      "partOfSpeech": "noun",
+      "example": "图书馆在哪儿？",
+      "exampleTranslation": "Where is the library?"
+    },
+    {
+      "id": "v3",
+      "character": "在",
+      "pinyin": "zài",
+      "english": "at, in, on (a place)",
+      "partOfSpeech": "preposition/verb",
+      "example": "图书馆在哪儿。",
+      "exampleTranslation": "The library is at..."
+    },
+    {
+      "id": "v4",
+      "character": "哪儿",
+      "pinyin": "năr",
+      "english": "where",
+      "partOfSpeech": "pronoun",
+      "example": "在哪儿？",
+      "exampleTranslation": "Where?"
+    },
+    {
+      "id": "v5",
+      "character": "就",
+      "pinyin": "jiù",
+      "english": "just, right (here/there)",
+      "partOfSpeech": "adverb",
+      "example": "就在那儿。",
+      "exampleTranslation": "Right there."
+    },
+    {
+      "id": "v6",
+      "character": "那儿",
+      "pinyin": "nàr",
+      "english": "there",
+      "partOfSpeech": "pronoun",
+      "example": "就在那儿。",
+      "exampleTranslation": "Right there."
+    },
+    {
+      "id": "v7",
+      "character": "食堂",
+      "pinyin": "shítáng",
+      "english": "dining hall",
+      "partOfSpeech": "noun",
+      "example": "食堂在哪儿？",
+      "exampleTranslation": "Where is the dining hall?"
+    },
+    {
+      "id": "v8",
+      "character": "留学生",
+      "pinyin": "liúxuéshēng",
+      "english": "overseas student",
+      "partOfSpeech": "noun",
+      "example": "留学生宿舍。",
+      "exampleTranslation": "Overseas student dormitory."
+    },
+    {
+      "id": "v9",
+      "character": "宿舍",
+      "pinyin": "sùshè",
+      "english": "dormitory",
+      "partOfSpeech": "noun",
+      "example": "留学生宿舍。",
+      "exampleTranslation": "Student dorm."
+    },
+    {
+      "id": "v10",
+      "character": "办公室",
+      "pinyin": "bàngōngshì",
+      "english": "office",
+      "partOfSpeech": "noun",
+      "example": "在办公室。",
+      "exampleTranslation": "At the office."
+    },
+    {
+      "id": "v11",
+      "character": "楼",
+      "pinyin": "lóu",
+      "english": "building",
+      "partOfSpeech": "noun",
+      "example": "七楼。",
+      "exampleTranslation": "7th floor building."
+    },
+    {
+      "id": "v12",
+      "character": "邮局",
+      "pinyin": "yóujú",
+      "english": "post office",
+      "partOfSpeech": "noun",
+      "example": "邮局在哪儿？",
+      "exampleTranslation": "Where is the post office?"
+    },
+    {
+      "id": "v13",
+      "character": "银行",
+      "pinyin": "yínháng",
+      "english": "bank",
+      "partOfSpeech": "noun",
+      "example": "银行在哪儿？",
+      "exampleTranslation": "Where is the bank?"
+    },
+    {
+      "id": "v14",
+      "character": "医院",
+      "pinyin": "yīyuàn",
+      "english": "hospital",
+      "partOfSpeech": "noun",
+      "example": "医院在哪儿？",
+      "exampleTranslation": "Where is the hospital?"
+    },
+    {
+      "id": "v15",
+      "character": "商店",
+      "pinyin": "shāngdiàn",
+      "english": "shop, store",
+      "partOfSpeech": "noun",
+      "example": "商店在哪儿？",
+      "exampleTranslation": "Where is the store?"
+    },
+    {
+      "id": "v16",
+      "character": "书店",
+      "pinyin": "shūdiàn",
+      "english": "bookshop",
+      "partOfSpeech": "noun",
+      "example": "书店在哪儿？",
+      "exampleTranslation": "Where is the bookshop?"
+    },
+    {
+      "id": "v17",
+      "character": "知道",
+      "pinyin": "zhīdào",
+      "english": "to know",
+      "partOfSpeech": "verb",
+      "example": "我不知道。",
+      "exampleTranslation": "I don't know."
+    },
+    {
+      "id": "v18",
+      "character": "去",
+      "pinyin": "qù",
+      "english": "to go",
+      "partOfSpeech": "verb",
+      "example": "去哪儿？",
+      "exampleTranslation": "Where are you going?"
+    }
+  ],
+  "dialogue": {
+    "title": "Asking for Directions",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "请问，图书馆在哪儿？",
+        "pinyin": "Qǐngwèn, túshūguǎn zài năr?",
+        "english": "Excuse me, where is the library?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "就在那儿。",
+        "pinyin": "Jiù zài nàr.",
+        "english": "Right there."
+      },
+      {
+        "speaker": "A",
+        "chinese": "请问，邮局在哪儿？",
+        "pinyin": "Qǐngwèn, yóujú zài năr?",
+        "english": "Excuse me, where is the post office?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "对不起，我不知道。",
+        "pinyin": "Duìbùqǐ, wǒ bù zhīdào.",
+        "english": "I'm sorry, I don't know."
+      },
+      {
+        "speaker": "A",
+        "chinese": "你去哪儿？",
+        "pinyin": "Nǐ qù năr?",
+        "english": "Where are you going?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "我去天安门。",
+        "pinyin": "Wǒ qù Tiān'ānmén.",
+        "english": "I'm going to Tiananmen."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Location Question: 在哪儿",
+      "explanation": "To ask where something is, use: [Subject] + 在 + 哪儿？ The answer is: [Subject] + 在 + [Location]",
+      "example": "图书馆在哪儿？— 图书馆在那儿。",
+      "translation": "Where is the library? — The library is there."
+    },
+    {
+      "point": "Polite Inquiry: 请问",
+      "explanation": "Use 请问 before asking a question to be polite. It means 'excuse me' or 'may I ask'.",
+      "example": "请问，图书馆在哪儿？",
+      "translation": "Excuse me, where is the library?"
+    },
+    {
+      "point": "Direction 去",
+      "explanation": "去 means 'to go'. The structure is: 去 + [Place]",
+      "example": "去天安门。",
+      "translation": "Going to Tiananmen."
+    },
+    {
+      "point": "Phrase 就在",
+      "explanation": "就在 means 'right there' or 'just at'. It emphasizes that the location is close or obvious.",
+      "example": "就在那儿。",
+      "translation": "Right there."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "馆",
+      "pinyin": "guǎn",
+      "meaning": "hall, building",
+      "radical": "食",
+      "radicalMeaning": "food",
+      "strokeCount": 11,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横折", "横", "撇", "点", "竖", "横折", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "哪",
+      "pinyin": "nǎ",
+      "meaning": "which, where",
+      "radical": "口",
+      "radicalMeaning": "mouth",
+      "strokeCount": 10,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横折", "横", "撇", "点", "竖", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "邮",
+      "pinyin": "yóu",
+      "meaning": "mail, post",
+      "radical": "阝",
+      "radicalMeaning": "city",
+      "strokeCount": 7,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "撇", "捺"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Places with Chinese Names",
+      "pairs": [
+        { "chinese": "图书馆", "english": "library", "id": "m1" },
+        { "chinese": "邮局", "english": "post office", "id": "m2" },
+        { "chinese": "银行", "english": "bank", "id": "m3" },
+        { "chinese": "医院", "english": "hospital", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "How do you ask where the library is?",
+      "options": [
+        { "text": "请问，什么是图书馆？", "correct": false },
+        { "text": "请问，图书馆在哪儿？", "correct": true },
+        { "text": "请问，你好吗？", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: I don't know where it is",
+      "sentence": "对不起，我不_____。",
+      "answer": "知道",
+      "hint": "To know"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 5 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does '在哪儿' mean?",
+        "options": [
+          { "text": "How are you", "correct": false },
+          { "text": "Where is it", "correct": true },
+          { "text": "What is it", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match locations with their uses",
+        "pairs": [
+          { "prompt": "图书馆", "answer": "library", "id": "qm1" },
+          { "prompt": "邮局", "answer": "post office", "id": "qm2" },
+          { "prompt": "商店", "answer": "store", "id": "qm3" },
+          { "prompt": "医院", "answer": "hospital", "id": "qm4" },
+          { "prompt": "银行", "answer": "bank", "id": "qm5" }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "When should you use '请问'?",
+        "options": [
+          { "text": "Before asking a polite question", "correct": true },
+          { "text": "After saying goodbye", "correct": false },
+          { "text": "When ordering food", "correct": false }
+        ]
+      }
+    ]
+  }
+}

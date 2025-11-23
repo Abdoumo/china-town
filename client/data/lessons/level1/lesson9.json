@@ -1,0 +1,432 @@
+{
+  "id": "lesson9",
+  "sessionId": "session3",
+  "title": "你家有几口人",
+  "englishTitle": "How Many People in Your Family?",
+  "pageNumber": 70,
+  "difficulty": "beginner",
+  "objectives": [
+    "Ask about family members",
+    "Learn family vocabulary",
+    "Ask about professions",
+    "Use measure words for family"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "想",
+      "pinyin": "xiǎng",
+      "english": "to miss, to think",
+      "partOfSpeech": "verb",
+      "example": "你想不想家？",
+      "exampleTranslation": "Do you miss home?"
+    },
+    {
+      "id": "v2",
+      "character": "当然",
+      "pinyin": "dāngrán",
+      "english": "of course",
+      "partOfSpeech": "adverb",
+      "example": "当然想。",
+      "exampleTranslation": "Of course (I do)."
+    },
+    {
+      "id": "v3",
+      "character": "家",
+      "pinyin": "jiā",
+      "english": "home, family",
+      "partOfSpeech": "noun",
+      "example": "你家有几口人？",
+      "exampleTranslation": "How many people in your family?"
+    },
+    {
+      "id": "v4",
+      "character": "口",
+      "pinyin": "kǒu",
+      "english": "measure word for people (family)",
+      "partOfSpeech": "measure word",
+      "example": "五口人。",
+      "exampleTranslation": "Five people."
+    },
+    {
+      "id": "v5",
+      "character": "兄弟",
+      "pinyin": "xiōngdi",
+      "english": "brother",
+      "partOfSpeech": "noun",
+      "example": "有没有兄弟？",
+      "exampleTranslation": "Do you have brothers?"
+    },
+    {
+      "id": "v6",
+      "character": "姐妹",
+      "pinyin": "jiěmèi",
+      "english": "sister",
+      "partOfSpeech": "noun",
+      "example": "有没有姐妹？",
+      "exampleTranslation": "Do you have sisters?"
+    },
+    {
+      "id": "v7",
+      "character": "独生女",
+      "pinyin": "dúshēngnǚ",
+      "english": "only daughter",
+      "partOfSpeech": "noun",
+      "example": "我是独生女。",
+      "exampleTranslation": "I'm an only daughter."
+    },
+    {
+      "id": "v8",
+      "character": "工作",
+      "pinyin": "gōngzuò",
+      "english": "to work, work, job",
+      "partOfSpeech": "verb/noun",
+      "example": "做什么工作？",
+      "exampleTranslation": "What do you do?"
+    },
+    {
+      "id": "v9",
+      "character": "父亲",
+      "pinyin": "fùqin",
+      "english": "father",
+      "partOfSpeech": "noun",
+      "example": "我父亲。",
+      "exampleTranslation": "My father."
+    },
+    {
+      "id": "v10",
+      "character": "母亲",
+      "pinyin": "mǔqin",
+      "english": "mother",
+      "partOfSpeech": "noun",
+      "example": "我母亲。",
+      "exampleTranslation": "My mother."
+    },
+    {
+      "id": "v11",
+      "character": "医生",
+      "pinyin": "yīshēng",
+      "english": "doctor",
+      "partOfSpeech": "noun",
+      "example": "我父亲是医生。",
+      "exampleTranslation": "My father is a doctor."
+    },
+    {
+      "id": "v12",
+      "character": "公司",
+      "pinyin": "gōngsi",
+      "english": "company",
+      "partOfSpeech": "noun",
+      "example": "在公司工作。",
+      "exampleTranslation": "Work at a company."
+    },
+    {
+      "id": "v13",
+      "character": "职员",
+      "pinyin": "zhíyuán",
+      "english": "staff member, employee",
+      "partOfSpeech": "noun",
+      "example": "公司职员。",
+      "exampleTranslation": "Company employee."
+    },
+    {
+      "id": "v14",
+      "character": "记者",
+      "pinyin": "jìzhě",
+      "english": "journalist, reporter",
+      "partOfSpeech": "noun",
+      "example": "我是记者。",
+      "exampleTranslation": "I'm a journalist."
+    },
+    {
+      "id": "v15",
+      "character": "名片",
+      "pinyin": "míngpiàn",
+      "english": "name card, business card",
+      "partOfSpeech": "noun",
+      "example": "我的名片。",
+      "exampleTranslation": "My business card."
+    },
+    {
+      "id": "v16",
+      "character": "父母",
+      "pinyin": "fùmǔ",
+      "english": "parents",
+      "partOfSpeech": "noun",
+      "example": "我父母。",
+      "exampleTranslation": "My parents."
+    },
+    {
+      "id": "v17",
+      "character": "今年",
+      "pinyin": "jīnnián",
+      "english": "this year",
+      "partOfSpeech": "noun",
+      "example": "今年多大？",
+      "exampleTranslation": "How old this year?"
+    },
+    {
+      "id": "v18",
+      "character": "多",
+      "pinyin": "duō",
+      "english": "over, more than",
+      "partOfSpeech": "adverb",
+      "example": "今年多大年纪？",
+      "exampleTranslation": "How old are you this year?"
+    },
+    {
+      "id": "v19",
+      "character": "年纪",
+      "pinyin": "niánjì",
+      "english": "age",
+      "partOfSpeech": "noun",
+      "example": "多大年纪？",
+      "exampleTranslation": "How old?"
+    },
+    {
+      "id": "v20",
+      "character": "岁",
+      "pinyin": "suì",
+      "english": "year (of age)",
+      "partOfSpeech": "measure word",
+      "example": "六十岁。",
+      "exampleTranslation": "Sixty years old."
+    },
+    {
+      "id": "v21",
+      "character": "秘密",
+      "pinyin": "mìmì",
+      "english": "secret",
+      "partOfSpeech": "noun",
+      "example": "这是秘密。",
+      "exampleTranslation": "This is a secret."
+    },
+    {
+      "id": "v22",
+      "character": "孩子",
+      "pinyin": "háizi",
+      "english": "child",
+      "partOfSpeech": "noun",
+      "example": "我的孩子。",
+      "exampleTranslation": "My child."
+    },
+    {
+      "id": "v23",
+      "character": "儿子",
+      "pinyin": "érzi",
+      "english": "son",
+      "partOfSpeech": "noun",
+      "example": "我的儿子。",
+      "exampleTranslation": "My son."
+    },
+    {
+      "id": "v24",
+      "character": "真",
+      "pinyin": "zhēn",
+      "english": "really, truly",
+      "partOfSpeech": "adverb",
+      "example": "真可爱。",
+      "exampleTranslation": "Really lovely."
+    },
+    {
+      "id": "v25",
+      "character": "售货员",
+      "pinyin": "shòuhuòyuán",
+      "english": "shop assistant",
+      "partOfSpeech": "noun",
+      "example": "是售货员。",
+      "exampleTranslation": "Is a shop assistant."
+    },
+    {
+      "id": "v26",
+      "character": "经理",
+      "pinyin": "jīnglǐ",
+      "english": "manager",
+      "partOfSpeech": "noun",
+      "example": "是经理。",
+      "exampleTranslation": "Is a manager."
+    },
+    {
+      "id": "v27",
+      "character": "司机",
+      "pinyin": "sījī",
+      "english": "driver",
+      "partOfSpeech": "noun",
+      "example": "是司机。",
+      "exampleTranslation": "Is a driver."
+    },
+    {
+      "id": "v28",
+      "character": "爷爷",
+      "pinyin": "yéyε",
+      "english": "grandfather",
+      "partOfSpeech": "noun",
+      "example": "我爷爷。",
+      "exampleTranslation": "My grandfather."
+    },
+    {
+      "id": "v29",
+      "character": "奶奶",
+      "pinyin": "năinai",
+      "english": "grandmother",
+      "partOfSpeech": "noun",
+      "example": "我奶奶。",
+      "exampleTranslation": "My grandmother."
+    }
+  ],
+  "dialogue": {
+    "title": "Family Matters",
+    "lines": [
+      {
+        "speaker": "Xiaoyè",
+        "chinese": "直美，你想不想家？",
+        "pinyin": "Zhíměi, nǐ xiǎng bu xiǎng jiā?",
+        "english": "Zhimei, do you miss home?"
+      },
+      {
+        "speaker": "Zhimei",
+        "chinese": "当然想。",
+        "pinyin": "Dāngrán xiǎng.",
+        "english": "Of course I do."
+      },
+      {
+        "speaker": "Xiaoyè",
+        "chinese": "你家有几口人？",
+        "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+        "english": "How many people in your family?"
+      },
+      {
+        "speaker": "Zhimei",
+        "chinese": "我家有五口人。",
+        "pinyin": "Wǒ jiā yǒu wǔ kǒu rén.",
+        "english": "My family has five people."
+      },
+      {
+        "speaker": "Xiaoyè",
+        "chinese": "你家有什么人？",
+        "pinyin": "Nǐ jiā yǒu shénme rén?",
+        "english": "Who is in your family?"
+      },
+      {
+        "speaker": "Zhimei",
+        "chinese": "爸爸、妈妈、两个哥哥和我。",
+        "pinyin": "Bàba, māma, liǎng gè gēge hé wǒ.",
+        "english": "Father, mother, two elder brothers, and me."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Measure Word for Family: 口",
+      "explanation": "Use 口 specifically for family members. Structure: 几 + 口 + 人",
+      "example": "五口人。",
+      "translation": "Five people."
+    },
+    {
+      "point": "Asking About Professions",
+      "explanation": "Structure: [Subject] + 做什么工作？ or [Subject] + 是 + [Profession]",
+      "example": "你是做什么工作的？ 他是医生。",
+      "translation": "What do you do? He is a doctor."
+    },
+    {
+      "point": "Family Relations without 的",
+      "explanation": "Family terms don't need 的. Direct: 我父亲、我母亲、我儿子",
+      "example": "我爸爸、我哥哥、我妹妹",
+      "translation": "my father, my brother, my sister"
+    },
+    {
+      "point": "Expressing Age",
+      "explanation": "Structure: [Person] + 今年 + [Number] + 岁",
+      "example": "我父亲今年六十岁。",
+      "translation": "My father is sixty years old this year."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "家",
+      "pinyin": "jiā",
+      "meaning": "home, family",
+      "radical": "宀",
+      "radicalMeaning": "roof",
+      "strokeCount": 10,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "撇", "点", "竖", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "工",
+      "pinyin": "gōng",
+      "meaning": "work",
+      "radical": "工",
+      "radicalMeaning": "work",
+      "strokeCount": 3,
+      "strokeOrder": ["竖", "横", "竖"]
+    },
+    {
+      "id": "c3",
+      "character": "父",
+      "pinyin": "fù",
+      "meaning": "father",
+      "radical": "父",
+      "radicalMeaning": "father",
+      "strokeCount": 4,
+      "strokeOrder": ["撇", "竖", "横折", "横"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Family Members",
+      "pairs": [
+        { "chinese": "父亲", "english": "father", "id": "m1" },
+        { "chinese": "母亲", "english": "mother", "id": "m2" },
+        { "chinese": "儿子", "english": "son", "id": "m3" },
+        { "chinese": "女儿", "english": "daughter", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "How do you ask 'How many people in your family?'",
+      "options": [
+        { "text": "你家有什么人？", "correct": false },
+        { "text": "你家有几口人？", "correct": true },
+        { "text": "你家有多少？", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: He is a ____",
+      "sentence": "他是_____。",
+      "answer": "医生",
+      "hint": "Profession, heals people"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 9 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What is the measure word for family members?",
+        "options": [
+          { "text": "个", "correct": false },
+          { "text": "口", "correct": true },
+          { "text": "位", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match family terms with meanings",
+        "pairs": [
+          { "prompt": "爸爸", "answer": "father", "id": "qm1" },
+          { "prompt": "妈妈", "answer": "mother", "id": "qm2" },
+          { "prompt": "哥哥", "answer": "elder brother", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}

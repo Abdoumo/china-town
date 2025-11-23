@@ -1,0 +1,259 @@
+{
+  "id": "lesson2",
+  "sessionId": "session1",
+  "title": "你好吗",
+  "englishTitle": "How Are You?",
+  "pageNumber": 2,
+  "difficulty": "beginner",
+  "objectives": [
+    "Learn how to ask 'How are you?'",
+    "Practice responding about health and well-being",
+    "Understand basic question formation with 吗"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "好",
+      "pinyin": "hǎo",
+      "english": "well, good",
+      "partOfSpeech": "adjective",
+      "example": "你好吗？",
+      "exampleTranslation": "How are you?"
+    },
+    {
+      "id": "v2",
+      "character": "吗",
+      "pinyin": "ma",
+      "english": "question particle",
+      "partOfSpeech": "particle",
+      "example": "你好吗？",
+      "exampleTranslation": "How are you?"
+    },
+    {
+      "id": "v3",
+      "character": "很",
+      "pinyin": "hěn",
+      "english": "very",
+      "partOfSpeech": "adverb",
+      "example": "很好。",
+      "exampleTranslation": "Very well."
+    },
+    {
+      "id": "v4",
+      "character": "累",
+      "pinyin": "lèi",
+      "english": "tired",
+      "partOfSpeech": "adjective",
+      "example": "我有点累。",
+      "exampleTranslation": "I'm a little tired."
+    },
+    {
+      "id": "v5",
+      "character": "忙",
+      "pinyin": "máng",
+      "english": "busy",
+      "partOfSpeech": "adjective",
+      "example": "你忙吗？",
+      "exampleTranslation": "Are you busy?"
+    },
+    {
+      "id": "v6",
+      "character": "饿",
+      "pinyin": "è",
+      "english": "hungry",
+      "partOfSpeech": "adjective",
+      "example": "我饿了。",
+      "exampleTranslation": "I'm hungry."
+    },
+    {
+      "id": "v7",
+      "character": "渴",
+      "pinyin": "kě",
+      "english": "thirsty",
+      "partOfSpeech": "adjective",
+      "example": "我很渴。",
+      "exampleTranslation": "I'm very thirsty."
+    },
+    {
+      "id": "v8",
+      "character": "冷",
+      "pinyin": "lěng",
+      "english": "cold",
+      "partOfSpeech": "adjective",
+      "example": "今天冷吗？",
+      "exampleTranslation": "Is it cold today?"
+    },
+    {
+      "id": "v9",
+      "character": "热",
+      "pinyin": "rè",
+      "english": "hot",
+      "partOfSpeech": "adjective",
+      "example": "很热。",
+      "exampleTranslation": "It's very hot."
+    },
+    {
+      "id": "v10",
+      "character": "我",
+      "pinyin": "wǒ",
+      "english": "I, me",
+      "partOfSpeech": "pronoun",
+      "example": "我很好。",
+      "exampleTranslation": "I'm very well."
+    }
+  ],
+  "dialogue": {
+    "title": "How Are You?",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "你好吗？",
+        "pinyin": "Nǐ hǎo ma?",
+        "english": "How are you?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "我很好，谢谢。你呢？",
+        "pinyin": "Wǒ hěn hǎo, xièxie. Nǐ ne?",
+        "english": "I'm very well, thank you. How about you?"
+      },
+      {
+        "speaker": "A",
+        "chinese": "我也很好。",
+        "pinyin": "Wǒ yě hěn hǎo.",
+        "english": "I'm well too."
+      },
+      {
+        "speaker": "B",
+        "chinese": "你忙吗？",
+        "pinyin": "Nǐ máng ma?",
+        "english": "Are you busy?"
+      },
+      {
+        "speaker": "A",
+        "chinese": "我很忙。你呢？",
+        "pinyin": "Wǒ hěn máng. Nǐ ne?",
+        "english": "I'm very busy. How about you?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "我不太忙。",
+        "pinyin": "Wǒ búlái máng.",
+        "english": "I'm not very busy."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Question Formation with 吗",
+      "explanation": "To form a yes/no question in Chinese, simply add 吗 (ma) at the end of a statement. The word order remains the same.",
+      "example": "你好。→ 你好吗？",
+      "translation": "You're well. → Are you well?"
+    },
+    {
+      "point": "Responding to 好吗",
+      "explanation": "When someone asks 你好吗, respond with 我很好 or provide a descriptive answer.",
+      "example": "你好吗？→ 我很好。",
+      "translation": "How are you? → I'm very well."
+    },
+    {
+      "point": "The Adverb 很",
+      "explanation": "很 (very) is commonly used before adjectives. It's often more natural than stating the adjective alone.",
+      "example": "我很好。我很忙。",
+      "translation": "I'm very well. I'm very busy."
+    },
+    {
+      "point": "也 (also, too)",
+      "explanation": "也 is placed before the verb or adjective to indicate 'also' or 'too'.",
+      "example": "我很好。你也很好。",
+      "translation": "I'm very well. You're also very well."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "吗",
+      "pinyin": "ma",
+      "meaning": "question particle",
+      "radical": "口",
+      "radicalMeaning": "mouth",
+      "strokeCount": 3,
+      "strokeOrder": ["竖", "横折", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "很",
+      "pinyin": "hěn",
+      "meaning": "very",
+      "radical": "彳",
+      "radicalMeaning": "step/walk",
+      "strokeCount": 9,
+      "strokeOrder": ["撇", "竖", "横", "竖", "横", "竖", "横", "横", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "忙",
+      "pinyin": "máng",
+      "meaning": "busy",
+      "radical": "心",
+      "radicalMeaning": "heart",
+      "strokeCount": 6,
+      "strokeOrder": ["竖", "横折", "横", "竖", "竖", "竖"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Questions with Responses",
+      "pairs": [
+        { "chinese": "你好吗？", "english": "I'm very well, thanks", "id": "m1" },
+        { "chinese": "你忙吗？", "english": "I'm very busy", "id": "m2" },
+        { "chinese": "你累吗？", "english": "I'm a little tired", "id": "m3" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "Which is the correct response to 你好吗？",
+      "options": [
+        { "text": "很好", "correct": false },
+        { "text": "我很好", "correct": true },
+        { "text": "好", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "你好吗？我_____好。",
+      "answer": "很",
+      "hint": "An adverb meaning 'very'"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 2 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "How do you ask 'Are you busy?' in Chinese?",
+        "options": [
+          { "text": "你好吗？", "correct": false },
+          { "text": "你忙吗？", "correct": true },
+          { "text": "你累吗？", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match the questions with appropriate responses",
+        "pairs": [
+          { "prompt": "你忙吗？", "answer": "我很忙", "id": "qm1" },
+          { "prompt": "你好吗？", "answer": "我很好", "id": "qm2" },
+          { "prompt": "你累吗？", "answer": "我有点累", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}

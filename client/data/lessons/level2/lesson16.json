@@ -1,0 +1,571 @@
+{
+  "id": "lesson16",
+  "sessionId": "session1",
+  "title": "Lesson 16: 他正在等他爱人呢",
+  "englishTitle": "He Is Waiting For His Lover",
+  "pageNumber": 16,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn the progressive aspect with 正在",
+    "Understand action descriptions",
+    "Practice present continuous tense",
+    "Develop listening comprehension"
+  ],
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "character": "家",
+      "pinyin": "jiā",
+      "english": "a measure word for shops, stores, etc.",
+      "partOfSpeech": "measure word",
+      "example": "这家商店",
+      "exampleTranslation": "this shop"
+    },
+    {
+      "id": "vocab2",
+      "character": "正在",
+      "pinyin": "zhèngzài",
+      "english": "in process of",
+      "partOfSpeech": "adverb",
+      "example": "正在做",
+      "exampleTranslation": "in the process of doing"
+    },
+    {
+      "id": "vocab3",
+      "character": "减价",
+      "pinyin": "jiǎn jià",
+      "english": "to reduce the prices",
+      "partOfSpeech": "verb",
+      "example": "大减价",
+      "exampleTranslation": "having a big sale"
+    },
+    {
+      "id": "vocab4",
+      "character": "顾客",
+      "pinyin": "gùkè",
+      "english": "customer",
+      "partOfSpeech": "noun",
+      "example": "很多顾客",
+      "exampleTranslation": "many customers"
+    },
+    {
+      "id": "vocab5",
+      "character": "少",
+      "pinyin": "shǎo",
+      "english": "few; little",
+      "partOfSpeech": "adjective",
+      "example": "真不少",
+      "exampleTranslation": "quite a lot"
+    },
+    {
+      "id": "vocab6",
+      "character": "有的",
+      "pinyin": "yǒude",
+      "english": "some",
+      "partOfSpeech": "pronoun",
+      "example": "有的在选",
+      "exampleTranslation": "some are choosing"
+    },
+    {
+      "id": "vocab7",
+      "character": "挑",
+      "pinyin": "tiāo",
+      "english": "to choose",
+      "partOfSpeech": "verb",
+      "example": "挑东西",
+      "exampleTranslation": "to choose goods"
+    },
+    {
+      "id": "vocab8",
+      "character": "排队",
+      "pinyin": "pái duì",
+      "english": "to queue",
+      "partOfSpeech": "verb",
+      "example": "正在排队",
+      "exampleTranslation": "in a queue"
+    },
+    {
+      "id": "vocab9",
+      "character": "交",
+      "pinyin": "jiāo",
+      "english": "to pay",
+      "partOfSpeech": "verb",
+      "example": "交钱",
+      "exampleTranslation": "to pay money"
+    },
+    {
+      "id": "vocab10",
+      "character": "咦",
+      "pinyin": "yī",
+      "english": "hey",
+      "partOfSpeech": "interjection",
+      "example": "咦,你看",
+      "exampleTranslation": "Hey, look"
+    },
+    {
+      "id": "vocab11",
+      "character": "先生",
+      "pinyin": "xiānsheng",
+      "english": "sir",
+      "partOfSpeech": "noun",
+      "example": "这位先生",
+      "exampleTranslation": "this gentleman"
+    },
+    {
+      "id": "vocab12",
+      "character": "找",
+      "pinyin": "zhǎo",
+      "english": "to look for",
+      "partOfSpeech": "verb",
+      "example": "正在找工作",
+      "exampleTranslation": "looking for a job"
+    },
+    {
+      "id": "vocab13",
+      "character": "刚才",
+      "pinyin": "gāngcái",
+      "english": "just now",
+      "partOfSpeech": "noun",
+      "example": "刚才我去",
+      "exampleTranslation": "just now I went"
+    },
+    {
+      "id": "vocab14",
+      "character": "打(电话)",
+      "pinyin": "dǎ (diànhuà)",
+      "english": "to make (a call)",
+      "partOfSpeech": "verb",
+      "example": "打电话",
+      "exampleTranslation": "to make a phone call"
+    },
+    {
+      "id": "vocab15",
+      "character": "招聘",
+      "pinyin": "zhāopìn",
+      "english": "to advertise for (new employees)",
+      "partOfSpeech": "verb",
+      "example": "正在招聘职员",
+      "exampleTranslation": "recruiting employees"
+    },
+    {
+      "id": "vocab16",
+      "character": "打算",
+      "pinyin": "dǎsuàn",
+      "english": "to plan; plan",
+      "partOfSpeech": "verb/noun",
+      "example": "打算去应聘",
+      "exampleTranslation": "plan to apply"
+    },
+    {
+      "id": "vocab17",
+      "character": "应聘",
+      "pinyin": "yìngpìn",
+      "english": "to accept an offer of employment",
+      "partOfSpeech": "verb",
+      "example": "去应聘",
+      "exampleTranslation": "to apply for a job"
+    },
+    {
+      "id": "vocab18",
+      "character": "外边",
+      "pinyin": "wàibian",
+      "english": "outside",
+      "partOfSpeech": "noun",
+      "example": "外边下雨",
+      "exampleTranslation": "raining outside"
+    },
+    {
+      "id": "vocab19",
+      "character": "下(雨)",
+      "pinyin": "xià(yǔ)",
+      "english": "to rain",
+      "partOfSpeech": "verb",
+      "example": "外边正在下雨",
+      "exampleTranslation": "it is raining outside"
+    },
+    {
+      "id": "vocab20",
+      "character": "雨",
+      "pinyin": "yǔ",
+      "english": "rain",
+      "partOfSpeech": "noun",
+      "example": "下雨",
+      "exampleTranslation": "raining"
+    },
+    {
+      "id": "vocab21",
+      "character": "一边...一边...",
+      "pinyin": "yībǐan...yībǐan...",
+      "english": "while",
+      "partOfSpeech": "conjunction",
+      "example": "一边喝咖啡一边聊天",
+      "exampleTranslation": "drinking coffee while chatting"
+    },
+    {
+      "id": "vocab22",
+      "character": "聊天儿",
+      "pinyin": "liáo tiānr",
+      "english": "to chat",
+      "partOfSpeech": "verb",
+      "example": "一边聊天儿",
+      "exampleTranslation": "while chatting"
+    },
+    {
+      "id": "vocab23",
+      "character": "大家",
+      "pinyin": "dàjiā",
+      "english": "all; everybody",
+      "partOfSpeech": "pronoun",
+      "example": "问大家",
+      "exampleTranslation": "ask everyone"
+    },
+    {
+      "id": "vocab24",
+      "character": "明年",
+      "pinyin": "míngniān",
+      "english": "next year",
+      "partOfSpeech": "noun",
+      "example": "明年的这个时候",
+      "exampleTranslation": "this time next year"
+    },
+    {
+      "id": "vocab25",
+      "character": "可能",
+      "pinyin": "kěnéng",
+      "english": "maybe",
+      "partOfSpeech": "auxiliary verb",
+      "example": "可能在做什么",
+      "exampleTranslation": "might be doing something"
+    },
+    {
+      "id": "vocab26",
+      "character": "旅行",
+      "pinyin": "lǚxíng",
+      "english": "to travel",
+      "partOfSpeech": "verb",
+      "example": "去旅行",
+      "exampleTranslation": "to go travelling"
+    },
+    {
+      "id": "vocab27",
+      "character": "回答",
+      "pinyin": "huídá",
+      "english": "to answer",
+      "partOfSpeech": "verb",
+      "example": "回答问题",
+      "exampleTranslation": "to answer questions"
+    },
+    {
+      "id": "vocab28",
+      "character": "猜",
+      "pinyin": "cāi",
+      "english": "to guess",
+      "partOfSpeech": "verb",
+      "example": "猜猜看",
+      "exampleTranslation": "guess"
+    },
+    {
+      "id": "vocab29",
+      "character": "擦",
+      "pinyin": "cā",
+      "english": "to wipe",
+      "partOfSpeech": "verb",
+      "example": "擦黑板",
+      "exampleTranslation": "to wipe the blackboard"
+    },
+    {
+      "id": "vocab30",
+      "character": "黑板",
+      "pinyin": "hēibǎn",
+      "english": "blackboard",
+      "partOfSpeech": "noun",
+      "example": "擦黑板",
+      "exampleTranslation": "blackboard"
+    },
+    {
+      "id": "vocab31",
+      "character": "音乐",
+      "pinyin": "yīnyuè",
+      "english": "music",
+      "partOfSpeech": "noun",
+      "example": "听音乐",
+      "exampleTranslation": "to listen to music"
+    },
+    {
+      "id": "vocab32",
+      "character": "歌",
+      "pinyin": "gē",
+      "english": "song",
+      "partOfSpeech": "noun",
+      "example": "唱歌",
+      "exampleTranslation": "to sing songs"
+    },
+    {
+      "id": "vocab33",
+      "character": "信",
+      "pinyin": "xìn",
+      "english": "letter",
+      "partOfSpeech": "noun",
+      "example": "写信",
+      "exampleTranslation": "to write a letter"
+    },
+    {
+      "id": "vocab34",
+      "character": "邮票",
+      "pinyin": "yóupiào",
+      "english": "stamp",
+      "partOfSpeech": "noun",
+      "example": "贴邮票",
+      "exampleTranslation": "to stick a stamp"
+    },
+    {
+      "id": "vocab35",
+      "character": "寄",
+      "pinyin": "jì",
+      "english": "to post",
+      "partOfSpeech": "verb",
+      "example": "寄信",
+      "exampleTranslation": "to mail a letter"
+    }
+  ],
+  "dialogue": {
+    "title": "他正在等他爱人呢",
+    "lines": [
+      {
+        "speaker": "Narrator",
+        "chinese": "这家商店的东西正在大减价,商店里顾客真不少,有的正在挑东西,有的正在排队交钱。",
+        "pinyin": "Zhè jiā shāngdiàn de dōngxi zhèngzài dà jiǎnjià, shāngdiàn li gùkè zhēn bu shǎo, yǒude zhèngzài tiāo dōngxi, yǒude zhèngzài pái duì jiāo qián.",
+        "english": "This shop is having a big sale. There are quite a lot of customers in the shop. Some are choosing goods, and some are queuing to pay."
+      },
+      {
+        "speaker": "Customer",
+        "chinese": "咦,这位先生在做什么呢?他正在等他的爱人呢。",
+        "pinyin": "Yī, zhè wèi xiānsheng zài zuò shénme ne? Tā zhèngzài děng tā de aìren ne.",
+        "english": "Hey, what is this gentleman doing? He is waiting for his lover."
+      },
+      {
+        "speaker": "Narrator",
+        "chinese": "小雨最近很忙,他正在找工作。刚才我去他那儿的时候,他正在给一家公司打电话。听说这家公司正在招聘职员,他打算去应聘。",
+        "pinyin": "Xiǎo yǔ zuìjìn hěn máng, tā zhèngzài zhǎo gōngzuò. Gāngcái wǒ qù tā nàr de shíhou, tā zhèngzài gěi yī jiā gōngsī dǎ diànhuà. Tīng shuō zhè jiā gōngsī zhèngzài zhāopìn zhíyuán, tā dǎsuàn qù yìngpìn.",
+        "english": "Xiaoyu is very busy recently. He is looking for a job. When I went to his place just now, he was making a phone call to a company. I heard that the company is recruiting staff, and he plans to apply."
+      },
+      {
+        "speaker": "Narrator",
+        "chinese": "外边正在下雨,莉莉跟朋友们在房间里一边喝咖啡一边聊天儿。莉莉问大家：明年的这个时候,你们可能在做什么?",
+        "pinyin": "Wàibian zhèngzài xià yǔ, Lìli gen péngyoumen zài fángjiān li yībǐan hē kāfei yībǐan liáo tiānr. Lìli wèn dàjiā: Míngniān de zhè ge shíhou, nǐmen kěnéng zài zuò shénme?",
+        "english": "It is raining outside. Lili and her friends are in the room, drinking coffee while chatting. Lili asks everyone: What might you be doing this time next year?"
+      }
+    ]
+  },
+  "characters": [
+    {
+      "id": "char1",
+      "character": "正",
+      "pinyin": "zhèng",
+      "meaning": "just, exactly, right",
+      "radical": "止",
+      "radicalMeaning": "stop",
+      "strokeCount": 5,
+      "strokeOrder": ["点", "横折", "横", "横", "点"]
+    },
+    {
+      "id": "char2",
+      "character": "在",
+      "pinyin": "zài",
+      "meaning": "at, in, exist",
+      "radical": "土",
+      "radicalMeaning": "earth",
+      "strokeCount": 6,
+      "strokeOrder": ["横", "竖", "横折", "横", "横", "点"]
+    },
+    {
+      "id": "char3",
+      "character": "等",
+      "pinyin": "děng",
+      "meaning": "to wait, equal, grade",
+      "radical": "竹",
+      "radicalMeaning": "bamboo",
+      "strokeCount": 12,
+      "strokeOrder": ["撇", "横折", "横", "竖", "横折", "横", "点", "竖", "点", "横", "竖", "横"]
+    },
+    {
+      "id": "char4",
+      "character": "爱",
+      "pinyin": "ài",
+      "meaning": "love, like, affection",
+      "radical": "爫",
+      "radicalMeaning": "claw",
+      "strokeCount": 10,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横折", "横", "竖", "横折", "横", "点"]
+    },
+    {
+      "id": "char5",
+      "character": "人",
+      "pinyin": "rén",
+      "meaning": "person, man, human",
+      "radical": "人",
+      "radicalMeaning": "person",
+      "strokeCount": 2,
+      "strokeOrder": ["撇", "捺"]
+    },
+    {
+      "id": "char6",
+      "character": "呢",
+      "pinyin": "ne",
+      "meaning": "particle for emphasis",
+      "radical": "口",
+      "radicalMeaning": "mouth",
+      "strokeCount": 8,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横折", "横", "横", "点"]
+    },
+    {
+      "id": "char7",
+      "character": "减",
+      "pinyin": "jiǎn",
+      "meaning": "to reduce, subtract",
+      "radical": "水",
+      "radicalMeaning": "water",
+      "strokeCount": 13,
+      "strokeOrder": ["点", "横", "竖", "横折", "横", "竖", "横", "竖", "竖", "横", "横", "点", "点"]
+    },
+    {
+      "id": "char8",
+      "character": "价",
+      "pinyin": "jià",
+      "meaning": "price, value",
+      "radical": "亻",
+      "radicalMeaning": "person",
+      "strokeCount": 8,
+      "strokeOrder": ["撇", "竖", "横", "竖", "横", "竖", "横", "点"]
+    }
+  ],
+  "grammar": [
+    {
+      "point": "正在 (zhèngzài) - Progressive Aspect",
+      "explanation": "正在 is used to indicate an action that is in progress. It emphasizes that the action is happening right now.",
+      "example": "他正在等他的爱人。",
+      "translation": "He is waiting for his lover."
+    },
+    {
+      "point": "呢 (ne) - Particle for Emphasis",
+      "explanation": "The particle 呢 at the end of a sentence adds emphasis or indicates that the situation is continuing or in process.",
+      "example": "他正在找工作呢。",
+      "translation": "He is looking for a job (right now)."
+    },
+    {
+      "point": "一边...一边... (yībǐan...yībǐan...) - Simultaneous Actions",
+      "explanation": "This structure describes two actions happening at the same time.",
+      "example": "一边喝咖啡一边聊天儿。",
+      "translation": "Drinking coffee while chatting."
+    },
+    {
+      "point": "可能 (kěnéng) - Possibility",
+      "explanation": "可能 can be used as an auxiliary verb to express possibility or probability.",
+      "example": "你们可能在做什么?",
+      "translation": "What might you be doing?"
+    },
+    {
+      "point": "刚才 (gāngcái) - Just now",
+      "explanation": "刚才 refers to the recent past, something that happened just now.",
+      "example": "刚才我去他那儿。",
+      "translation": "I just went to his place."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "title": "Choose the correct answer",
+      "sentence": "这家商店的东西___大减价。",
+      "options": [
+        { "text": "正在", "correct": true },
+        { "text": "刚才", "correct": false },
+        { "text": "明年", "correct": false },
+        { "text": "可能", "correct": false }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "title": "Fill in the blank",
+      "sentence": "外边___下雨,大家在房间里___聊天。",
+      "options": [
+        { "text": "正在...一边", "correct": true },
+        { "text": "刚才...可能", "correct": false },
+        { "text": "明年...一边", "correct": false },
+        { "text": "可能...正在", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "matching",
+      "title": "Match the words with their meanings",
+      "pairs": [
+        { "chinese": "正在", "english": "in process of", "id": "pair1" },
+        { "chinese": "减价", "english": "to reduce prices", "id": "pair2" },
+        { "chinese": "排队", "english": "to queue", "id": "pair3" },
+        { "chinese": "招聘", "english": "to recruit", "id": "pair4" }
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 16 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multiple_choice",
+        "question": "这家商店里的顾客在做什么?",
+        "options": [
+          { "text": "有的正在挑东西,有的正在排队交钱", "correct": true },
+          { "text": "有的正在下雨,有的正在聊天", "correct": false },
+          { "text": "有的正在打电话,有的正在招聘", "correct": false },
+          { "text": "有的正在旅行,有的正在找工作", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "那位先生在做什么?",
+        "options": [
+          { "text": "他正在等他的爱人", "correct": true },
+          { "text": "他正在挑东西", "correct": false },
+          { "text": "他正在打电话", "correct": false },
+          { "text": "他正在排队", "correct": false }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multiple_choice",
+        "question": "小雨最近在做什么?",
+        "options": [
+          { "text": "他正在找工作并打电话给一家公司", "correct": true },
+          { "text": "他正在旅行", "correct": false },
+          { "text": "他正在挑东西", "correct": false },
+          { "text": "他正在聊天", "correct": false }
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "matching",
+        "question": "Match the phrases",
+        "pairs": [
+          { "prompt": "正在", "answer": "in process of", "id": "m1" },
+          { "prompt": "刚才", "answer": "just now", "id": "m2" },
+          { "prompt": "一边...一边", "answer": "while, at the same time", "id": "m3" },
+          { "prompt": "可能", "answer": "maybe, might", "id": "m4" }
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "multiple_choice",
+        "question": "莉莉和���友们在做什么?",
+        "options": [
+          { "text": "一边喝咖啡一边聊天儿", "correct": true },
+          { "text": "一边下雨一边排队", "correct": false },
+          { "text": "一边找工作一边打电话", "correct": false },
+          { "text": "一边旅行一边聊天", "correct": false }
+        ]
+      }
+    ]
+  }
+}

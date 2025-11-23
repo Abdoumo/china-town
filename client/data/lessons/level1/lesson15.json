@@ -1,0 +1,451 @@
+{
+  "id": "lesson15",
+  "sessionId": "session4",
+  "title": "去邮局怎么走",
+  "englishTitle": "How Do I Get There?",
+  "pageNumber": 139,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Ask for and give directions",
+    "Learn transportation vocabulary",
+    "Use approximate numbers",
+    "Practice preference expressions"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "走",
+      "pinyin": "zǒu",
+      "english": "to go, to walk",
+      "partOfSpeech": "verb",
+      "example": "怎么走？",
+      "exampleTranslation": "How do I go?"
+    },
+    {
+      "id": "v2",
+      "character": "一直",
+      "pinyin": "yīzhí",
+      "english": "straight, directly",
+      "partOfSpeech": "adverb",
+      "example": "一直往前走。",
+      "exampleTranslation": "Go straight ahead."
+    },
+    {
+      "id": "v3",
+      "character": "往",
+      "pinyin": "wǎng",
+      "english": "toward",
+      "partOfSpeech": "preposition",
+      "example": "往前走。",
+      "exampleTranslation": "Go forward."
+    },
+    {
+      "id": "v4",
+      "character": "到",
+      "pinyin": "dào",
+      "english": "to arrive, until",
+      "partOfSpeech": "verb/preposition",
+      "example": "到十字路口。",
+      "exampleTranslation": "Until the intersection."
+    },
+    {
+      "id": "v5",
+      "character": "字",
+      "pinyin": "zì",
+      "english": "character, shape",
+      "partOfSpeech": "noun",
+      "example": "十字路口。",
+      "exampleTranslation": "Intersection."
+    },
+    {
+      "id": "v6",
+      "character": "路口",
+      "pinyin": "lùkǒu",
+      "english": "intersection, crossing",
+      "partOfSpeech": "noun",
+      "example": "十字路口。",
+      "exampleTranslation": "Intersection."
+    },
+    {
+      "id": "v7",
+      "character": "拐",
+      "pinyin": "guǎi",
+      "english": "to turn",
+      "partOfSpeech": "verb",
+      "example": "往右拐。",
+      "exampleTranslation": "Turn right."
+    },
+    {
+      "id": "v8",
+      "character": "米",
+      "pinyin": "mǐ",
+      "english": "meter",
+      "partOfSpeech": "measure word",
+      "example": "二百米。",
+      "exampleTranslation": "Two hundred meters."
+    },
+    {
+      "id": "v9",
+      "character": "公里",
+      "pinyin": "gōnglǐ",
+      "english": "kilometer",
+      "partOfSpeech": "noun",
+      "example": "十三四公里。",
+      "exampleTranslation": "About 13 or 14 kilometers."
+    },
+    {
+      "id": "v10",
+      "character": "车",
+      "pinyin": "chē",
+      "english": "vehicle, car",
+      "partOfSpeech": "noun",
+      "example": "坐车。",
+      "exampleTranslation": "Take a vehicle."
+    },
+    {
+      "id": "v11",
+      "character": "过",
+      "pinyin": "guò",
+      "english": "to cross",
+      "partOfSpeech": "verb",
+      "example": "过马路。",
+      "exampleTranslation": "Cross the street."
+    },
+    {
+      "id": "v12",
+      "character": "马路",
+      "pinyin": "mǎlù",
+      "english": "avenue, street",
+      "partOfSpeech": "noun",
+      "example": "过马路。",
+      "exampleTranslation": "Cross the street."
+    },
+    {
+      "id": "v13",
+      "character": "先",
+      "pinyin": "xiān",
+      "english": "first",
+      "partOfSpeech": "adverb",
+      "example": "先坐。",
+      "exampleTranslation": "Take first."
+    },
+    {
+      "id": "v14",
+      "character": "路",
+      "pinyin": "lù",
+      "english": "road, way, route",
+      "partOfSpeech": "noun",
+      "example": "2路。",
+      "exampleTranslation": "Bus route 2."
+    },
+    {
+      "id": "v15",
+      "character": "公共汽车",
+      "pinyin": "gōnggòng qìchē",
+      "english": "public bus",
+      "partOfSpeech": "noun",
+      "example": "坐公共汽车。",
+      "exampleTranslation": "Take the bus."
+    },
+    {
+      "id": "v16",
+      "character": "然后",
+      "pinyin": "ránhòu",
+      "english": "then, afterwards",
+      "partOfSpeech": "conjunction",
+      "example": "然后换地铁。",
+      "exampleTranslation": "Then take the subway."
+    },
+    {
+      "id": "v17",
+      "character": "地铁",
+      "pinyin": "dìtiě",
+      "english": "subway, underground",
+      "partOfSpeech": "noun",
+      "example": "换地铁。",
+      "exampleTranslation": "Take the subway."
+    },
+    {
+      "id": "v18",
+      "character": "应该",
+      "pinyin": "yīnggāi",
+      "english": "should, ought to",
+      "partOfSpeech": "auxiliary verb",
+      "example": "应该走。",
+      "exampleTranslation": "Should go."
+    },
+    {
+      "id": "v19",
+      "character": "或者",
+      "pinyin": "huòzhě",
+      "english": "or",
+      "partOfSpeech": "conjunction",
+      "example": "这条或者那条。",
+      "exampleTranslation": "This way or that way."
+    },
+    {
+      "id": "v20",
+      "character": "近",
+      "pinyin": "jìn",
+      "english": "near, close",
+      "partOfSpeech": "adjective",
+      "example": "哪条近？",
+      "exampleTranslation": "Which is closer?"
+    },
+    {
+      "id": "v21",
+      "character": "骑",
+      "pinyin": "qì",
+      "english": "to ride",
+      "partOfSpeech": "verb",
+      "example": "骑车。",
+      "exampleTranslation": "Ride a bike."
+    },
+    {
+      "id": "v22",
+      "character": "技术",
+      "pinyin": "jìshù",
+      "english": "skill, technique",
+      "partOfSpeech": "noun",
+      "example": "骑车技术。",
+      "exampleTranslation": "Bike riding skill."
+    },
+    {
+      "id": "v23",
+      "character": "还是",
+      "pinyin": "háishi",
+      "english": "or, still",
+      "partOfSpeech": "adverb/conjunction",
+      "example": "还是走那条。",
+      "exampleTranslation": "Still take that way."
+    },
+    {
+      "id": "v24",
+      "character": "周末",
+      "pinyin": "zhōumò",
+      "english": "weekend",
+      "partOfSpeech": "noun",
+      "example": "周末。",
+      "exampleTranslation": "Weekend."
+    },
+    {
+      "id": "v25",
+      "character": "火车",
+      "pinyin": "huǒchē",
+      "english": "train",
+      "partOfSpeech": "noun",
+      "example": "坐火车。",
+      "exampleTranslation": "Take the train."
+    },
+    {
+      "id": "v26",
+      "character": "飞机",
+      "pinyin": "fēijī",
+      "english": "plane, airplane",
+      "partOfSpeech": "noun",
+      "example": "坐飞机。",
+      "exampleTranslation": "Take the plane."
+    },
+    {
+      "id": "v27",
+      "character": "快",
+      "pinyin": "kuài",
+      "english": "fast, quick",
+      "partOfSpeech": "adjective/adverb",
+      "example": "又快。",
+      "exampleTranslation": "Both fast."
+    },
+    {
+      "id": "v28",
+      "character": "舒服",
+      "pinyin": "shūfu",
+      "english": "comfortable",
+      "partOfSpeech": "adjective",
+      "example": "又舒服。",
+      "exampleTranslation": "Both comfortable."
+    },
+    {
+      "id": "v29",
+      "character": "可是",
+      "pinyin": "kěshi",
+      "english": "but",
+      "partOfSpeech": "conjunction",
+      "example": "可是太贵。",
+      "exampleTranslation": "But it's too expensive."
+    },
+    {
+      "id": "v30",
+      "character": "宽",
+      "pinyin": "kuān",
+      "english": "wide",
+      "partOfSpeech": "adjective",
+      "example": "很宽。",
+      "exampleTranslation": "Very wide."
+    }
+  ],
+  "dialogue": {
+    "title": "Directions and Transportation",
+    "lines": [
+      {
+        "speaker": "Lili",
+        "chinese": "去邮局怎么走？",
+        "pinyin": "Qù yóujú zěnme zǒu?",
+        "english": "How do I get to the post office?"
+      },
+      {
+        "speaker": "Chinese Person",
+        "chinese": "一直往前走，到十字路口往右拐。",
+        "pinyin": "Yīzhí wǎng qián zǒu, dào shízì lùkǒu wǎng yòu guǎi.",
+        "english": "Go straight ahead, at the intersection turn right."
+      },
+      {
+        "speaker": "Lili",
+        "chinese": "离这儿多远？",
+        "pinyin": "Lí zhèr duō yuǎn?",
+        "english": "How far from here?"
+      },
+      {
+        "speaker": "Chinese Person",
+        "chinese": "二百多米。",
+        "pinyin": "Èrbǎi duō mǐ.",
+        "english": "More than two hundred meters."
+      },
+      {
+        "speaker": "Paul",
+        "chinese": "周末咱们去大同，好吗？",
+        "pinyin": "Zhōumò zánmen qù Dàtóng, hǎo ma?",
+        "english": "Let's go to Datong on the weekend, okay?"
+      },
+      {
+        "speaker": "Yingnan",
+        "chinese": "好啊。坐火车还是坐飞机？",
+        "pinyin": "Hǎo a. Zuò huǒchē háishi zuò fēijī?",
+        "english": "Great. Train or plane?"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Giving Directions",
+      "explanation": "Use imperatives with 走、往、到、拐. Structure: [Direction] + [Verb] or 到 + [Landmark] + 往 + [Direction] + [Verb]",
+      "example": "一直往前走。 到十字路口往右拐。",
+      "translation": "Go straight ahead. At the intersection, turn right."
+    },
+    {
+      "point": "Approximate Numbers",
+      "explanation": "Use two adjacent numbers to express approximations. Structure: [Number 1] + [Number 2] or [Number] + 多 + [Measure word]",
+      "example": "六七岁、十三四公里、二百多米",
+      "translation": "6 or 7 years old, about 13 or 14 kilometers, more than 200 meters"
+    },
+    {
+      "point": "还是...吧 for Preference",
+      "explanation": "Use 还是 + [Option] + 吧 to express a preference after comparison.",
+      "example": "我骑车技术不太高，还是走那条路吧。",
+      "translation": "My biking skills aren't that good, let's still take that way."
+    },
+    {
+      "point": "Double Clauses with 又...又...",
+      "explanation": "Use 又 + [Adjective] + 又 + [Adjective] to list two qualities.",
+      "example": "又快又舒服。",
+      "translation": "Both fast and comfortable."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "走",
+      "pinyin": "zǒu",
+      "meaning": "to go, to walk",
+      "radical": "走",
+      "radicalMeaning": "walk",
+      "strokeCount": 7,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横折", "横", "竖"]
+    },
+    {
+      "id": "c2",
+      "character": "拐",
+      "pinyin": "guǎi",
+      "meaning": "to turn",
+      "radical": "扌",
+      "radicalMeaning": "hand",
+      "strokeCount": 8,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横折", "横", "竖", "竖"]
+    },
+    {
+      "id": "c3",
+      "character": "飞",
+      "pinyin": "fēi",
+      "meaning": "to fly",
+      "radical": "飞",
+      "radicalMeaning": "fly",
+      "strokeCount": 3,
+      "strokeOrder": ["撇", "竖", "捺"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Transportation Methods",
+      "pairs": [
+        { "chinese": "走路", "english": "walk", "id": "m1" },
+        { "chinese": "坐公共汽车", "english": "take bus", "id": "m2" },
+        { "chinese": "坐火车", "english": "take train", "id": "m3" },
+        { "chinese": "坐飞机", "english": "take plane", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "How do you say 'Go straight ahead'?",
+      "options": [
+        { "text": "直走。", "correct": false },
+        { "text": "一直往前走。", "correct": true },
+        { "text": "往前拐。", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: More than 200 meters",
+      "sentence": "二百_____米。",
+      "answer": "多",
+      "hint": "More than, over"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 15 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does '还是...吧' pattern express?",
+        "options": [
+          { "text": "a question", "correct": false },
+          { "text": "a preference after comparison", "correct": true },
+          { "text": "a prohibition", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match transportation with characteristics",
+        "pairs": [
+          { "prompt": "坐飞机", "answer": "fast", "id": "qm1" },
+          { "prompt": "坐公共汽车", "answer": "cheap", "id": "qm2" },
+          { "prompt": "走路", "answer": "free", "id": "qm3" }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "How do you express 'about 13 or 14'?",
+        "options": [
+          { "text": "十三二十四", "correct": false },
+          { "text": "十三四", "correct": true },
+          { "text": "十、十三、十四", "correct": false }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "id": "lesson11",
+  "sessionId": "session4",
+  "title": "办公楼在教学楼北边",
+  "englishTitle": "Location and Directions",
+  "pageNumber": 91,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn location expressions",
+    "Understand directional words",
+    "Describe spatial relationships",
+    "Use existence sentences"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "里边",
+      "pinyin": "lǐbian",
+      "english": "inside, interior",
+      "partOfSpeech": "noun",
+      "example": "学校里边。",
+      "exampleTranslation": "Inside the school."
+    },
+    {
+      "id": "v2",
+      "character": "教学楼",
+      "pinyin": "jiàoxuélóu",
+      "english": "teaching building",
+      "partOfSpeech": "noun",
+      "example": "教学楼在哪儿？",
+      "exampleTranslation": "Where is the teaching building?"
+    },
+    {
+      "id": "v3",
+      "character": "办公楼",
+      "pinyin": "bàngōnglóu",
+      "english": "administrative building",
+      "partOfSpeech": "noun",
+      "example": "办公楼在北边。",
+      "exampleTranslation": "The office building is to the north."
+    },
+    {
+      "id": "v4",
+      "character": "北边",
+      "pinyin": "běibian",
+      "english": "north",
+      "partOfSpeech": "noun",
+      "example": "北边。",
+      "exampleTranslation": "North side."
+    },
+    {
+      "id": "v5",
+      "character": "西边",
+      "pinyin": "xībian",
+      "english": "west",
+      "partOfSpeech": "noun",
+      "example": "西边。",
+      "exampleTranslation": "West side."
+    },
+    {
+      "id": "v6",
+      "character": "南边",
+      "pinyin": "nánbian",
+      "english": "south",
+      "partOfSpeech": "noun",
+      "example": "南边。",
+      "exampleTranslation": "South side."
+    },
+    {
+      "id": "v7",
+      "character": "附近",
+      "pinyin": "fùjìn",
+      "english": "nearby, close to",
+      "partOfSpeech": "noun",
+      "example": "学校附近。",
+      "exampleTranslation": "Near the school."
+    },
+    {
+      "id": "v8",
+      "character": "饭馆儿",
+      "pinyin": "fànguǎnr",
+      "english": "restaurant",
+      "partOfSpeech": "noun",
+      "example": "有很多饭馆。",
+      "exampleTranslation": "There are many restaurants."
+    },
+    {
+      "id": "v9",
+      "character": "东边",
+      "pinyin": "dōngbian",
+      "english": "east",
+      "partOfSpeech": "noun",
+      "example": "东边。",
+      "exampleTranslation": "East side."
+    },
+    {
+      "id": "v10",
+      "character": "还",
+      "pinyin": "háishi",
+      "english": "also, still",
+      "partOfSpeech": "adverb",
+      "example": "东边还有。",
+      "exampleTranslation": "There is also (something) to the east."
+    },
+    {
+      "id": "v11",
+      "character": "电影院",
+      "pinyin": "diànyingyuàn",
+      "english": "movie theater",
+      "partOfSpeech": "noun",
+      "example": "电影院。",
+      "exampleTranslation": "Movie theater."
+    },
+    {
+      "id": "v12",
+      "character": "对面",
+      "pinyin": "duìmiàn",
+      "english": "opposite side, across",
+      "partOfSpeech": "noun",
+      "example": "对面是。",
+      "exampleTranslation": "Opposite is..."
+    },
+    {
+      "id": "v13",
+      "character": "药",
+      "pinyin": "yào",
+      "english": "medicine, drug",
+      "partOfSpeech": "noun",
+      "example": "药店。",
+      "exampleTranslation": "Pharmacy."
+    },
+    {
+      "id": "v14",
+      "character": "旁边",
+      "pinyin": "pángbian",
+      "english": "beside, side",
+      "partOfSpeech": "noun",
+      "example": "旁边。",
+      "exampleTranslation": "Beside."
+    },
+    {
+      "id": "v15",
+      "character": "茶叶",
+      "pinyin": "cháyè",
+      "english": "tea leaves",
+      "partOfSpeech": "noun",
+      "example": "茶叶店。",
+      "exampleTranslation": "Tea shop."
+    },
+    {
+      "id": "v16",
+      "character": "们",
+      "pinyin": "men",
+      "english": "plural suffix",
+      "partOfSpeech": "suffix",
+      "example": "朋友们。",
+      "exampleTranslation": "Friends."
+    },
+    {
+      "id": "v17",
+      "character": "照片",
+      "pinyin": "zhàopiàn",
+      "english": "photograph, photo",
+      "partOfSpeech": "noun",
+      "example": "看照片。",
+      "exampleTranslation": "Look at a photo."
+    },
+    {
+      "id": "v18",
+      "character": "左边",
+      "pinyin": "zuǒbian",
+      "english": "left",
+      "partOfSpeech": "noun",
+      "example": "左边。",
+      "exampleTranslation": "Left side."
+    },
+    {
+      "id": "v19",
+      "character": "右边",
+      "pinyin": "yòubian",
+      "english": "right",
+      "partOfSpeech": "noun",
+      "example": "右边。",
+      "exampleTranslation": "Right side."
+    },
+    {
+      "id": "v20",
+      "character": "中间",
+      "pinyin": "zhōngjiān",
+      "english": "middle, between",
+      "partOfSpeech": "noun",
+      "example": "中间。",
+      "exampleTranslation": "In the middle."
+    },
+    {
+      "id": "v21",
+      "character": "后边",
+      "pinyin": "hòubian",
+      "english": "behind, back",
+      "partOfSpeech": "noun",
+      "example": "后边。",
+      "exampleTranslation": "Behind."
+    },
+    {
+      "id": "v22",
+      "character": "桌子",
+      "pinyin": "zhuōzi",
+      "english": "table, desk",
+      "partOfSpeech": "noun",
+      "example": "我的桌子。",
+      "exampleTranslation": "My desk."
+    },
+    {
+      "id": "v23",
+      "character": "上边",
+      "pinyin": "shàngbian",
+      "english": "on, on top",
+      "partOfSpeech": "noun",
+      "example": "上边。",
+      "exampleTranslation": "On top."
+    },
+    {
+      "id": "v24",
+      "character": "台灯",
+      "pinyin": "táidēng",
+      "english": "desk lamp",
+      "partOfSpeech": "noun",
+      "example": "台灯。",
+      "exampleTranslation": "Desk lamp."
+    },
+    {
+      "id": "v25",
+      "character": "张",
+      "pinyin": "zhāng",
+      "english": "measure word for flat items",
+      "partOfSpeech": "measure word",
+      "example": "一张照片。",
+      "exampleTranslation": "One photo."
+    },
+    {
+      "id": "v26",
+      "character": "男",
+      "pinyin": "nán",
+      "english": "male",
+      "partOfSpeech": "adjective",
+      "example": "男朋友。",
+      "exampleTranslation": "Boyfriend."
+    },
+    {
+      "id": "v27",
+      "character": "下边",
+      "pinyin": "xiàbian",
+      "english": "below, under",
+      "partOfSpeech": "noun",
+      "example": "下边。",
+      "exampleTranslation": "Below."
+    },
+    {
+      "id": "v28",
+      "character": "抽屉",
+      "pinyin": "chōutì",
+      "english": "drawer",
+      "partOfSpeech": "noun",
+      "example": "抽屉里。",
+      "exampleTranslation": "In the drawer."
+    },
+    {
+      "id": "v29",
+      "character": "块",
+      "pinyin": "kuài",
+      "english": "piece, lump",
+      "partOfSpeech": "measure word",
+      "example": "一块。",
+      "exampleTranslation": "One piece."
+    },
+    {
+      "id": "v30",
+      "character": "巧克力",
+      "pinyin": "qiǎokèlì",
+      "english": "chocolate",
+      "partOfSpeech": "noun",
+      "example": "巧克力。",
+      "exampleTranslation": "Chocolate."
+    }
+  ],
+  "dialogue": {
+    "title": "Locations and Directions",
+    "lines": [
+      {
+        "speaker": "Speaker",
+        "chinese": "我们学校里边有教学楼、办公楼、图书馆和留学生宿舍楼。",
+        "pinyin": "Wǒmen xuéxiào lǐbian yǒu jiàoxuélóu, bàngōnglóu, túshūguǎn h�� liúxuéshēng sùshèlóu.",
+        "english": "In our school, there are a teaching building, an office building, a library, and student dormitory building."
+      },
+      {
+        "speaker": "Speaker",
+        "chinese": "办公楼在教学楼北边，图书馆在办公楼西边。",
+        "pinyin": "Bàngōnglóu zài jiàoxuélóu běibian, túshūguǎn zài bàngōnglóu xībian.",
+        "english": "The office building is north of the teaching building. The library is west of the office building."
+      },
+      {
+        "speaker": "Speaker",
+        "chinese": "这是保罗和他的朋友们的照片。左边是小雨，右边是英男，西蒙在中间。",
+        "pinyin": "Zhè shì Bǎoluó hé tā de péngyoumen de zhàopiàn. Zuǒbian shì Xiǎoyǔ, yòubian shì Yingnán, Xīméng zài zhōngjiān.",
+        "english": "This is Paul and his friends' photo. Xiaoyu is on the left, Yingnan is on the right, Simon is in the middle."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Location Nouns (方位词)",
+      "explanation": "Use location nouns to describe position. Structure: [Item] + 在 + [Location noun]",
+      "example": "北边、南边、东边、西边、上边、下边、左边、右边、中间、前边、后边",
+      "translation": "north, south, east, west, top, bottom, left, right, middle, front, back"
+    },
+    {
+      "point": "Existence Sentences (存在句)",
+      "explanation": "Use 有 or 是 to express existence. Structure: [Place] + 有/是 + [Item]",
+      "example": "学校里有很多饭馆。 对面是药店。",
+      "translation": "There are many restaurants near the school. Across is a pharmacy."
+    },
+    {
+      "point": "Locational Phrases as Attributives",
+      "explanation": "When a location phrase modifies a noun, use 的. Structure: [Location] + 的 + [Noun]",
+      "example": "左边的照片 上边的书 右边的房间",
+      "translation": "photo on the left book on top room on the right"
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "北",
+      "pinyin": "běi",
+      "meaning": "north",
+      "radical": "匕",
+      "radicalMeaning": "spoon",
+      "strokeCount": 5,
+      "strokeOrder": ["竖", "横折", "横", "竖", "竖"]
+    },
+    {
+      "id": "c2",
+      "character": "边",
+      "pinyin": "bian",
+      "meaning": "side, edge",
+      "radical": "辶",
+      "radicalMeaning": "walk",
+      "strokeCount": 9,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "撇", "捺"]
+    },
+    {
+      "id": "c3",
+      "character": "照",
+      "pinyin": "zhào",
+      "meaning": "photo, to take",
+      "radical": "火",
+      "radicalMeaning": "fire",
+      "strokeCount": 13,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "竖", "竖", "竖", "撇", "捺"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Directions",
+      "pairs": [
+        { "chinese": "北边", "english": "north", "id": "m1" },
+        { "chinese": "南边", "english": "south", "id": "m2" },
+        { "chinese": "东边", "english": "east", "id": "m3" },
+        { "chinese": "西边", "english": "west", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "Which sentence expresses location correctly?",
+      "options": [
+        { "text": "办公楼北边在教学楼。", "correct": false },
+        { "text": "办公楼在教学楼北边。", "correct": true },
+        { "text": "教学楼北边办公楼。", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: The library is ____ of the office building",
+      "sentence": "图书馆在办公楼_____。",
+      "answer": "西边",
+      "hint": "A direction word"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 11 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does '对面' mean?",
+        "options": [
+          { "text": "beside", "correct": false },
+          { "text": "opposite side", "correct": true },
+          { "text": "behind", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match location words",
+        "pairs": [
+          { "prompt": "中间", "answer": "middle", "id": "qm1" },
+          { "prompt": "上边", "answer": "on top", "id": "qm2" },
+          { "prompt": "后边", "answer": "behind", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "id": "lesson8",
+  "sessionId": "session3",
+  "title": "你是哪国人",
+  "englishTitle": "What Country Are You From?",
+  "pageNumber": 58,
+  "difficulty": "beginner",
+  "objectives": [
+    "Ask about nationality and names",
+    "Use interrogative pronouns",
+    "Learn profession vocabulary",
+    "Use measure words for people"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "哪",
+      "pinyin": "nǎ",
+      "english": "which, what",
+      "partOfSpeech": "pronoun",
+      "example": "哪国人？",
+      "exampleTranslation": "What nationality?"
+    },
+    {
+      "id": "v2",
+      "character": "国",
+      "pinyin": "guó",
+      "english": "country",
+      "partOfSpeech": "noun",
+      "example": "哪国人？",
+      "exampleTranslation": "What country?"
+    },
+    {
+      "id": "v3",
+      "character": "叫",
+      "pinyin": "jiào",
+      "english": "to call, to be named",
+      "partOfSpeech": "verb",
+      "example": "你叫什么？",
+      "exampleTranslation": "What are you called?"
+    },
+    {
+      "id": "v4",
+      "character": "名字",
+      "pinyin": "míngzi",
+      "english": "name",
+      "partOfSpeech": "noun",
+      "example": "你叫什么名字？",
+      "exampleTranslation": "What is your name?"
+    },
+    {
+      "id": "v5",
+      "character": "贵",
+      "pinyin": "guì",
+      "english": "honourable (polite form)",
+      "partOfSpeech": "adjective",
+      "example": "您贵姓？",
+      "exampleTranslation": "What is your surname? (polite)"
+    },
+    {
+      "id": "v6",
+      "character": "姓",
+      "pinyin": "xìng",
+      "english": "surname, family name",
+      "partOfSpeech": "noun",
+      "example": "你叫什么名字？ 我姓王。",
+      "exampleTranslation": "What is your name? My surname is Wang."
+    },
+    {
+      "id": "v7",
+      "character": "几",
+      "pinyin": "jǐ",
+      "english": "how many",
+      "partOfSpeech": "pronoun",
+      "example": "几位老师？",
+      "exampleTranslation": "How many teachers?"
+    },
+    {
+      "id": "v8",
+      "character": "位",
+      "pinyin": "wèi",
+      "english": "measure word for people (respectful)",
+      "partOfSpeech": "measure word",
+      "example": "几位老师。",
+      "exampleTranslation": "How many teachers."
+    },
+    {
+      "id": "v9",
+      "character": "教",
+      "pinyin": "jiāo",
+      "english": "to teach",
+      "partOfSpeech": "verb",
+      "example": "教你们。",
+      "exampleTranslation": "Teach you."
+    },
+    {
+      "id": "v10",
+      "character": "住",
+      "pinyin": "zhù",
+      "english": "to live",
+      "partOfSpeech": "verb",
+      "example": "你住哪儿？",
+      "exampleTranslation": "Where do you live?"
+    },
+    {
+      "id": "v11",
+      "character": "号",
+      "pinyin": "hào",
+      "english": "number",
+      "partOfSpeech": "noun",
+      "example": "7号楼。",
+      "exampleTranslation": "Building 7."
+    },
+    {
+      "id": "v12",
+      "character": "房间",
+      "pinyin": "fángjian",
+      "english": "room",
+      "partOfSpeech": "noun",
+      "example": "我的房间。",
+      "exampleTranslation": "My room."
+    },
+    {
+      "id": "v13",
+      "character": "电话",
+      "pinyin": "diànhuà",
+      "english": "telephone",
+      "partOfSpeech": "noun",
+      "example": "我的电话。",
+      "exampleTranslation": "My telephone."
+    },
+    {
+      "id": "v14",
+      "character": "号码",
+      "pinyin": "hàomǎ",
+      "english": "number",
+      "partOfSpeech": "noun",
+      "example": "电话号码。",
+      "exampleTranslation": "Phone number."
+    },
+    {
+      "id": "v15",
+      "character": "每",
+      "pinyin": "měi",
+      "english": "every, each",
+      "partOfSpeech": "adjective",
+      "example": "每天。",
+      "exampleTranslation": "Every day."
+    },
+    {
+      "id": "v16",
+      "character": "天",
+      "pinyin": "tiān",
+      "english": "day",
+      "partOfSpeech": "noun",
+      "example": "每天。",
+      "exampleTranslation": "Every day."
+    },
+    {
+      "id": "v17",
+      "character": "下午",
+      "pinyin": "xiàwǔ",
+      "english": "afternoon",
+      "partOfSpeech": "noun",
+      "example": "下午做什么？",
+      "exampleTranslation": "What do you do in the afternoon?"
+    },
+    {
+      "id": "v18",
+      "character": "做",
+      "pinyin": "zuò",
+      "english": "to do",
+      "partOfSpeech": "verb",
+      "example": "做什么？",
+      "exampleTranslation": "Do what?"
+    },
+    {
+      "id": "v19",
+      "character": "有时候",
+      "pinyin": "yǒushíhou",
+      "english": "sometimes",
+      "partOfSpeech": "noun",
+      "example": "有时候休息。",
+      "exampleTranslation": "Sometimes rest."
+    },
+    {
+      "id": "v20",
+      "character": "休息",
+      "pinyin": "xiūxi",
+      "english": "to rest",
+      "partOfSpeech": "verb",
+      "example": "在宿舍休息。",
+      "exampleTranslation": "Rest in the dorm."
+    },
+    {
+      "id": "v21",
+      "character": "常常",
+      "pinyin": "chángcháng",
+      "english": "often",
+      "partOfSpeech": "adverb",
+      "example": "常常学习。",
+      "exampleTranslation": "Often study."
+    },
+    {
+      "id": "v22",
+      "character": "跟",
+      "pinyin": "gēn",
+      "english": "with, and",
+      "partOfSpeech": "preposition/conjunction",
+      "example": "跟朋友。",
+      "exampleTranslation": "With a friend."
+    },
+    {
+      "id": "v23",
+      "character": "谁",
+      "pinyin": "shuí",
+      "english": "who, whom",
+      "partOfSpeech": "pronoun",
+      "example": "跟谁？",
+      "exampleTranslation": "With whom?"
+    },
+    {
+      "id": "v24",
+      "character": "一起",
+      "pinyin": "yīqǐ",
+      "english": "together",
+      "partOfSpeech": "adverb",
+      "example": "一起学习。",
+      "exampleTranslation": "Study together."
+    }
+  ],
+  "dialogue": {
+    "title": "Personal Information",
+    "lines": [
+      {
+        "speaker": "Teacher Wang",
+        "chinese": "你是哪国人？",
+        "pinyin": "Nǐ shì nǎ guó rén?",
+        "english": "What country are you from?"
+      },
+      {
+        "speaker": "Paul",
+        "chinese": "我是德国人。",
+        "pinyin": "Wǒ shì Déguórén.",
+        "english": "I am German."
+      },
+      {
+        "speaker": "Teacher Wang",
+        "chinese": "你叫什么名字？",
+        "pinyin": "Nǐ jiào shénme míngzi?",
+        "english": "What is your name?"
+      },
+      {
+        "speaker": "Paul",
+        "chinese": "我叫保罗。请问，您贵姓？",
+        "pinyin": "Wǒ jiào Bǎoluó. Qǐngwèn, nín guì xìng?",
+        "english": "I'm called Paul. May I ask your surname?"
+      },
+      {
+        "speaker": "Teacher Wang",
+        "chinese": "我姓王。",
+        "pinyin": "Wǒ xìng Wáng.",
+        "english": "My surname is Wang."
+      },
+      {
+        "speaker": "Teacher Wang",
+        "chinese": "你在哪儿学习？",
+        "pinyin": "Nǐ zài năr xuéxí?",
+        "english": "Where do you study?"
+      },
+      {
+        "speaker": "Paul",
+        "chinese": "我在北京语言大学学习。",
+        "pinyin": "Wǒ zài Běijīng Yǔyán Dàxué xuéxí.",
+        "english": "I study at Beijing Language and Culture University."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Questions with Interrogative Pronouns",
+      "explanation": "Use 哪、什么、谁、几、多少 to form special questions. Word order remains the same as statements.",
+      "example": "你是哪国人？ 你叫什么名字？ 你跟谁学习？",
+      "translation": "What country are you from? What is your name? Who do you study with?"
+    },
+    {
+      "point": "Measure Words for People",
+      "explanation": "几 requires a measure word. 位 is respectful, 个 is general. Structure: 几 + measure word + noun",
+      "example": "几位老师 几个学生",
+      "translation": "how many teachers (respectful) how many students"
+    },
+    {
+      "point": "Possession Patterns without 的",
+      "explanation": "With intimate relations or possession, 的 can be omitted.",
+      "example": "我的电话号码 我爸爸 我朋友",
+      "translation": "my telephone number my father my friend"
+    },
+    {
+      "point": "Adverbial Phrases",
+      "explanation": "Place adverbial phrases before the verb. Structure: Subject + (时间) + (地点) + 动词",
+      "example": "我在北京大学学习。 常常跟朋友一起学习。",
+      "translation": "I study at Beijing University. Often study together with friends."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "住",
+      "pinyin": "zhù",
+      "meaning": "to live",
+      "radical": "亻",
+      "radicalMeaning": "person",
+      "strokeCount": 7,
+      "strokeOrder": ["撇", "竖", "竖", "横折", "横", "竖", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "国",
+      "pinyin": "guó",
+      "meaning": "country",
+      "radical": "囗",
+      "radicalMeaning": "enclosure",
+      "strokeCount": 8,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横折", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "姓",
+      "pinyin": "xìng",
+      "meaning": "surname",
+      "radical": "女",
+      "radicalMeaning": "woman",
+      "strokeCount": 8,
+      "strokeOrder": ["撇", "竖", "横折", "横", "竖", "竖", "竖", "横"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Questions with Answers",
+      "pairs": [
+        { "chinese": "你是哪国人？", "english": "What country are you from?", "id": "m1" },
+        { "chinese": "你叫什么名字？", "english": "What is your name?", "id": "m2" },
+        { "chinese": "你住哪儿？", "english": "Where do you live?", "id": "m3" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "Complete: I am...",
+      "options": [
+        { "text": "我是什么人。", "correct": false },
+        { "text": "我是德国人。", "correct": true },
+        { "text": "我德国人。", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: How many ____?",
+      "sentence": "几位_____教你们？",
+      "answer": "老师",
+      "hint": "Person who teaches"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 8 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "Which interrogative pronoun asks 'What country?'",
+        "options": [
+          { "text": "什么", "correct": false },
+          { "text": "哪", "correct": true },
+          { "text": "谁", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match interrogatives with their meanings",
+        "pairs": [
+          { "prompt": "谁", "answer": "who", "id": "qm1" },
+          { "prompt": "哪", "answer": "which", "id": "qm2" },
+          { "prompt": "几", "answer": "how many", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}

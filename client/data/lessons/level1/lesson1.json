@@ -1,0 +1,355 @@
+{
+  "id": "lesson1",
+  "sessionId": "session1",
+  "title": "你好",
+  "englishTitle": "Hello",
+  "pageNumber": 1,
+  "difficulty": "beginner",
+  "objectives": [
+    "Learn basic greetings",
+    "Understand polite forms",
+    "Practice tone pronunciation"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "你",
+      "pinyin": "nǐ",
+      "english": "you",
+      "partOfSpeech": "pronoun",
+      "example": "你好。",
+      "exampleTranslation": "Hello. (literally: you good)"
+    },
+    {
+      "id": "v2",
+      "character": "好",
+      "pinyin": "hǎo",
+      "english": "well, good",
+      "partOfSpeech": "adjective",
+      "example": "很好。",
+      "exampleTranslation": "Very good."
+    },
+    {
+      "id": "v3",
+      "character": "您",
+      "pinyin": "nín",
+      "english": "you (polite)",
+      "partOfSpeech": "pronoun",
+      "example": "您好。",
+      "exampleTranslation": "Hello. (polite form)"
+    },
+    {
+      "id": "v4",
+      "character": "你们",
+      "pinyin": "nǐmen",
+      "english": "you (plural)",
+      "partOfSpeech": "pronoun",
+      "example": "你们好。",
+      "exampleTranslation": "Hello everyone."
+    },
+    {
+      "id": "v5",
+      "character": "老师",
+      "pinyin": "lǎoshī",
+      "english": "teacher",
+      "partOfSpeech": "noun",
+      "example": "老师好。",
+      "exampleTranslation": "Hello, teacher."
+    },
+    {
+      "id": "v6",
+      "character": "谢谢",
+      "pinyin": "xièxie",
+      "english": "to thank, thanks",
+      "partOfSpeech": "verb",
+      "example": "谢谢你。",
+      "exampleTranslation": "Thank you."
+    },
+    {
+      "id": "v7",
+      "character": "不",
+      "pinyin": "bù",
+      "english": "not",
+      "partOfSpeech": "adverb",
+      "example": "不客气。",
+      "exampleTranslation": "Don't mention it."
+    },
+    {
+      "id": "v8",
+      "character": "客气",
+      "pinyin": "kèqi",
+      "english": "polite, courteous",
+      "partOfSpeech": "adjective",
+      "example": "不客气。",
+      "exampleTranslation": "You're welcome."
+    },
+    {
+      "id": "v9",
+      "character": "对不起",
+      "pinyin": "duìbùqǐ",
+      "english": "I'm sorry",
+      "partOfSpeech": "phrase",
+      "example": "对不起。",
+      "exampleTranslation": "I'm sorry."
+    },
+    {
+      "id": "v10",
+      "character": "没关系",
+      "pinyin": "méiguānxi",
+      "english": "it doesn't matter, don't mention it",
+      "partOfSpeech": "phrase",
+      "example": "没关系。",
+      "exampleTranslation": "Never mind. / It's okay."
+    },
+    {
+      "id": "v11",
+      "character": "再见",
+      "pinyin": "zàijiàn",
+      "english": "goodbye",
+      "partOfSpeech": "phrase",
+      "example": "再见。",
+      "exampleTranslation": "Goodbye."
+    },
+    {
+      "id": "v12",
+      "character": "请",
+      "pinyin": "qǐng",
+      "english": "please",
+      "partOfSpeech": "verb/particle",
+      "example": "请进。",
+      "exampleTranslation": "Please come in."
+    },
+    {
+      "id": "v13",
+      "character": "进",
+      "pinyin": "jìn",
+      "english": "to enter",
+      "partOfSpeech": "verb",
+      "example": "请进。",
+      "exampleTranslation": "Please come in."
+    },
+    {
+      "id": "v14",
+      "character": "坐",
+      "pinyin": "zuò",
+      "english": "to sit",
+      "partOfSpeech": "verb",
+      "example": "请坐。",
+      "exampleTranslation": "Please sit."
+    },
+    {
+      "id": "v15",
+      "character": "听",
+      "pinyin": "tīng",
+      "english": "to listen",
+      "partOfSpeech": "verb",
+      "example": "听。",
+      "exampleTranslation": "Listen."
+    },
+    {
+      "id": "v16",
+      "character": "说",
+      "pinyin": "shuō",
+      "english": "to say",
+      "partOfSpeech": "verb",
+      "example": "说话。",
+      "exampleTranslation": "To speak."
+    },
+    {
+      "id": "v17",
+      "character": "读",
+      "pinyin": "dú",
+      "english": "to read",
+      "partOfSpeech": "verb",
+      "example": "读书。",
+      "exampleTranslation": "To read books."
+    },
+    {
+      "id": "v18",
+      "character": "写",
+      "pinyin": "xiě",
+      "english": "to write",
+      "partOfSpeech": "verb",
+      "example": "写字。",
+      "exampleTranslation": "To write characters."
+    }
+  ],
+  "dialogue": {
+    "title": "Basic Greetings",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "你好。",
+        "pinyin": "Nǐ hǎo.",
+        "english": "Hello."
+      },
+      {
+        "speaker": "B",
+        "chinese": "你好。",
+        "pinyin": "Nǐ hǎo.",
+        "english": "Hello."
+      },
+      {
+        "speaker": "A",
+        "chinese": "谢谢。",
+        "pinyin": "Xièxie.",
+        "english": "Thanks."
+      },
+      {
+        "speaker": "B",
+        "chinese": "不客气。",
+        "pinyin": "Bú kèqi.",
+        "english": "You're welcome."
+      },
+      {
+        "speaker": "A",
+        "chinese": "对不起。",
+        "pinyin": "Duìbùqǐ.",
+        "english": "I'm sorry."
+      },
+      {
+        "speaker": "B",
+        "chinese": "没关系。",
+        "pinyin": "Méiguānxi.",
+        "english": "Never mind."
+      },
+      {
+        "speaker": "A",
+        "chinese": "再见。",
+        "pinyin": "Zàijiàn.",
+        "english": "Goodbye."
+      },
+      {
+        "speaker": "B",
+        "chinese": "再见。",
+        "pinyin": "Zàijiàn.",
+        "english": "Goodbye."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Simple Greeting: 你好",
+      "explanation": "你好 is the most common greeting in Chinese. You can use it at any time, in any situation, and with anyone regardless of their status. The response should also be 你好.",
+      "example": "你好。— 你好。",
+      "translation": "Hello. — Hello."
+    },
+    {
+      "point": "Polite Form: 您",
+      "explanation": "您 is the polite form of 你 (you). Use it when speaking to someone you don't know well, someone older, or someone of higher status.",
+      "example": "您好。",
+      "translation": "Hello. (polite)"
+    },
+    {
+      "point": "Responding to Thanks: 不客气",
+      "explanation": "When someone says 谢谢 (thank you), the standard response is 不客气 (you're welcome/don't mention it).",
+      "example": "谢谢。— 不客气。",
+      "translation": "Thank you. — You're welcome."
+    },
+    {
+      "point": "Apologizing: 对不起",
+      "explanation": "Use 对不起 when you want to apologize. The common response is 没关系 (it doesn't matter).",
+      "example": "对不起。— 没关系。",
+      "translation": "I'm sorry. — It's okay."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "你",
+      "pinyin": "nǐ",
+      "meaning": "you",
+      "radical": "人",
+      "radicalMeaning": "person",
+      "strokeCount": 7,
+      "strokeOrder": ["点", "撇", "竖", "横折", "横", "竖", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "好",
+      "pinyin": "hǎo",
+      "meaning": "good",
+      "radical": "女",
+      "radicalMeaning": "woman",
+      "strokeCount": 6,
+      "strokeOrder": ["撇", "竖", "横折", "横", "竖", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "再",
+      "pinyin": "zài",
+      "meaning": "again, then",
+      "radical": "八",
+      "radicalMeaning": "eight",
+      "strokeCount": 6,
+      "strokeOrder": ["撇", "竖", "横", "横", "竖", "横"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Chinese with English",
+      "pairs": [
+        { "chinese": "你好", "english": "Hello", "id": "m1" },
+        { "chinese": "再见", "english": "Goodbye", "id": "m2" },
+        { "chinese": "谢谢", "english": "Thank you", "id": "m3" },
+        { "chinese": "对不起", "english": "I'm sorry", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "How do you greet a teacher?",
+      "options": [
+        { "text": "你好", "correct": false },
+        { "text": "老师好", "correct": true },
+        { "text": "谢谢老师", "correct": false },
+        { "text": "再见老师", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the dialogue",
+      "sentence": "A: 对不起。 B: ______。",
+      "answer": "没关系",
+      "hint": "Response to an apology"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 1 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "Which is the correct way to greet a teacher?",
+        "options": [
+          { "text": "你好", "correct": false },
+          { "text": "老师好", "correct": true },
+          { "text": "您坐", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match the greeting responses",
+        "pairs": [
+          { "prompt": "你好。", "answer": "你好。", "id": "qm1" },
+          { "prompt": "谢谢。", "answer": "不客气。", "id": "qm2" },
+          { "prompt": "再见。", "answer": "再见。", "id": "qm3" }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "listening",
+        "question": "What is the correct response to '对不起'?",
+        "options": [
+          { "text": "谢谢你", "correct": false },
+          { "text": "没关系", "correct": true },
+          { "text": "请进", "correct": false }
+        ]
+      }
+    ]
+  }
+}

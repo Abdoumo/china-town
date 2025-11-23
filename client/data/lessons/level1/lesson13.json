@@ -1,0 +1,434 @@
+{
+  "id": "lesson13",
+  "sessionId": "session4",
+  "title": "您给我介绍介绍",
+  "englishTitle": "Product Description",
+  "pageNumber": 115,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn product descriptions",
+    "Use 又...又... structure",
+    "Practice verb reduplication",
+    "Understand size vocabulary"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "想",
+      "pinyin": "xiǎng",
+      "english": "to want, would like",
+      "partOfSpeech": "verb",
+      "example": "想买。",
+      "exampleTranslation": "Would like to buy."
+    },
+    {
+      "id": "v2",
+      "character": "随身听",
+      "pinyin": "suíshēntīng",
+      "english": "walkman, portable player",
+      "partOfSpeech": "noun",
+      "example": "随身听。",
+      "exampleTranslation": "Walkman."
+    },
+    {
+      "id": "v3",
+      "character": "给",
+      "pinyin": "gěi",
+      "english": "for, to",
+      "partOfSpeech": "preposition/verb",
+      "example": "给我介绍。",
+      "exampleTranslation": "Introduce to me."
+    },
+    {
+      "id": "v4",
+      "character": "左右",
+      "pinyin": "zuǒyòu",
+      "english": "or so, around",
+      "partOfSpeech": "adverb",
+      "example": "五百块左右。",
+      "exampleTranslation": "Around 500 yuan."
+    },
+    {
+      "id": "v5",
+      "character": "牌子",
+      "pinyin": "páizi",
+      "english": "brand",
+      "partOfSpeech": "noun",
+      "example": "这个牌子。",
+      "exampleTranslation": "This brand."
+    },
+    {
+      "id": "v6",
+      "character": "质量",
+      "pinyin": "zhìliàng",
+      "english": "quality",
+      "partOfSpeech": "noun",
+      "example": "质量很好。",
+      "exampleTranslation": "Quality is good."
+    },
+    {
+      "id": "v7",
+      "character": "又",
+      "pinyin": "yòu",
+      "english": "also, both (in 又...又...)",
+      "partOfSpeech": "conjunction",
+      "example": "又好又便宜。",
+      "exampleTranslation": "Both good and cheap."
+    },
+    {
+      "id": "v8",
+      "character": "价钱",
+      "pinyin": "jiàqian",
+      "english": "price",
+      "partOfSpeech": "noun",
+      "example": "价钱便宜。",
+      "exampleTranslation": "Price is cheap."
+    },
+    {
+      "id": "v9",
+      "character": "便宜",
+      "pinyin": "piányi",
+      "english": "cheap, inexpensive",
+      "partOfSpeech": "adjective",
+      "example": "很便宜。",
+      "exampleTranslation": "Very cheap."
+    },
+    {
+      "id": "v10",
+      "character": "样子",
+      "pinyin": "yàngzi",
+      "english": "appearance, shape",
+      "partOfSpeech": "noun",
+      "example": "样子很好看。",
+      "exampleTranslation": "Appearance is nice."
+    },
+    {
+      "id": "v11",
+      "character": "好看",
+      "pinyin": "hǎokàn",
+      "english": "nice, beautiful",
+      "partOfSpeech": "adjective",
+      "example": "很好看。",
+      "exampleTranslation": "Very nice."
+    },
+    {
+      "id": "v12",
+      "character": "双",
+      "pinyin": "shuāng",
+      "english": "pair",
+      "partOfSpeech": "measure word",
+      "example": "一双鞋。",
+      "exampleTranslation": "One pair of shoes."
+    },
+    {
+      "id": "v13",
+      "character": "号",
+      "pinyin": "hào",
+      "english": "size",
+      "partOfSpeech": "noun",
+      "example": "多大号？",
+      "exampleTranslation": "What size?"
+    },
+    {
+      "id": "v14",
+      "character": "可以",
+      "pinyin": "kěyi",
+      "english": "can, may",
+      "partOfSpeech": "auxiliary verb",
+      "example": "可以试试。",
+      "exampleTranslation": "Can try."
+    },
+    {
+      "id": "v15",
+      "character": "试",
+      "pinyin": "shì",
+      "english": "to try",
+      "partOfSpeech": "verb",
+      "example": "试试。",
+      "exampleTranslation": "Try it."
+    },
+    {
+      "id": "v16",
+      "character": "有点儿",
+      "pinyin": "yǒudiǎnr",
+      "english": "a bit, a little",
+      "partOfSpeech": "adverb",
+      "example": "有点儿小。",
+      "exampleTranslation": "A bit small."
+    },
+    {
+      "id": "v17",
+      "character": "一点儿",
+      "pinyin": "yīdiǎnr",
+      "english": "a little",
+      "partOfSpeech": "measure word",
+      "example": "大一点儿。",
+      "exampleTranslation": "A bit bigger."
+    },
+    {
+      "id": "v18",
+      "character": "合适",
+      "pinyin": "héshì",
+      "english": "suitable, fit",
+      "partOfSpeech": "adjective",
+      "example": "很合适。",
+      "exampleTranslation": "Very suitable."
+    },
+    {
+      "id": "v19",
+      "character": "件",
+      "pinyin": "jiàn",
+      "english": "measure word for clothes",
+      "partOfSpeech": "measure word",
+      "example": "一件衣服。",
+      "exampleTranslation": "One piece of clothing."
+    },
+    {
+      "id": "v20",
+      "character": "白",
+      "pinyin": "bái",
+      "english": "white",
+      "partOfSpeech": "adjective",
+      "example": "白的。",
+      "exampleTranslation": "White."
+    },
+    {
+      "id": "v21",
+      "character": "真丝",
+      "pinyin": "zhēnsī",
+      "english": "real silk",
+      "partOfSpeech": "noun",
+      "example": "真丝衬衣。",
+      "exampleTranslation": "Silk shirt."
+    },
+    {
+      "id": "v22",
+      "character": "衬衣",
+      "pinyin": "chènyī",
+      "english": "shirt",
+      "partOfSpeech": "noun",
+      "example": "衬衣。",
+      "exampleTranslation": "Shirt."
+    },
+    {
+      "id": "v23",
+      "character": "颜色",
+      "pinyin": "yánsè",
+      "english": "color",
+      "partOfSpeech": "noun",
+      "example": "什么颜色？",
+      "exampleTranslation": "What color?"
+    },
+    {
+      "id": "v24",
+      "character": "只",
+      "pinyin": "zhǐ",
+      "english": "only",
+      "partOfSpeech": "adverb",
+      "example": "只有一种。",
+      "exampleTranslation": "Only one kind."
+    },
+    {
+      "id": "v25",
+      "character": "种",
+      "pinyin": "zhǒng",
+      "english": "kind, type",
+      "partOfSpeech": "measure word",
+      "example": "一种。",
+      "exampleTranslation": "One kind."
+    },
+    {
+      "id": "v26",
+      "character": "用",
+      "pinyin": "yòng",
+      "english": "to use",
+      "partOfSpeech": "verb",
+      "example": "用什么？",
+      "exampleTranslation": "What to use?"
+    },
+    {
+      "id": "v27",
+      "character": "算",
+      "pinyin": "suàn",
+      "english": "to calculate",
+      "partOfSpeech": "verb",
+      "example": "算一下。",
+      "exampleTranslation": "Calculate."
+    },
+    {
+      "id": "v28",
+      "character": "条",
+      "pinyin": "tiáo",
+      "english": "measure word for long items",
+      "partOfSpeech": "measure word",
+      "example": "一条裤子。",
+      "exampleTranslation": "One pair of pants."
+    },
+    {
+      "id": "v29",
+      "character": "裤子",
+      "pinyin": "kùzi",
+      "english": "trousers, pants",
+      "partOfSpeech": "noun",
+      "example": "裤子。",
+      "exampleTranslation": "Pants."
+    },
+    {
+      "id": "v30",
+      "character": "贵",
+      "pinyin": "guì",
+      "english": "expensive",
+      "partOfSpeech": "adjective",
+      "example": "太贵了。",
+      "exampleTranslation": "Too expensive."
+    }
+  ],
+  "dialogue": {
+    "title": "Product Description and Negotiation",
+    "lines": [
+      {
+        "speaker": "Yingnan",
+        "chinese": "我想买个随身听。您给我介绍介绍。",
+        "pinyin": "Wǒ xiǎng mǎi gè suíshēntīng. Nín gěi wǒ jièshào jièshào.",
+        "english": "I'd like to buy a Walkman. Please tell me about it."
+      },
+      {
+        "speaker": "Shop Assistant",
+        "chinese": "您想买多少钱的？",
+        "pinyin": "Nín xiǎng mǎi duōshao qián de?",
+        "english": "How much are you willing to spend?"
+      },
+      {
+        "speaker": "Yingnan",
+        "chinese": "五百块左右的。",
+        "pinyin": "Wǔbǎi kuài zuǒyòu de.",
+        "english": "Around 500 yuan."
+      },
+      {
+        "speaker": "Shop Assistant",
+        "chinese": "您看看这个牌子的，质量又好，价钱又便宜。",
+        "pinyin": "Nín kànkan zhège páizi de, zhìliàng yòu hǎo, jiàqian yòu piányi.",
+        "english": "Look at this brand. The quality is good and the price is cheap."
+      },
+      {
+        "speaker": "Yingnan",
+        "chinese": "样子也挺好看。",
+        "pinyin": "Yàngzi yě tǐng hǎokàn.",
+        "english": "The appearance looks nice too."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Verb Reduplication",
+      "explanation": "Some verbs can be reduplicated to indicate a brief, casual action. Structure: Verb + Verb or V-一-V",
+      "example": "给我介绍介绍。 试试。 看看。",
+      "translation": "Tell me about it. Try it. Look at it."
+    },
+    {
+      "point": "又...又... (Both... and...)",
+      "explanation": "Use this structure to describe multiple qualities simultaneously.",
+      "example": "又好又便宜。 又聪明又漂亮。",
+      "translation": "Both good and cheap. Both smart and beautiful."
+    },
+    {
+      "point": "Measure Words for Clothing",
+      "explanation": "Different clothing items use different measure words: 件 for general clothing, 双 for shoes/socks, 条 for pants",
+      "example": "一件衣服、一双鞋、一条裤子",
+      "translation": "one piece of clothing, one pair of shoes, one pair of pants"
+    },
+    {
+      "point": "Size Expressions",
+      "explanation": "Use 号 for sizes. Ask: 多大号？ or 几号？",
+      "example": "25号的鞋。",
+      "translation": "Size 25 shoes."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "贵",
+      "pinyin": "guì",
+      "meaning": "expensive, precious",
+      "radical": "贝",
+      "radicalMeaning": "shellfish",
+      "strokeCount": 12,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "竖", "竖", "竖", "竖"]
+    },
+    {
+      "id": "c2",
+      "character": "便",
+      "pinyin": "biàn",
+      "meaning": "convenient, cheap",
+      "radical": "人",
+      "radicalMeaning": "person",
+      "strokeCount": 9,
+      "strokeOrder": ["撇", "竖", "横折", "横", "竖", "竖", "竖", "竖", "竖"]
+    },
+    {
+      "id": "c3",
+      "character": "宜",
+      "pinyin": "yí",
+      "meaning": "suitable",
+      "radical": "宀",
+      "radicalMeaning": "roof",
+      "strokeCount": 8,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Descriptions",
+      "pairs": [
+        { "chinese": "质量", "english": "quality", "id": "m1" },
+        { "chinese": "价钱", "english": "price", "id": "m2" },
+        { "chinese": "样子", "english": "appearance", "id": "m3" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What does '又...又...' mean?",
+      "options": [
+        { "text": "either...or", "correct": false },
+        { "text": "both...and", "correct": true },
+        { "text": "neither...nor", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: Please describe to me",
+      "sentence": "您给我_____一下。",
+      "answer": "介绍",
+      "hint": "To introduce/describe"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 13 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does reduplication indicate in '试试'?",
+        "options": [
+          { "text": "frequent action", "correct": false },
+          { "text": "brief or casual action", "correct": true },
+          { "text": "continuous action", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match measure words for clothing",
+        "pairs": [
+          { "prompt": "一件", "answer": "for clothing", "id": "qm1" },
+          { "prompt": "一双", "answer": "for shoes", "id": "qm2" },
+          { "prompt": "一条", "answer": "for pants", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}

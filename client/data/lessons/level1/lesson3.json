@@ -1,0 +1,299 @@
+{
+  "id": "lesson3",
+  "sessionId": "session1",
+  "title": "你吃什么",
+  "englishTitle": "What Do You Eat?",
+  "pageNumber": 3,
+  "difficulty": "beginner",
+  "objectives": [
+    "Learn food vocabulary",
+    "Ask 'What do you eat/drink?'",
+    "Practice everyday food and drink names"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "吃",
+      "pinyin": "chī",
+      "english": "to eat",
+      "partOfSpeech": "verb",
+      "example": "你吃什么？",
+      "exampleTranslation": "What do you eat?"
+    },
+    {
+      "id": "v2",
+      "character": "什么",
+      "pinyin": "shénme",
+      "english": "what",
+      "partOfSpeech": "pronoun",
+      "example": "你吃什么？",
+      "exampleTranslation": "What do you eat?"
+    },
+    {
+      "id": "v3",
+      "character": "饺子",
+      "pinyin": "jiǎozi",
+      "english": "dumpling",
+      "partOfSpeech": "noun",
+      "example": "我吃饺子。",
+      "exampleTranslation": "I eat dumplings."
+    },
+    {
+      "id": "v4",
+      "character": "米饭",
+      "pinyin": "mǐfàn",
+      "english": "cooked rice",
+      "partOfSpeech": "noun",
+      "example": "吃米饭。",
+      "exampleTranslation": "Eat rice."
+    },
+    {
+      "id": "v5",
+      "character": "面条",
+      "pinyin": "miàntiáo",
+      "english": "noodles",
+      "partOfSpeech": "noun",
+      "example": "吃面条。",
+      "exampleTranslation": "Eat noodles."
+    },
+    {
+      "id": "v6",
+      "character": "面包",
+      "pinyin": "miànbāo",
+      "english": "bread",
+      "partOfSpeech": "noun",
+      "example": "吃面包。",
+      "exampleTranslation": "Eat bread."
+    },
+    {
+      "id": "v7",
+      "character": "包子",
+      "pinyin": "bāozi",
+      "english": "stuffed bun",
+      "partOfSpeech": "noun",
+      "example": "吃包子。",
+      "exampleTranslation": "Eat steamed buns."
+    },
+    {
+      "id": "v8",
+      "character": "喝",
+      "pinyin": "hē",
+      "english": "to drink",
+      "partOfSpeech": "verb",
+      "example": "你喝什么？",
+      "exampleTranslation": "What do you drink?"
+    },
+    {
+      "id": "v9",
+      "character": "啤酒",
+      "pinyin": "píjiǔ",
+      "english": "beer",
+      "partOfSpeech": "noun",
+      "example": "喝啤酒。",
+      "exampleTranslation": "Drink beer."
+    },
+    {
+      "id": "v10",
+      "character": "茶",
+      "pinyin": "chá",
+      "english": "tea",
+      "partOfSpeech": "noun",
+      "example": "喝茶。",
+      "exampleTranslation": "Drink tea."
+    },
+    {
+      "id": "v11",
+      "character": "咖啡",
+      "pinyin": "kāfēi",
+      "english": "coffee",
+      "partOfSpeech": "noun",
+      "example": "喝咖啡。",
+      "exampleTranslation": "Drink coffee."
+    },
+    {
+      "id": "v12",
+      "character": "矿泉水",
+      "pinyin": "kuàngquánshǔi",
+      "english": "mineral water",
+      "partOfSpeech": "noun",
+      "example": "喝矿泉水。",
+      "exampleTranslation": "Drink mineral water."
+    },
+    {
+      "id": "v13",
+      "character": "牛奶",
+      "pinyin": "niúnǎi",
+      "english": "milk",
+      "partOfSpeech": "noun",
+      "example": "喝牛奶。",
+      "exampleTranslation": "Drink milk."
+    },
+    {
+      "id": "v14",
+      "character": "买",
+      "pinyin": "mǎi",
+      "english": "to buy",
+      "partOfSpeech": "verb",
+      "example": "你买什么？",
+      "exampleTranslation": "What do you buy?"
+    },
+    {
+      "id": "v15",
+      "character": "词典",
+      "pinyin": "cídiǎn",
+      "english": "dictionary",
+      "partOfSpeech": "noun",
+      "example": "我买词典。",
+      "exampleTranslation": "I buy a dictionary."
+    }
+  ],
+  "dialogue": {
+    "title": "Food and Drinks",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "你吃什么？",
+        "pinyin": "Nǐ chī shénme?",
+        "english": "What do you eat?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "我吃饺子。",
+        "pinyin": "Wǒ chī jiǎozi.",
+        "english": "I eat dumplings."
+      },
+      {
+        "speaker": "A",
+        "chinese": "你喝什么？",
+        "pinyin": "Nǐ hē shénme?",
+        "english": "What do you drink?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "我喝啤酒。",
+        "pinyin": "Wǒ hē píjiǔ.",
+        "english": "I drink beer."
+      },
+      {
+        "speaker": "A",
+        "chinese": "你买什么？",
+        "pinyin": "Nǐ mǎi shénme?",
+        "english": "What do you buy?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "我买词典。",
+        "pinyin": "Wǒ mǎi cídiǎn.",
+        "english": "I buy a dictionary."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Question Word: 什么",
+      "explanation": "什么 means 'what'. It's placed in the position where the answer would go. The word order remains the same as a statement.",
+      "example": "你吃什么？→ 我吃饺子。",
+      "translation": "What do you eat? → I eat dumplings."
+    },
+    {
+      "point": "Objects of Verbs",
+      "explanation": "In Chinese, the direct object comes immediately after the verb. The structure is: Subject + Verb + Object.",
+      "example": "我吃米饭。我喝茶。",
+      "translation": "I eat rice. I drink tea."
+    },
+    {
+      "point": "Listing Options",
+      "explanation": "Multiple options can be listed with or without connecting words, separated by pauses or commas.",
+      "example": "米饭、面条、面包、包子。",
+      "translation": "Rice, noodles, bread, steamed buns."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "吃",
+      "pinyin": "chī",
+      "meaning": "to eat",
+      "radical": "口",
+      "radicalMeaning": "mouth",
+      "strokeCount": 6,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横折", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "喝",
+      "pinyin": "hē",
+      "meaning": "to drink",
+      "radical": "口",
+      "radicalMeaning": "mouth",
+      "strokeCount": 12,
+      "strokeOrder": ["竖", "横折", "横", "撇", "点", "撇", "点", "横", "竖", "竖", "横", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "买",
+      "pinyin": "mǎi",
+      "meaning": "to buy",
+      "radical": "八",
+      "radicalMeaning": "eight",
+      "strokeCount": 6,
+      "strokeOrder": ["撇", "竖", "横", "撇", "横", "横"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Chinese Food/Drink Names with English",
+      "pairs": [
+        { "chinese": "饺子", "english": "dumplings", "id": "m1" },
+        { "chinese": "米饭", "english": "rice", "id": "m2" },
+        { "chinese": "面条", "english": "noodles", "id": "m3" },
+        { "chinese": "啤酒", "english": "beer", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What does 你吃什么 mean?",
+      "options": [
+        { "text": "You are eating", "correct": false },
+        { "text": "What do you eat?", "correct": true },
+        { "text": "I eat something", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the dialogue",
+      "sentence": "A: 你喝什么？ B: 我喝_____。",
+      "answer": "茶",
+      "hint": "A common beverage"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 3 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "Which sentence asks 'What do you eat?'",
+        "options": [
+          { "text": "你喝什么？", "correct": false },
+          { "text": "你吃什么？", "correct": true },
+          { "text": "你买什么？", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match the questions with responses",
+        "pairs": [
+          { "prompt": "你吃什么？", "answer": "我吃饺子", "id": "qm1" },
+          { "prompt": "你喝什么？", "answer": "我喝茶", "id": "qm2" },
+          { "prompt": "你买什么？", "answer": "我买词典", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}

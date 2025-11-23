@@ -1,0 +1,414 @@
+{
+  "id": "lesson7",
+  "sessionId": "session3",
+  "title": "你身体好吗",
+  "englishTitle": "How Is Your Health?",
+  "pageNumber": 50,
+  "difficulty": "beginner",
+  "objectives": [
+    "Ask about health and well-being",
+    "Use subject-predicate sentences",
+    "Learn descriptive phrases",
+    "Practice health-related vocabulary"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "��近",
+      "pinyin": "zuìjìn",
+      "english": "recently",
+      "partOfSpeech": "noun",
+      "example": "最近你身体怎么样？",
+      "exampleTranslation": "How have you been recently?"
+    },
+    {
+      "id": "v2",
+      "character": "身体",
+      "pinyin": "shēntǐ",
+      "english": "health, body",
+      "partOfSpeech": "noun",
+      "example": "你身体好吗？",
+      "exampleTranslation": "How is your health?"
+    },
+    {
+      "id": "v3",
+      "character": "比较",
+      "pinyin": "bǐjiào",
+      "english": "quite, relatively",
+      "partOfSpeech": "adverb",
+      "example": "比较忙。",
+      "exampleTranslation": "Quite busy."
+    },
+    {
+      "id": "v4",
+      "character": "成绩",
+      "pinyin": "chéngjì",
+      "english": "grade, score",
+      "partOfSpeech": "noun",
+      "example": "你成绩好吗？",
+      "exampleTranslation": "How are your grades?"
+    },
+    {
+      "id": "v5",
+      "character": "马马虎虎",
+      "pinyin": "mǎmǎhuhu",
+      "english": "so-so",
+      "partOfSpeech": "adjective",
+      "example": "我成绩马马虎虎。",
+      "exampleTranslation": "My grades are so-so."
+    },
+    {
+      "id": "v6",
+      "character": "努力",
+      "pinyin": "nǔlì",
+      "english": "to work hard, hard-working",
+      "partOfSpeech": "verb/adjective",
+      "example": "学习努力。",
+      "exampleTranslation": "Study hard."
+    },
+    {
+      "id": "v7",
+      "character": "非常",
+      "pinyin": "fēicháng",
+      "english": "very, extremely",
+      "partOfSpeech": "adverb",
+      "example": "非常努力。",
+      "exampleTranslation": "Extremely hardworking."
+    },
+    {
+      "id": "v8",
+      "character": "太",
+      "pinyin": "tài",
+      "english": "too, very",
+      "partOfSpeech": "adverb",
+      "example": "不太大。",
+      "exampleTranslation": "Not too big."
+    },
+    {
+      "id": "v9",
+      "character": "里",
+      "pinyin": "lǐ",
+      "english": "in, inside",
+      "partOfSpeech": "noun",
+      "example": "宿舍里。",
+      "exampleTranslation": "In the dormitory."
+    },
+    {
+      "id": "v10",
+      "character": "有",
+      "pinyin": "yǒu",
+      "english": "to have, there is",
+      "partOfSpeech": "verb",
+      "example": "有没有空调？",
+      "exampleTranslation": "Is there air conditioning?"
+    },
+    {
+      "id": "v11",
+      "character": "没",
+      "pinyin": "méi",
+      "english": "not, no",
+      "partOfSpeech": "adverb",
+      "example": "没有。",
+      "exampleTranslation": "No."
+    },
+    {
+      "id": "v12",
+      "character": "空调",
+      "pinyin": "kōngtiáo",
+      "english": "air conditioning",
+      "partOfSpeech": "noun",
+      "example": "有空调。",
+      "exampleTranslation": "There is air conditioning."
+    },
+    {
+      "id": "v13",
+      "character": "同屋",
+      "pinyin": "tóngwū",
+      "english": "roommate",
+      "partOfSpeech": "noun",
+      "example": "你有同屋吗？",
+      "exampleTranslation": "Do you have a roommate?"
+    },
+    {
+      "id": "v14",
+      "character": "离",
+      "pinyin": "lí",
+      "english": "away from, to be away",
+      "partOfSpeech": "preposition",
+      "example": "离教室很近。",
+      "exampleTranslation": "Close to the classroom."
+    },
+    {
+      "id": "v15",
+      "character": "远",
+      "pinyin": "yuǎn",
+      "english": "far",
+      "partOfSpeech": "adjective",
+      "example": "远不远？",
+      "exampleTranslation": "Is it far?"
+    },
+    {
+      "id": "v16",
+      "character": "近",
+      "pinyin": "jìn",
+      "english": "near, close",
+      "partOfSpeech": "adjective",
+      "example": "很近。",
+      "exampleTranslation": "Very close."
+    },
+    {
+      "id": "v17",
+      "character": "学校",
+      "pinyin": "xuéxiào",
+      "english": "school",
+      "partOfSpeech": "noun",
+      "example": "我们学校。",
+      "exampleTranslation": "Our school."
+    },
+    {
+      "id": "v18",
+      "character": "多",
+      "pinyin": "duō",
+      "english": "many, much",
+      "partOfSpeech": "adjective",
+      "example": "留学生很多。",
+      "exampleTranslation": "Many overseas students."
+    },
+    {
+      "id": "v19",
+      "character": "挺",
+      "pinyin": "tǐng",
+      "english": "quite, fairly",
+      "partOfSpeech": "adverb",
+      "example": "挺多的。",
+      "exampleTranslation": "Quite a lot."
+    },
+    {
+      "id": "v20",
+      "character": "怎么样",
+      "pinyin": "zěnmeyàng",
+      "english": "what about, how",
+      "partOfSpeech": "pronoun",
+      "example": "食堂怎么样？",
+      "exampleTranslation": "How is the dining hall?"
+    },
+    {
+      "id": "v21",
+      "character": "不错",
+      "pinyin": "búcuò",
+      "english": "not bad, good",
+      "partOfSpeech": "adjective",
+      "example": "食堂不错。",
+      "exampleTranslation": "The dining hall is good."
+    },
+    {
+      "id": "v22",
+      "character": "头发",
+      "pinyin": "tóufa",
+      "english": "hair",
+      "partOfSpeech": "noun",
+      "example": "头发长。",
+      "exampleTranslation": "Hair is long."
+    },
+    {
+      "id": "v23",
+      "character": "长",
+      "pinyin": "cháng",
+      "english": "long",
+      "partOfSpeech": "adjective",
+      "example": "头发很长。",
+      "exampleTranslation": "Hair is very long."
+    },
+    {
+      "id": "v24",
+      "character": "眼睛",
+      "pinyin": "yǎnjing",
+      "english": "eye",
+      "partOfSpeech": "noun",
+      "example": "眼睛很大。",
+      "exampleTranslation": "Eyes are very big."
+    },
+    {
+      "id": "v25",
+      "character": "个子",
+      "pinyin": "gèzi",
+      "english": "height, stature",
+      "partOfSpeech": "noun",
+      "example": "个子很高。",
+      "exampleTranslation": "Height is very tall."
+    },
+    {
+      "id": "v26",
+      "character": "高",
+      "pinyin": "gāo",
+      "english": "tall, high",
+      "partOfSpeech": "adjective",
+      "example": "个子很高。",
+      "exampleTranslation": "Very tall."
+    },
+    {
+      "id": "v27",
+      "character": "电视",
+      "pinyin": "diànshì",
+      "english": "television",
+      "partOfSpeech": "noun",
+      "example": "看电视。",
+      "exampleTranslation": "Watch TV."
+    }
+  ],
+  "dialogue": {
+    "title": "Health and Well-being",
+    "lines": [
+      {
+        "speaker": "Chinese Friend",
+        "chinese": "最近你身体好吗？",
+        "pinyin": "Zuìjìn nǐ shēntǐ hǎo ma?",
+        "english": "How has your health been recently?"
+      },
+      {
+        "speaker": "Simon",
+        "chinese": "我身体很好。",
+        "pinyin": "Wǒ shēntǐ hěn hǎo.",
+        "english": "My health is very good."
+      },
+      {
+        "speaker": "Chinese Friend",
+        "chinese": "你学习忙吗？",
+        "pinyin": "Nǐ xuéxí máng ma?",
+        "english": "Are you busy with studies?"
+      },
+      {
+        "speaker": "Simon",
+        "chinese": "我学习比较忙。",
+        "pinyin": "Wǒ xuéxí bǐjiào máng.",
+        "english": "I'm quite busy with studies."
+      },
+      {
+        "speaker": "Chinese Friend",
+        "chinese": "你的宿舍大不大？",
+        "pinyin": "Nǐ de sùshè dà bu dà?",
+        "english": "Is your dorm big or small?"
+      },
+      {
+        "speaker": "Simon",
+        "chinese": "我的宿舍不太大。",
+        "pinyin": "Wǒ de sùshè búdà.",
+        "english": "My dorm is not very big."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Subject-Predicate Sentences",
+      "explanation": "In Chinese, adjectives can be predicates without 是. Structure: Subject + Adjective (+ intensifier like 很)",
+      "example": "我身体很好。 他们学习非常努力。",
+      "translation": "My health is very good. They study very hard."
+    },
+    {
+      "point": "有 and 没有",
+      "explanation": "有 means 'to have' or 'there is'. The negative form is 没有. For questions, use 有没有.",
+      "example": "你有同屋吗？— 我没有同屋。",
+      "translation": "Do you have a roommate? — I don't have a roommate."
+    },
+    {
+      "point": "Affirmative-Negative Questions",
+      "explanation": "A question formed by combining positive and negative forms of the verb/adjective.",
+      "example": "你的宿舍大不大？ 远不远？",
+      "translation": "Is your dorm big or small? Is it far or near?"
+    },
+    {
+      "point": "Descriptive Adjectives",
+      "explanation": "Use adjectives to describe qualities. Many use intensifiers like 很、非常、比较、挺.",
+      "example": "很好、非常忙、比较远、挺多的",
+      "translation": "very good, extremely busy, quite far, quite a lot"
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "身",
+      "pinyin": "shēn",
+      "meaning": "body",
+      "radical": "身",
+      "radicalMeaning": "body",
+      "strokeCount": 7,
+      "strokeOrder": ["竖", "横折", "横", "撇", "点", "竖", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "体",
+      "pinyin": "tǐ",
+      "meaning": "body, form",
+      "radical": "人",
+      "radicalMeaning": "person",
+      "strokeCount": 7,
+      "strokeOrder": ["撇", "竖", "横", "竖", "竖", "竖", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "近",
+      "pinyin": "jìn",
+      "meaning": "near",
+      "radical": "辶",
+      "radicalMeaning": "walk",
+      "strokeCount": 7,
+      "strokeOrder": ["竖", "横折", "横", "竖", "竖", "撇", "捺"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Health-related Terms",
+      "pairs": [
+        { "chinese": "身体", "english": "health, body", "id": "m1" },
+        { "chinese": "成绩", "english": "grade, score", "id": "m2" },
+        { "chinese": "努力", "english": "hard-working", "id": "m3" },
+        { "chinese": "同屋", "english": "roommate", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "How do you ask 'How is your health?'",
+      "options": [
+        { "text": "你最近怎么样？", "correct": false },
+        { "text": "你身体好吗？", "correct": true },
+        { "text": "你成绩好吗？", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: Do you have air conditioning?",
+      "sentence": "宿舍里有没有_____？",
+      "answer": "空调",
+      "hint": "Climate control system"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 7 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 'very' (or 'quite') mean in the context of intensity?",
+        "options": [
+          { "text": "非常、比较、很、挺", "correct": true },
+          { "text": "是、在、有", "correct": false },
+          { "text": "和、或、但", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match adjectives with their meanings",
+        "pairs": [
+          { "prompt": "长", "answer": "long", "id": "qm1" },
+          { "prompt": "高", "answer": "tall", "id": "qm2" },
+          { "prompt": "近", "answer": "near", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}

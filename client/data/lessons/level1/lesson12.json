@@ -1,0 +1,418 @@
+{
+  "id": "lesson12",
+  "sessionId": "session4",
+  "title": "要红的还是要蓝的",
+  "englishTitle": "Do You Want Red or Blue?",
+  "pageNumber": 102,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn color vocabulary",
+    "Use alternative questions",
+    "Practice shopping dialogue",
+    "Understand currency and prices"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "支",
+      "pinyin": "zhī",
+      "english": "measure word for pens",
+      "partOfSpeech": "measure word",
+      "example": "两支圆珠笔。",
+      "exampleTranslation": "Two ball-point pens."
+    },
+    {
+      "id": "v2",
+      "character": "圆珠笔",
+      "pinyin": "yuánzhūbǐ",
+      "english": "ball-point pen",
+      "partOfSpeech": "noun",
+      "example": "买圆珠笔。",
+      "exampleTranslation": "Buy a pen."
+    },
+    {
+      "id": "v3",
+      "character": "红",
+      "pinyin": "hóng",
+      "english": "red",
+      "partOfSpeech": "adjective",
+      "example": "红的。",
+      "exampleTranslation": "Red one."
+    },
+    {
+      "id": "v4",
+      "character": "还是",
+      "pinyin": "háishi",
+      "english": "or (in alternatives)",
+      "partOfSpeech": "conjunction",
+      "example": "红的还是蓝的？",
+      "exampleTranslation": "Red or blue?"
+    },
+    {
+      "id": "v5",
+      "character": "蓝",
+      "pinyin": "lán",
+      "english": "blue",
+      "partOfSpeech": "adjective",
+      "example": "蓝的。",
+      "exampleTranslation": "Blue one."
+    },
+    {
+      "id": "v6",
+      "character": "样",
+      "pinyin": "yàng",
+      "english": "kind, type",
+      "partOfSpeech": "noun",
+      "example": "一样。",
+      "exampleTranslation": "One of each."
+    },
+    {
+      "id": "v7",
+      "character": "别的",
+      "pinyin": "biéde",
+      "english": "other",
+      "partOfSpeech": "pronoun",
+      "example": "别的吗？",
+      "exampleTranslation": "Anything else?"
+    },
+    {
+      "id": "v8",
+      "character": "了",
+      "pinyin": "le",
+      "english": "particle indicating change",
+      "partOfSpeech": "particle",
+      "example": "不要了。",
+      "exampleTranslation": "No more."
+    },
+    {
+      "id": "v9",
+      "character": "卖",
+      "pinyin": "m��i",
+      "english": "to sell",
+      "partOfSpeech": "verb",
+      "example": "哪儿卖？",
+      "exampleTranslation": "Where is it sold?"
+    },
+    {
+      "id": "v10",
+      "character": "再",
+      "pinyin": "zài",
+      "english": "more, again",
+      "partOfSpeech": "adverb",
+      "example": "再要。",
+      "exampleTranslation": "Want more."
+    },
+    {
+      "id": "v11",
+      "character": "听",
+      "pinyin": "tīng",
+      "english": "measure word for cans",
+      "partOfSpeech": "measure word",
+      "example": "两听可乐。",
+      "exampleTranslation": "Two cans of coke."
+    },
+    {
+      "id": "v12",
+      "character": "一共",
+      "pinyin": "yīgòng",
+      "english": "altogether, in total",
+      "partOfSpeech": "adverb",
+      "example": "一共多少？",
+      "exampleTranslation": "How much in total?"
+    },
+    {
+      "id": "v13",
+      "character": "给",
+      "pinyin": "gěi",
+      "english": "to give, for",
+      "partOfSpeech": "verb/preposition",
+      "example": "给你钱。",
+      "exampleTranslation": "Give you money."
+    },
+    {
+      "id": "v14",
+      "character": "零钱",
+      "pinyin": "língqián",
+      "english": "small change",
+      "partOfSpeech": "noun",
+      "example": "有零钱吗？",
+      "exampleTranslation": "Do you have change?"
+    },
+    {
+      "id": "v15",
+      "character": "找",
+      "pinyin": "zhǎo",
+      "english": "to give change",
+      "partOfSpeech": "verb",
+      "example": "找你钱。",
+      "exampleTranslation": "Give you change."
+    },
+    {
+      "id": "v16",
+      "character": "零",
+      "pinyin": "líng",
+      "english": "zero, and (in numbers)",
+      "partOfSpeech": "numeral",
+      "example": "十零六。",
+      "exampleTranslation": "10 and 6."
+    },
+    {
+      "id": "v17",
+      "character": "数",
+      "pinyin": "shǔ",
+      "english": "to count",
+      "partOfSpeech": "verb",
+      "example": "数一下。",
+      "exampleTranslation": "Count it."
+    },
+    {
+      "id": "v18",
+      "character": "橘子",
+      "pinyin": "júzi",
+      "english": "orange",
+      "partOfSpeech": "noun",
+      "example": "橘子。",
+      "exampleTranslation": "Orange."
+    },
+    {
+      "id": "v19",
+      "character": "斤",
+      "pinyin": "jīn",
+      "english": "catty, half-kilogram",
+      "partOfSpeech": "measure word",
+      "example": "两斤。",
+      "exampleTranslation": "Two jin."
+    },
+    {
+      "id": "v20",
+      "character": "东西",
+      "pinyin": "dōngxi",
+      "english": "thing",
+      "partOfSpeech": "noun",
+      "example": "卖东西。",
+      "exampleTranslation": "Sell things."
+    },
+    {
+      "id": "v21",
+      "character": "甜",
+      "pinyin": "tián",
+      "english": "sweet",
+      "partOfSpeech": "adjective",
+      "example": "甜不甜？",
+      "exampleTranslation": "Is it sweet?"
+    },
+    {
+      "id": "v22",
+      "character": "尝",
+      "pinyin": "cháng",
+      "english": "to taste",
+      "partOfSpeech": "verb",
+      "example": "尝一下。",
+      "exampleTranslation": "Taste it."
+    },
+    {
+      "id": "v23",
+      "character": "西红柿",
+      "pinyin": "xīhóngshì",
+      "english": "tomato",
+      "partOfSpeech": "noun",
+      "example": "西红柿。",
+      "exampleTranslation": "Tomato."
+    },
+    {
+      "id": "v24",
+      "character": "怎么",
+      "pinyin": "zěnme",
+      "english": "how",
+      "partOfSpeech": "pronoun",
+      "example": "怎么卖？",
+      "exampleTranslation": "How is it sold?"
+    },
+    {
+      "id": "v25",
+      "character": "新鲜",
+      "pinyin": "xinxiān",
+      "english": "fresh",
+      "partOfSpeech": "adjective",
+      "example": "新鲜。",
+      "exampleTranslation": "Fresh."
+    },
+    {
+      "id": "v26",
+      "character": "摘",
+      "pinyin": "zhāi",
+      "english": "to pick",
+      "partOfSpeech": "verb",
+      "example": "摘的。",
+      "exampleTranslation": "Picked."
+    },
+    {
+      "id": "v27",
+      "character": "酸",
+      "pinyin": "suān",
+      "english": "sour",
+      "partOfSpeech": "adjective",
+      "example": "酸的。",
+      "exampleTranslation": "Sour."
+    },
+    {
+      "id": "v28",
+      "character": "辆",
+      "pinyin": "liàng",
+      "english": "measure word for vehicles",
+      "partOfSpeech": "measure word",
+      "example": "一辆自行车。",
+      "exampleTranslation": "One bicycle."
+    },
+    {
+      "id": "v29",
+      "character": "自行车",
+      "pinyin": "zìxíngchē",
+      "english": "bicycle",
+      "partOfSpeech": "noun",
+      "example": "自行车。",
+      "exampleTranslation": "Bicycle."
+    },
+    {
+      "id": "v30",
+      "character": "铅笔",
+      "pinyin": "qiānbǐ",
+      "english": "pencil",
+      "partOfSpeech": "noun",
+      "example": "铅笔。",
+      "exampleTranslation": "Pencil."
+    }
+  ],
+  "dialogue": {
+    "title": "Shopping Dialogue",
+    "lines": [
+      {
+        "speaker": "Paul",
+        "chinese": "买两支圆珠笔。",
+        "pinyin": "Mǎi liǎng zhī yuánzhūbǐ.",
+        "english": "I want two ball-point pens."
+      },
+      {
+        "speaker": "Shop Assistant",
+        "chinese": "要红的还是要蓝的？",
+        "pinyin": "Yào hóng de háishi yào lán de?",
+        "english": "Do you want red or blue?"
+      },
+      {
+        "speaker": "Paul",
+        "chinese": "一样一支。",
+        "pinyin": "Yīyàng yī zhī.",
+        "english": "One of each kind."
+      },
+      {
+        "speaker": "Shop Assistant",
+        "chinese": "还要别的吗？",
+        "pinyin": "Hái yào biéde ma?",
+        "english": "Anything else?"
+      },
+      {
+        "speaker": "Paul",
+        "chinese": "不要了。",
+        "pinyin": "Búyào le.",
+        "english": "No more."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Alternative Questions with 还是",
+      "explanation": "Use 还是 to present two choices. Structure: [Option 1] + 还是 + [Option 2]",
+      "example": "要红的还是要蓝的？ 你回家还是去商店？",
+      "translation": "Do you want red or blue? Are you going home or to the store?"
+    },
+    {
+      "point": "的 Construction for Quality/Type",
+      "explanation": "Add 的 after an adjective/descriptor to create a noun. It means 'one' or 'kind'",
+      "example": "红的、蓝的、新的、大的",
+      "translation": "the red one, the blue one, the new one, the big one"
+    },
+    {
+      "point": "Money Expressions",
+      "explanation": "Use 块、毛、分 for currency. Structure: [Number] + 块 + [Number] + 毛/分",
+      "example": "十九块四 = 19.4 yuan",
+      "translation": "19 yuan and 40 cents"
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "红",
+      "pinyin": "hóng",
+      "meaning": "red",
+      "radical": "纟",
+      "radicalMeaning": "silk",
+      "strokeCount": 9,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "竖"]
+    },
+    {
+      "id": "c2",
+      "character": "蓝",
+      "pinyin": "lán",
+      "meaning": "blue",
+      "radical": "艹",
+      "radicalMeaning": "grass",
+      "strokeCount": 13,
+      "strokeOrder": ["竖", "横折", "横", "竖", "竖", "竖", "竖", "竖", "竖", "竖", "竖", "竖", "竖"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Items in Shop",
+      "pairs": [
+        { "chinese": "圆珠笔", "english": "ball-point pen", "id": "m1" },
+        { "chinese": "橘子", "english": "orange", "id": "m2" },
+        { "chinese": "西红柿", "english": "tomato", "id": "m3" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "Which is an alternative question?",
+      "options": [
+        { "text": "你要红的。", "correct": false },
+        { "text": "你要红的还是蓝的？", "correct": true },
+        { "text": "他要什么？", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: Two ____ pens",
+      "sentence": "两支_____笔。",
+      "answer": "圆珠",
+      "hint": "Type of pen"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 12 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does '的' mean in '红的'?",
+        "options": [
+          { "text": "possession", "correct": false },
+          { "text": "'the red one' or 'kind'", "correct": true },
+          { "text": "location", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match color names",
+        "pairs": [
+          { "prompt": "红", "answer": "red", "id": "qm1" },
+          { "prompt": "蓝", "answer": "blue", "id": "qm2" },
+          { "prompt": "新", "answer": "new", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}

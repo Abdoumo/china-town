@@ -1,0 +1,408 @@
+{
+  "id": "lesson4",
+  "sessionId": "session2",
+  "title": "多少钱",
+  "englishTitle": "How Much Money?",
+  "pageNumber": 23,
+  "difficulty": "beginner",
+  "objectives": [
+    "Learn numbers 1-10",
+    "Ask about prices",
+    "Use measure words for money",
+    "Practice currency expressions"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "要",
+      "pinyin": "yào",
+      "english": "to want",
+      "partOfSpeech": "auxiliary verb",
+      "example": "我要换钱。",
+      "exampleTranslation": "I want to exchange money."
+    },
+    {
+      "id": "v2",
+      "character": "换",
+      "pinyin": "huàn",
+      "english": "to exchange, to change",
+      "partOfSpeech": "verb",
+      "example": "我要换钱。",
+      "exampleTranslation": "I want to exchange money."
+    },
+    {
+      "id": "v3",
+      "character": "钱",
+      "pinyin": "qián",
+      "english": "money",
+      "partOfSpeech": "noun",
+      "example": "多少钱？",
+      "exampleTranslation": "How much money?"
+    },
+    {
+      "id": "v4",
+      "character": "多少",
+      "pinyin": "duōshao",
+      "english": "how much, how many",
+      "partOfSpeech": "pronoun",
+      "example": "多少钱？",
+      "exampleTranslation": "How much?"
+    },
+    {
+      "id": "v5",
+      "character": "一",
+      "pinyin": "yī",
+      "english": "one",
+      "partOfSpeech": "numeral",
+      "example": "一个苹果。",
+      "exampleTranslation": "One apple."
+    },
+    {
+      "id": "v6",
+      "character": "百",
+      "pinyin": "bǎi",
+      "english": "hundred",
+      "partOfSpeech": "numeral",
+      "example": "一百美元。",
+      "exampleTranslation": "One hundred US dollars."
+    },
+    {
+      "id": "v7",
+      "character": "美元",
+      "pinyin": "měiyuán",
+      "english": "US dollar",
+      "partOfSpeech": "noun",
+      "example": "换一百美元。",
+      "exampleTranslation": "Exchange one hundred US dollars."
+    },
+    {
+      "id": "v8",
+      "character": "二",
+      "pinyin": "èr",
+      "english": "two",
+      "partOfSpeech": "numeral",
+      "example": "二元。",
+      "exampleTranslation": "Two yuan."
+    },
+    {
+      "id": "v9",
+      "character": "三",
+      "pinyin": "sān",
+      "english": "three",
+      "partOfSpeech": "numeral",
+      "example": "三个。",
+      "exampleTranslation": "Three."
+    },
+    {
+      "id": "v10",
+      "character": "四",
+      "pinyin": "sì",
+      "english": "four",
+      "partOfSpeech": "numeral",
+      "example": "四瓶。",
+      "exampleTranslation": "Four bottles."
+    },
+    {
+      "id": "v11",
+      "character": "五",
+      "pinyin": "wǔ",
+      "english": "five",
+      "partOfSpeech": "numeral",
+      "example": "五块。",
+      "exampleTranslation": "Five yuan."
+    },
+    {
+      "id": "v12",
+      "character": "两",
+      "pinyin": "liǎng",
+      "english": "two",
+      "partOfSpeech": "numeral",
+      "example": "两杯咖啡。",
+      "exampleTranslation": "Two cups of coffee."
+    },
+    {
+      "id": "v13",
+      "character": "杯",
+      "pinyin": "bēi",
+      "english": "cup, glass",
+      "partOfSpeech": "measure word",
+      "example": "两杯咖啡。",
+      "exampleTranslation": "Two cups of coffee."
+    },
+    {
+      "id": "v14",
+      "character": "块",
+      "pinyin": "kuài",
+      "english": "yuan (Chinese currency unit)",
+      "partOfSpeech": "measure word",
+      "example": "五块。",
+      "exampleTranslation": "Five yuan."
+    },
+    {
+      "id": "v15",
+      "character": "个",
+      "pinyin": "gè",
+      "english": "a measure word for general items",
+      "partOfSpeech": "measure word",
+      "example": "一个本子。",
+      "exampleTranslation": "One notebook."
+    },
+    {
+      "id": "v16",
+      "character": "六",
+      "pinyin": "liù",
+      "english": "six",
+      "partOfSpeech": "numeral",
+      "example": "六毛。",
+      "exampleTranslation": "Six mao (60 cents)."
+    },
+    {
+      "id": "v17",
+      "character": "毛",
+      "pinyin": "máo",
+      "english": "mao (0.1 yuan)",
+      "partOfSpeech": "noun",
+      "example": "六毛。",
+      "exampleTranslation": "Six mao."
+    },
+    {
+      "id": "v18",
+      "character": "瓶",
+      "pinyin": "píng",
+      "english": "bottle",
+      "partOfSpeech": "measure word",
+      "example": "四瓶啤酒。",
+      "exampleTranslation": "Four bottles of beer."
+    },
+    {
+      "id": "v19",
+      "character": "七",
+      "pinyin": "qī",
+      "english": "seven",
+      "partOfSpeech": "numeral",
+      "example": "七块二。",
+      "exampleTranslation": "Seven yuan and two mao."
+    },
+    {
+      "id": "v20",
+      "character": "八",
+      "pinyin": "bā",
+      "english": "eight",
+      "partOfSpeech": "numeral",
+      "example": "八块。",
+      "exampleTranslation": "Eight yuan."
+    },
+    {
+      "id": "v21",
+      "character": "本",
+      "pinyin": "běn",
+      "english": "measure word for books",
+      "partOfSpeech": "measure word",
+      "example": "一本词典。",
+      "exampleTranslation": "One dictionary."
+    },
+    {
+      "id": "v22",
+      "character": "九",
+      "pinyin": "jiǔ",
+      "english": "nine",
+      "partOfSpeech": "numeral",
+      "example": "九十块。",
+      "exampleTranslation": "Ninety yuan."
+    },
+    {
+      "id": "v23",
+      "character": "十",
+      "pinyin": "shí",
+      "english": "ten",
+      "partOfSpeech": "numeral",
+      "example": "十块。",
+      "exampleTranslation": "Ten yuan."
+    },
+    {
+      "id": "v24",
+      "character": "分",
+      "pinyin": "fēn",
+      "english": "fen (0.01 yuan)",
+      "partOfSpeech": "noun",
+      "example": "八分。",
+      "exampleTranslation": "Eight fen."
+    }
+  ],
+  "dialogue": {
+    "title": "Money Exchange and Purchasing",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "我要换钱。",
+        "pinyin": "Wǒ yào huàn qián.",
+        "english": "I want to exchange money."
+      },
+      {
+        "speaker": "B",
+        "chinese": "换多少？",
+        "pinyin": "Huàn duōshao?",
+        "english": "How much?"
+      },
+      {
+        "speaker": "A",
+        "chinese": "换一百美元。",
+        "pinyin": "Huàn yībǎi měiyuán.",
+        "english": "Exchange one hundred US dollars."
+      },
+      {
+        "speaker": "A",
+        "chinese": "两杯咖啡，多少钱？",
+        "pinyin": "Liǎng bēi kāfēi, duōshao qián?",
+        "english": "Two cups of coffee, how much?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "五块。",
+        "pinyin": "Wǔ kuài.",
+        "english": "Five yuan."
+      },
+      {
+        "speaker": "A",
+        "chinese": "一个本子，六毛。四瓶啤酒，七块二。两个面包，八块。三本词典，九十块。",
+        "pinyin": "Yī gè běnzi, liù máo. Sì píng píjiǔ, qī kuài èr. Liǎng gè miànbāo, bā kuài. Sān běn cídiǎn, jiǔshí kuài.",
+        "english": "One notebook, 60 cents. Four bottles of beer, 7.2 yuan. Two loaves of bread, 8 yuan. Three dictionaries, 90 yuan."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Numbers 1-10",
+      "explanation": "Learn basic Chinese numerals. Note: 一 before a measure word may be omitted in casual speech.",
+      "example": "一、二、三、四、五、六、七、八、九、十",
+      "translation": "one, two, three, four, five, six, seven, eight, nine, ten"
+    },
+    {
+      "point": "二 vs 两",
+      "explanation": "Both mean 'two'. Use 两 before a measure word (两个、两杯). Use 二 in numbers like 12, 20, etc.",
+      "example": "两杯咖啡 but 十二块",
+      "translation": "two cups of coffee but twelve yuan"
+    },
+    {
+      "point": "Asking about Price: 多少钱？",
+      "explanation": "To ask 'how much?', use 多少钱. The structure is: [item] 多少钱？",
+      "example": "两杯咖啡多少钱？",
+      "translation": "How much are two cups of coffee?"
+    },
+    {
+      "point": "Currency Units",
+      "explanation": "Chinese currency: 元 (yuan), 角/毛 (jiao/mao = 0.1 yuan), 分 (fen = 0.01 yuan)",
+      "example": "七块二 = 7.2 yuan",
+      "translation": "seven yuan and two mao"
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "钱",
+      "pinyin": "qián",
+      "meaning": "money",
+      "radical": "金",
+      "radicalMeaning": "metal",
+      "strokeCount": 10,
+      "strokeOrder": ["撇", "竖", "横折", "横", "撇", "竖", "横折", "横", "竖", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "换",
+      "pinyin": "huàn",
+      "meaning": "to exchange",
+      "radical": "扌",
+      "radicalMeaning": "hand",
+      "strokeCount": 10,
+      "strokeOrder": ["竖", "横折", "横", "横", "竖", "横折", "横", "竖", "竖", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "多",
+      "pinyin": "duō",
+      "meaning": "many, more",
+      "radical": "夕",
+      "radicalMeaning": "evening",
+      "strokeCount": 6,
+      "strokeOrder": ["撇", "竖", "撇", "竖", "撇", "竖"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Numbers with Chinese Characters",
+      "pairs": [
+        { "chinese": "一", "english": "1", "id": "m1" },
+        { "chinese": "五", "english": "5", "id": "m2" },
+        { "chinese": "十", "english": "10", "id": "m3" },
+        { "chinese": "百", "english": "100", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "How do you ask 'how much money'?",
+      "options": [
+        { "text": "多少人？", "correct": false },
+        { "text": "多少钱？", "correct": true },
+        { "text": "什么钱？", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: Two cups of coffee is ____ yuan",
+      "sentence": "两杯咖啡，_____块。",
+      "answer": "五",
+      "hint": "A number from 1-10"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 4 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does '一百美元' mean?",
+        "options": [
+          { "text": "One American", "correct": false },
+          { "text": "One hundred US dollars", "correct": true },
+          { "text": "One dollar", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match Chinese numbers with their English values",
+        "pairs": [
+          { "prompt": "五", "answer": "five", "id": "qm1" },
+          { "prompt": "十", "answer": "ten", "id": "qm2" },
+          { "prompt": "百", "answer": "hundred", "id": "qm3" },
+          { "prompt": "二十", "answer": "twenty", "id": "qm4" }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "When should you use '两' instead of '二'?",
+        "options": [
+          { "text": "Before a measure word", "correct": true },
+          { "text": "In numbers like 12 or 20", "correct": false },
+          { "text": "Never", "correct": false }
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "matching",
+        "question": "Match Chinese phrases with their English meanings",
+        "pairs": [
+          { "prompt": "两杯咖啡", "answer": "two cups of coffee", "id": "qm5" },
+          { "prompt": "四瓶啤酒", "answer": "four bottles of beer", "id": "qm6" },
+          { "prompt": "三本词典", "answer": "three dictionaries", "id": "qm7" }
+        ]
+      }
+    ]
+  }
+}

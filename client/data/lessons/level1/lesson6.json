@@ -1,0 +1,440 @@
+{
+  "id": "lesson6",
+  "sessionId": "session2",
+  "title": "我来介绍一下",
+  "englishTitle": "Let Me Introduce",
+  "pageNumber": 41,
+  "difficulty": "beginner",
+  "objectives": [
+    "Introduce yourself and others",
+    "Use 是 sentences",
+    "Use possessive 的",
+    "Describe people and things"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "认识",
+      "pinyin": "rènshi",
+      "english": "to meet, to know",
+      "partOfSpeech": "verb",
+      "example": "认识你很高兴。",
+      "exampleTranslation": "Pleased to meet you."
+    },
+    {
+      "id": "v2",
+      "character": "高兴",
+      "pinyin": "gāoxìng",
+      "english": "happy, pleased",
+      "partOfSpeech": "adjective",
+      "example": "我很高兴。",
+      "exampleTranslation": "I'm pleased."
+    },
+    {
+      "id": "v3",
+      "character": "来",
+      "pinyin": "lái",
+      "english": "to come, to do (an action)",
+      "partOfSpeech": "verb",
+      "example": "我来介绍一下。",
+      "exampleTranslation": "Let me introduce."
+    },
+    {
+      "id": "v4",
+      "character": "介绍",
+      "pinyin": "jièshào",
+      "english": "to introduce",
+      "partOfSpeech": "verb",
+      "example": "我来介绍一下。",
+      "exampleTranslation": "Let me introduce."
+    },
+    {
+      "id": "v5",
+      "character": "一下",
+      "pinyin": "yīxià",
+      "english": "a bit, briefly",
+      "partOfSpeech": "phrase",
+      "example": "介绍一下。",
+      "exampleTranslation": "Introduce briefly."
+    },
+    {
+      "id": "v6",
+      "character": "是",
+      "pinyin": "shì",
+      "english": "to be",
+      "partOfSpeech": "verb",
+      "example": "我是学生。",
+      "exampleTranslation": "I am a student."
+    },
+    {
+      "id": "v7",
+      "character": "学习",
+      "pinyin": "xuéxí",
+      "english": "to learn, to study",
+      "partOfSpeech": "verb/noun",
+      "example": "学习汉语。",
+      "exampleTranslation": "To study Chinese."
+    },
+    {
+      "id": "v8",
+      "character": "汉语",
+      "pinyin": "Hànyǔ",
+      "english": "Chinese language",
+      "partOfSpeech": "noun",
+      "example": "学习汉语。",
+      "exampleTranslation": "Study Chinese."
+    },
+    {
+      "id": "v9",
+      "character": "班",
+      "pinyin": "bān",
+      "english": "class",
+      "partOfSpeech": "noun",
+      "example": "A班的学生。",
+      "exampleTranslation": "Students of class A."
+    },
+    {
+      "id": "v10",
+      "character": "的",
+      "pinyin": "de",
+      "english": "possessive particle",
+      "partOfSpeech": "particle",
+      "example": "我的书。",
+      "exampleTranslation": "My book."
+    },
+    {
+      "id": "v11",
+      "character": "学生",
+      "pinyin": "xuésheng",
+      "english": "student",
+      "partOfSpeech": "noun",
+      "example": "我是学生。",
+      "exampleTranslation": "I'm a student."
+    },
+    {
+      "id": "v12",
+      "character": "这",
+      "pinyin": "zhè",
+      "english": "this",
+      "partOfSpeech": "pronoun",
+      "example": "这是我的老师。",
+      "exampleTranslation": "This is my teacher."
+    },
+    {
+      "id": "v13",
+      "character": "我们",
+      "pinyin": "wǒmen",
+      "english": "we, us",
+      "partOfSpeech": "pronoun",
+      "example": "我们班。",
+      "exampleTranslation": "Our class."
+    },
+    {
+      "id": "v14",
+      "character": "那",
+      "pinyin": "nà",
+      "english": "that",
+      "partOfSpeech": "pronoun",
+      "example": "那是朋友。",
+      "exampleTranslation": "That is a friend."
+    },
+    {
+      "id": "v15",
+      "character": "朋友",
+      "pinyin": "péngyou",
+      "english": "friend",
+      "partOfSpeech": "noun",
+      "example": "我的朋友。",
+      "exampleTranslation": "My friend."
+    },
+    {
+      "id": "v16",
+      "character": "和",
+      "pinyin": "hé",
+      "english": "and",
+      "partOfSpeech": "conjunction",
+      "example": "西蒙和李英男。",
+      "exampleTranslation": "Simon and Li Yingnan."
+    },
+    {
+      "id": "v17",
+      "character": "人",
+      "pinyin": "rén",
+      "english": "person, people",
+      "partOfSpeech": "noun",
+      "example": "中国人。",
+      "exampleTranslation": "Chinese people."
+    },
+    {
+      "id": "v18",
+      "character": "教室",
+      "pinyin": "jiàoshì",
+      "english": "classroom",
+      "partOfSpeech": "noun",
+      "example": "我们的教室。",
+      "exampleTranslation": "Our classroom."
+    },
+    {
+      "id": "v19",
+      "character": "大",
+      "pinyin": "dà",
+      "english": "big, large",
+      "partOfSpeech": "adjective",
+      "example": "大教室。",
+      "exampleTranslation": "Big classroom."
+    },
+    {
+      "id": "v20",
+      "character": "新",
+      "pinyin": "xīn",
+      "english": "new",
+      "partOfSpeech": "adjective",
+      "example": "新书。",
+      "exampleTranslation": "New book."
+    },
+    {
+      "id": "v21",
+      "character": "同学",
+      "pinyin": "tóngxué",
+      "english": "classmate",
+      "partOfSpeech": "noun",
+      "example": "我的同学。",
+      "exampleTranslation": "My classmate."
+    },
+    {
+      "id": "v22",
+      "character": "厚",
+      "pinyin": "hòu",
+      "english": "thick",
+      "partOfSpeech": "adjective",
+      "example": "厚词典。",
+      "exampleTranslation": "Thick dictionary."
+    },
+    {
+      "id": "v23",
+      "character": "漂亮",
+      "pinyin": "piàoliang",
+      "english": "pretty, beautiful",
+      "partOfSpeech": "adjective",
+      "example": "很漂亮。",
+      "exampleTranslation": "Very beautiful."
+    },
+    {
+      "id": "v24",
+      "character": "极了",
+      "pinyin": "jíle",
+      "english": "extremely",
+      "partOfSpeech": "adverb",
+      "example": "漂亮极了。",
+      "exampleTranslation": "Extremely beautiful."
+    },
+    {
+      "id": "v25",
+      "character": "女儿",
+      "pinyin": "nǚ'ér",
+      "english": "daughter",
+      "partOfSpeech": "noun",
+      "example": "我的女儿。",
+      "exampleTranslation": "My daughter."
+    },
+    {
+      "id": "v26",
+      "character": "聪明",
+      "pinyin": "congming",
+      "english": "clever, smart",
+      "partOfSpeech": "adjective",
+      "example": "很聪明。",
+      "exampleTranslation": "Very smart."
+    },
+    {
+      "id": "v27",
+      "character": "可爱",
+      "pinyin": "kě'ài",
+      "english": "lovely, cute",
+      "partOfSpeech": "adjective",
+      "example": "很可爱。",
+      "exampleTranslation": "Very lovely."
+    },
+    {
+      "id": "v28",
+      "character": "看",
+      "pinyin": "kàn",
+      "english": "to look, to see",
+      "partOfSpeech": "verb",
+      "example": "你们看。",
+      "exampleTranslation": "Look."
+    },
+    {
+      "id": "v29",
+      "character": "帅",
+      "pinyin": "shuài",
+      "english": "handsome",
+      "partOfSpeech": "adjective",
+      "example": "很帅。",
+      "exampleTranslation": "Very handsome."
+    },
+    {
+      "id": "v30",
+      "character": "小",
+      "pinyin": "xiǎo",
+      "english": "small, little",
+      "partOfSpeech": "adjective",
+      "example": "小朋友。",
+      "exampleTranslation": "Little friend."
+    }
+  ],
+  "dialogue": {
+    "title": "Introduction",
+    "lines": [
+      {
+        "speaker": "Paul",
+        "chinese": "你们好，认识你们很高兴。我来介绍一下，我是德国留学生保罗。",
+        "pinyin": "Nǐmen hǎo, rènshi nǐmen hěn gāoxìng. Wǒ lái jièshào yīxià, wǒ shì Déguó liúxuéshēng Bǎoluó.",
+        "english": "Hello everyone, pleased to meet you. Let me introduce myself. I am Paul, a German overseas student."
+      },
+      {
+        "speaker": "Paul",
+        "chinese": "我学习汉语。我是A班的学生。这是我们的老师。那是我朋友西蒙和李英男，他们也是留学生。",
+        "pinyin": "Wǒ xuéxí Hànyǔ. Wǒ shì A bān de xuésheng. Zhè shì wǒmen de lǎoshī. Nà shì wǒ péngyou Xīméng hé Lǐ Yingnán, tāmen yě shì liúxuéshēng.",
+        "english": "I study Chinese. I'm a student in class A. This is our teacher. That is my friends Simon and Li Yingnan, they are also overseas students."
+      },
+      {
+        "speaker": "Paul",
+        "chinese": "他们都不是德国人，西蒙是法国人，李英男是韩国人。",
+        "pinyin": "Tāmen dōu búshì Déguórén, Xīméng shì Făguórén, Lǐ Yingnán shì Hánguórén.",
+        "english": "They are not German, Simon is French, Li Yingnan is Korean."
+      },
+      {
+        "speaker": "Paul",
+        "chinese": "这是我们的教室。我们的教室不大。这是我的汉语书。我的书很新。",
+        "pinyin": "Zhè shì wǒmen de jiàoshì. Wǒmen de jiàoshì búdà. Zhè shì wǒ de Hànyǔ shū. Wǒ de shū hěn xīn.",
+        "english": "This is our classroom. Our classroom is not big. This is my Chinese book. My book is new."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "是 Sentences",
+      "explanation": "Use 是 (to be) for identification. Structure: Subject + 是 + Noun/Identity",
+      "example": "我是学生。 我是德国人。",
+      "translation": "I am a student. I am German."
+    },
+    {
+      "point": "Possessive 的",
+      "explanation": "Add 的 after a noun or pronoun to show possession. Structure: Owner + 的 + Thing",
+      "example": "我的书、他的朋友、我们的教室",
+      "translation": "my book, his friend, our classroom"
+    },
+    {
+      "point": "来 + Verb",
+      "explanation": "Use 来 before a verb to indicate intention. Structure: 来 + Verb",
+      "example": "我来介绍一下。",
+      "translation": "Let me introduce."
+    },
+    {
+      "point": "Descriptive Adjectives",
+      "explanation": "Adjectives in Chinese come before the noun. Many adjectives use 很 (very) as intensifier.",
+      "example": "很聪明、很漂亮、很帅",
+      "translation": "very smart, very beautiful, very handsome"
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "介",
+      "pinyin": "jiè",
+      "meaning": "introduce",
+      "radical": "人",
+      "radicalMeaning": "person",
+      "strokeCount": 4,
+      "strokeOrder": ["撇", "横", "竖", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "绍",
+      "pinyin": "shào",
+      "meaning": "introduce",
+      "radical": "纟",
+      "radicalMeaning": "silk",
+      "strokeCount": 8,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横折", "横", "竖", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "班",
+      "pinyin": "bān",
+      "meaning": "class",
+      "radical": "王",
+      "radicalMeaning": "king",
+      "strokeCount": 5,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Adjectives with Meanings",
+      "pairs": [
+        { "chinese": "聪明", "english": "clever", "id": "m1" },
+        { "chinese": "漂亮", "english": "beautiful", "id": "m2" },
+        { "chinese": "可爱", "english": "lovely", "id": "m3" },
+        { "chinese": "帅", "english": "handsome", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "Complete: 'I am...'",
+      "options": [
+        { "text": "我去学生。", "correct": false },
+        { "text": "我是学生。", "correct": true },
+        { "text": "我学生。", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: This is ____ teacher",
+      "sentence": "这是我们的_____。",
+      "answer": "老师",
+      "hint": "A person who teaches"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 6 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does '的' indicate?",
+        "options": [
+          { "text": "Possession", "correct": true },
+          { "text": "Location", "correct": false },
+          { "text": "Action", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match Chinese sentences with English translations",
+        "pairs": [
+          { "prompt": "我是学生", "answer": "I am a student", "id": "qm1" },
+          { "prompt": "我的书很新", "answer": "My book is new", "id": "qm2" },
+          { "prompt": "很聪明", "answer": "Very smart", "id": "qm3" },
+          { "prompt": "非常漂亮", "answer": "Extremely beautiful", "id": "qm4" }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "How do you say 'Let me introduce'?",
+        "options": [
+          { "text": "我介绍一下。", "correct": false },
+          { "text": "我来介绍一下。", "correct": true },
+          { "text": "介绍我一下。", "correct": false }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "id": "lesson10",
+  "sessionId": "session3",
+  "title": "现在几点",
+  "englishTitle": "What Time Is It Now?",
+  "pageNumber": 80,
+  "difficulty": "beginner",
+  "objectives": [
+    "Tell time in Chinese",
+    "Use time expressions",
+    "Learn days of the week",
+    "Ask about dates"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "现在",
+      "pinyin": "xiànzài",
+      "english": "now, at present",
+      "partOfSpeech": "noun",
+      "example": "现在几点？",
+      "exampleTranslation": "What time is it now?"
+    },
+    {
+      "id": "v2",
+      "character": "点",
+      "pinyin": "diǎn",
+      "english": "o'clock",
+      "partOfSpeech": "measure word",
+      "example": "七点。",
+      "exampleTranslation": "Seven o'clock."
+    },
+    {
+      "id": "v3",
+      "character": "刻",
+      "pinyin": "kè",
+      "english": "quarter",
+      "partOfSpeech": "measure word",
+      "example": "七点一刻。",
+      "exampleTranslation": "Quarter past seven."
+    },
+    {
+      "id": "v4",
+      "character": "早饭",
+      "pinyin": "zǎofàn",
+      "english": "breakfast",
+      "partOfSpeech": "noun",
+      "example": "吃早饭。",
+      "exampleTranslation": "Eat breakfast."
+    },
+    {
+      "id": "v5",
+      "character": "半",
+      "pinyin": "bàn",
+      "english": "half",
+      "partOfSpeech": "noun",
+      "example": "七点半。",
+      "exampleTranslation": "Half past seven."
+    },
+    {
+      "id": "v6",
+      "character": "时候",
+      "pinyin": "shíhou",
+      "english": "when, time",
+      "partOfSpeech": "noun",
+      "example": "什么时候上课？",
+      "exampleTranslation": "When do you have class?"
+    },
+    {
+      "id": "v7",
+      "character": "上课",
+      "pinyin": "shàng kè",
+      "english": "to attend class, to have class",
+      "partOfSpeech": "verb phrase",
+      "example": "上课。",
+      "exampleTranslation": "Have class."
+    },
+    {
+      "id": "v8",
+      "character": "从",
+      "pinyin": "cóng",
+      "english": "from",
+      "partOfSpeech": "preposition",
+      "example": "从八点到十二点。",
+      "exampleTranslation": "From eight to twelve."
+    },
+    {
+      "id": "v9",
+      "character": "到",
+      "pinyin": "dào",
+      "english": "to, until",
+      "partOfSpeech": "preposition/verb",
+      "example": "从八点到十二点。",
+      "exampleTranslation": "From eight to twelve."
+    },
+    {
+      "id": "v10",
+      "character": "上午",
+      "pinyin": "shàngwǔ",
+      "english": "morning",
+      "partOfSpeech": "noun",
+      "example": "上午八点。",
+      "exampleTranslation": "Eight in the morning."
+    },
+    {
+      "id": "v11",
+      "character": "今天",
+      "pinyin": "jīntiān",
+      "english": "today",
+      "partOfSpeech": "noun",
+      "example": "今天几号？",
+      "exampleTranslation": "What date is today?"
+    },
+    {
+      "id": "v12",
+      "character": "月",
+      "pinyin": "yuè",
+      "english": "month",
+      "partOfSpeech": "noun",
+      "example": "七月。",
+      "exampleTranslation": "July."
+    },
+    {
+      "id": "v13",
+      "character": "号",
+      "pinyin": "hào",
+      "english": "date",
+      "partOfSpeech": "noun",
+      "example": "二十二号。",
+      "exampleTranslation": "The 22nd."
+    },
+    {
+      "id": "v14",
+      "character": "星期",
+      "pinyin": "xīngqī",
+      "english": "week",
+      "partOfSpeech": "noun",
+      "example": "星期三。",
+      "exampleTranslation": "Wednesday."
+    },
+    {
+      "id": "v15",
+      "character": "星期天",
+      "pinyin": "xīngqītiān",
+      "english": "Sunday",
+      "partOfSpeech": "noun",
+      "example": "星期天。",
+      "exampleTranslation": "Sunday."
+    },
+    {
+      "id": "v16",
+      "character": "吧",
+      "pinyin": "ba",
+      "english": "particle (softening/confirming)",
+      "partOfSpeech": "particle",
+      "example": "是星期天吧？",
+      "exampleTranslation": "It's Sunday, right?"
+    },
+    {
+      "id": "v17",
+      "character": "咱们",
+      "pinyin": "zánmen",
+      "english": "we, us (inclusive)",
+      "partOfSpeech": "pronoun",
+      "example": "咱们去。",
+      "exampleTranslation": "Let's go."
+    },
+    {
+      "id": "v18",
+      "character": "啊",
+      "pinyin": "a",
+      "english": "particle (exclamation)",
+      "partOfSpeech": "particle",
+      "example": "好啊！",
+      "exampleTranslation": "Great!"
+    },
+    {
+      "id": "v19",
+      "character": "出发",
+      "pinyin": "chūfā",
+      "english": "to set out, to depart",
+      "partOfSpeech": "verb",
+      "example": "什么时候出发？",
+      "exampleTranslation": "When do we depart?"
+    },
+    {
+      "id": "v20",
+      "character": "行",
+      "pinyin": "xíng",
+      "english": "OK, all right",
+      "partOfSpeech": "adjective/verb",
+      "example": "行吗？",
+      "exampleTranslation": "Is that okay?"
+    },
+    {
+      "id": "v21",
+      "character": "见面",
+      "pinyin": "jiàn miàn",
+      "english": "to meet",
+      "partOfSpeech": "verb phrase",
+      "example": "几点见面？",
+      "exampleTranslation": "When shall we meet?"
+    },
+    {
+      "id": "v22",
+      "character": "差",
+      "pinyin": "chà",
+      "english": "less than, to lack",
+      "partOfSpeech": "verb/preposition",
+      "example": "差五分九点。",
+      "exampleTranslation": "Five minutes to nine."
+    },
+    {
+      "id": "v23",
+      "character": "分",
+      "pinyin": "fēn",
+      "english": "minute",
+      "partOfSpeech": "measure word",
+      "example": "五分。",
+      "exampleTranslation": "Five minutes."
+    },
+    {
+      "id": "v24",
+      "character": "门口",
+      "pinyin": "ménkǒu",
+      "english": "entrance, doorway",
+      "partOfSpeech": "noun",
+      "example": "学校门口。",
+      "exampleTranslation": "School entrance."
+    },
+    {
+      "id": "v25",
+      "character": "等",
+      "pinyin": "děng",
+      "english": "to wait",
+      "partOfSpeech": "verb",
+      "example": "等你。",
+      "exampleTranslation": "Wait for you."
+    },
+    {
+      "id": "v26",
+      "character": "早上",
+      "pinyin": "zǎoshang",
+      "english": "morning",
+      "partOfSpeech": "noun",
+      "example": "早上六点。",
+      "exampleTranslation": "Six in the morning."
+    },
+    {
+      "id": "v27",
+      "character": "起",
+      "pinyin": "qǐ",
+      "english": "to get up, to rise",
+      "partOfSpeech": "verb",
+      "example": "起床。",
+      "exampleTranslation": "Get up."
+    },
+    {
+      "id": "v28",
+      "character": "床",
+      "pinyin": "chuáng",
+      "english": "bed",
+      "partOfSpeech": "noun",
+      "example": "起床。",
+      "exampleTranslation": "Get out of bed."
+    },
+    {
+      "id": "v29",
+      "character": "下课",
+      "pinyin": "xià kè",
+      "english": "to finish class",
+      "partOfSpeech": "verb phrase",
+      "example": "下课。",
+      "exampleTranslation": "Class is over."
+    },
+    {
+      "id": "v30",
+      "character": "午饭",
+      "pinyin": "wǔfàn",
+      "english": "lunch",
+      "partOfSpeech": "noun",
+      "example": "吃午饭。",
+      "exampleTranslation": "Eat lunch."
+    }
+  ],
+  "dialogue": {
+    "title": "Time and Schedules",
+    "lines": [
+      {
+        "speaker": "Xiaoyè",
+        "chinese": "现在几点？",
+        "pinyin": "Xiànzài jǐ diǎn?",
+        "english": "What time is it now?"
+      },
+      {
+        "speaker": "Lili",
+        "chinese": "现在七点一刻。",
+        "pinyin": "Xiànzài qī diǎn yī kè.",
+        "english": "It's a quarter past seven now."
+      },
+      {
+        "speaker": "Xiaoyè",
+        "chinese": "你几点吃早饭？",
+        "pinyin": "Nǐ jǐ diǎn chī zǎofàn?",
+        "english": "What time do you eat breakfast?"
+      },
+      {
+        "speaker": "Lili",
+        "chinese": "我七点半吃早饭。",
+        "pinyin": "Wǒ qī diǎn bàn chī zǎofàn.",
+        "english": "I eat breakfast at half past seven."
+      },
+      {
+        "speaker": "Xiaoyè",
+        "chinese": "星期天咱们去颐和园，怎么样？",
+        "pinyin": "Xīngqītiān zánmen qù Yíhéyuán, zěnmeyàng?",
+        "english": "Let's go to the Summer Palace on Sunday, how about it?"
+      },
+      {
+        "speaker": "Lili",
+        "chinese": "好啊。什么时候出发？",
+        "pinyin": "Hǎo a. Shénme shíhou chūfā?",
+        "english": "Great. When shall we leave?"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Telling Time",
+      "explanation": "Structure: [Hour] + 点 + [Minutes]. For 15 min: 一刻, for 30 min: 半, for other: 分.",
+      "example": "八点、八点十五分/八点一刻、八点三十分/八点半、差五分八点",
+      "translation": "8:00, 8:15, 8:30, 7:55"
+    },
+    {
+      "point": "Date Expression",
+      "explanation": "Structure: [Year] + 年 + [Month] + 月 + [Day] + 号/日 + [Day of week] + 星期",
+      "example": "二零二四年七月二十二号星期三",
+      "translation": "July 22, 2024, Wednesday"
+    },
+    {
+      "point": "Time Ranges",
+      "explanation": "Use 从...到... to express time duration. Structure: 从 + [start] + 到 + [end]",
+      "example": "从上午八点到十二点。",
+      "translation": "From 8am to 12pm."
+    },
+    {
+      "point": "Particle 吧",
+      "explanation": "吧 softens statements or seeks confirmation. It shows uncertainty or invites agreement.",
+      "example": "是星期天吧？ 咱们去吧。",
+      "translation": "It's Sunday, right? Let's go."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "点",
+      "pinyin": "diǎn",
+      "meaning": "o'clock",
+      "radical": "火",
+      "radicalMeaning": "fire",
+      "strokeCount": 9,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "撇", "点"]
+    },
+    {
+      "id": "c2",
+      "character": "星",
+      "pinyin": "xīng",
+      "meaning": "star",
+      "radical": "日",
+      "radicalMeaning": "sun",
+      "strokeCount": 9,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "期",
+      "pinyin": "qī",
+      "meaning": "period, week",
+      "radical": "月",
+      "radicalMeaning": "moon",
+      "strokeCount": 12,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "竖", "竖", "竖", "横"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Times with Chinese Expressions",
+      "pairs": [
+        { "chinese": "八点", "english": "8:00", "id": "m1" },
+        { "chinese": "八点一刻", "english": "8:15", "id": "m2" },
+        { "chinese": "八点半", "english": "8:30", "id": "m3" },
+        { "chinese": "差五分八点", "english": "7:55", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "How do you say 8:30?",
+      "options": [
+        { "text": "八点二十", "correct": false },
+        { "text": "八点半", "correct": true },
+        { "text": "八点三", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: Today is July 22",
+      "sentence": "今天七月_____号。",
+      "answer": "二十二",
+      "hint": "The number 22 in Chinese"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 10 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "How do you express 7:15?",
+        "options": [
+          { "text": "七点十五", "correct": true },
+          { "text": "七点一刻", "correct": true },
+          { "text": "七点半", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match days of the week",
+        "pairs": [
+          { "prompt": "星期一", "answer": "Monday", "id": "qm1" },
+          { "prompt": "星期天", "answer": "Sunday", "id": "qm2" },
+          { "prompt": "星期三", "answer": "Wednesday", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}

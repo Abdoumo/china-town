@@ -1,0 +1,435 @@
+{
+  "id": "lesson14",
+  "sessionId": "session4",
+  "title": "咱们去尝尝，好吗",
+  "englishTitle": "Let's Go Taste It",
+  "pageNumber": 129,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Practice dining dialogue",
+    "Learn food vocabulary",
+    "Use 好吗 tag questions",
+    "Understand taste descriptions"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "听说",
+      "pinyin": "tīng shuō",
+      "english": "it is said that",
+      "partOfSpeech": "verb phrase",
+      "example": "听说四川菜很好吃。",
+      "exampleTranslation": "It is said Sichuan food is delicious."
+    },
+    {
+      "id": "v2",
+      "character": "菜",
+      "pinyin": "cài",
+      "english": "dish, food",
+      "partOfSpeech": "noun",
+      "example": "四川菜。",
+      "exampleTranslation": "Sichuan food."
+    },
+    {
+      "id": "v3",
+      "character": "好吃",
+      "pinyin": "hǎochī",
+      "english": "delicious",
+      "partOfSpeech": "adjective",
+      "example": "很好吃。",
+      "exampleTranslation": "Very delicious."
+    },
+    {
+      "id": "v4",
+      "character": "事",
+      "pinyin": "shì",
+      "english": "matter, affair",
+      "partOfSpeech": "noun",
+      "example": "有事。",
+      "exampleTranslation": "Have something to do."
+    },
+    {
+      "id": "v5",
+      "character": "菜单",
+      "pinyin": "càidān",
+      "english": "menu",
+      "partOfSpeech": "noun",
+      "example": "这是菜单。",
+      "exampleTranslation": "This is the menu."
+    },
+    {
+      "id": "v6",
+      "character": "点",
+      "pinyin": "diǎn",
+      "english": "to order (dishes)",
+      "partOfSpeech": "verb",
+      "example": "请点菜。",
+      "exampleTranslation": "Please order."
+    },
+    {
+      "id": "v7",
+      "character": "鱼香肉丝",
+      "pinyin": "yúxiāng ròusī",
+      "english": "fish-flavored shredded pork",
+      "partOfSpeech": "noun",
+      "example": "鱼香肉丝。",
+      "exampleTranslation": "Fish-flavored pork."
+    },
+    {
+      "id": "v8",
+      "character": "麻婆豆腐",
+      "pinyin": "mápo dòufu",
+      "english": "mapo tofu",
+      "partOfSpeech": "noun",
+      "example": "麻婆豆腐。",
+      "exampleTranslation": "Mapo tofu."
+    },
+    {
+      "id": "v9",
+      "character": "碗",
+      "pinyin": "wǎn",
+      "english": "bowl",
+      "partOfSpeech": "measure word/noun",
+      "example": "两碗米饭。",
+      "exampleTranslation": "Two bowls of rice."
+    },
+    {
+      "id": "v10",
+      "character": "辣",
+      "pinyin": "là",
+      "english": "spicy, hot (peppery)",
+      "partOfSpeech": "adjective",
+      "example": "很辣。",
+      "exampleTranslation": "Very spicy."
+    },
+    {
+      "id": "v11",
+      "character": "汤",
+      "pinyin": "tāng",
+      "english": "soup",
+      "partOfSpeech": "noun",
+      "example": "酸辣汤。",
+      "exampleTranslation": "Hot and sour soup."
+    },
+    {
+      "id": "v12",
+      "character": "饮料",
+      "pinyin": "yǐnliào",
+      "english": "beverage",
+      "partOfSpeech": "noun",
+      "example": "什么饮料？",
+      "exampleTranslation": "What beverage?"
+    },
+    {
+      "id": "v13",
+      "character": "壶",
+      "pinyin": "hú",
+      "english": "pot, kettle",
+      "partOfSpeech": "noun",
+      "example": "一壶茶。",
+      "exampleTranslation": "A pot of tea."
+    },
+    {
+      "id": "v14",
+      "character": "稍",
+      "pinyin": "shào",
+      "english": "a little, slightly",
+      "partOfSpeech": "adverb",
+      "example": "稍等。",
+      "exampleTranslation": "Wait a moment."
+    },
+    {
+      "id": "v15",
+      "character": "觉得",
+      "pinyin": "juéde",
+      "english": "to feel, to think",
+      "partOfSpeech": "verb",
+      "example": "觉得好吃。",
+      "exampleTranslation": "Think it is delicious."
+    },
+    {
+      "id": "v16",
+      "character": "不过",
+      "pinyin": "búguò",
+      "english": "but, however",
+      "partOfSpeech": "conjunction",
+      "example": "好吃，不过油多。",
+      "exampleTranslation": "Delicious, but too much oil."
+    },
+    {
+      "id": "v17",
+      "character": "油",
+      "pinyin": "yóu",
+      "english": "oil",
+      "partOfSpeech": "noun",
+      "example": "油太多。",
+      "exampleTranslation": "Too much oil."
+    },
+    {
+      "id": "v18",
+      "character": "喜欢",
+      "pinyin": "xǐhuān",
+      "english": "to like",
+      "partOfSpeech": "verb",
+      "example": "喜欢吃什么？",
+      "exampleTranslation": "What do you like to eat?"
+    },
+    {
+      "id": "v19",
+      "character": "最",
+      "pinyin": "zuì",
+      "english": "most",
+      "partOfSpeech": "adverb",
+      "example": "最喜欢。",
+      "exampleTranslation": "Like most."
+    },
+    {
+      "id": "v20",
+      "character": "咸",
+      "pinyin": "xián",
+      "english": "salty",
+      "partOfSpeech": "adjective",
+      "example": "咸的。",
+      "exampleTranslation": "Salty."
+    },
+    {
+      "id": "v21",
+      "character": "苦",
+      "pinyin": "kǔ",
+      "english": "bitter",
+      "partOfSpeech": "adjective",
+      "example": "苦的。",
+      "exampleTranslation": "Bitter."
+    },
+    {
+      "id": "v22",
+      "character": "就是",
+      "pinyin": "jiùshi",
+      "english": "it's just that, only",
+      "partOfSpeech": "adverb",
+      "example": "就是不喜欢甜的。",
+      "exampleTranslation": "It's just don't like sweet."
+    },
+    {
+      "id": "v23",
+      "character": "小姐",
+      "pinyin": "xiǎojiě",
+      "english": "waitress, miss",
+      "partOfSpeech": "noun",
+      "example": "小姐。",
+      "exampleTranslation": "Waitress."
+    },
+    {
+      "id": "v24",
+      "character": "结账",
+      "pinyin": "jiézhàng",
+      "english": "to check out, to settle bill",
+      "partOfSpeech": "verb phrase",
+      "example": "结账。",
+      "exampleTranslation": "Check out."
+    },
+    {
+      "id": "v25",
+      "character": "餐巾纸",
+      "pinyin": "cānjīnzhǐ",
+      "english": "napkin",
+      "partOfSpeech": "noun",
+      "example": "餐巾纸。",
+      "exampleTranslation": "Napkin."
+    },
+    {
+      "id": "v26",
+      "character": "付",
+      "pinyin": "fù",
+      "english": "to pay",
+      "partOfSpeech": "verb",
+      "example": "付钱。",
+      "exampleTranslation": "Pay."
+    },
+    {
+      "id": "v27",
+      "character": "请客",
+      "pinyin": "qǐng kè",
+      "english": "to treat, to buy",
+      "partOfSpeech": "verb phrase",
+      "example": "我请客。",
+      "exampleTranslation": "I'll treat."
+    },
+    {
+      "id": "v28",
+      "character": "以后",
+      "pinyin": "yǐhòu",
+      "english": "later, afterwards",
+      "partOfSpeech": "noun",
+      "example": "以后。",
+      "exampleTranslation": "Later."
+    },
+    {
+      "id": "v29",
+      "character": "唱",
+      "pinyin": "chàng",
+      "english": "to sing",
+      "partOfSpeech": "verb",
+      "example": "唱歌。",
+      "exampleTranslation": "Sing."
+    },
+    {
+      "id": "v30",
+      "character": "有意思",
+      "pinyin": "yǒu yìsi",
+      "english": "interesting",
+      "partOfSpeech": "adjective",
+      "example": "很有意思。",
+      "exampleTranslation": "Very interesting."
+    }
+  ],
+  "dialogue": {
+    "title": "Restaurant Dining",
+    "lines": [
+      {
+        "speaker": "Zhimei",
+        "chinese": "听说四川菜很好吃，咱们去尝尝，好吗？",
+        "pinyin": "Tīng shuō Sìchuān cài hěn hǎochī, zánmen qù chángchang, hǎo ma?",
+        "english": "It is said Sichuan food is delicious, let's go taste it, okay?"
+      },
+      {
+        "speaker": "Lili",
+        "chinese": "好啊。什么时候去？",
+        "pinyin": "Hǎo a. Shénme shíhou qù?",
+        "english": "Great. When shall we go?"
+      },
+      {
+        "speaker": "Zhimei",
+        "chinese": "今天晚上怎么样？",
+        "pinyin": "Jīntiān wǎnshang zěnmeyàng?",
+        "english": "How about tonight?"
+      },
+      {
+        "speaker": "Lili",
+        "chinese": "今天晚上我有事，明天中午好吗？",
+        "pinyin": "Jīntiān wǎnshang wǒ yǒu shì, míngtiān zhōngwǔ hǎo ma?",
+        "english": "I have something tonight. How about tomorrow at noon?"
+      },
+      {
+        "speaker": "Waiter",
+        "chinese": "这是菜单，请点菜。",
+        "pinyin": "Zhè shì càidān, qǐng diǎn cài.",
+        "english": "This is the menu, please order."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "Tag Questions with 好吗",
+      "explanation": "Add 好吗 at the end of a statement to turn it into a polite question.",
+      "example": "咱们去尝尝，好吗？ 明天中午好吗？",
+      "translation": "Let's go taste it, okay? How about tomorrow at noon?"
+    },
+    {
+      "point": "是...A 是A Construction",
+      "explanation": "This pattern confirms a fact before adding a contrasting point using 不过.",
+      "example": "好吃是好吃，不过油太多。",
+      "translation": "It is delicious, but there is too much oil."
+    },
+    {
+      "point": "Describing Tastes",
+      "explanation": "Use adjectives for flavors: 甜 (sweet), 酸 (sour), 辣 (spicy), 咸 (salty), 苦 (bitter)",
+      "example": "酸辣汤、甜的、咸的、苦的",
+      "translation": "hot and sour soup, sweet, salty, bitter"
+    },
+    {
+      "point": "Pivotal Sentences (兼语句)",
+      "explanation": "The object of the first verb is the subject of the second verb.",
+      "example": "我请你吃韩国菜。",
+      "translation": "I'll treat you to Korean food."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "菜",
+      "pinyin": "cài",
+      "meaning": "vegetable, dish",
+      "radical": "艹",
+      "radicalMeaning": "grass",
+      "strokeCount": 11,
+      "strokeOrder": ["竖", "横折", "横", "竖", "竖", "竖", "竖", "竖", "竖", "竖", "竖"]
+    },
+    {
+      "id": "c2",
+      "character": "汤",
+      "pinyin": "tāng",
+      "meaning": "soup",
+      "radical": "水",
+      "radicalMeaning": "water",
+      "strokeCount": 9,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "竖"]
+    },
+    {
+      "id": "c3",
+      "character": "油",
+      "pinyin": "yóu",
+      "meaning": "oil",
+      "radical": "水",
+      "radicalMeaning": "water",
+      "strokeCount": 8,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Taste Descriptions",
+      "pairs": [
+        { "chinese": "甜", "english": "sweet", "id": "m1" },
+        { "chinese": "酸", "english": "sour", "id": "m2" },
+        { "chinese": "辣", "english": "spicy", "id": "m3" },
+        { "chinese": "咸", "english": "salty", "id": "m4" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "How do you invite someone politely to try food?",
+      "options": [
+        { "text": "尝尝", "correct": false },
+        { "text": "咱们去尝尝，好吗？", "correct": true },
+        { "text": "要尝吗？", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete: I like ____ most",
+      "sentence": "我最喜欢吃_____。",
+      "answer": "韩国菜",
+      "hint": "A type of cuisine"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 14 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does the 好吗 tag question pattern do?",
+        "options": [
+          { "text": "Changes a statement into a polite request", "correct": true },
+          { "text": "Expresses negation", "correct": false },
+          { "text": "Shows emphasis", "correct": false }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match tastes with their descriptions",
+        "pairs": [
+          { "prompt": "鱼香肉丝", "answer": "fish-flavored pork", "id": "qm1" },
+          { "prompt": "麻婆豆腐", "answer": "mapo tofu", "id": "qm2" },
+          { "prompt": "酸辣汤", "answer": "hot and sour soup", "id": "qm3" }
+        ]
+      }
+    ]
+  }
+}
