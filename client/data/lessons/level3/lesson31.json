@@ -1,0 +1,487 @@
+{
+  "id": "lesson31",
+  "sessionId": "session11",
+  "title": "我们认识一下,好吗",
+  "englishTitle": "Shall We Get to Know Each Other",
+  "pageNumber": 1,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn how to introduce yourself",
+    "Master self-introduction phrases",
+    "Understand workplace introductions"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "各种各样",
+      "pinyin": "gè zhong gè yàng",
+      "english": "all kinds of",
+      "partOfSpeech": "adjective",
+      "example": "各种各样的人",
+      "exampleTranslation": "all kinds of people"
+    },
+    {
+      "id": "v2",
+      "character": "打交道",
+      "pinyin": "dă jiãodao",
+      "english": "to make contact with",
+      "partOfSpeech": "verb",
+      "example": "和各种人打交道",
+      "exampleTranslation": "to make contact with all kinds of people"
+    },
+    {
+      "id": "v3",
+      "character": "自我介绍",
+      "pinyin": "ziwo jieshào",
+      "english": "to introduce oneself",
+      "partOfSpeech": "verb",
+      "example": "我来做个自我介绍",
+      "exampleTranslation": "I'll introduce myself"
+    },
+    {
+      "id": "v4",
+      "character": "性格",
+      "pinyin": "xìnggé",
+      "english": "character",
+      "partOfSpeech": "noun",
+      "example": "性格开朗",
+      "exampleTranslation": "optimistic character"
+    },
+    {
+      "id": "v5",
+      "character": "开朗",
+      "pinyin": "kailăng",
+      "english": "optimistic, sanguine",
+      "partOfSpeech": "adjective",
+      "example": "性格很开朗",
+      "exampleTranslation": "very optimistic"
+    },
+    {
+      "id": "v6",
+      "character": "开玩笑",
+      "pinyin": "kãi wánxiào",
+      "english": "to make jokes",
+      "partOfSpeech": "verb",
+      "example": "爱开玩笑",
+      "exampleTranslation": "likes to make jokes"
+    },
+    {
+      "id": "v7",
+      "character": "过头",
+      "pinyin": "guòtóu",
+      "english": "going too far, overdoing it",
+      "partOfSpeech": "adjective",
+      "example": "有点儿过头",
+      "exampleTranslation": "a little overdone"
+    },
+    {
+      "id": "v8",
+      "character": "加入",
+      "pinyin": "jiārù",
+      "english": "to join",
+      "partOfSpeech": "verb",
+      "example": "加入公司",
+      "exampleTranslation": "to join the company"
+    },
+    {
+      "id": "v9",
+      "character": "正式",
+      "pinyin": "zhèngshi",
+      "english": "formal",
+      "partOfSpeech": "adjective",
+      "example": "正式上班",
+      "exampleTranslation": "to officially start work"
+    },
+    {
+      "id": "v10",
+      "character": "人事",
+      "pinyin": "rénshì",
+      "english": "personnel matters",
+      "partOfSpeech": "noun",
+      "example": "人事部",
+      "exampleTranslation": "personnel department"
+    },
+    {
+      "id": "v11",
+      "character": "负责",
+      "pinyin": "fùzé",
+      "english": "to be in charge of",
+      "partOfSpeech": "verb",
+      "example": "负责人事工作",
+      "exampleTranslation": "to be in charge of personnel work"
+    },
+    {
+      "id": "v12",
+      "character": "派",
+      "pinyin": "pài",
+      "english": "to send",
+      "partOfSpeech": "verb",
+      "example": "派我来接待",
+      "exampleTranslation": "send me to receive"
+    },
+    {
+      "id": "v13",
+      "character": "接待",
+      "pinyin": "jiēdài",
+      "english": "to receive, to entertain",
+      "partOfSpeech": "verb",
+      "example": "接待新员工",
+      "exampleTranslation": "to receive new employees"
+    },
+    {
+      "id": "v14",
+      "character": "尽快",
+      "pinyin": "jinkuài",
+      "english": "as soon as possible",
+      "partOfSpeech": "adverb",
+      "example": "尽快熟悉环境",
+      "exampleTranslation": "to get familiar with the environment as soon as possible"
+    },
+    {
+      "id": "v15",
+      "character": "熟悉",
+      "pinyin": "shúxi",
+      "english": "to get familiar with",
+      "partOfSpeech": "verb",
+      "example": "熟悉工作环境",
+      "exampleTranslation": "to get familiar with the work environment"
+    },
+    {
+      "id": "v16",
+      "character": "进入",
+      "pinyin": "jìnrù",
+      "english": "to take on",
+      "partOfSpeech": "verb",
+      "example": "进入工作岗位",
+      "exampleTranslation": "to enter the work position"
+    },
+    {
+      "id": "v17",
+      "character": "岗位",
+      "pinyin": "găngwèi",
+      "english": "post",
+      "partOfSpeech": "noun",
+      "example": "工作岗位",
+      "exampleTranslation": "work position"
+    },
+    {
+      "id": "v18",
+      "character": "部门",
+      "pinyin": "bùmén",
+      "english": "department",
+      "partOfSpeech": "noun",
+      "example": "各部门负责人",
+      "exampleTranslation": "department heads"
+    },
+    {
+      "id": "v19",
+      "character": "报到",
+      "pinyin": "bào dào",
+      "english": "to register",
+      "partOfSpeech": "verb",
+      "example": "到部门报到",
+      "exampleTranslation": "to register at the department"
+    },
+    {
+      "id": "v20",
+      "character": "算",
+      "pinyin": "suàn",
+      "english": "to regard as",
+      "partOfSpeech": "verb",
+      "example": "这就算认识了",
+      "exampleTranslation": "this counts as getting to know each other"
+    }
+  ],
+  "dialogue": {
+    "title": "Getting to Know Each Other",
+    "lines": [
+      {
+        "speaker": "马丁",
+        "chinese": "下面我来做个自我介绍",
+        "pinyin": "Xiàmiàn wǒ lái zuò ge zìwǒ jièshào",
+        "english": "Now let me introduce myself"
+      },
+      {
+        "speaker": "马丁",
+        "chinese": "我叫马丁,我是从瑞典来的。",
+        "pinyin": "Wǒ jiào mǎdīng, wǒ shì cóng ruidiăn lái de.",
+        "english": "My name is Martin, I'm from Sweden."
+      },
+      {
+        "speaker": "马丁",
+        "chinese": "瑞典的冬天很冷,可我却是个性格开朗、非常热情的人。",
+        "pinyin": "Ruidiăn de dōngtiān hěn lěng, kě wǒ què shì ge xìnggé kailăng, fēicháng règíng de rén.",
+        "english": "Sweden's winters are very cold, but I have an optimistic and enthusiastic personality."
+      },
+      {
+        "speaker": "马丁",
+        "chinese": "我喜欢交朋友,还爱开玩笑,有时候可能有点儿过头。",
+        "pinyin": "Wǒ xǐhuān jiāo péngyou, háishi ài kāi wánxiào, yǒushíhou kěnéng yǒudiăn'er guòtóu.",
+        "english": "I like making friends and joking around, sometimes maybe overdoing it."
+      },
+      {
+        "speaker": "马丁",
+        "chinese": "希望大家别生我的气。我介绍完了。",
+        "pinyin": "Xīwàng dàjiā bié shēng wǒ de qì. Wǒ jièshào wánle.",
+        "english": "I hope no one gets upset with me. That's my introduction."
+      },
+      {
+        "speaker": "李经理",
+        "chinese": "欢迎加入三T公司",
+        "pinyin": "Huānyíng jiārù sān T gōngsī",
+        "english": "Welcome to Triple T Company"
+      },
+      {
+        "speaker": "李经理",
+        "chinese": "从今天起,你们就是三T公司的一员了。",
+        "pinyin": "Cóng jīntiān qǐ, nǐmen jiùshì sān T gōngsī de yìyuán le.",
+        "english": "From today on, you are members of Triple T Company."
+      },
+      {
+        "speaker": "李经理",
+        "chinese": "我们这就算认识了。有什么问题或要求,尽管对我说。",
+        "pinyin": "Wǒmen zhè jiù suàn rènshi le. Yǒushénme wèntí huò yāoqiú, jinguăn duì wǒ shuō.",
+        "english": "Now we know each other. If you have any questions or requests, feel free to tell me."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "各种各样 + 名词 (All kinds of...)",
+      "explanation": "This phrase describes various types of people or things",
+      "example": "我们每天都要跟各种各样的人打交道。",
+      "translation": "We deal with all kinds of people every day."
+    },
+    {
+      "point": "非常 + 形容词 (Very...)",
+      "explanation": "Used to emphasize an adjective",
+      "example": "我是个非常热情的人。",
+      "translation": "I'm a very enthusiastic person."
+    },
+    {
+      "point": "希望 + 句子 (Hope that...)",
+      "explanation": "Express a wish or hope",
+      "example": "我希望大家别生我的气。",
+      "translation": "I hope everyone doesn't get upset with me."
+    },
+    {
+      "point": "从...来 (From... come)",
+      "explanation": "Indicate place of origin",
+      "example": "我是从瑞典来的。",
+      "translation": "I come from Sweden."
+    },
+    {
+      "point": "这就算... (This counts as...)",
+      "explanation": "Indicate that something qualifies or counts as",
+      "example": "我们这就算认识了。",
+      "translation": "Now we count as knowing each other."
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "介",
+      "pinyin": "jiè",
+      "meaning": "to introduce",
+      "radical": "人",
+      "radicalMeaning": "person",
+      "strokeCount": 4,
+      "strokeOrder": ["撇", "横折钩", "横", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "绍",
+      "pinyin": "shào",
+      "meaning": "continue, connect",
+      "radical": "纟",
+      "radicalMeaning": "silk",
+      "strokeCount": 8,
+      "strokeOrder": ["纵折", "横", "横", "竖", "横折", "横", "横", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "性",
+      "pinyin": "xìng",
+      "meaning": "nature, character",
+      "radical": "心",
+      "radicalMeaning": "heart",
+      "strokeCount": 8,
+      "strokeOrder": ["竖", "横折", "横", "横", "竖", "横", "竖", "横"]
+    },
+    {
+      "id": "c4",
+      "character": "格",
+      "pinyin": "gé",
+      "meaning": "style, pattern",
+      "radical": "木",
+      "radicalMeaning": "wood",
+      "strokeCount": 10,
+      "strokeOrder": ["横", "竖", "横折", "横", "横", "竖", "横", "竖", "竖", "横"]
+    },
+    {
+      "id": "c5",
+      "character": "朗",
+      "pinyin": "lǎng",
+      "meaning": "bright, clear",
+      "radical": "月",
+      "radicalMeaning": "moon",
+      "strokeCount": 10,
+      "strokeOrder": ["竖", "竖折", "竖", "横", "竖", "横", "横", "竖", "横", "横"]
+    },
+    {
+      "id": "c6",
+      "character": "交",
+      "pinyin": "jiāo",
+      "meaning": "to cross, to make friends",
+      "radical": "八",
+      "radicalMeaning": "eight",
+      "strokeCount": 6,
+      "strokeOrder": ["撇", "竖", "竖", "横", "竖", "横"]
+    },
+    {
+      "id": "c7",
+      "character": "道",
+      "pinyin": "dào",
+      "meaning": "way, path",
+      "radical": "辶",
+      "radicalMeaning": "walk",
+      "strokeCount": 12,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "竖", "横折钩", "横"]
+    },
+    {
+      "id": "c8",
+      "character": "笑",
+      "pinyin": "xiào",
+      "meaning": "to laugh",
+      "radical": "竹",
+      "radicalMeaning": "bamboo",
+      "strokeCount": 10,
+      "strokeOrder": ["竖", "竖", "横", "横", "竖", "横", "竖", "横", "竖", "横"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Chinese with English",
+      "pairs": [
+        {
+          "chinese": "各种各样",
+          "english": "all kinds of",
+          "id": "m1"
+        },
+        {
+          "chinese": "自我介绍",
+          "english": "to introduce oneself",
+          "id": "m2"
+        },
+        {
+          "chinese": "打交道",
+          "english": "to make contact with",
+          "id": "m3"
+        },
+        {
+          "chinese": "性格开朗",
+          "english": "optimistic personality",
+          "id": "m4"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What is Martin's nationality?",
+      "options": [
+        {
+          "text": "英国人",
+          "correct": false
+        },
+        {
+          "text": "瑞典人",
+          "correct": true
+        },
+        {
+          "text": "美国人",
+          "correct": false
+        },
+        {
+          "text": "中国人",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the dialogue",
+      "sentence": "我叫马丁,我是从_______来的。",
+      "answer": "瑞典",
+      "hint": "A Nordic country in Europe"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 31 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 我们这就算认识了 mean?",
+        "options": [
+          {
+            "text": "We need to get to know each other",
+            "correct": false
+          },
+          {
+            "text": "Now we count as knowing each other",
+            "correct": true
+          },
+          {
+            "text": "We don't know each other",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match the introduction phrases",
+        "pairs": [
+          {
+            "prompt": "我叫马丁",
+            "answer": "My name is Martin",
+            "id": "qm1"
+          },
+          {
+            "prompt": "我是从瑞典来的",
+            "answer": "I'm from Sweden",
+            "id": "qm2"
+          },
+          {
+            "prompt": "有什么问题或要求,尽管对我说",
+            "answer": "If you have any questions or requests, feel free to tell me",
+            "id": "qm3"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What is Martin's personality like?",
+        "options": [
+          {
+            "text": "Cold and reserved",
+            "correct": false
+          },
+          {
+            "text": "Optimistic and enthusiastic",
+            "correct": true
+          },
+          {
+            "text": "Shy and quiet",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

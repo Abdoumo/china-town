@@ -1,0 +1,137 @@
+{
+  "id": "lesson42",
+  "sessionId": "session13",
+  "title": "我们生活在人群里",
+  "englishTitle": "We Live Among People",
+  "pageNumber": 103,
+  "difficulty": "intermediate",
+  "objectives": ["Discuss relationships with others", "Learn communication vocabulary", "Understand conflict resolution"],
+  "vocabulary": [
+    {"id": "v1", "character": "免不了", "pinyin": "miănbulião", "english": "to be unavoidable", "partOfSpeech": "verb", "example": "免不了会闹矛盾", "exampleTranslation": "inevitably conflicts arise"},
+    {"id": "v2", "character": "交流", "pinyin": "jiāoliú", "english": "to communicate", "partOfSpeech": "verb", "example": "多交流", "exampleTranslation": "communicate more"},
+    {"id": "v3", "character": "不妨", "pinyin": "búfáng", "english": "might as well", "partOfSpeech": "verb", "example": "不妨说说", "exampleTranslation": "might as well say"},
+    {"id": "v4", "character": "一连", "pinyin": "yilián", "english": "continuing for a long time", "partOfSpeech": "adverb", "example": "一连几天", "exampleTranslation": "for several days in a row"},
+    {"id": "v5", "character": "竟然", "pinyin": "jìngrán", "english": "to one's surprise", "partOfSpeech": "adverb", "example": "竟然让你失眠", "exampleTranslation": "to my surprise made you sleepless"},
+    {"id": "v6", "character": "失眠", "pinyin": "shi mián", "english": "to be sleepless", "partOfSpeech": "verb", "example": "失眠了", "exampleTranslation": "can't sleep"},
+    {"id": "v7", "character": "夜猫子", "pinyin": "yèmãozi", "english": "night owl", "partOfSpeech": "noun", "example": "是个夜猫子", "exampleTranslation": "a night owl"},
+    {"id": "v8", "character": "抽屉", "pinyin": "chouti", "english": "drawer", "partOfSpeech": "noun", "example": "开抽屉", "exampleTranslation": "open drawer"},
+    {"id": "v9", "character": "翻", "pinyin": "fan", "english": "to search", "partOfSpeech": "verb", "example": "翻书包", "exampleTranslation": "search bag"},
+    {"id": "v10", "character": "照应", "pinyin": "zhàoyìng", "english": "to look after", "partOfSpeech": "verb", "example": "相互照应", "exampleTranslation": "look after each other"},
+    {"id": "v11", "character": "惹", "pinyin": "re", "english": "to offend", "partOfSpeech": "verb", "example": "惹他不高兴", "exampleTranslation": "make him unhappy"},
+    {"id": "v12", "character": "相处", "pinyin": "xiāngchủ", "english": "to get along with", "partOfSpeech": "verb", "example": "好相处", "exampleTranslation": "easy to get along with"},
+    {"id": "v13", "character": "小心眼儿", "pinyin": "xiăoxīnyănr", "english": "small-minded", "partOfSpeech": "adjective", "example": "小心眼儿的人", "exampleTranslation": "a petty person"},
+    {"id": "v14", "character": "意识", "pinyin": "yishi", "english": "to realize", "partOfSpeech": "verb", "example": "没意识到", "exampleTranslation": "didn't realize"},
+    {"id": "v15", "character": "误会", "pinyin": "wùhuì", "english": "misunderstanding", "partOfSpeech": "noun", "example": "可能有误会", "exampleTranslation": "might be a misunderstanding"},
+    {"id": "v16", "character": "开诚布公", "pinyin": "kãi chéng bù gõng", "english": "frankly and sincerely", "partOfSpeech": "idiom", "example": "开诚布公地谈", "exampleTranslation": "talk frankly"},
+    {"id": "v17", "character": "意见", "pinyin": "yijian", "english": "opinion", "partOfSpeech": "noun", "example": "有什么意见", "exampleTranslation": "have any opinion"},
+    {"id": "v18", "character": "直说", "pinyin": "zhí shuō", "english": "to speak frankly", "partOfSpeech": "verb", "example": "不妨直说", "exampleTranslation": "might as well say it straight"},
+    {"id": "v19", "character": "尽量", "pinyin": "jinliang", "english": "as far as possible", "partOfSpeech": "adverb", "example": "尽量保持", "exampleTranslation": "try to keep"},
+    {"id": "v20", "character": "各奔东西", "pinyin": "gè bèn dõng xĩ", "english": "to part from each other", "partOfSpeech": "idiom", "example": "各奔东西", "exampleTranslation": "went their separate ways"}
+  ],
+  "dialogue": {
+    "title": "Roommate Issues",
+    "lines": [
+      {"speaker": "张清", "chinese": "你不妨当面跟他说说,让他注意点儿。", "pinyin": "Nǐ búfáng dàngmiàn gēn tā shuōshuō, ràng tā zhùyì diăn'er.", "english": "Why not talk to him face-to-face and ask him to be more careful."},
+      {"speaker": "刘松", "chinese": "可是我怕说了会惹他不高兴,以后就不好相处了。", "pinyin": "Kěshi wǒ pà shuōle huì rě tā búgāoxìng, yǐhòu jiù búháo xiāngchủ le.", "english": "But I'm afraid he'll get upset and then we won't get along well."},
+      {"speaker": "张清", "chinese": "看样子你的同屋不像那种小心眼儿的人。", "pinyin": "Kànyàngzi nǐ de tóngwū búxiàng nàzhǒng xiăoxīnyănr de rén.", "english": "It doesn't seem like your roommate is that kind of petty person."},
+      {"speaker": "曹明明", "chinese": "咱们谈谈好吗?", "pinyin": "Zánmen tántan háo ma?", "english": "Can we talk?"},
+      {"speaker": "李晓", "chinese": "谈什么?有什么可谈的?", "pinyin": "Tán shénme? Yǒu shénme kě tán de?", "english": "Talk about what? What's there to talk about?"},
+      {"speaker": "曹明明", "chinese": "我想我们之间可能有什么误会,我觉得你这几天对我的态度不大对���。", "pinyin": "Wǒ xiǎng wǒmen zhījiān kěnéng yǒu shénme wùhuì, wǒ juéde nǐ zhè jǐ tiān duì wǒ de tàidu búdà duìtou.", "english": "I think there might be a misunderstanding between us. I feel your attitude towards me recently isn't quite right."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "免不了 (unavoidably)",
+      "explanation": "Indicates something is bound to happen",
+      "example": "生活在人群里免不了会闹矛盾。",
+      "translation": "Living among people, conflicts are unavoidable."
+    },
+    {
+      "point": "不妨 (might as well)",
+      "explanation": "Suggests a course of action",
+      "example": "你不妨当面跟他说说。",
+      "translation": "Why not talk to him directly."
+    },
+    {
+      "point": "竟然 (surprisingly)",
+      "explanation": "Expresses surprise at something unexpected",
+      "example": "竟然让你失眠了。",
+      "translation": "It surprisingly made you sleepless."
+    },
+    {
+      "point": "开诚布公 (frankly)",
+      "explanation": "Indicates honest and open communication",
+      "example": "我们开诚布公地谈一谈。",
+      "translation": "Let's talk frankly."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "群", "pinyin": "q��n", "meaning": "group, crowd", "radical": "羊", "radicalMeaning": "sheep", "strokeCount": 13, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "竖", "竖", "竖", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match relationship vocabulary",
+      "pairs": [
+        {"chinese": "免不了", "english": "unavoidable", "id": "m1"},
+        {"chinese": "误会", "english": "misunderstanding", "id": "m2"},
+        {"chinese": "开诚布公", "english": "frank and sincere", "id": "m3"},
+        {"chinese": "相处", "english": "get along with", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "Why is the person hesitant to speak?",
+      "options": [
+        {"text": "The roommate is mean", "correct": false},
+        {"text": "Afraid of making him upset", "correct": true},
+        {"text": "Doesn't know how to talk", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "生活在人群里,免不了会______。",
+      "answer": "闹矛盾",
+      "hint": "have conflicts"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 42 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 免不了 mean?",
+        "options": [
+          {"text": "Easy to avoid", "correct": false},
+          {"text": "Unavoidable", "correct": true},
+          {"text": "Must leave", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match communication phrases",
+        "pairs": [
+          {"prompt": "竟然让你失眠", "answer": "surprisingly made you sleepless", "id": "qm1"},
+          {"prompt": "开诚布公", "answer": "frank and sincere", "id": "qm2"},
+          {"prompt": "好相处", "answer": "easy to get along with", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What is the suggestion?",
+        "options": [
+          {"text": "Ignore the problem", "correct": false},
+          {"text": "Talk frankly about the misunderstanding", "correct": true},
+          {"text": "Find a new roommate", "correct": false}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "lesson45",
+  "sessionId": "session13",
+  "title": "谁能说自己不喜欢艺术",
+  "englishTitle": "Who Can Say They Don't Like Art",
+  "pageNumber": 128,
+  "difficulty": "intermediate",
+  "objectives": ["Learn art vocabulary", "Discuss musical preferences", "Talk about movies and visual arts"],
+  "vocabulary": [
+    {"id": "v1", "character": "优美", "pinyin": "yōuměi", "english": "beautiful", "partOfSpeech": "adjective", "example": "优美的旋律", "exampleTranslation": "beautiful melody"},
+    {"id": "v2", "character": "旋律", "pinyin": "xuánlù", "english": "melody", "partOfSpeech": "noun", "example": "简单的旋律", "exampleTranslation": "simple melody"},
+    {"id": "v3", "character": "奇特", "pinyin": "qítè", "english": "strange, peculiar", "partOfSpeech": "adjective", "example": "奇特的色彩", "exampleTranslation": "strange colors"},
+    {"id": "v4", "character": "浪漫", "pinyin": "làngmàn", "english": "romantic", "partOfSpeech": "adjective", "example": "浪漫的故事", "exampleTranslation": "romantic story"},
+    {"id": "v5", "character": "流行", "pinyin": "liúxíng", "english": "popular", "partOfSpeech": "adjective", "example": "流行音乐", "exampleTranslation": "popular music"},
+    {"id": "v6", "character": "古典", "pinyin": "gudiăn", "english": "classical", "partOfSpeech": "adjective", "example": "古典音乐", "exampleTranslation": "classical music"},
+    {"id": "v7", "character": "通俗易懂", "pinyin": "tõngsú yì dong", "english": "easy to understand", "partOfSpeech": "adjective", "example": "通俗易懂的音乐", "exampleTranslation": "easy to understand music"},
+    {"id": "v8", "character": "流畅", "pinyin": "liúchàng", "english": "smooth", "partOfSpeech": "adjective", "example": "流畅的旋律", "exampleTranslation": "smooth melody"},
+    {"id": "v9", "character": "相似", "pinyin": "xiangsi", "english": "similar", "partOfSpeech": "adjective", "example": "相似的感情", "exampleTranslation": "similar feelings"},
+    {"id": "v10", "character": "痛苦", "pinyin": "tòngků", "english": "painful", "partOfSpeech": "adjective", "example": "得不到爱情的痛苦", "exampleTranslation": "pain of not getting love"},
+    {"id": "v11", "character": "总之", "pinyin": "zöngzhi", "english": "in a word", "partOfSpeech": "conjunction", "example": "总之很好听", "exampleTranslation": "in short, it sounds great"},
+    {"id": "v12", "character": "百听不厌", "pinyin": "bải tĩng bú yàn", "english": "never to get tired of hearing", "partOfSpeech": "idiom", "example": "百听不厌的歌", "exampleTranslation": "a song you never tire of"},
+    {"id": "v13", "character": "上演", "pinyin": "shàngyăn", "english": "to put on the screen", "partOfSpeech": "verb", "example": "上演了新片", "exampleTranslation": "screened a new movie"},
+    {"id": "v14", "character": "动作片", "pinyin": "dòngzuòpin", "english": "action movie", "partOfSpeech": "noun", "example": "喜欢动作片", "exampleTranslation": "like action movies"},
+    {"id": "v15", "character": "作家", "pinyin": "zuòjia", "english": "writer", "partOfSpeech": "noun", "example": "英国作家", "exampleTranslation": "British writer"},
+    {"id": "v16", "character": "情节", "pinyin": "qíngjié", "english": "plot", "partOfSpeech": "noun", "example": "情节很吸引人", "exampleTranslation": "plot is very engaging"},
+    {"id": "v17", "character": "吸引", "pinyin": "xiyin", "english": "to attract", "partOfSpeech": "verb", "example": "吸引人的", "exampleTranslation": "attractive"},
+    {"id": "v18", "character": "迷路", "pinyin": "mí lù", "english": "to be lost", "partOfSpeech": "verb", "example": "迷了路", "exampleTranslation": "got lost"},
+    {"id": "v19", "character": "没劲", "pinyin": "méi jìn", "english": "boring", "partOfSpeech": "adjective", "example": "太没劲了", "exampleTranslation": "too boring"},
+    {"id": "v20", "character": "画展", "pinyin": "huàzhăn", "english": "art exhibition", "partOfSpeech": "noun", "example": "看画展", "exampleTranslation": "view art exhibition"}
+  ],
+  "dialogue": {
+    "title": "Preferences in Art and Entertainment",
+    "lines": [
+      {"speaker": "小��", "chinese": "今天电影院上演了一部有意思的新片。", "pinyin": "Jīntiān diànyǐngyuàn shàngyăn le yì bù yǒu yìsi de xīnpiàn.", "english": "The cinema is showing an interesting new movie today."},
+      {"speaker": "小方", "chinese": "什么新片?又是动作片吧,我最不喜欢这类片子了。", "pinyin": "Shénme xīnpiàn? Yòu shi dòngzuòpiàn ba, wǒ zuì búxǐhuān zhèi lèi piànzi le.", "english": "What movie? Another action movie? I really don't like this type."},
+      {"speaker": "小田", "chinese": "不是。听说是一部很有意思的片子,名字叫《帕丁顿熊》。", "pinyin": "Búshi. Tīngshuō shi yì bù hěn yǒu yìsi de piànzi, míngzi jiào ` pàdīngdùn xióng`.", "english": "No, I heard it's a very interesting movie called Paddington."},
+      {"speaker": "小方", "chinese": "是吗?那倒值得一看。什么内容?", "pinyin": "Shi ma? Nà dào zhíde yì kàn. Shénme nèiróng?", "english": "Really? That's worth seeing. What's it about?"},
+      {"speaker": "小田", "chinese": "据说情节特别吸引人,电影主要讲述了一只喜欢吃果酱的小熊的故事。", "pinyin": "Jùshuō qíngjié tèbié xīyin rén, diànyǐng zhǔyào jiǎngshù le yì zhī xǐhuān chī guǒjiàng de xiǎoxióng de gùshi.", "english": "The plot is said to be very engaging, mainly about a little bear that loves jam."},
+      {"speaker": "小方", "chinese": "我喜欢看轻松的,我们看爱情片吧。", "pinyin": "Wǒ xǐhuān kàn qīngsōng de, wǒmen kàn àiqíngpiàn ba.", "english": "I like light-hearted stuff, let's watch a romantic film."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "总之...百听不厌 (in short...never tired of)",
+      "explanation": "Summarizes and emphasizes quality",
+      "example": "总之我比较喜欢流行音乐,大多数还是百听不厌。",
+      "translation": "In short, I prefer popular music, and most of it never gets old."
+    },
+    {
+      "point": "那倒值得一看 (That's worth seeing)",
+      "explanation": "Indicates something deserves attention",
+      "example": "那倒值得一看。",
+      "translation": "That's definitely worth watching."
+    },
+    {
+      "point": "我们想到一块儿去了 (We thought of the same thing)",
+      "explanation": "Indicates agreement or shared ideas",
+      "example": "我们想到一块儿去了。",
+      "translation": "We had the same idea."
+    },
+    {
+      "point": "没劲 (boring)",
+      "explanation": "Indicates lack of interest",
+      "example": "没劲。",
+      "translation": "Boring / Not interesting."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "艺", "pinyin": "yì", "meaning": "art, skill", "radical": "艹", "radicalMeaning": "grass", "strokeCount": 4, "strokeOrder": ["横", "竖", "竖", "竖"]},
+    {"id": "c2", "character": "术", "pinyin": "shù", "meaning": "art, technique", "radical": "廾", "radicalMeaning": "two hands", "strokeCount": 5, "strokeOrder": ["竖", "横折", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match art vocabulary",
+      "pairs": [
+        {"chinese": "流行音乐", "english": "popular music", "id": "m1"},
+        {"chinese": "古典音乐", "english": "classical music", "id": "m2"},
+        {"chinese": "动作片", "english": "action movie", "id": "m3"},
+        {"chinese": "爱情片", "english": "romantic film", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What type of music is described as 通俗易懂?",
+      "options": [
+        {"text": "Complex classical", "correct": false},
+        {"text": "Easy to understand popular", "correct": true},
+        {"text": "Difficult jazz", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "我们想到______去了。",
+      "answer": "一块儿",
+      "hint": "same/together"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 45 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 百听不厌 mean?",
+        "options": [
+          {"text": "Tired after 100 listens", "correct": false},
+          {"text": "Never get tired of hearing", "correct": true},
+          {"text": "Heard 100 times", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match entertainment preferences",
+        "pairs": [
+          {"prompt": "流行音乐", "answer": "popular music", "id": "qm1"},
+          {"prompt": "动作片", "answer": "action movies", "id": "qm2"},
+          {"prompt": "爱情片", "answer": "romantic films", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What movie are they discussing?",
+        "options": [
+          {"text": "An action movie", "correct": false},
+          {"text": "Paddington", "correct": true},
+          {"text": "A romantic film", "correct": false}
+        ]
+      }
+    ]
+  }
+}

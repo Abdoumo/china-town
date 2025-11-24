@@ -1,0 +1,144 @@
+{
+  "id": "lesson36",
+  "sessionId": "session12",
+  "title": "生活有时就是琐碎的",
+  "englishTitle": "Life is Sometimes Full of Trivial Things",
+  "pageNumber": 49,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn about household issues and repairs",
+    "Discuss daily chores and maintenance",
+    "Talk about home improvement"
+  ],
+  "vocabulary": [
+    {"id": "v1", "character": "琐碎", "pinyin": "suosui", "english": "trivial", "partOfSpeech": "adjective", "example": "生活琐碎", "exampleTranslation": "life is trivial"},
+    {"id": "v2", "character": "乱糟糟", "pinyin": "luànzãozão", "english": "messy", "partOfSpeech": "adjective", "example": "房间乱糟糟", "exampleTranslation": "messy room"},
+    {"id": "v3", "character": "打扫", "pinyin": "dăsão", "english": "to clean", "partOfSpeech": "verb", "example": "打扫房间", "exampleTranslation": "to clean the room"},
+    {"id": "v4", "character": "按", "pinyin": "àn", "english": "to press", "partOfSpeech": "verb", "example": "按开关", "exampleTranslation": "to press the switch"},
+    {"id": "v5", "character": "开关", "pinyin": "kāiguān", "english": "switch", "partOfSpeech": "noun", "example": "按开关", "exampleTranslation": "the switch"},
+    {"id": "v6", "character": "反应", "pinyin": "fănying", "english": "reaction", "partOfSpeech": "noun", "example": "没反应", "exampleTranslation": "no response"},
+    {"id": "v7", "character": "插", "pinyin": "cha", "english": "to plug", "partOfSpeech": "verb", "example": "插好了", "exampleTranslation": "plugged in"},
+    {"id": "v8", "character": "插头", "pinyin": "chātóu", "english": "plug", "partOfSpeech": "noun", "example": "检查插头", "exampleTranslation": "check the plug"},
+    {"id": "v9", "character": "接触", "pinyin": "jiēchù", "english": "to be in contact", "partOfSpeech": "verb", "example": "接触不良", "exampleTranslation": "poor contact"},
+    {"id": "v10", "character": "不良", "pinyin": "búliáng", "english": "bad", "partOfSpeech": "adjective", "example": "接触不良", "exampleTranslation": "poor contact"},
+    {"id": "v11", "character": "零件", "pinyin": "língjiàn", "english": "spare parts", "partOfSpeech": "noun", "example": "什么零件失灵了", "exampleTranslation": "what part broke"},
+    {"id": "v12", "character": "失灵", "pinyin": "shiling", "english": "to malfunction", "partOfSpeech": "verb", "example": "零件失灵", "exampleTranslation": "part malfunction"},
+    {"id": "v13", "character": "报废", "pinyin": "bàofèi", "english": "to be scrapped", "partOfSpeech": "verb", "example": "该报废了吧", "exampleTranslation": "should be scrapped"},
+    {"id": "v14", "character": "保修期", "pinyin": "băoxiūqī", "english": "warranty period", "partOfSpeech": "noun", "example": "过保修期了", "exampleTranslation": "past warranty period"},
+    {"id": "v15", "character": "维修", "pinyin": "wéixiū", "english": "to repair", "partOfSpeech": "verb", "example": "维修", "exampleTranslation": "repair"},
+    {"id": "v16", "character": "动手", "pinyin": "dòngshou", "english": "to do", "partOfSpeech": "verb", "example": "自己动手", "exampleTranslation": "do it yourself"},
+    {"id": "v17", "character": "布置", "pinyin": "bùzhì", "english": "to furnish", "partOfSpeech": "verb", "example": "布置房间", "exampleTranslation": "to furnish a room"},
+    {"id": "v18", "character": "装修", "pinyin": "zhuāngxiй", "english": "to decorate (house)", "partOfSpeech": "verb", "example": "装修房子", "exampleTranslation": "to renovate the house"},
+    {"id": "v19", "character": "粉刷", "pinyin": "fěnshua", "english": "to paint (wall)", "partOfSpeech": "verb", "example": "粉刷墙壁", "exampleTranslation": "to paint the wall"},
+    {"id": "v20", "character": "烫", "pinyin": "tàng", "english": "to iron", "partOfSpeech": "verb", "example": "烫衣服", "exampleTranslation": "to iron clothes"}
+  ],
+  "dialogue": {
+    "title": "Home Maintenance",
+    "lines": [
+      {"speaker": "金京顺", "chinese": "师傅,您帮我看看,我的电视出毛病了。", "pinyin": "Shīfu, nín bāng wǒ kànkan, wǒ de diànshì ch�� máobìng le.", "english": "Master, can you check my TV? It's broken."},
+      {"speaker": "师傅", "chinese": "什么毛病?", "pinyin": "Shénme máobìng?", "english": "What's wrong with it?"},
+      {"speaker": "金京顺", "chinese": "按下开关没反应。", "pinyin": "Ànxia kāiguān méi fǎnyìng.", "english": "Pressing the switch has no response."},
+      {"speaker": "师傅", "chinese": "是不是没插好插头?", "pinyin": "Shi búshi méi chā háo chātóu?", "english": "Is the plug not properly inserted?"},
+      {"speaker": "金京顺", "chinese": "我检查过了,不是。", "pinyin": "Wǒ jiǎnchá guole, búshi.", "english": "I checked, it's not that."},
+      {"speaker": "小苏", "chinese": "这得花一大笔钱不说,还不一定能找到信得过的装修公司。", "pinyin": "Zhè dei huā yì dà bǐ qián búshuō, háishi búyídìng néng zhǎodào xìndeGuò de zhuāngxiū gōngsī.", "english": "This costs a lot of money, plus it's hard to find a trustworthy renovation company."},
+      {"speaker": "小杨", "chinese": "你可以自己动手啊! 我家就是我自己利用业余时间装修的。", "pinyin": "Nǐ kěyǐ zìjǐ dòngshou a! Wǒ jiā jiùshi wǒ zìjǐ lìyòng yèyúshíjiān zhuāngxiū de.", "english": "You can do it yourself! I renovated my own house in my free time."},
+      {"speaker": "小苏", "chinese": "这可是项大工程,一个人怎么忙得过来呢?", "pinyin": "Zhè kěshi xiàng dà gōngchéng, yìge rén zěnyǐ máng de guòlai ne?", "english": "That's a big project, how can one person manage it?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "十有八九 (very likely, probably)",
+      "explanation": "Indicates high probability or certainty",
+      "example": "我猜十有八九你不喜欢做这类事情。",
+      "translation": "I bet nine out of ten you don't like doing this kind of thing."
+    },
+    {
+      "point": "时...时... (sometimes...sometimes...)",
+      "explanation": "Indicates alternating states",
+      "example": "时好时坏。",
+      "translation": "Sometimes good, sometimes bad."
+    },
+    {
+      "point": "...不说,还... (not only...but also...)",
+      "explanation": "Indicates additional difficulty or consequence",
+      "example": "这得花一大笔钱不说,还不一定能找到。",
+      "translation": "Not only does it cost a lot, but you also might not find one."
+    },
+    {
+      "point": "怎么...过来 (how can...handle)",
+      "explanation": "Questions ability to manage something",
+      "example": "一个人怎么忙得过来呢?",
+      "translation": "How can one person manage it?"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "修", "pinyin": "xiū", "meaning": "to repair, to trim", "radical": "人", "radicalMeaning": "person", "strokeCount": 10, "strokeOrder": ["撇", "横折钩", "横", "竖", "横", "竖", "横折", "横", "竖", "横"]},
+    {"id": "c2", "character": "工", "pinyin": "gōng", "meaning": "work, construction", "radical": "工", "radicalMeaning": "work", "strokeCount": 3, "strokeOrder": ["竖", "横折", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match household vocabulary",
+      "pairs": [
+        {"chinese": "维修", "english": "to repair", "id": "m1"},
+        {"chinese": "装修", "english": "to renovate", "id": "m2"},
+        {"chinese": "动手", "english": "to do it yourself", "id": "m3"},
+        {"chinese": "打扫", "english": "to clean", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What is the problem with the TV?",
+      "options": [
+        {"text": "Plug is not inserted", "correct": false},
+        {"text": "The switch doesn't respond", "correct": true},
+        {"text": "The screen is broken", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "生活有时就是______的。",
+      "answer": "琐碎",
+      "hint": "trivial"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 36 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 十有八九 mean?",
+        "options": [
+          {"text": "Exactly 89%", "correct": false},
+          {"text": "Very likely, probably", "correct": true},
+          {"text": "Only 10%", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match repair vocabulary",
+        "pairs": [
+          {"prompt": "保修期", "answer": "warranty period", "id": "qm1"},
+          {"prompt": "零件失灵", "answer": "part malfunction", "id": "qm2"},
+          {"prompt": "接触不良", "answer": "poor contact", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What does 动手 mean?",
+        "options": [
+          {"text": "Raise your hand", "correct": false},
+          {"text": "To do it yourself", "correct": true},
+          {"text": "To move by hand", "correct": false}
+        ]
+      }
+    ]
+  }
+}

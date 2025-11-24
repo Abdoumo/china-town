@@ -1,0 +1,136 @@
+{
+  "id": "lesson43",
+  "sessionId": "session13",
+  "title": "特别的经历",
+  "englishTitle": "Special Experiences",
+  "pageNumber": 111,
+  "difficulty": "intermediate",
+  "objectives": ["Learn about special experiences", "Tell stories of unexpected events", "Discuss memorable moments"],
+  "vocabulary": [
+    {"id": "v1", "character": "经历", "pinyin": "jinglì", "english": "experience", "partOfSpeech": "noun", "example": "特别的经历", "exampleTranslation": "special experience"},
+    {"id": "v2", "character": "走运", "pinyin": "zouyùn", "english": "lucky", "partOfSpeech": "adjective", "example": "很走运", "exampleTranslation": "very lucky"},
+    {"id": "v3", "character": "倒霉", "pinyin": "dăoméi", "english": "unlucky", "partOfSpeech": "adjective", "example": "真倒霉", "exampleTranslation": "really unlucky"},
+    {"id": "v4", "character": "按理说", "pinyin": "àn lĩ shuõ", "english": "normally", "partOfSpeech": "phrase", "example": "按理说应该", "exampleTranslation": "normally should"},
+    {"id": "v5", "character": "推辞", "pinyin": "tuïcí", "english": "to refuse", "partOfSpeech": "verb", "example": "不好意思过多推辞", "exampleTranslation": "embarrassed to refuse too much"},
+    {"id": "v6", "character": "美", "pinyin": "měi", "english": "happy", "partOfSpeech": "adjective", "example": "心里别提多美了", "exampleTranslation": "heart very happy"},
+    {"id": "v7", "character": "抛锚", "pinyin": "pãomão", "english": "to break down", "partOfSpeech": "verb", "example": "车抛锚了", "exampleTranslation": "car broke down"},
+    {"id": "v8", "character": "偏偏", "pinyin": "pianpian", "english": "contrary to expectations", "partOfSpeech": "adverb", "example": "偏偏坏了", "exampleTranslation": "broke down unexpectedly"},
+    {"id": "v9", "character": "九牛二虎之力", "pinyin": "jiŭ niú èr hủ zhĩ lì", "english": "tremendous effort", "partOfSpeech": "idiom", "example": "费了九牛二虎之力", "exampleTranslation": "with great effort"},
+    {"id": "v10", "character": "泡汤", "pinyin": "pàotãng", "english": "to fail", "partOfSpeech": "verb", "example": "计划全泡汤了", "exampleTranslation": "plan fell through"},
+    {"id": "v11", "character": "搭车", "pinyin": "dã chẽ", "english": "to get a lift", "partOfSpeech": "verb", "example": "搭车去", "exampleTranslation": "get a ride"},
+    {"id": "v12", "character": "逃课", "pinyin": "táo kè", "english": "to skip class", "partOfSpeech": "verb", "example": "逃课了", "exampleTranslation": "skipped class"},
+    {"id": "v13", "character": "惩罚", "pinyin": "chéngfá", "english": "to punish", "partOfSpeech": "verb", "example": "老天要惩罚我", "exampleTranslation": "heaven wants to punish me"},
+    {"id": "v14", "character": "滋味儿", "pinyin": "zīwèir", "english": "feeling", "partOfSpeech": "noun", "example": "找工作的滋味儿", "exampleTranslation": "feeling of job hunting"},
+    {"id": "v15", "character": "露面", "pinyin": "lòu miàn", "english": "to show up", "partOfSpeech": "verb", "example": "好久没露面", "exampleTranslation": "haven't shown up for a while"},
+    {"id": "v16", "character": "收获", "pinyin": "shõuhuò", "english": "gains", "partOfSpeech": "noun", "example": "有收获吗", "exampleTranslation": "any gains"},
+    {"id": "v17", "character": "专程", "pinyin": "zhuãnchéng", "english": "having a special trip", "partOfSpeech": "adverb", "example": "专程去", "exampleTranslation": "made a special trip"},
+    {"id": "v18", "character": "履历表", "pinyin": "lúlibião", "english": "resume", "partOfSpeech": "noun", "example": "填写履历表", "exampleTranslation": "fill out resume"},
+    {"id": "v19", "character": "浑身", "pinyin": "húnshên", "english": "from head to toe", "partOfSpeech": "noun", "example": "浑身不自在", "exampleTranslation": "uncomfortable all over"},
+    {"id": "v20", "character": "碰壁", "pinyin": "pèng bì", "english": "to be rebuffed", "partOfSpeech": "verb", "example": "常常碰壁", "exampleTranslation": "often rebuffed"}
+  ],
+  "dialogue": {
+    "title": "Unlucky Day",
+    "lines": [
+      {"speaker": "角色", "chinese": "我们一大早就��发了。天儿不错,我们一路吹着风,心里别提多美了。", "pinyin": "Wǒmen yì dà zǎo jiù chūfā le. Tiān'er búcuò, wǒmen yì lù chuīzhe fēng, xīnli biéti duō měi le.", "english": "We left early. The weather was nice, the wind blowing as we went, I felt great."},
+      {"speaker": "角色", "chinese": "可是车走着走着,突然抛锚了。", "pinyin": "Kěshi chē zǒuzhe zǒuzhe, túrán pãomão le.", "english": "But suddenly the car broke down."},
+      {"speaker": "角色", "chinese": "他的车以前从来没出过毛病,偏偏今天坏了。", "pinyin": "Tā de chē yǐqian cónglái méi chūguo máobìng, pianpian jīntiān huàile.", "english": "His car never had problems before, but today it broke down."},
+      {"speaker": "角色", "chinese": "我们费了九牛二虎之力把车推到了修车店。", "pinyin": "Wǒmen fèile jiŭ niú èr hủ zhĩ lì ba chē tuī dàole xiū chē diàn.", "english": "With tremendous effort, we pushed the car to the repair shop."},
+      {"speaker": "角色", "chinese": "今天真是祸不单行。我想可能是因为我逃课,老天要惩罚我。", "pinyin": "Jīntiān zhënshi huò búdān xíng. Wǒ xiǎng kěnéng shì yīnwèi wǒ táo kè, lǎotiān yào chéngfá wǒ.", "english": "Today was full of troubles. I think it's because I skipped class, and heaven is punishing me."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "按理说...应该 (normally should)",
+      "explanation": "Indicates what should happen in normal circumstances",
+      "example": "按理说应该上课。",
+      "translation": "Normally should go to class."
+    },
+    {
+      "point": "动词+着+动词+着 (while doing)",
+      "explanation": "Indicates something happens while another action is ongoing",
+      "example": "车走着走着,突然抛锚了。",
+      "translation": "As the car was going, it suddenly broke down."
+    },
+    {
+      "point": "偏偏 (unexpectedly, contrary to expectations)",
+      "explanation": "Indicates something contrary to what one wished",
+      "example": "偏偏今天坏了。",
+      "translation": "But today it broke down unexpectedly."
+    },
+    {
+      "point": "费了...之力 (with...effort)",
+      "explanation": "Indicates the amount of effort spent",
+      "example": "费了九牛二虎之力。",
+      "translation": "With tremendous effort."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "特", "pinyin": "tè", "meaning": "special, particular", "radical": "牛", "radicalMeaning": "ox", "strokeCount": 10, "strokeOrder": ["撇", "横折钩", "横", "竖", "竖", "竖", "竖", "竖", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match experience vocabulary",
+      "pairs": [
+        {"chinese": "倒霉", "english": "unlucky", "id": "m1"},
+        {"chinese": "走运", "english": "lucky", "id": "m2"},
+        {"chinese": "泡汤", "english": "fall through", "id": "m3"},
+        {"chinese": "滋味儿", "english": "feeling", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "Why did the car break down?",
+      "options": [
+        {"text": "It was old", "correct": false},
+        {"text": "Bad luck - it never broke down before", "correct": true},
+        {"text": "Poor maintenance", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "车走着走着,突然______。",
+      "answer": "抛锚了",
+      "hint": "broke down"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 43 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 倒霉 mean?",
+        "options": [
+          {"text": "Lucky", "correct": false},
+          {"text": "Unlucky", "correct": true},
+          {"text": "Broken", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match unfortunate events",
+        "pairs": [
+          {"prompt": "车抛锚了", "answer": "car broke down", "id": "qm1"},
+          {"prompt": "计划泡汤了", "answer": "plan fell through", "id": "qm2"},
+          {"prompt": "祸不单行", "answer": "troubles come in succession", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What does 费了九牛二虎之力 mean?",
+        "options": [
+          {"text": "Used 9 cows and 2 tigers", "correct": false},
+          {"text": "With tremendous effort", "correct": true},
+          {"text": "Paid a lot of money", "correct": false}
+        ]
+      }
+    ]
+  }
+}

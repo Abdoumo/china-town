@@ -1,0 +1,136 @@
+{
+  "id": "lesson44",
+  "sessionId": "session13",
+  "title": "我想去旅行",
+  "englishTitle": "I Want to Travel",
+  "pageNumber": 120,
+  "difficulty": "intermediate",
+  "objectives": ["Learn travel planning vocabulary", "Discuss travel destinations", "Talk about solo vs group travel"],
+  "vocabulary": [
+    {"id": "v1", "character": "见识", "pinyin": "jiànshi", "english": "experience; knowledge", "partOfSpeech": "noun", "example": "长见识", "exampleTranslation": "broaden horizons"},
+    {"id": "v2", "character": "至于", "pinyin": "zhiyú", "english": "as for", "partOfSpeech": "conjunction", "example": "至于去什么地方", "exampleTranslation": "as for where to go"},
+    {"id": "v3", "character": "具体", "pinyin": "juti", "english": "concrete", "partOfSpeech": "adjective", "example": "说具体点儿", "exampleTranslation": "tell me specifically"},
+    {"id": "v4", "character": "风土人情", "pinyin": "fëngtů rénqíng", "english": "local conditions and customs", "partOfSpeech": "noun", "example": "独特的风土人情", "exampleTranslation": "unique local customs"},
+    {"id": "v5", "character": "独特", "pinyin": "dutè", "english": "distinctive", "partOfSpeech": "adjective", "example": "很独特", "exampleTranslation": "very distinctive"},
+    {"id": "v6", "character": "一连串", "pinyin": "yìliánchuàn", "english": "a chain of", "partOfSpeech": "adjective", "example": "一连串的小吃店", "exampleTranslation": "a chain of snack shops"},
+    {"id": "v7", "character": "数不清", "pinyin": "shủ bu qĩng", "english": "beyond count", "partOfSpeech": "verb", "example": "数不清的东西", "exampleTranslation": "countless things"},
+    {"id": "v8", "character": "围", "pinyin": "wéi", "english": "to surround", "partOfSpeech": "verb", "example": "围着你要吃的", "exampleTranslation": "surround you asking for food"},
+    {"id": "v9", "character": "季节", "pinyin": "jijié", "english": "season", "partOfSpeech": "noun", "example": "黄金季节", "exampleTranslation": "golden season"},
+    {"id": "v10", "character": "盛产", "pinyin": "shèngchăn", "english": "to abound in", "partOfSpeech": "verb", "example": "盛产瓜果", "exampleTranslation": "abundant fruit"},
+    {"id": "v11", "character": "一辈子", "pinyin": "yíbèizi", "english": "all one's life", "partOfSpeech": "noun", "example": "一辈子都忘不了", "exampleTranslation": "never forget in one's life"},
+    {"id": "v12", "character": "难忘", "pinyin": "nánwàng", "english": "unforgettable", "partOfSpeech": "adjective", "example": "最难忘的", "exampleTranslation": "most unforgettable"},
+    {"id": "v13", "character": "愿望", "pinyin": "yuànwàng", "english": "wish", "partOfSpeech": "noun", "example": "有个愿望", "exampleTranslation": "have a wish"},
+    {"id": "v14", "character": "终于", "pinyin": "zhōngyú", "english": "finally", "partOfSpeech": "adverb", "example": "终于实现了", "exampleTranslation": "finally came true"},
+    {"id": "v15", "character": "实现", "pinyin": "shíxiàn", "english": "to come true", "partOfSpeech": "verb", "example": "愿望实现", "exampleTranslation": "wish came true"},
+    {"id": "v16", "character": "专门", "pinyin": "zhuānmén", "english": "specially", "partOfSpeech": "adverb", "example": "专门安排", "exampleTranslation": "specially arranged"},
+    {"id": "v17", "character": "短期", "pinyin": "duănqi", "english": "short-term", "partOfSpeech": "noun", "example": "短期旅行", "exampleTranslation": "short trip"},
+    {"id": "v18", "character": "联系", "pinyin": "liánxi", "english": "to contact", "partOfSpeech": "verb", "example": "联系旅行社", "exampleTranslation": "contact travel agency"},
+    {"id": "v19", "character": "派", "pinyin": "pài", "english": "to send", "partOfSpeech": "verb", "example": "派导游", "exampleTranslation": "sent a tour guide"},
+    {"id": "v20", "character": "无法", "pinyin": "wúfă", "english": "to be unable to", "partOfSpeech": "verb", "example": "无法开到", "exampleTranslation": "unable to reach"}
+  ],
+  "dialogue": {
+    "title": "Travel Planning",
+    "lines": [
+      {"speaker": "陈��", "chinese": "听说你暑假要去旅游,去什么地方想好了吗?", "pinyin": "Tīngshuō nǐ shǔjiǎ yào qù lǚyóu, qù shénme dìfang xiǎng háo le ma?", "english": "I heard you're taking a trip this summer, have you decided where?"},
+      {"speaker": "孙亮", "chinese": "出去肯定是要出去,至于去什么地方,还没想好。", "pinyin": "Chūqu kěndìng shi yào chūqu, zhiyú qù shénme dìfang, háiméi xiǎng háo.", "english": "I'm definitely going out, but as for where, I haven't decided yet."},
+      {"speaker": "陈明", "chinese": "我建议你去四川。成都和峨嵋山这两个地方非去不可。", "pinyin": "Wǒ jiànyì nǐ qù sìchuān. Chéngdū hé éméi shān zhè liǎng ge dìfang fēi qù búkě.", "english": "I suggest you go to Sichuan. Chengdu and Mount Emei are must-sees."},
+      {"speaker": "孙亮", "chinese": "四川什么地方?你说具体点儿。", "pinyin": "Sìchuān shénme dìfang? Nǐ shuō jùtǐ diǎn'er.", "english": "Where in Sichuan? Tell me specifically."},
+      {"speaker": "陈明", "chinese": "峨嵋山就更好玩儿了,山上有很多猴子,它们一点儿也不怕人。", "pinyin": "Éméi shān jiù gèng háo wányǐ le, shānshang yǒu hěn duō húzi, tāmen yìdiǎn'er ye búpà rén.", "english": "Mount Emei is even more fun, there are many monkeys on the mountain, they're not afraid of people."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "至于...还没想好 (As for...haven't decided)",
+      "explanation": "Indicates shifting to another topic while being uncertain",
+      "example": "至于去什么地方,还没想好。",
+      "translation": "As for where to go, I haven't decided yet."
+    },
+    {
+      "point": "一来...二来...三来... (First...second...third...)",
+      "explanation": "Lists multiple reasons or benefits",
+      "example": "一来天气不冷不热,二来...三来...",
+      "translation": "First, the weather is pleasant, second..., third..."
+    },
+    {
+      "point": "一片...一片... (a stretch of)",
+      "explanation": "Describes a landscape or scene",
+      "example": "天池一片白色。",
+      "translation": "The lake was all white."
+    },
+    {
+      "point": "...得慌 (extremely...)",
+      "explanation": "Emphasizes an unpleasant feeling",
+      "example": "闷得慌。",
+      "translation": "Extremely bored."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "旅", "pinyin": "lǚ", "meaning": "travel", "radical": "方", "radicalMeaning": "direction", "strokeCount": 10, "strokeOrder": ["竖", "横折", "横", "竖", "竖", "竖", "竖", "竖", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match travel vocabulary",
+      "pairs": [
+        {"chinese": "短期旅行", "english": "short trip", "id": "m1"},
+        {"chinese": "风土人情", "english": "local customs", "id": "m2"},
+        {"chinese": "专门安排", "english": "specially arranged", "id": "m3"},
+        {"chinese": "联系旅行社", "english": "contact travel agency", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What is recommended?",
+      "options": [
+        {"text": "Beach destination", "correct": false},
+        {"text": "Sichuan - Chengdu and Mount Emei", "correct": true},
+        {"text": "Foreign country", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "出去肯定是要出去,至于去什么地方,______。",
+      "answer": "还没想好",
+      "hint": "haven't decided"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 44 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 至于 mean?",
+        "options": [
+          {"text": "Even though", "correct": false},
+          {"text": "As for", "correct": true},
+          {"text": "Because", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match travel-related phrases",
+        "pairs": [
+          {"prompt": "长见识", "answer": "broaden horizons", "id": "qm1"},
+          {"prompt": "非去不可", "answer": "must go", "id": "qm2"},
+          {"prompt": "一辈子都忘不了", "answer": "never forget in one's life", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "Why are there many monkeys on Mount Emei?",
+        "options": [
+          {"text": "They were brought there", "correct": false},
+          {"text": "It's their natural habitat", "correct": true},
+          {"text": "They escaped from a zoo", "correct": false}
+        ]
+      }
+    ]
+  }
+}

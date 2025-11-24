@@ -1,0 +1,137 @@
+{
+  "id": "lesson41",
+  "sessionId": "session13",
+  "title": "有话好商量",
+  "englishTitle": "Let's Talk About It",
+  "pageNumber": 94,
+  "difficulty": "intermediate",
+  "objectives": ["Learn negotiation vocabulary", "Discuss conflict resolution", "Request favors politely"],
+  "vocabulary": [
+    {"id": "v1", "character": "矛盾", "pinyin": "máodùn", "english": "confliction", "partOfSpeech": "noun", "example": "发生矛盾", "exampleTranslation": "conflict arises"},
+    {"id": "v2", "character": "同情", "pinyin": "tóngqíng", "english": "to sympathize with", "partOfSpeech": "verb", "example": "得到同情", "exampleTranslation": "get sympathy"},
+    {"id": "v3", "character": "通融", "pinyin": "tõngróng", "english": "to stretch rules", "partOfSpeech": "verb", "example": "能否通融一下", "exampleTranslation": "can you help accommodate"},
+    {"id": "v4", "character": "到期", "pinyin": "dào qĩ", "english": "to become due", "partOfSpeech": "verb", "example": "合同到期", "exampleTranslation": "contract expires"},
+    {"id": "v5", "character": "宽限", "pinyin": "kuānxian", "english": "to extend a time limit", "partOfSpeech": "verb", "example": "宽限几天", "exampleTranslation": "extend a few days"},
+    {"id": "v6", "character": "添", "pinyin": "tiãn", "english": "to add", "partOfSpeech": "verb", "example": "添麻烦", "exampleTranslation": "add trouble"},
+    {"id": "v7", "character": "一时", "pinyin": "yishí", "english": "temporary", "partOfSpeech": "noun", "example": "一时找不到", "exampleTranslation": "temporarily can't find"},
+    {"id": "v8", "character": "为难", "pinyin": "wéinán", "english": "to feel awkward", "partOfSpeech": "verb", "example": "让我两头为难", "exampleTranslation": "put me in a difficult position"},
+    {"id": "v9", "character": "撞", "pinyin": "zhuàng", "english": "to collide", "partOfSpeech": "verb", "example": "撞坏", "exampleTranslation": "collide and break"},
+    {"id": "v10", "character": "尾灯", "pinyin": "wěideng", "english": "tail light", "partOfSpeech": "noun", "example": "汽车尾灯", "exampleTranslation": "car tail light"},
+    {"id": "v11", "character": "责任", "pinyin": "zérèn", "english": "responsibility", "partOfSpeech": "noun", "example": "责任在我", "exampleTranslation": "the fault is mine"},
+    {"id": "v12", "character": "消气", "pinyin": "xião qì", "english": "to cool down", "partOfSpeech": "verb", "example": "消消气", "exampleTranslation": "cool down"},
+    {"id": "v13", "character": "赔偿", "pinyin": "péicháng", "english": "to compensate", "partOfSpeech": "verb", "example": "照价赔偿", "exampleTranslation": "compensate at cost"},
+    {"id": "v14", "character": "损失", "pinyin": "sŭnshī", "english": "loss", "partOfSpeech": "noun", "example": "经济损失", "exampleTranslation": "economic loss"},
+    {"id": "v15", "character": "拜读", "pinyin": "bàidú", "english": "to read", "partOfSpeech": "verb", "example": "拜读过", "exampleTranslation": "have read"},
+    {"id": "v16", "character": "大作", "pinyin": "dàzuò", "english": "masterpieсe", "partOfSpeech": "noun", "example": "您的大作", "exampleTranslation": "your work"},
+    {"id": "v17", "character": "启发", "pinyin": "qifā", "english": "to inspire", "partOfSpeech": "verb", "example": "很受启发", "exampleTranslation": "very inspired"},
+    {"id": "v18", "character": "请教", "pinyin": "qingjiào", "english": "to ask for advice", "partOfSpeech": "verb", "example": "向您请教", "exampleTranslation": "ask you for advice"},
+    {"id": "v19", "character": "冒昧", "pinyin": "màomèi", "english": "being bold", "partOfSpeech": "adjective", "example": "冒昧地给您打电话", "exampleTranslation": "boldly call you"},
+    {"id": "v20", "character": "占用", "pinyin": "zhànyòng", "english": "to occupy", "partOfSpeech": "verb", "example": "不好意思占用时间", "exampleTranslation": "sorry to take up your time"}
+  ],
+  "dialogue": {
+    "title": "Negotiation and Compromise",
+    "lines": [
+      {"speaker": "胡锋", "chinese": "老师,跟您商量件事行吗?", "pinyin": "Lǎoshī, gēn nín shāngliàng jiàn shì xíng ma?", "english": "Teacher, can I discuss something with you?"},
+      {"speaker": "王英", "chinese": "什么事?尽管说吧。", "pinyin": "Shénme shì? Jinguăn shuō ba.", "english": "What is it? Go ahead and say it."},
+      {"speaker": "胡锋", "chinese": "是这样,这次英语分班考试我考了59分,被分到了慢班。", "pinyin": "Shi zhèyàng, zhè cì yīngyǔ fēnbān kǎoshì wǒ kǎole 59 fên, bei fēndàole le mànbān.", "english": "Like this, I scored 59 on the English placement test and was placed in the slow class."},
+      {"speaker": "王英", "chinese": "不行,学校有严格的规定,60分以下一律去慢班。", "pinyin": "Búxíng, xuéxiào yǒu yánggé de guiding, 60 fên yǐxia yílü qù mànbān.", "english": "No, the school has strict rules, anyone below 60 goes to the slow class."},
+      {"speaker": "胡锋", "chinese": "我知道学校有这个规定,可是您能不能通融一下?", "pinyin": "Wǒ zhīdào xuéxiào yǒu zhège guiding, kěshi nín néng búnéng tongróng yìxia?", "english": "I know the rule, but can you make an exception?"},
+      {"speaker": "王英", "chinese": "这样吧,你把你以前的成绩单拿来,还有,请你的英语老师写封推荐信。", "pinyin": "Zhèyàng ba, nǐ ba nǐ yǐqian de chéngjī dān náilai, háiyǒu, qǐng nǐ de yīngyǔ lǎoshī xiěfēng tuījiàn xìn.", "english": "Okay then, bring your previous grades and ask your English teacher to write a recommendation letter."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "有话好商量 (Let's discuss it)",
+      "explanation": "Indicates willingness to negotiate or compromise",
+      "example": "有话好商量。",
+      "translation": "Let's work this out."
+    },
+    {
+      "point": "能否...一下 (Can you...)",
+      "explanation": "Polite request for a favor",
+      "example": "能否宽限我们一下?",
+      "translation": "Can you give us an extension?"
+    },
+    {
+      "point": "这不是...吗 (Isn't this...)",
+      "explanation": "Expresses frustration with a situation",
+      "example": "你这不是让我两头为难吗?",
+      "translation": "Aren't you putting me in a difficult position?"
+    },
+    {
+      "point": "真...没办法 (Really...can't do anything about)",
+      "explanation": "Indicates helplessness with a person",
+      "example": "真拿你们没办法。",
+      "translation": "I really can't do anything about you."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "商", "pinyin": "shāng", "meaning": "to discuss, commerce", "radical": "口", "radicalMeaning": "mouth", "strokeCount": 11, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match negotiation vocabulary",
+      "pairs": [
+        {"chinese": "通融", "english": "to accommodate", "id": "m1"},
+        {"chinese": "宽限", "english": "extend time", "id": "m2"},
+        {"chinese": "赔偿", "english": "compensate", "id": "m3"},
+        {"chinese": "请教", "english": "ask for advice", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What does the student need?",
+      "options": [
+        {"text": "Lower grades", "correct": false},
+        {"text": "Exception to the 60-point rule", "correct": true},
+        {"text": "Different teacher", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "您能不能______一下?",
+      "answer": "通融",
+      "hint": "accommodate"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 41 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 有话好商量 mean?",
+        "options": [
+          {"text": "Good words to negotiate", "correct": false},
+          {"text": "Let's discuss it", "correct": true},
+          {"text": "Talk is good", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match negotiation phrases",
+        "pairs": [
+          {"prompt": "两头为难", "answer": "difficult position", "id": "qm1"},
+          {"prompt": "真拿你没办法", "answer": "can't do anything about you", "id": "qm2"},
+          {"prompt": "照价赔偿", "answer": "compensate at cost", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What is the solution proposed?",
+        "options": [
+          {"text": "Change the score", "correct": false},
+          {"text": "Bring grades and recommendation letter", "correct": true},
+          {"text": "Take the test again", "correct": false}
+        ]
+      }
+    ]
+  }
+}

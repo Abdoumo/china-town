@@ -1,0 +1,443 @@
+{
+  "id": "lesson32",
+  "sessionId": "session11",
+  "title": "健康第一",
+  "englishTitle": "Health Comes First",
+  "pageNumber": 10,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn health-related vocabulary",
+    "Discuss physical exercise habits",
+    "Talk about health conditions"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "秘诀",
+      "pinyin": "mijué",
+      "english": "secret (of success)",
+      "partOfSpeech": "noun",
+      "example": "健康的秘诀",
+      "exampleTranslation": "the secret to health"
+    },
+    {
+      "id": "v2",
+      "character": "坚持",
+      "pinyin": "jiānchí",
+      "english": "to persist in",
+      "partOfSpeech": "verb",
+      "example": "坚持锻炼",
+      "exampleTranslation": "to persist in exercising"
+    },
+    {
+      "id": "v3",
+      "character": "三天打鱼,两天晒网",
+      "pinyin": "săn tiãn dă yu, liăng tiãn shài wăng",
+      "english": "to lack perseverance",
+      "partOfSpeech": "idiom",
+      "example": "不要三天打鱼,两天晒网",
+      "exampleTranslation": "Don't lack perseverance"
+    },
+    {
+      "id": "v4",
+      "character": "脸色",
+      "pinyin": "liănsè",
+      "english": "complexion",
+      "partOfSpeech": "noun",
+      "example": "脸色不好",
+      "exampleTranslation": "pale complexion"
+    },
+    {
+      "id": "v5",
+      "character": "毛病",
+      "pinyin": "máobìng",
+      "english": "illness",
+      "partOfSpeech": "noun",
+      "example": "老毛病",
+      "exampleTranslation": "chronic illness"
+    },
+    {
+      "id": "v6",
+      "character": "犯",
+      "pinyin": "fàn",
+      "english": "to have a recurrence of",
+      "partOfSpeech": "verb",
+      "example": "毛病又犯了",
+      "exampleTranslation": "the illness recurred"
+    },
+    {
+      "id": "v7",
+      "character": "治",
+      "pinyin": "zhì",
+      "english": "to cure",
+      "partOfSpeech": "verb",
+      "example": "这个毛病可不好治",
+      "exampleTranslation": "This illness is hard to cure"
+    },
+    {
+      "id": "v8",
+      "character": "见效",
+      "pinyin": "jiànxiào",
+      "english": "to work effectively",
+      "partOfSpeech": "verb",
+      "example": "都不见效",
+      "exampleTranslation": "none worked"
+    },
+    {
+      "id": "v9",
+      "character": "临时",
+      "pinyin": "línshí",
+      "english": "temporarily",
+      "partOfSpeech": "adverb",
+      "example": "临时吃点儿止疼片",
+      "exampleTranslation": "temporarily take some painkillers"
+    },
+    {
+      "id": "v10",
+      "character": "止疼片",
+      "pinyin": "zhĩténgpiàn",
+      "english": "pain-killer, analgesic",
+      "partOfSpeech": "noun",
+      "example": "吃止疼片",
+      "exampleTranslation": "to take painkillers"
+    },
+    {
+      "id": "v11",
+      "character": "副作用",
+      "pinyin": "fùzuòyòng",
+      "english": "side effect",
+      "partOfSpeech": "noun",
+      "example": "药物的副作���",
+      "exampleTranslation": "side effects of medication"
+    },
+    {
+      "id": "v12",
+      "character": "实在",
+      "pinyin": "shízài",
+      "english": "really",
+      "partOfSpeech": "adverb",
+      "example": "疼得实在受不了",
+      "exampleTranslation": "really can't bear the pain"
+    },
+    {
+      "id": "v13",
+      "character": "住院",
+      "pinyin": "zhù yuàn",
+      "english": "to be in hospital",
+      "partOfSpeech": "verb",
+      "example": "医生说非住院不可",
+      "exampleTranslation": "The doctor said hospitalization is necessary"
+    },
+    {
+      "id": "v14",
+      "character": "山坡",
+      "pinyin": "shānpō",
+      "english": "mountain slope",
+      "partOfSpeech": "noun",
+      "example": "从山坡上滚下来",
+      "exampleTranslation": "rolled down the mountain slope"
+    },
+    {
+      "id": "v15",
+      "character": "滚",
+      "pinyin": "gun",
+      "english": "to roll, to trundle",
+      "partOfSpeech": "verb",
+      "example": "滚下来",
+      "exampleTranslation": "to roll down"
+    },
+    {
+      "id": "v16",
+      "character": "摔",
+      "pinyin": "shuãi",
+      "english": "to fall",
+      "partOfSpeech": "verb",
+      "example": "摔伤了",
+      "exampleTranslation": "injured from a fall"
+    },
+    {
+      "id": "v17",
+      "character": "骨折",
+      "pinyin": "gůzhé",
+      "english": "to fracture",
+      "partOfSpeech": "verb",
+      "example": "骨折了吗?",
+      "exampleTranslation": "Did you break a bone?"
+    },
+    {
+      "id": "v18",
+      "character": "皮肉",
+      "pinyin": "píròu",
+      "english": "skin",
+      "partOfSpeech": "noun",
+      "example": "皮肉受伤",
+      "exampleTranslation": "skin injury"
+    },
+    {
+      "id": "v19",
+      "character": "至于",
+      "pinyin": "zhiyú",
+      "english": "to get so far as to",
+      "partOfSpeech": "verb",
+      "example": "不至于要住院吧",
+      "exampleTranslation": "shouldn't need hospitalization"
+    },
+    {
+      "id": "v20",
+      "character": "伤口",
+      "pinyin": "shāngkou",
+      "english": "wound",
+      "partOfSpeech": "noun",
+      "example": "伤口发炎了",
+      "exampleTranslation": "the wound became infected"
+    }
+  ],
+  "dialogue": {
+    "title": "Health Habits",
+    "lines": [
+      {
+        "speaker": "小方",
+        "chinese": "你的身体真棒!有什么秘诀吗?",
+        "pinyin": "Nǐ de shēntǐ zhën zhuàng! Yǒushénme mijué ma?",
+        "english": "Your body is really great! What's the secret?"
+      },
+      {
+        "speaker": "小方",
+        "chinese": "很简单,就是吃好,睡好,坚持锻炼。",
+        "pinyin": "Hěn jiǎndān, jiùshì chī hǎo, shuì hǎo, jiānchí duànliàn.",
+        "english": "It's simple: eat well, sleep well, and persist in exercising."
+      },
+      {
+        "speaker": "小田",
+        "chinese": "说起来容易,做起来难啊!就说锻炼吧,我总是坚持不下来。",
+        "pinyin": "Shuōqǐlai róngyì, zuòqǐlai nán a! Jiùshuō duànliàn ba, wǒ zǒngshi jiānchí búxiàlai.",
+        "english": "It's easy to say but hard to do! Speaking of exercise, I can never stick with it."
+      },
+      {
+        "speaker": "小方",
+        "chinese": "要锻炼就不能三天打鱼,两天晒网。",
+        "pinyin": "Yào duànliàn jiù búnéng săn tiãn dă yu, liăng tiãn shài wăng.",
+        "english": "If you want to exercise, you can't lack perseverance."
+      },
+      {
+        "speaker": "小田",
+        "chinese": "好吧,从下个星期开始,我每天坚持锻炼半个小时。",
+        "pinyin": "Hǎo ba, cóng xiàge xīngqī kāishǐ, wǒ měitiān jiānchí duànliàn bàn ge xiǎoshí.",
+        "english": "Okay, starting next week, I'll exercise for half an hour every day."
+      },
+      {
+        "speaker": "小方",
+        "chinese": "这一次希望你能坚持下去。",
+        "pinyin": "Zhè yì cì xīwàng nǐ néng jiānchí xiàqu.",
+        "english": "This time I hope you can stick with it."
+      },
+      {
+        "speaker": "医生",
+        "chinese": "医生说非住院不可。",
+        "pinyin": "Yīshēng shuō fēi zhù yuàn búkě.",
+        "english": "The doctor said hospitalization is necessary."
+      },
+      {
+        "speaker": "小高",
+        "chinese": "以后可千万小心点儿!",
+        "pinyin": "Yǐhòu kě qiānwàn xiǎoxin diăn'er!",
+        "english": "Be careful from now on!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "动词 + 得下来/坚持不下来 (can/cannot continue)",
+      "explanation": "Indicates whether an action can be continued or persisted",
+      "example": "我总是坚持不下来。",
+      "translation": "I can never stick with it."
+    },
+    {
+      "point": "动词 + 得下去/坚持下去 (continue in the future)",
+      "explanation": "Indicates continuing an action into the future",
+      "example": "希望你能坚���下去。",
+      "translation": "I hope you can stick with it."
+    },
+    {
+      "point": "别提多...了 (incredibly...)",
+      "explanation": "Expresses an extreme degree of something",
+      "example": "别提多难受了!",
+      "translation": "It was incredibly painful!"
+    },
+    {
+      "point": "非...不可 (must, have to)",
+      "explanation": "Indicates necessity or requirement",
+      "example": "医生说非住院不可。",
+      "translation": "The doctor said hospitalization is necessary."
+    },
+    {
+      "point": "千万...! (absolutely...!)",
+      "explanation": "Used in imperative sentences to strongly emphasize",
+      "example": "可千万小心点儿!",
+      "translation": "Absolutely be careful!"
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "健",
+      "pinyin": "jiàn",
+      "meaning": "healthy",
+      "radical": "人",
+      "radicalMeaning": "person",
+      "strokeCount": 11,
+      "strokeOrder": ["撇", "横折钩", "横", "竖", "横", "竖", "横折", "横", "竖", "竖", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "康",
+      "pinyin": "kāng",
+      "meaning": "healthy, well",
+      "radical": "广",
+      "radicalMeaning": "wide",
+      "strokeCount": 11,
+      "strokeOrder": ["横", "竖", "竖", "横", "竖", "横折", "横", "竖", "竖", "竖", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "坚",
+      "pinyin": "jiān",
+      "meaning": "firm, persistent",
+      "radical": "土",
+      "radicalMeaning": "earth",
+      "strokeCount": 7,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横折", "横", "竖"]
+    },
+    {
+      "id": "c4",
+      "character": "持",
+      "pinyin": "chí",
+      "meaning": "to hold, persist",
+      "radical": "手",
+      "radicalMeaning": "hand",
+      "strokeCount": 9,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "横"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match health terms",
+      "pairs": [
+        {
+          "chinese": "坚持锻炼",
+          "english": "persist in exercising",
+          "id": "m1"
+        },
+        {
+          "chinese": "住院",
+          "english": "to be in hospital",
+          "id": "m2"
+        },
+        {
+          "chinese": "副作用",
+          "english": "side effect",
+          "id": "m3"
+        },
+        {
+          "chinese": "骨折",
+          "english": "to fracture",
+          "id": "m4"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What is the secret to health mentioned?",
+      "options": [
+        {
+          "text": "Taking medicine regularly",
+          "correct": false
+        },
+        {
+          "text": "Eating well, sleeping well, and exercising regularly",
+          "correct": true
+        },
+        {
+          "text": "Avoiding all physical activity",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the phrase",
+      "sentence": "从下个星期开始,我每天坚持锻炼______。",
+      "answer": "半个小时",
+      "hint": "a period of time"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 32 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 坚持不下来 mean?",
+        "options": [
+          {
+            "text": "Cannot stand up",
+            "correct": false
+          },
+          {
+            "text": "Cannot stick with something",
+            "correct": true
+          },
+          {
+            "text": "Cannot come down",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match health-related phrases",
+        "pairs": [
+          {
+            "prompt": "毛病又犯了",
+            "answer": "The illness recurred",
+            "id": "qm1"
+          },
+          {
+            "prompt": "伤口发炎了",
+            "answer": "The wound became infected",
+            "id": "qm2"
+          },
+          {
+            "prompt": "非住院不可",
+            "answer": "Hospitalization is necessary",
+            "id": "qm3"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What idiom means to lack perseverance?",
+        "options": [
+          {
+            "text": "三天打鱼,两天晒网",
+            "correct": true
+          },
+          {
+            "text": "健康第一",
+            "correct": false
+          },
+          {
+            "text": "坚持下去",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

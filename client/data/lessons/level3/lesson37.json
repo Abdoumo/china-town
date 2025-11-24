@@ -1,0 +1,138 @@
+{
+  "id": "lesson37",
+  "sessionId": "session12",
+  "title": "让我们轻松一下",
+  "englishTitle": "Let's Take It Easy",
+  "pageNumber": 58,
+  "difficulty": "intermediate",
+  "objectives": ["Learn leisure vocabulary", "Discuss entertainment activities", "Make plans for relaxation"],
+  "vocabulary": [
+    {"id": "v1", "character": "约", "pinyin": "yue", "english": "to invite", "partOfSpeech": "verb", "example": "约几个人", "exampleTranslation": "invite some people"},
+    {"id": "v2", "character": "歇", "pinyin": "xie", "english": "to have a rest", "partOfSpeech": "verb", "example": "歇不过来", "exampleTranslation": "can't recover"},
+    {"id": "v3", "character": "依我看", "pinyin": "yĩ wỏ kàn", "english": "in my opinion", "partOfSpeech": "phrase", "example": "依我看", "exampleTranslation": "in my view"},
+    {"id": "v4", "character": "打牌", "pinyin": "dă pái", "english": "to play cards", "partOfSpeech": "verb", "example": "打牌", "exampleTranslation": "play cards"},
+    {"id": "v5", "character": "保险", "pinyin": "băoxiăn", "english": "on the safe side", "partOfSpeech": "adjective", "example": "为了保险起见", "exampleTranslation": "to be safe"},
+    {"id": "v6", "character": "省得", "pinyin": "shěngde", "english": "so as to avoid", "partOfSpeech": "verb", "example": "省得白跑一趟", "exampleTranslation": "to avoid wasting a trip"},
+    {"id": "v7", "character": "白", "pinyin": "bái", "english": "in vain", "partOfSpeech": "adverb", "example": "白跑一趟", "exampleTranslation": "wasted trip"},
+    {"id": "v8", "character": "特色", "pinyin": "tèsè", "english": "particularity", "partOfSpeech": "noun", "example": "有特��", "exampleTranslation": "have characteristics"},
+    {"id": "v9", "character": "活跃", "pinyin": "huoyuè", "english": "active", "partOfSpeech": "adjective", "example": "活跃的城市", "exampleTranslation": "vibrant city"},
+    {"id": "v10", "character": "赚钱", "pinyin": "zhuàn qián", "english": "to make money", "partOfSpeech": "verb", "example": "花钱和赚钱", "exampleTranslation": "spending and earning"},
+    {"id": "v11", "character": "会计", "pinyin": "kuaiji", "english": "accounting", "partOfSpeech": "noun", "example": "学会计", "exampleTranslation": "study accounting"},
+    {"id": "v12", "character": "化妆", "pinyin": "huà zhuãng", "english": "make-up", "partOfSpeech": "verb", "example": "学化妆", "exampleTranslation": "study makeup"},
+    {"id": "v13", "character": "插花儿", "pinyin": "chã huār", "english": "flowers arrangement", "partOfSpeech": "noun", "example": "学插花儿", "exampleTranslation": "study flower arranging"},
+    {"id": "v14", "character": "打发", "pinyin": "dăfa", "english": "to kill (time)", "partOfSpeech": "verb", "example": "打发时间", "exampleTranslation": "kill time"},
+    {"id": "v15", "character": "丰富", "pinyin": "fēngfù", "english": "rich", "partOfSpeech": "adjective", "example": "夜生活丰富", "exampleTranslation": "rich nightlife"},
+    {"id": "v16", "character": "追求", "pinyin": "zhuīqiú", "english": "to pursue", "partOfSpeech": "verb", "example": "追求时髦", "exampleTranslation": "pursue fashion"},
+    {"id": "v17", "character": "情调", "pinyin": "qingdiào", "english": "sentiment", "partOfSpeech": "noun", "example": "情调", "exampleTranslation": "atmosphere"},
+    {"id": "v18", "character": "午夜", "pinyin": "wůyè", "english": "midnight", "partOfSpeech": "noun", "example": "午夜", "exampleTranslation": "midnight"},
+    {"id": "v19", "character": "夜宵", "pinyin": "yèxião", "english": "night snack", "partOfSpeech": "noun", "example": "吃夜宵", "exampleTranslation": "have a midnight snack"},
+    {"id": "v20", "character": "保龄球", "pinyin": "băolíngqiú", "english": "bowling", "partOfSpeech": "noun", "example": "打保龄球", "exampleTranslation": "go bowling"}
+  ],
+  "dialogue": {
+    "title": "Planning Leisure Activities",
+    "lines": [
+      {"speaker": "小陈", "chinese": "想不想去哪儿玩儿玩儿?", "pinyin": "Xiǎng búxiǎng q�� năr wányǎr wányǎr?", "english": "Do you want to go somewhere to have fun?"},
+      {"speaker": "小吴", "chinese": "好啊,你有什么好主意?", "pinyin": "Háo a, nǐ yǒu shénme háo zhúyi?", "english": "Sure, what's your idea?"},
+      {"speaker": "小陈", "chinese": "这两天天气不错,咱们约几个人一起去爬山好不好?", "pinyin": "Zhè liǎng tiān tiānqì búcuò, zánmen yue jǐge rén yìqǐ qù páshān háo búháo?", "english": "The weather is nice these days, shall we invite some people to climb the mountain?"},
+      {"speaker": "小吴", "chinese": "去爬山好是好,可是玩儿一次好几天歇不过来。", "pinyin": "Qù páshān háo shi háo, kěshi wányǐ cì háo jǐ tiān xiē búguòlai.", "english": "Climbing is nice, but it takes several days to recover."},
+      {"speaker": "小吴", "chinese": "依我看,不如叫几个人一起去我家打牌、吃饭。", "pinyin": "Yĩ wỏ kàn, búrú jiào jǐge rén yìqǐ qù wǒ jiā dă pái, chīfàn.", "english": "In my opinion, it's better to invite some people to my house to play cards and eat."},
+      {"speaker": "小陈", "chinese": "这个主意不错,就这么定了。", "pinyin": "Zhège zhúyi búcuò, jiùzhème dìngle.", "english": "That's a good idea, let's do that."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "...得...过来/过去 (can/cannot)",
+      "explanation": "Indicates ability to recover or continue",
+      "example": "好几天歇不过来。",
+      "translation": "Takes several days to recover."
+    },
+    {
+      "point": "为了...起见 (for the sake of)",
+      "explanation": "Indicates purpose or precaution",
+      "example": "为了保险起见,我们最好先上网查一查。",
+      "translation": "To be safe, we'd better check online first."
+    },
+    {
+      "point": "省得 (so as to avoid)",
+      "explanation": "Indicates purpose of avoiding something undesirable",
+      "example": "省得白跑一趟。",
+      "translation": "To avoid making a wasted trip."
+    },
+    {
+      "point": "...吧...吧... (either...or...)",
+      "explanation": "Presents multiple alternatives with uncertainty",
+      "example": "出去玩儿吧,不容易找到伴儿;看书吧,又看不下去。",
+      "translation": "Go out to play, hard to find a partner; read a book, can't stick with it."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "松", "pinyin": "sōng", "meaning": "loose, relax", "radical": "木", "radicalMeaning": "wood", "strokeCount": 8, "strokeOrder": ["横", "竖", "横折", "横", "竖", "横", "竖", "横"]},
+    {"id": "c2", "character": "娱", "pinyin": "yú", "meaning": "entertainment", "radical": "女", "radicalMeaning": "woman", "strokeCount": 10, "strokeOrder": ["撇", "竖", "横折", "横", "竖", "横", "竖", "竖", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match leisure vocabulary",
+      "pairs": [
+        {"chinese": "打牌", "english": "play cards", "id": "m1"},
+        {"chinese": "保龄球", "english": "bowling", "id": "m2"},
+        {"chinese": "打发时间", "english": "kill time", "id": "m3"},
+        {"chinese": "夜宵", "english": "midnight snack", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "Why doesn't the person want to climb the mountain?",
+      "options": [
+        {"text": "It's too dangerous", "correct": false},
+        {"text": "Takes several days to recover", "correct": true},
+        {"text": "The weather is bad", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "为了保险起见,我们最好先______。",
+      "answer": "上网查一查",
+      "hint": "check online"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 37 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 歇不过来 mean?",
+        "options": [
+          {"text": "Don't want to rest", "correct": false},
+          {"text": "Takes a long time to recover", "correct": true},
+          {"text": "Can't find a place to rest", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match entertainment activities",
+        "pairs": [
+          {"prompt": "依我看", "answer": "in my opinion", "id": "qm1"},
+          {"prompt": "省得白跑一趟", "answer": "avoid wasted trip", "id": "qm2"},
+          {"prompt": "这个主意不错", "answer": "good idea", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What's suggested as an alternative to mountain climbing?",
+        "options": [
+          {"text": "Watch movies", "correct": false},
+          {"text": "Play cards and eat at home", "correct": true},
+          {"text": "Go shopping", "correct": false}
+        ]
+      }
+    ]
+  }
+}

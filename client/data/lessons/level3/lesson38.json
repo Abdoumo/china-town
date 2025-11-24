@@ -1,0 +1,138 @@
+{
+  "id": "lesson38",
+  "sessionId": "session12",
+  "title": "计划赶不上变化",
+  "englishTitle": "Plans Cannot Keep Up with Changes",
+  "pageNumber": 65,
+  "difficulty": "intermediate",
+  "objectives": ["Learn planning vocabulary", "Discuss travel plans", "Talk about unexpected changes"],
+  "vocabulary": [
+    {"id": "v1", "character": "制订", "pinyin": "zhiding", "english": "to make out", "partOfSpeech": "verb", "example": "制订计划", "exampleTranslation": "make a plan"},
+    {"id": "v2", "character": "执行", "pinyin": "zhíxíng", "english": "to carry out", "partOfSpeech": "verb", "example": "执行计划", "exampleTranslation": "carry out a plan"},
+    {"id": "v3", "character": "出版社", "pinyin": "chūbănshè", "english": "publishing house", "partOfSpeech": "noun", "example": "出版社", "exampleTranslation": "publishing house"},
+    {"id": "v4", "character": "签", "pinyin": "qian", "english": "to sign", "partOfSpeech": "verb", "example": "签合同", "exampleTranslation": "sign a contract"},
+    {"id": "v5", "character": "合同", "pinyin": "hétong", "english": "contract", "partOfSpeech": "noun", "example": "签了合同", "exampleTranslation": "signed a contract"},
+    {"id": "v6", "character": "期限", "pinyin": "qixiàn", "english": "deadline", "partOfSpeech": "noun", "example": "六个月的期限", "exampleTranslation": "6-month deadline"},
+    {"id": "v7", "character": "手头", "pinyin": "shoutóu", "english": "on hand", "partOfSpeech": "noun", "example": "手头工作", "exampleTranslation": "work at hand"},
+    {"id": "v8", "character": "冲突", "pinyin": "chôngtũ", "english": "conflict", "partOfSpeech": "noun", "example": "工作冲突", "exampleTranslation": "work conflict"},
+    {"id": "v9", "character": "日程", "pinyin": "richéng", "english": "schedule", "partOfSpeech": "noun", "example": "日程排得满满的", "exampleTranslation": "fully packed schedule"},
+    {"id": "v10", "character": "排", "pinyin": "pái", "english": "to arrange", "partOfSpeech": "verb", "example": "排日程", "exampleTranslation": "arrange schedule"},
+    {"id": "v11", "character": "空闲", "pinyin": "kòngxián", "english": "leisure", "partOfSpeech": "noun", "example": "没有空闲", "exampleTranslation": "no free time"},
+    {"id": "v12", "character": "提纲", "pinyin": "tígang", "english": "outline", "partOfSpeech": "noun", "example": "写提纲", "exampleTranslation": "write an outline"},
+    {"id": "v13", "character": "初稿", "pinyin": "chūgăo", "english": "first draft", "partOfSpeech": "noun", "example": "写初稿", "exampleTranslation": "write a draft"},
+    {"id": "v14", "character": "修改", "pinyin": "xiūgăi", "english": "to revise", "partOfSpeech": "verb", "example": "修改初稿", "exampleTranslation": "revise the draft"},
+    {"id": "v15", "character": "出版", "pinyin": "chūbăn", "english": "to publish", "partOfSpeech": "verb", "example": "出版书籍", "exampleTranslation": "publish a book"},
+    {"id": "v16", "character": "最佳", "pinyin": "zuijia", "english": "best", "partOfSpeech": "adjective", "example": "最佳方案", "exampleTranslation": "best plan"},
+    {"id": "v17", "character": "动身", "pinyin": "dòngshên", "english": "to start off", "partOfSpeech": "verb", "example": "周五动身", "exampleTranslation": "start on Friday"},
+    {"id": "v18", "character": "卧铺", "pinyin": "wòpù", "english": "berth", "partOfSpeech": "noun", "example": "火车卧铺", "exampleTranslation": "train berth"},
+    {"id": "v19", "character": "当晚", "pinyin": "dàngwăn", "english": "that very night", "partOfSpeech": "noun", "example": "当晚再坐", "exampleTranslation": "take the same night"},
+    {"id": "v20", "character": "长途", "pinyin": "chángtú", "english": "long-distance", "partOfSpeech": "adjective", "example": "长途汽车", "exampleTranslation": "long-distance bus"}
+  ],
+  "dialogue": {
+    "title": "Trip Planning",
+    "lines": [
+      {"speaker": "安娜", "chinese": "我有一个最佳方案,又省时间又省���。", "pinyin": "Wǒ yǒu yìge zuijia fāng'àn, yòu shěng shíjiān yòu shěng qián.", "english": "I have a perfect solution that saves both time and money."},
+      {"speaker": "朴英花", "chinese": "哦? 说说看。", "pinyin": "Ó? Shuōshuō kàn.", "english": "Oh? Tell me."},
+      {"speaker": "安娜", "chinese": "周五晚上动身,坐火车卧铺,周六上午到青岛。", "pinyin": "Zhōu wǔ wǎnshang dòngshân, zuò huǒchē wòpù, zhōu liù shàngwǔ dào qīngdào.", "english": "Leave Friday evening, take the train berth, arrive in Qingdao Saturday morning."},
+      {"speaker": "安娜", "chinese": "在那儿玩儿一天,当晚再坐长途汽车去曲阜。", "pinyin": "Zài nàr wányǐ tiān, dàngwăn zài zuò chángtú qìchē qù qūfu.", "english": "Play there for a day, then take a long-distance bus to Qufu that night."},
+      {"speaker": "朴英花", "chinese": "哇,太棒了!", "pinyin": "Wa, tài bàngle!", "english": "Wow, that's great!"},
+      {"speaker": "安娜", "chinese": "别着急,我们在曲阜只玩儿一个白天,然后坐当晚的火车回北京。", "pinyin": "Bié zháojí, wǒmen zài qūfu zhǐ wányǐ ge báitiān, ránhòu zuò dàngwăn de huǒchē huí běijīng.", "english": "Don't worry, we'll spend only one day in Qufu, then take the train back to Beijing that night."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "不光...还... (not only...but also...)",
+      "explanation": "Indicates addition of more possibilities",
+      "example": "不光可以去青岛,还可以去曲阜。",
+      "translation": "Not only can we go to Qingdao, but also to Qufu."
+    },
+    {
+      "point": "...看 (try)",
+      "explanation": "Indicates attempting or testing something",
+      "example": "说说看。",
+      "translation": "Tell me about it."
+    },
+    {
+      "point": "当... (on that same...)",
+      "explanation": "Indicates same day/time",
+      "example": "当晚再坐火车。",
+      "translation": "Take the train that same night."
+    },
+    {
+      "point": "准得... (definitely, certainly)",
+      "explanation": "Indicates certainty or prediction",
+      "example": "准得把人累个半死。",
+      "translation": "Will definitely make people exhausted."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "划", "pinyin": "huà", "meaning": "to plan, to row", "radical": "刂", "radicalMeaning": "knife", "strokeCount": 8, "strokeOrder": ["横", "横", "竖", "横", "竖", "横", "竖", "横折钩"]},
+    {"id": "c2", "character": "变", "pinyin": "biàn", "meaning": "to change", "radical": "彡", "radicalMeaning": "whisker", "strokeCount": 8, "strokeOrder": ["撇", "横折钩", "竖", "横", "竖", "竖", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match travel planning vocabulary",
+      "pairs": [
+        {"chinese": "制订计划", "english": "make a plan", "id": "m1"},
+        {"chinese": "卧铺", "english": "train berth", "id": "m2"},
+        {"chinese": "当晚", "english": "that same night", "id": "m3"},
+        {"chinese": "长途汽车", "english": "long-distance bus", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What is the advantage of Anna's plan?",
+      "options": [
+        {"text": "It's the most luxurious", "correct": false},
+        {"text": "Saves both time and money", "correct": true},
+        {"text": "Includes meals", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "周五晚上______,坐火车卧铺。",
+      "answer": "动身",
+      "hint": "to start off"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 38 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What time does Anna suggest leaving?",
+        "options": [
+          {"text": "Friday morning", "correct": false},
+          {"text": "Friday evening", "correct": true},
+          {"text": "Saturday morning", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match travel details",
+        "pairs": [
+          {"prompt": "周六上午", "answer": "Saturday morning", "id": "qm1"},
+          {"prompt": "长途汽车", "answer": "long-distance bus", "id": "qm2"},
+          {"prompt": "当晚", "answer": "that same night", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What does 计划赶不上变化 mean?",
+        "options": [
+          {"text": "Plans are too slow", "correct": false},
+          {"text": "Plans cannot keep up with changes", "correct": true},
+          {"text": "Changes are not planned", "correct": false}
+        ]
+      }
+    ]
+  }
+}

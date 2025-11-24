@@ -1,0 +1,443 @@
+{
+  "id": "lesson33",
+  "sessionId": "session11",
+  "title": "好东西人人爱吃",
+  "englishTitle": "Everyone Loves Good Food",
+  "pageNumber": 19,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn food and dining vocabulary",
+    "Discuss food preferences",
+    "Order dishes in a restaurant"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "光",
+      "pinyin": "guang",
+      "english": "only",
+      "partOfSpeech": "adverb",
+      "example": "光会吃还不行",
+      "exampleTranslation": "just eating is not enough"
+    },
+    {
+      "id": "v2",
+      "character": "点菜",
+      "pinyin": "diăn cài",
+      "english": "to order dishes",
+      "partOfSpeech": "verb",
+      "example": "怎么点菜",
+      "exampleTranslation": "how to order dishes"
+    },
+    {
+      "id": "v3",
+      "character": "手艺",
+      "pinyin": "shouyì",
+      "english": "cooking",
+      "partOfSpeech": "noun",
+      "example": "我的手艺",
+      "exampleTranslation": "my cooking"
+    },
+    {
+      "id": "v4",
+      "character": "胃口",
+      "pinyin": "wèikou",
+      "english": "appetite",
+      "partOfSpeech": "noun",
+      "example": "不合你的胃口",
+      "exampleTranslation": "not to your taste"
+    },
+    {
+      "id": "v5",
+      "character": "请客",
+      "pinyin": "qing kè",
+      "english": "to invite somebody to dinner",
+      "partOfSpeech": "verb",
+      "example": "今天我请客",
+      "exampleTranslation": "I'm treating today"
+    },
+    {
+      "id": "v6",
+      "character": "菜单",
+      "pinyin": "càidān",
+      "english": "menu",
+      "partOfSpeech": "noun",
+      "example": "看菜单",
+      "exampleTranslation": "look at the menu"
+    },
+    {
+      "id": "v7",
+      "character": "指",
+      "pinyin": "zhi",
+      "english": "to refer to",
+      "partOfSpeech": "verb",
+      "example": "菜名指的是什么",
+      "exampleTranslation": "what the dish name refers to"
+    },
+    {
+      "id": "v8",
+      "character": "推荐",
+      "pinyin": "tuijian",
+      "english": "to recommend",
+      "partOfSpeech": "verb",
+      "example": "推荐一下",
+      "exampleTranslation": "to recommend"
+    },
+    {
+      "id": "v9",
+      "character": "口味(儿)",
+      "pinyin": "kouwèi(r)",
+      "english": "the flavor of food",
+      "partOfSpeech": "noun",
+      "example": "不合口味",
+      "exampleTranslation": "not to one's taste"
+    },
+    {
+      "id": "v10",
+      "character": "清蒸",
+      "pinyin": "qingzhêng",
+      "english": "steamed in clear soup",
+      "partOfSpeech": "verb",
+      "example": "清蒸鱿鱼",
+      "exampleTranslation": "steamed squid"
+    },
+    {
+      "id": "v11",
+      "character": "鱿鱼",
+      "pinyin": "lúyú",
+      "english": "a kind of fish",
+      "partOfSpeech": "noun",
+      "example": "清蒸鱿鱼",
+      "exampleTranslation": "steamed squid"
+    },
+    {
+      "id": "v12",
+      "character": "清淡",
+      "pinyin": "qingdàn",
+      "english": "light",
+      "partOfSpeech": "adjective",
+      "example": "清淡可口",
+      "exampleTranslation": "light and delicious"
+    },
+    {
+      "id": "v13",
+      "character": "可口",
+      "pinyin": "kěkou",
+      "english": "delicious",
+      "partOfSpeech": "adjective",
+      "example": "很可口",
+      "exampleTranslation": "very delicious"
+    },
+    {
+      "id": "v14",
+      "character": "淡水鱼",
+      "pinyin": "dànshuiyú",
+      "english": "freshwater fish",
+      "partOfSpeech": "noun",
+      "example": "吃不惯淡水鱼",
+      "exampleTranslation": "not used to freshwater fish"
+    },
+    {
+      "id": "v15",
+      "character": "道",
+      "pinyin": "dào",
+      "english": "a measure word for courses in a meal",
+      "partOfSpeech": "measure word",
+      "example": "这道菜",
+      "exampleTranslation": "this dish"
+    },
+    {
+      "id": "v16",
+      "character": "重",
+      "pinyin": "zhòng",
+      "english": "strong (in flavor)",
+      "partOfSpeech": "adjective",
+      "example": "味儿太重",
+      "exampleTranslation": "flavor is too strong"
+    },
+    {
+      "id": "v17",
+      "character": "腻",
+      "pinyin": "nì",
+      "english": "oily",
+      "partOfSpeech": "adjective",
+      "example": "油太多,有点儿腻",
+      "exampleTranslation": "too much oil, a bit greasy"
+    },
+    {
+      "id": "v18",
+      "character": "麻婆豆腐",
+      "pinyin": "mápó dòufu",
+      "english": "Mapo Tofu",
+      "partOfSpeech": "noun",
+      "example": "要个麻婆豆腐",
+      "exampleTranslation": "order Mapo Tofu"
+    },
+    {
+      "id": "v19",
+      "character": "砸",
+      "pinyin": "zá",
+      "english": "to fail",
+      "partOfSpeech": "verb",
+      "example": "做砸了",
+      "exampleTranslation": "failed to cook"
+    },
+    {
+      "id": "v20",
+      "character": "埋怨",
+      "pinyin": "mányuàn",
+      "english": "to blame",
+      "partOfSpeech": "verb",
+      "example": "如果他埋怨",
+      "exampleTranslation": "if he complains"
+    }
+  ],
+  "dialogue": {
+    "title": "Dining Out",
+    "lines": [
+      {
+        "speaker": "保罗",
+        "chinese": "想吃什么随便点,今天我请客!",
+        "pinyin": "Xiǎng chī shénme suíbiàn diăn, jīntiān wǒ qing kè!",
+        "english": "Order whatever you want, my treat today!"
+      },
+      {
+        "speaker": "木村",
+        "chinese": "我一看菜单就头晕,我不知道这些菜名指的都是什么菜。",
+        "pinyin": "Wǒ yì kàn càidān jiù tóuyūn, wǒ búzhīdào zhèxiē càimíng zhǐ de dōu shì shénme cài.",
+        "english": "Looking at the menu makes me dizzy, I don't know what these dish names refer to."
+      },
+      {
+        "speaker": "保罗",
+        "chinese": "清蒸鱿鱼怎么样?清淡可口,很好吃。",
+        "pinyin": "Qingzhêng lúyú zěnyàng? Qingdàn kěkou, hěn háochī.",
+        "english": "How about steamed squid? Light and delicious."
+      },
+      {
+        "speaker": "木村",
+        "chinese": "我吃惯了海鱼,吃不惯淡水鱼。",
+        "pinyin": "Wǒ chī guàn le hǎiyú, chī búguàn dànshuiyú.",
+        "english": "I'm used to ocean fish, not freshwater fish."
+      },
+      {
+        "speaker": "保罗",
+        "chinese": "看来这个餐厅的菜都不合你的口味儿,我们换一家吧。",
+        "pinyin": "Kànlái zhège cāntīng de cài dōu búhé nǐ de kouwèi'er, wǒmen huàn yì jiā ba.",
+        "english": "It seems none of the dishes at this restaurant suit your taste, let's go to another one."
+      },
+      {
+        "speaker": "木村",
+        "chinese": "不是不合我的口味儿,是我今天没胃口。",
+        "pinyin": "Búshi búhé wǒ de kouwèi'er, shì wǒ jīntiān méi wèikou.",
+        "english": "It's not that they don't suit my taste, it's just that I'm not hungry today."
+      },
+      {
+        "speaker": "丈夫",
+        "chinese": "菜来了,今天肯定让你大饱口福!",
+        "pinyin": "Cài láile, jīntiān kěndìng ràng nǐ dà băo koufú!",
+        "english": "Here's the food, you'll definitely have a great meal today!"
+      },
+      {
+        "speaker": "妻子",
+        "chinese": "你还有两下子!",
+        "pinyin": "Nǐ háiyǒu liǎng xiàzi!",
+        "english": "You do have some skills!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "动词+惯/吃不惯 (to be/not be used to)",
+      "explanation": "Indicates whether someone is accustomed to something",
+      "example": "我吃惯了海鱼,吃不惯淡水鱼。",
+      "translation": "I'm used to ocean fish, not freshwater fish."
+    },
+    {
+      "point": "看来... (it seems that...)",
+      "explanation": "Introduces a conclusion based on observation",
+      "example": "看来这个餐厅的菜都不合你的口味儿。",
+      "translation": "It seems none of the dishes here suit your taste."
+    },
+    {
+      "point": "要么...要么... (either...or...)",
+      "explanation": "Presents two alternatives",
+      "example": "要么在单位食堂吃,要么回家随便弄点儿吃的。",
+      "translation": "Either eat at the company cafeteria or grab something at home."
+    },
+    {
+      "point": "一个人怎么都好说 (anything goes for one person)",
+      "explanation": "Indicates flexibility when dining alone",
+      "example": "一个人怎么都好说。",
+      "translation": "When you're alone, anything works."
+    },
+    {
+      "point": "有两下子 (have some skills)",
+      "explanation": "Indicates someone is capable or skilled",
+      "example": "你还有两下子!",
+      "translation": "You really do have skills!"
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "东",
+      "pinyin": "dōng",
+      "meaning": "east, thing",
+      "radical": "木",
+      "radicalMeaning": "wood",
+      "strokeCount": 5,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横"]
+    },
+    {
+      "id": "c2",
+      "character": "西",
+      "pinyin": "xī",
+      "meaning": "west",
+      "radical": "覀",
+      "radicalMeaning": "cover",
+      "strokeCount": 6,
+      "strokeOrder": ["撇", "竖", "横折", "横", "竖", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "菜",
+      "pinyin": "cài",
+      "meaning": "vegetables, dish",
+      "radical": "艹",
+      "radicalMeaning": "grass",
+      "strokeCount": 11,
+      "strokeOrder": ["横", "竖", "竖", "撇", "竖", "横折", "横", "横", "竖", "竖", "横"]
+    },
+    {
+      "id": "c4",
+      "character": "口",
+      "pinyin": "kǒu",
+      "meaning": "mouth, taste",
+      "radical": "口",
+      "radicalMeaning": "mouth",
+      "strokeCount": 3,
+      "strokeOrder": ["竖", "横折", "横"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match food vocabulary",
+      "pairs": [
+        {
+          "chinese": "清蒸鱿鱼",
+          "english": "steamed squid",
+          "id": "m1"
+        },
+        {
+          "chinese": "麻婆豆腐",
+          "english": "Mapo Tofu",
+          "id": "m2"
+        },
+        {
+          "chinese": "淡水鱼",
+          "english": "freshwater fish",
+          "id": "m3"
+        },
+        {
+          "chinese": "清淡",
+          "english": "light (flavor)",
+          "id": "m4"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What is the meaning of 吃惯?",
+      "options": [
+        {
+          "text": "To eat breakfast",
+          "correct": false
+        },
+        {
+          "text": "To be used to eating",
+          "correct": true
+        },
+        {
+          "text": "To eat a habit",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "我吃惯了海鱼,吃不惯_______。",
+      "answer": "淡水鱼",
+      "hint": "opposite of ocean fish"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 33 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "Why doesn't the customer want to try steamed squid?",
+        "options": [
+          {
+            "text": "Because it's too expensive",
+            "correct": false
+          },
+          {
+            "text": "Because he's used to ocean fish, not freshwater fish",
+            "correct": true
+          },
+          {
+            "text": "Because he's not hungry",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match food descriptions",
+        "pairs": [
+          {
+            "prompt": "清淡可口",
+            "answer": "light and delicious",
+            "id": "qm1"
+          },
+          {
+            "prompt": "味儿太重",
+            "answer": "flavor is too strong",
+            "id": "qm2"
+          },
+          {
+            "prompt": "有点儿腻",
+            "answer": "a bit greasy",
+            "id": "qm3"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What does 大饱口福 mean?",
+        "options": [
+          {
+            "text": "To lose appetite",
+            "correct": false
+          },
+          {
+            "text": "To have a very good dinner",
+            "correct": true
+          },
+          {
+            "text": "To be hungry",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

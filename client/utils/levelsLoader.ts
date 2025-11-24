@@ -35,9 +35,22 @@ import level2_lesson28 from "@/data/lessons/level2/lesson28.json";
 import level2_lesson29 from "@/data/lessons/level2/lesson29.json";
 import level2_lesson30 from "@/data/lessons/level2/lesson30.json";
 
-// Level 3 lessons - Add imports here as files are created
-// import level3_lesson1 from "@/data/lessons/level3/lesson1.json";
-// etc...
+// Level 3 lessons
+import level3_lesson31 from "@/data/lessons/level3/lesson31.json";
+import level3_lesson32 from "@/data/lessons/level3/lesson32.json";
+import level3_lesson33 from "@/data/lessons/level3/lesson33.json";
+import level3_lesson34 from "@/data/lessons/level3/lesson34.json";
+import level3_lesson35 from "@/data/lessons/level3/lesson35.json";
+import level3_lesson36 from "@/data/lessons/level3/lesson36.json";
+import level3_lesson37 from "@/data/lessons/level3/lesson37.json";
+import level3_lesson38 from "@/data/lessons/level3/lesson38.json";
+import level3_lesson39 from "@/data/lessons/level3/lesson39.json";
+import level3_lesson40 from "@/data/lessons/level3/lesson40.json";
+import level3_lesson41 from "@/data/lessons/level3/lesson41.json";
+import level3_lesson42 from "@/data/lessons/level3/lesson42.json";
+import level3_lesson43 from "@/data/lessons/level3/lesson43.json";
+import level3_lesson44 from "@/data/lessons/level3/lesson44.json";
+import level3_lesson45 from "@/data/lessons/level3/lesson45.json";
 
 const level1Lessons: Record<string, LessonData> = {
   lesson1: level1_lesson1 as LessonData,
@@ -76,9 +89,23 @@ const level2Lessons: Record<string, LessonData> = {
   lesson30: level2_lesson30 as LessonData,
 };
 
-// Level 3 lessons structure - will be filled with data
+// Level 3 lessons structure
 const level3Lessons: Record<string, LessonData> = {
-  // Add Level 3 lessons here
+  lesson31: level3_lesson31 as LessonData,
+  lesson32: level3_lesson32 as LessonData,
+  lesson33: level3_lesson33 as LessonData,
+  lesson34: level3_lesson34 as LessonData,
+  lesson35: level3_lesson35 as LessonData,
+  lesson36: level3_lesson36 as LessonData,
+  lesson37: level3_lesson37 as LessonData,
+  lesson38: level3_lesson38 as LessonData,
+  lesson39: level3_lesson39 as LessonData,
+  lesson40: level3_lesson40 as LessonData,
+  lesson41: level3_lesson41 as LessonData,
+  lesson42: level3_lesson42 as LessonData,
+  lesson43: level3_lesson43 as LessonData,
+  lesson44: level3_lesson44 as LessonData,
+  lesson45: level3_lesson45 as LessonData,
 };
 
 export function getLessonsByLevel(level: ThresholdLevel): Record<string, LessonData> {

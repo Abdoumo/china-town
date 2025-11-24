@@ -1,0 +1,142 @@
+{
+  "id": "lesson35",
+  "sessionId": "session12",
+  "title": "你喜欢逛商店吗",
+  "englishTitle": "Do You Like Shopping",
+  "pageNumber": 34,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn shopping and gift vocabulary",
+    "Discuss shopping preferences",
+    "Talk about bargains and discounts"
+  ],
+  "vocabulary": [
+    {"id": "v1", "character": "参谋", "pinyin": "canmou", "english": "to give advice", "partOfSpeech": "verb", "example": "给我参谋参谋", "exampleTranslation": "give me some advice"},
+    {"id": "v2", "character": "开业", "pinyin": "kãi yè", "english": "to start business", "partOfSpeech": "verb", "example": "刚开业", "exampleTranslation": "just opened"},
+    {"id": "v3", "character": "一律", "pinyin": "yílü", "english": "without exception", "partOfSpeech": "adverb", "example": "商品一律打八折", "exampleTranslation": "all goods 20% off"},
+    {"id": "v4", "character": "打折", "pinyin": "dă zhé", "english": "to sell at a discount", "partOfSpeech": "verb", "example": "打八折", "exampleTranslation": "20% off"},
+    {"id": "v5", "character": "探亲", "pinyin": "tàn qìn", "english": "to visit one's own family or relatives", "partOfSpeech": "verb", "example": "去老家探亲", "exampleTranslation": "to visit relatives back home"},
+    {"id": "v6", "character": "拿定主意", "pinyin": "nádìng zhúyi", "english": "to make up one's mind", "partOfSpeech": "verb", "example": "没拿定主意", "exampleTranslation": "haven't decided"},
+    {"id": "v7", "character": "主意", "pinyin": "zhúyi", "english": "idea", "partOfSpeech": "noun", "example": "这个主意不错", "exampleTranslation": "this idea is good"},
+    {"id": "v8", "character": "在行", "pinyin": "zàiháng", "english": "to know something well", "partOfSpeech": "adjective", "example": "买礼物我在行", "exampleTranslation": "I'm good at buying gifts"},
+    {"id": "v9", "character": "实惠", "pinyin": "shíhuì", "english": "useful", "partOfSpeech": "adjective", "example": "实惠的东西", "exampleTranslation": "practical things"},
+    {"id": "v10", "character": "用具", "pinyin": "yòngjù", "english": "utensils", "partOfSpeech": "noun", "example": "厨房用具", "exampleTranslation": "kitchen utensils"},
+    {"id": "v11", "character": "电饭锅", "pinyin": "diànfànguõ", "english": "rice cooker", "partOfSpeech": "noun", "example": "电饭锅", "exampleTranslation": "rice cooker"},
+    {"id": "v12", "character": "微波炉", "pinyin": "wēibōlú", "english": "microwave oven", "partOfSpeech": "noun", "example": "微波炉", "exampleTranslation": "microwave"},
+    {"id": "v13", "character": "倒车", "pinyin": "dặo chẽ", "english": "to change trains or buses", "partOfSpeech": "verb", "example": "得倒两次车", "exampleTranslation": "need to change twice"},
+    {"id": "v14", "character": "用品", "pinyin": "yòngpin", "english": "articles for use", "partOfSpeech": "noun", "example": "床上用品", "exampleTranslation": "bedding"},
+    {"id": "v15", "character": "被罩", "pinyin": "bèizhào", "english": "quilt cover", "partOfSpeech": "noun", "example": "被罩", "exampleTranslation": "quilt cover"},
+    {"id": "v16", "character": "被炉", "pinyin": "bèilú", "english": "a kind of japanese table", "partOfSpeech": "noun", "example": "被炉", "exampleTranslation": "Japanese heated table"},
+    {"id": "v17", "character": "毯子", "pinyin": "tănzi", "english": "blanket", "partOfSpeech": "noun", "example": "毯子", "exampleTranslation": "blanket"},
+    {"id": "v18", "character": "关节炎", "pinyin": "guānjiéyán", "english": "arthritis", "partOfSpeech": "noun", "example": "腿有关节炎", "exampleTranslation": "arthritis in the leg"},
+    {"id": "v19", "character": "定做", "pinyin": "dìngzuò", "english": "to customize", "partOfSpeech": "verb", "example": "除非定做", "exampleTranslation": "unless customized"},
+    {"id": "v20", "character": "选中", "pinyin": "xuǎnzhòng", "english": "to select", "partOfSpeech": "verb", "example": "好不容��才选中这套沙发", "exampleTranslation": "finally selected this sofa"}
+  ],
+  "dialogue": {
+    "title": "Shopping for Gifts",
+    "lines": [
+      {"speaker": "小赵", "chinese": "请你给我参谋参谋,好吗?", "pinyin": "Qǐng nǐ gěi wǒ canmou canmou, háo ma?", "english": "Can you give me some advice?"},
+      {"speaker": "小王", "chinese": "买礼物我在行。", "pinyin": "Măi lǐwù wǒ zàiháng.", "english": "I'm good at buying gifts."},
+      {"speaker": "小王", "chinese": "现在的年轻人比较喜欢实惠的东西,你最好买生活中用得上的,比如厨房用具什么的。", "pinyin": "Xiànzài de niánqīngrén bijiao xǐhuān shíhuì de dōngxi, nǐ zuìháo măi shēnghuó zhōng yòngedào de, bǐrú chúfáng yòngjù shénme de.", "english": "Young people nowadays prefer practical things. It's best to buy things they use in daily life, like kitchen utensils."},
+      {"speaker": "小赵", "chinese": "我刚才看了一些电饭锅、微波炉什么的,太贵,而且路上不好拿。", "pinyin": "Wǒ gāngcái kànle yìxiē diànfànguõ, wēibōlú shénme de, tài guì, érqiě lùshang búháo náa.", "english": "I looked at some rice cookers and microwaves earlier, too expensive, and hard to carry on the road."},
+      {"speaker": "小王", "chinese": "那你买床上用品怎么样?", "pinyin": "Nà nǐ măi chuángshang yòngpin zěnyàng?", "english": "How about buying bedding?"},
+      {"speaker": "小赵", "chinese": "这个主意不错,我怎么就没想到呢?", "pinyin": "Zhège zhúyi búcuò, wǒ zěnyǐ jiù méi xiǎngdào ne?", "english": "That's a great idea, how didn't I think of it?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "可 + 动词 + 的 (worthwhile, deserving)",
+      "explanation": "Indicates whether something is worth doing",
+      "example": "有什么可买的没有?",
+      "translation": "Is there anything worth buying?"
+    },
+    {
+      "point": "...好... (in order to)",
+      "explanation": "Indicates purpose or benefit",
+      "example": "想买些礼物,好带回去送人。",
+      "translation": "Want to buy some gifts to bring back and give to people."
+    },
+    {
+      "point": "除非...才... (only if...)",
+      "explanation": "Indicates the only condition under which something can happen",
+      "example": "除非定做,或者请你的家人从日本寄过来。",
+      "translation": "Only if customized or your family mails it from Japan."
+    },
+    {
+      "point": "好不容易 (with great difficulty)",
+      "explanation": "Indicates something was hard to do or find",
+      "example": "好不容易才选中这套沙发。",
+      "translation": "Finally selected this sofa after great difficulty."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "逛", "pinyin": "guàng", "meaning": "to stroll, to shop", "radical": "辶", "radicalMeaning": "walk", "strokeCount": 10, "strokeOrder": ["横", "竖", "横折", "横", "竖", "横", "竖", "竖折", "竖", "横"]},
+    {"id": "c2", "character": "店", "pinyin": "diàn", "meaning": "shop, store", "radical": "广", "radicalMeaning": "wide", "strokeCount": 8, "strokeOrder": ["横", "竖", "竖", "横", "竖", "横折", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match shopping vocabulary",
+      "pairs": [
+        {"chinese": "打折", "english": "to sell at a discount", "id": "m1"},
+        {"chinese": "用品", "english": "articles for use", "id": "m2"},
+        {"chinese": "定做", "english": "to customize", "id": "m3"},
+        {"chinese": "实惠", "english": "practical", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What gifts are recommended?",
+      "options": [
+        {"text": "Expensive kitchen appliances", "correct": false},
+        {"text": "Practical bedding", "correct": true},
+        {"text": "Customized furniture", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "买礼物我______。",
+      "answer": "在行",
+      "hint": "I'm good at..."
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 35 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "Why doesn't the customer want to buy a rice cooker?",
+        "options": [
+          {"text": "It's not practical", "correct": false},
+          {"text": "It's too expensive and hard to carry", "correct": true},
+          {"text": "No one uses them", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match shopping terms",
+        "pairs": [
+          {"prompt": "打八折", "answer": "20% discount", "id": "qm1"},
+          {"prompt": "床上用品", "answer": "bedding", "id": "qm2"},
+          {"prompt": "好不容易", "answer": "with difficulty", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What does 在行 mean?",
+        "options": [
+          {"text": "Going to travel", "correct": false},
+          {"text": "Good at something", "correct": true},
+          {"text": "Standing in line", "correct": false}
+        ]
+      }
+    ]
+  }
+}

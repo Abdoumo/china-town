@@ -1,0 +1,138 @@
+{
+  "id": "lesson39",
+  "sessionId": "session12",
+  "title": "大手大脚还是精打细算",
+  "englishTitle": "Extravagant or Frugal",
+  "pageNumber": 72,
+  "difficulty": "intermediate",
+  "objectives": ["Learn financial vocabulary", "Discuss spending habits", "Talk about saving money"],
+  "vocabulary": [
+    {"id": "v1", "character": "大手大脚", "pinyin": "dà shou dà jião", "english": "extravagantly", "partOfSpeech": "adverb", "example": "花钱大手大脚", "exampleTranslation": "spend money extravagantly"},
+    {"id": "v2", "character": "精打细算", "pinyin": "jìng dă xì suàn", "english": "thriftily", "partOfSpeech": "adverb", "example": "精打细算", "exampleTranslation": "calculate carefully"},
+    {"id": "v3", "character": "攒", "pinyin": "zán", "english": "to save", "partOfSpeech": "verb", "example": "攒钱", "exampleTranslation": "save money"},
+    {"id": "v4", "character": "节省", "pinyin": "jiéshěng", "english": "sparing", "partOfSpeech": "adjective", "example": "很节省", "exampleTranslation": "very frugal"},
+    {"id": "v5", "character": "奢侈", "pinyin": "shēchí", "english": "luxurious", "partOfSpeech": "adjective", "example": "奢侈品", "exampleTranslation": "luxury goods"},
+    {"id": "v6", "character": "存", "pinyin": "cún", "english": "to save (money)", "partOfSpeech": "verb", "example": "存钱", "exampleTranslation": "save money"},
+    {"id": "v7", "character": "开销", "pinyin": "kaixião", "english": "expense", "partOfSpeech": "noun", "example": "开销很大", "exampleTranslation": "big expense"},
+    {"id": "v8", "character": "记账", "pinyin": "jì zhàng", "english": "to keep accounts", "partOfSpeech": "verb", "example": "记账", "exampleTranslation": "keep track of spending"},
+    {"id": "v9", "character": "开支", "pinyin": "kāizhī", "english": "spending", "partOfSpeech": "noun", "example": "减少开支", "exampleTranslation": "reduce spending"},
+    {"id": "v10", "character": "涨", "pinyin": "zhăng", "english": "to rise", "partOfSpeech": "verb", "example": "房价涨", "exampleTranslation": "house prices rise"},
+    {"id": "v11", "character": "法子", "pinyin": "fázi", "english": "way", "partOfSpeech": "noun", "example": "想办法", "exampleTranslation": "think of ways"},
+    {"id": "v12", "character": "分期付款", "pinyin": "fën qì fù kuăn", "english": "to pay by installment", "partOfSpeech": "verb", "example": "分期付款买房", "exampleTranslation": "buy house on installment"},
+    {"id": "v13", "character": "贷款", "pinyin": "dàikuăn", "english": "to loan; loan", "partOfSpeech": "verb/noun", "example": "申请贷款", "exampleTranslation": "apply for a loan"},
+    {"id": "v14", "character": "欠债", "pinyin": "qiàn zhài", "english": "to owe a debt", "partOfSpeech": "verb", "example": "欠债", "exampleTranslation": "in debt"},
+    {"id": "v15", "character": "踏实", "pinyin": "tāshi", "english": "relieved", "partOfSpeech": "adjective", "example": "心里踏实", "exampleTranslation": "feel relieved"},
+    {"id": "v16", "character": "观念", "pinyin": "guānniàn", "english": "concept", "partOfSpeech": "noun", "example": "观念改变", "exampleTranslation": "changed concept"},
+    {"id": "v17", "character": "财政", "pinyin": "cáizhèng", "english": "finance", "partOfSpeech": "noun", "example": "家庭财政", "exampleTranslation": "family finance"},
+    {"id": "v18", "character": "预算", "pinyin": "yùsuàn", "english": "budget", "partOfSpeech": "noun", "example": "预算", "exampleTranslation": "budget"},
+    {"id": "v19", "character": "收入", "pinyin": "shourù", "english": "income", "partOfSpeech": "noun", "example": "收入不错", "exampleTranslation": "good income"},
+    {"id": "v20", "character": "保险", "pinyin": "băoxiăn", "english": "insurance", "partOfSpeech": "noun", "example": "买保险", "exampleTranslation": "buy insurance"}
+  ],
+  "dialogue": {
+    "title": "Spending Habits",
+    "lines": [
+      {"speaker": "小黄", "chinese": "我发现你花钱很节省。", "pinyin": "Wǒ fāxiàn nǐ huāqián hěn jiéshěng.", "english": "I notice you spend money frugally."},
+      {"speaker": "小马", "chinese": "对,我从来不买奢侈品,能省就省。", "pinyin": "Duì, wǒ cónglái búmăi shēchǐpǐn, néng shěng jiù shěng.", "english": "Yes, I never buy luxury goods, save what I can."},
+      {"speaker": "小黄", "chinese": "我喜欢让自己过得舒服一点儿,干吗跟自己过不去呢?", "pinyin": "Wǒ xǐhuān ràng zìjǐ guòde shūfu yìdiǎn'er, gānma gēn zìjǐ guòbuqù ne?", "english": "I like to live comfortably, why be hard on myself?"},
+      {"speaker": "小马", "chinese": "你应该先订个计划,每月存多少,花多少,然后按照计划用钱。", "pinyin": "Nǐ yīnggāi xiān dìng ge jìhuà, měi yuè cún duōshao, huā duōshao, ránhòu ànzhào jìhuà yòngqián.", "english": "You should make a plan, decide how much to save and spend monthly, then stick to it."},
+      {"speaker": "小黄", "chinese": "我的开销总是很大,老觉得钱不够用。", "pinyin": "Wǒ de kaixião zǒngshi hěn dà, lǎo juéde qián búgòu yòng.", "english": "My expenses are always large, I always feel short of money."},
+      {"speaker": "小马", "chinese": "你可以每天记账,然后检查一下,减少不必要的开支。", "pinyin": "Nǐ kěyǐ měi tiān jì zhàng, ránhòu jiǎnchá yìxia, jiǎnshao búbìyào de kāizhī.", "english": "You can keep accounts daily, then check and reduce unnecessary expenses."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "动词下...来 (can/cannot do)",
+      "explanation": "Indicates ability to accomplish something",
+      "example": "攒不下钱来。",
+      "translation": "Cannot save money."
+    },
+    {
+      "point": "干吗... (why...)",
+      "explanation": "Questions the reason for doing something",
+      "example": "干吗跟自己过不去呢?",
+      "translation": "Why be hard on yourself?"
+    },
+    {
+      "point": "就靠... (depend on...)",
+      "explanation": "Indicates reliance or dependence",
+      "example": "就靠你那点儿工资。",
+      "translation": "Just relying on your salary."
+    },
+    {
+      "point": "即使...也... (even if...still...)",
+      "explanation": "Indicates a concessive relationship",
+      "example": "即使收入下降,孩子也能完成教育。",
+      "translation": "Even if income declines, the child can still complete education."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "算", "pinyin": "suàn", "meaning": "calculate, count", "radical": "竹", "radicalMeaning": "bamboo", "strokeCount": 14, "strokeOrder": ["竖", "竖", "横", "横", "竖", "横", "竖", "横", "竖", "横", "竖", "横", "竖", "横"]},
+    {"id": "c2", "character": "钱", "pinyin": "qián", "meaning": "money", "radical": "钅", "radicalMeaning": "metal", "strokeCount": 10, "strokeOrder": ["撇", "横折钩", "横", "竖", "横", "竖", "横", "竖", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match financial vocabulary",
+      "pairs": [
+        {"chinese": "大手大脚", "english": "extravagant", "id": "m1"},
+        {"chinese": "精打细算", "english": "frugal", "id": "m2"},
+        {"chinese": "分期付款", "english": "installment payment", "id": "m3"},
+        {"chinese": "记账", "english": "keep accounts", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What is the advice given?",
+      "options": [
+        {"text": "Never spend money", "correct": false},
+        {"text": "Make a plan and track expenses", "correct": true},
+        {"text": "Buy luxury goods", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "我的开销总是很大,老觉得钱______。",
+      "answer": "不够用",
+      "hint": "not enough"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 39 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 干吗跟自己过不去 mean?",
+        "options": [
+          {"text": "Don't go against yourself", "correct": false},
+          {"text": "Why be hard on yourself", "correct": true},
+          {"text": "Don't pass by yourself", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match spending behaviors",
+        "pairs": [
+          {"prompt": "大手大脚", "answer": "spend extravagantly", "id": "qm1"},
+          {"prompt": "精打细算", "answer": "be frugal", "id": "qm2"},
+          {"prompt": "记账", "answer": "keep track of spending", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What does 攒不下钱来 mean?",
+        "options": [
+          {"text": "Cannot keep money in bank", "correct": false},
+          {"text": "Cannot save money", "correct": true},
+          {"text": "Money cannot come", "correct": false}
+        ]
+      }
+    ]
+  }
+}

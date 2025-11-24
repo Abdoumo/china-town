@@ -1,0 +1,427 @@
+{
+  "id": "lesson34",
+  "sessionId": "session11",
+  "title": "这种款式适合我吗",
+  "englishTitle": "Does This Style Suit Me",
+  "pageNumber": 26,
+  "difficulty": "intermediate",
+  "objectives": [
+    "Learn clothing and fashion vocabulary",
+    "Discuss clothing styles and sizes",
+    "Express opinions about clothes"
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "character": "款式",
+      "pinyin": "kuanshi",
+      "english": "style, pattern",
+      "partOfSpeech": "noun",
+      "example": "这种款式",
+      "exampleTranslation": "this style"
+    },
+    {
+      "id": "v2",
+      "character": "适合",
+      "pinyin": "shìhé",
+      "english": "to fit",
+      "partOfSpeech": "verb",
+      "example": "适合我吗",
+      "exampleTranslation": "does it suit me"
+    },
+    {
+      "id": "v3",
+      "character": "号",
+      "pinyin": "hào",
+      "english": "size",
+      "partOfSpeech": "noun",
+      "example": "穿多大尺寸的",
+      "exampleTranslation": "what size do you wear"
+    },
+    {
+      "id": "v4",
+      "character": "大方",
+      "pinyin": "dàfang",
+      "english": "tasteful",
+      "partOfSpeech": "adjective",
+      "example": "款式大方",
+      "exampleTranslation": "tasteful style"
+    },
+    {
+      "id": "v5",
+      "character": "做工",
+      "pinyin": "zuogông",
+      "english": "workmanship",
+      "partOfSpeech": "noun",
+      "example": "做工精细",
+      "exampleTranslation": "fine workmanship"
+    },
+    {
+      "id": "v6",
+      "character": "精细",
+      "pinyin": "jingxi",
+      "english": "exquisite",
+      "partOfSpeech": "adjective",
+      "example": "做工精细",
+      "exampleTranslation": "fine workmanship"
+    },
+    {
+      "id": "v7",
+      "character": "名牌儿",
+      "pinyin": "míngpáir",
+      "english": "famous brand",
+      "partOfSpeech": "noun",
+      "example": "都是名牌儿",
+      "exampleTranslation": "all famous brands"
+    },
+    {
+      "id": "v8",
+      "character": "风衣",
+      "pinyin": "fēngyi",
+      "english": "windcheater",
+      "partOfSpeech": "noun",
+      "example": "这件风衣",
+      "exampleTranslation": "this windcheater"
+    },
+    {
+      "id": "v9",
+      "character": "纯毛",
+      "pinyin": "chúnmáo",
+      "english": "pure wool",
+      "partOfSpeech": "noun",
+      "example": "纯毛的",
+      "exampleTranslation": "pure wool"
+    },
+    {
+      "id": "v10",
+      "character": "挡",
+      "pinyin": "dăng",
+      "english": "to keep out",
+      "partOfSpeech": "verb",
+      "example": "又挡风又保暖",
+      "exampleTranslation": "both wind-resistant and warm"
+    },
+    {
+      "id": "v11",
+      "character": "干洗",
+      "pinyin": "gānxi",
+      "english": "to dry-clean",
+      "partOfSpeech": "verb",
+      "example": "得到洗衣店干洗",
+      "exampleTranslation": "need to dry-clean at a laundry"
+    },
+    {
+      "id": "v12",
+      "character": "��纤",
+      "pinyin": "huàxiãn",
+      "english": "chemical fiber",
+      "partOfSpeech": "noun",
+      "example": "化纤面料",
+      "exampleTranslation": "chemical fiber material"
+    },
+    {
+      "id": "v13",
+      "character": "面料",
+      "pinyin": "miànliào",
+      "english": "material for making clothes",
+      "partOfSpeech": "noun",
+      "example": "什么料子的",
+      "exampleTranslation": "what material"
+    },
+    {
+      "id": "v14",
+      "character": "防",
+      "pinyin": "fáng",
+      "english": "to prevent",
+      "partOfSpeech": "verb",
+      "example": "又防风又防雨",
+      "exampleTranslation": "both wind and rain resistant"
+    },
+    {
+      "id": "v15",
+      "character": "结实",
+      "pinyin": "jiēshi",
+      "english": "durable",
+      "partOfSpeech": "adjective",
+      "example": "结实耐穿",
+      "exampleTranslation": "durable and long-wearing"
+    },
+    {
+      "id": "v16",
+      "character": "耐",
+      "pinyin": "nài",
+      "english": "to be able to bear or endure",
+      "partOfSpeech": "verb",
+      "example": "结实耐穿",
+      "exampleTranslation": "durable and long-wearing"
+    },
+    {
+      "id": "v17",
+      "character": "花色",
+      "pinyin": "huasè",
+      "english": "design and color",
+      "partOfSpeech": "noun",
+      "example": "花色也挺多",
+      "exampleTranslation": "plenty of designs and colors"
+    },
+    {
+      "id": "v18",
+      "character": "尺寸",
+      "pinyin": "chicùn",
+      "english": "size",
+      "partOfSpeech": "noun",
+      "example": "中国的尺寸怎么规定的",
+      "exampleTranslation": "how are sizes defined in China"
+    },
+    {
+      "id": "v19",
+      "character": "标签",
+      "pinyin": "biãoqiãn",
+      "english": "tag, label",
+      "partOfSpeech": "noun",
+      "example": "标签上写得很清楚",
+      "exampleTranslation": "clearly written on the label"
+    },
+    {
+      "id": "v20",
+      "character": "身高",
+      "pinyin": "shëngão",
+      "english": "height (of a person)",
+      "partOfSpeech": "noun",
+      "example": "身高、胸围",
+      "exampleTranslation": "height and chest measurement"
+    }
+  ],
+  "dialogue": {
+    "title": "Shopping for Clothes",
+    "lines": [
+      {
+        "speaker": "店员",
+        "chinese": "这些是刚到店的新款服装,款式大方,做工精细,都是名牌儿。",
+        "pinyin": "Zhèxiē shì gāngdào diàn de xīnkuǎn fúzhuāng, kuănshi dàfang, zuogông jingxi, dōu shi míngpáir.",
+        "english": "These are new clothes just arrived at the store, tasteful style, fine workmanship, all famous brands."
+      },
+      {
+        "speaker": "顾客",
+        "chinese": "这件风衣不错,什么料子的?",
+        "pinyin": "Zhè jiàn fēngyi búcuò, shénme liàozi de?",
+        "english": "This windcheater is nice, what material is it?"
+      },
+      {
+        "speaker": "店员",
+        "chinese": "纯毛的,又挡风又保暖。",
+        "pinyin": "Chúnmáo de, yòu dǎngfēng yòu băonuǎn.",
+        "english": "Pure wool, both wind-resistant and warm."
+      },
+      {
+        "speaker": "顾客",
+        "chinese": "纯毛的好是好,可是得到洗衣店干洗,太麻烦了。",
+        "pinyin": "Chúnmáo de háo shi háo, kěshi dei dào xǐyīdiàn gānxi, tài máfan le.",
+        "english": "Pure wool is good, but it needs to be dry-cleaned at a laundry, too troublesome."
+      },
+      {
+        "speaker": "店员",
+        "chinese": "那您看看这种,最新的化纤面料,又防风又防雨,结实耐穿,用洗衣机洗就行。",
+        "pinyin": "Nà nín kànkan zhè zhǒng, zuìxīn de huàxiãn miànliào, yòu fángfēng yòu fángyǔ, jiēshi naichuan, yòng xǐyījī xǐ jiù xíng.",
+        "english": "Then look at this one, latest chemical fiber material, both wind and rain resistant, durable, can be machine washed."
+      },
+      {
+        "speaker": "顾客",
+        "chinese": "这么多优点?款式、花色也挺多,哪种适合我?",
+        "pinyin": "Zhème duō yōudiǎn? Kuănshi, huasè ye ting duō, năzhǒng shìhé wǒ?",
+        "english": "So many advantages? Styles and colors are plenty too, which one suits me?"
+      },
+      {
+        "speaker": "店员",
+        "chinese": "您可以都试试。您穿多大尺寸的?",
+        "pinyin": "Nín kěyǐ dōu shìshi. Nín chuān duōdà chicùn de?",
+        "english": "You can try them all. What size do you wear?"
+      },
+      {
+        "speaker": "顾客",
+        "chinese": "我一般穿中号的,不知道中国的尺寸是怎么规定的?",
+        "pinyin": "Wǒ yībān chuān zhōnghào de, búzhīdào zhōngguó de chicùn shi zěnyǎ guiding de?",
+        "english": "I usually wear medium, I don't know how sizes are defined in China."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "point": "再...不过了 (could not be more...)",
+      "explanation": "Emphasizes that something is the most... or very...",
+      "example": "再合适不过了!",
+      "translation": "It couldn't be more suitable!"
+    },
+    {
+      "point": "不是看不上,就是买不起 (either can't afford or don't like)",
+      "explanation": "Indicates the only two possible reasons",
+      "example": "不是看不上,就是买不起。",
+      "translation": "Either I can't afford it or I don't like it."
+    },
+    {
+      "point": "一番 (a time, occasion)",
+      "explanation": "Indicates the amount of effort or one occasion",
+      "example": "事先都要研究一番。",
+      "translation": "Need to research it beforehand."
+    },
+    {
+      "point": "不对劲儿 (something is wrong)",
+      "explanation": "Indicates something seems unusual or inappropriate",
+      "example": "到底是哪儿不对劲儿。",
+      "translation": "What exactly is not right about it?"
+    }
+  ],
+  "characters": [
+    {
+      "id": "c1",
+      "character": "衣",
+      "pinyin": "yī",
+      "meaning": "clothes",
+      "radical": "衤",
+      "radicalMeaning": "clothes",
+      "strokeCount": 6,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖"]
+    },
+    {
+      "id": "c2",
+      "character": "式",
+      "pinyin": "shì",
+      "meaning": "style, form",
+      "radical": "弋",
+      "radicalMeaning": "shoot",
+      "strokeCount": 6,
+      "strokeOrder": ["横", "竖", "横", "竖", "横折", "横"]
+    },
+    {
+      "id": "c3",
+      "character": "合",
+      "pinyin": "hé",
+      "meaning": "to fit, suitable",
+      "radical": "口",
+      "radicalMeaning": "mouth",
+      "strokeCount": 6,
+      "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match clothing vocabulary",
+      "pairs": [
+        {
+          "chinese": "纯毛",
+          "english": "pure wool",
+          "id": "m1"
+        },
+        {
+          "chinese": "化纤",
+          "english": "chemical fiber",
+          "id": "m2"
+        },
+        {
+          "chinese": "尺寸",
+          "english": "size",
+          "id": "m3"
+        },
+        {
+          "chinese": "做工精细",
+          "english": "fine workmanship",
+          "id": "m4"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "Why does the customer prefer chemical fiber?",
+      "options": [
+        {
+          "text": "Because it's cheaper",
+          "correct": false
+        },
+        {
+          "text": "Because it doesn't need dry-cleaning",
+          "correct": true
+        },
+        {
+          "text": "Because it looks better",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "这件风衣又______又______。",
+      "answer": "挡风 保暖",
+      "hint": "two properties of the windcheater"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 34 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 再合适不过了 mean?",
+        "options": [
+          {
+            "text": "It's not suitable at all",
+            "correct": false
+          },
+          {
+            "text": "It couldn't be more suitable",
+            "correct": true
+          },
+          {
+            "text": "It's somewhat suitable",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match material descriptions",
+        "pairs": [
+          {
+            "prompt": "纯毛的",
+            "answer": "pure wool",
+            "id": "qm1"
+          },
+          {
+            "prompt": "化纤面料",
+            "answer": "chemical fiber material",
+            "id": "qm2"
+          },
+          {
+            "prompt": "结实耐穿",
+            "answer": "durable and long-wearing",
+            "id": "qm3"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What advantage does chemical fiber have?",
+        "options": [
+          {
+            "text": "More elegant appearance",
+            "correct": false
+          },
+          {
+            "text": "Can be machine washed",
+            "correct": true
+          },
+          {
+            "text": "More expensive",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

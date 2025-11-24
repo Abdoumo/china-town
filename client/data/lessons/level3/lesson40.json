@@ -1,0 +1,131 @@
+{
+  "id": "lesson40",
+  "sessionId": "session12",
+  "title": "我想咨询一下",
+  "englishTitle": "I'd Like to Consult",
+  "pageNumber": 80,
+  "difficulty": "intermediate",
+  "objectives": ["Learn inquiry vocabulary", "Ask for information", "Describe facilities and services"],
+  "vocabulary": [
+    {"id": "v1", "character": "咨询", "pinyin": "zīxún", "english": "to consult", "partOfSpeech": "verb", "example": "咨询一下", "exampleTranslation": "consult"},
+    {"id": "v2", "character": "随时", "pinyin": "suíshí", "english": "at any time", "partOfSpeech": "adverb", "example": "随时需要", "exampleTranslation": "need at any time"},
+    {"id": "v3", "character": "随地", "pinyin": "suídi", "english": "at any place", "partOfSpeech": "adverb", "example": "随地随时", "exampleTranslation": "anywhere, anytime"},
+    {"id": "v4", "character": "值得", "pinyin": "zhíde", "english": "to deserve", "partOfSpeech": "verb", "example": "值得一看", "exampleTranslation": "worth seeing"},
+    {"id": "v5", "character": "提", "pinyin": "tí", "english": "to mention", "partOfSpeech": "verb", "example": "特别值得一提", "exampleTranslation": "especially worth mentioning"},
+    {"id": "v6", "character": "私立", "pinyin": "silì", "english": "private", "partOfSpeech": "adjective", "example": "私立大学", "exampleTranslation": "private university"},
+    {"id": "v7", "character": "规模", "pinyin": "guïmó", "english": "scale", "partOfSpeech": "noun", "example": "学校规模", "exampleTranslation": "school scale"},
+    {"id": "v8", "character": "各", "pinyin": "ge", "english": "every", "partOfSpeech": "adverb", "example": "各方面", "exampleTranslation": "every aspect"},
+    {"id": "v9", "character": "设施", "pinyin": "shèshi", "english": "facilities", "partOfSpeech": "noun", "example": "体育设施", "exampleTranslation": "sports facilities"},
+    {"id": "v10", "character": "先进", "pinyin": "xiānjìn", "english": "advanced", "partOfSpeech": "adjective", "example": "设施先进", "exampleTranslation": "advanced facilities"},
+    {"id": "v11", "character": "场地", "pinyin": "chăngdì", "english": "ground", "partOfSpeech": "noun", "example": "运动场地", "exampleTranslation": "sports ground"},
+    {"id": "v12", "character": "应有尽有", "pinyin": "ying you jìn you", "english": "to have everything that one expects", "partOfSpeech": "idiom", "example": "应有尽有", "exampleTranslation": "have everything"},
+    {"id": "v13", "character": "喜好", "pinyin": "xíhào", "english": "to like", "partOfSpeech": "verb", "example": "各自喜好", "exampleTranslation": "individual preferences"},
+    {"id": "v14", "character": "场所", "pinyin": "chăngsuo", "english": "place", "partOfSpeech": "noun", "example": "活动场所", "exampleTranslation": "activity place"},
+    {"id": "v15", "character": "经营", "pinyin": "jingying", "english": "to manage", "partOfSpeech": "verb", "example": "经营业务", "exampleTranslation": "manage business"},
+    {"id": "v16", "character": "业务", "pinyin": "yèwù", "english": "business", "partOfSpeech": "noun", "example": "主要业务", "exampleTranslation": "main business"},
+    {"id": "v17", "character": "遍及", "pinyin": "biànjí", "english": "to extend all over", "partOfSpeech": "verb", "example": "分公司遍及", "exampleTranslation": "branches extend all over"},
+    {"id": "v18", "character": "员工", "pinyin": "yuángông", "english": "staff", "partOfSpeech": "noun", "example": "员工人数", "exampleTranslation": "number of employees"},
+    {"id": "v19", "character": "待遇", "pinyin": "dàiyù", "english": "salary", "partOfSpeech": "noun", "example": "待遇不错", "exampleTranslation": "good salary"},
+    {"id": "v20", "character": "相当", "pinyin": "xiangdãng", "english": "quite", "partOfSpeech": "adverb", "example": "相当不错", "exampleTranslation": "quite good"}
+  ],
+  "dialogue": {
+    "title": "Consultation",
+    "lines": [
+      {"speaker": "范一平", "chinese": "喂,是长江轮船旅游总公司吗?", "pinyin": "Wei, shi chángjiāng lúnchuán lǚyóu zǒng gōngsī ma?", "english": "Hello, is this Yangtze River Cruise Tour Company?"},
+      {"speaker": "服务员", "chinese": "好的,我先给您介绍一下我们公司的情况吧。", "pinyin": "Háo de, wǒ xiān gěi nín jièshào yìxia wǒmen gōngsī de qíngkuàng ba.", "english": "Yes, let me introduce our company first."},
+      {"speaker": "范一平", "chinese": "你们的价格也是最贵的吧?", "pinyin": "Nǐmen de jiàgé ye shi zuì guì de ba?", "english": "Your prices are the most expensive, right?"},
+      {"speaker": "服务员", "chinese": "我们一共有十四艘豪华旅游船,船上的条件非常好。", "pinyin": "Wǒmen yìgòng yǒu shísì sōu háohuá lǚyóu chuán, chuánshang de tiáojiàn fēicháng háo.", "english": "We have 14 luxury cruise ships, the conditions on board are excellent."},
+      {"speaker": "服务员", "chinese": "可以说跟五星级宾馆没有两样。", "pinyin": "Kěyǐ shuō gēn wǔ xīngjí bīnguǎn méiyǒu liǎngyàng.", "english": "You could say it's no different from a five-star hotel."},
+      {"speaker": "范一平", "chinese": "听起来确实不错,可惜我没有那么多钱。", "pinyin": "Tīngqǐlai quèshi búcuò, kěxī wǒ méiyǒu nàme duō qián.", "english": "Sounds really nice, but I don't have that much money unfortunately."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "要说...相当不错 (Speaking of..., quite good)",
+      "explanation": "Introduces and evaluates a topic",
+      "example": "要说待遇,相当不错。",
+      "translation": "Speaking of salary, it's quite good."
+    },
+    {
+      "point": "到底...怎么样 (What is...really like)",
+      "explanation": "Asks for true or complete information",
+      "example": "船上的条件到底怎么样呢?",
+      "translation": "What are the conditions on the ship really like?"
+    },
+    {
+      "point": "可以说...没有两样 (You could say...is no different from)",
+      "explanation": "Indicates similarity or equivalence",
+      "example": "可以说跟五星级宾馆没有两样。",
+      "translation": "It's no different from a five-star hotel."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "询", "pinyin": "xún", "meaning": "to ask, consult", "radical": "讠", "radicalMeaning": "words", "strokeCount": 12, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横折", "竖", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match inquiry vocabulary",
+      "pairs": [
+        {"chinese": "咨询", "english": "to consult", "id": "m1"},
+        {"chinese": "待遇", "english": "salary", "id": "m2"},
+        {"chinese": "豪华", "english": "luxury", "id": "m3"},
+        {"chinese": "设施", "english": "facilities", "id": "m4"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multipleChoice",
+      "title": "What is the price like?",
+      "options": [
+        {"text": "Very cheap", "correct": false},
+        {"text": "Most expensive", "correct": true},
+        {"text": "Reasonable", "correct": false}
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fillBlank",
+      "title": "Complete the sentence",
+      "sentence": "可以说跟五星级宾馆______。",
+      "answer": "没有两样",
+      "hint": "is the same"
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 40 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 值得一提 mean?",
+        "options": [
+          {"text": "Worth mentioning", "correct": true},
+          {"text": "Worth buying", "correct": false},
+          {"text": "Worth trying", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "matching",
+        "question": "Match company features",
+        "pairs": [
+          {"prompt": "豪华旅游船", "answer": "luxury cruise ship", "id": "qm1"},
+          {"prompt": "设施先进", "answer": "advanced facilities", "id": "qm2"},
+          {"prompt": "待遇相当不错", "answer": "quite good salary", "id": "qm3"}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What phrase means 'no different from'?",
+        "options": [
+          {"text": "有两样", "correct": false},
+          {"text": "没有两样", "correct": true},
+          {"text": "一样", "correct": false}
+        ]
+      }
+    ]
+  }
+}
