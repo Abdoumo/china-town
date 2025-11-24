@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
   BookOpen,
@@ -10,8 +10,10 @@ import {
   MessageCircle,
   Pen,
   Award,
+  LogOut,
 } from "lucide-react";
 import { useLevel, getLevelColor, getLevelInfo } from "@/contexts/LevelContext";
+import { useAuth } from "@/contexts/AuthContext";
 
 const features = [
   {
@@ -46,8 +48,15 @@ const lessons = [
 
 export default function Index() {
   const { selectedLevel, setSelectedLevel } = useLevel();
+  const { logout } = useAuth();
+  const navigate = useNavigate();
   const levelColors = getLevelColor(selectedLevel);
   const levelInfo = getLevelInfo(selectedLevel);
+
+  const handleLogout = () => {
+    logout();
+    navigate("/login");
+  };
 
   const levelBadgeColor = selectedLevel === "level1" ? "bg-blue-500/20 border-blue-400/30 text-blue-300" :
                          selectedLevel === "level2" ? "bg-purple-500/20 border-purple-400/30 text-purple-300" :
@@ -69,12 +78,22 @@ export default function Index() {
               <p className="text-xs text-blue-200">Short-Term Spoken Chinese</p>
             </div>
           </Link>
-          <Link to="/lesson/lesson1">
-            <Button className="gap-2">
-              Start Learning
-              <ArrowRight className="w-4 h-4" />
+          <div className="flex items-center gap-3">
+            <Link to="/lesson/lesson1">
+              <Button className="gap-2">
+                Start Learning
+                <ArrowRight className="w-4 h-4" />
+              </Button>
+            </Link>
+            <Button
+              onClick={handleLogout}
+              variant="outline"
+              className="gap-2 bg-white/5 border-white/20 text-white hover:bg-white/10"
+            >
+              <LogOut className="w-4 h-4" />
+              Logout
             </Button>
-          </Link>
+          </div>
         </div>
       </nav>
 
