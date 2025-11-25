@@ -1,0 +1,69 @@
+{
+  "id": "lesson47",
+  "sessionId": "session1",
+  "title": "国际市场拓展",
+  "englishTitle": "International Market Expansion",
+  "pageNumber": 2,
+  "difficulty": "advanced",
+  "objectives": ["Learn international market vocabulary", "Understand expansion strategies", "Practice market analysis"],
+  "vocabulary": [
+    {"id": "v1", "character": "市场", "pinyin": "shìchǎng", "english": "market", "partOfSpeech": "noun", "example": "国际市场", "exampleTranslation": "international market"},
+    {"id": "v2", "character": "拓展", "pinyin": "tuòzhǎn", "english": "expand, develop", "partOfSpeech": "verb", "example": "市场拓展", "exampleTranslation": "market expansion"},
+    {"id": "v3", "character": "策略", "pinyin": "cèlüè", "english": "strategy", "partOfSpeech": "noun", "example": "营销策略", "exampleTranslation": "marketing strategy"},
+    {"id": "v4", "character": "竞争", "pinyin": "jìnɡzhēnɡ", "english": "competition", "partOfSpeech": "noun", "example": "市场竞争", "exampleTranslation": "market competition"},
+    {"id": "v5", "character": "客户", "pinyin": "kèhù", "english": "customer, client", "partOfSpeech": "noun", "example": "重要客户", "exampleTranslation": "important customer"},
+    {"id": "v6", "character": "销售", "pinyin": "xiāoshòu", "english": "sales", "partOfSpeech": "noun", "example": "销售额", "exampleTranslation": "sales revenue"},
+    {"id": "v7", "character": "品质", "pinyin": "pǐnzhì", "english": "quality", "partOfSpeech": "noun", "example": "产品品质", "exampleTranslation": "product quality"},
+    {"id": "v8", "character": "成本", "pinyin": "chénɡběn", "english": "cost", "partOfSpeech": "noun", "example": "生产成本", "exampleTranslation": "production cost"},
+    {"id": "v9", "character": "利润", "pinyin": "lìrùn", "english": "profit", "partOfSpeech": "noun", "example": "销售利润", "exampleTranslation": "sales profit"},
+    {"id": "v10", "character": "发展", "pinyin": "fāzhǎn", "english": "develop", "partOfSpeech": "verb", "example": "业务发展", "exampleTranslation": "business development"}
+  ],
+  "dialogue": {
+    "title": "Market Expansion Discussion",
+    "lines": [
+      {"speaker": "Manager", "chinese": "今年我们应该重点拓展国际市场。", "pinyin": "Jīnnián wǒmen yīnɡɡāi zhònɡdiǎn tuòzhǎn ɡuójì shìchǎng.", "english": "This year we should focus on expanding into international markets."},
+      {"speaker": "Analyst", "chinese": "我们需要分析一下目标市场的竞争情况。", "pinyin": "Wǒmen xūyào fēnxī yì xià mùbiāo shìchǎng de jìnɡzhēnɡ qíɡkuànɡ.", "english": "We need to analyze the competition situation in our target markets."},
+      {"speaker": "Manager", "chinese": "对。我们还需要调整价格和销售策略。", "pinyin": "Duì. Wǒmen háishi xūyào tiáozhěnɡ jiàɡé hé xiāoshòu cèlüè.", "english": "Right. We also need to adjust our pricing and sales strategy."},
+      {"speaker": "Analyst", "chinese": "同时我们的产品品质必须保持竞争优势。", "pinyin": "Tóngshí wǒmen de chǎnpǐn pǐnzhì bìxū bǎochí jìnɡzhēnɡ yōushì.", "english": "At the same time, our product quality must maintain our competitive advantage."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "应该...重点 (should focus on...)",
+      "explanation": "Emphasis on priority",
+      "example": "我们应该重点拓展新市场。",
+      "translation": "We should focus on expanding into new markets."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "拓", "pinyin": "tuò", "meaning": "expand", "radical": "手", "radicalMeaning": "hand", "strokeCount": 8, "strokeOrder": ["横", "竖", "竖", "横", "竖", "横", "横", "竖"]},
+    {"id": "c2", "character": "展", "pinyin": "zhǎn", "meaning": "unfold, develop", "radical": "广", "radicalMeaning": "shelter", "strokeCount": 10, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "横", "竖", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match market vocabulary",
+      "pairs": [
+        {"chinese": "竞争", "english": "competition", "id": "m1"},
+        {"chinese": "��户", "english": "customer", "id": "m2"},
+        {"chinese": "策略", "english": "strategy", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 47 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 拓展 mean?",
+        "options": [
+          {"text": "Contract", "correct": false},
+          {"text": "Expand", "correct": true},
+          {"text": "Decline", "correct": false}
+        ]
+      }
+    ]
+  }
+}

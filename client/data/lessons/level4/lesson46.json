@@ -1,0 +1,75 @@
+{
+  "id": "lesson46",
+  "sessionId": "session1",
+  "title": "商务谈判基础",
+  "englishTitle": "Business Negotiation Basics",
+  "pageNumber": 1,
+  "difficulty": "advanced",
+  "objectives": ["Learn business vocabulary", "Understand negotiation phrases", "Practice professional communication"],
+  "vocabulary": [
+    {"id": "v1", "character": "商务", "pinyin": "shāngwù", "english": "business", "partOfSpeech": "noun", "example": "商务会议", "exampleTranslation": "business meeting"},
+    {"id": "v2", "character": "谈判", "pinyin": "tánpàn", "english": "negotiation", "partOfSpeech": "noun", "example": "商务谈判", "exampleTranslation": "business negotiation"},
+    {"id": "v3", "character": "合作", "pinyin": "hézuò", "english": "cooperation", "partOfSpeech": "noun", "example": "加强合作", "exampleTranslation": "strengthen cooperation"},
+    {"id": "v4", "character": "交易", "pinyin": "jiāoyì", "english": "transaction", "partOfSpeech": "noun", "example": "完成交易", "exampleTranslation": "complete a transaction"},
+    {"id": "v5", "character": "利益", "pinyin": "lìyì", "english": "interest, benefit", "partOfSpeech": "noun", "example": "共同利益", "exampleTranslation": "mutual interest"},
+    {"id": "v6", "character": "条件", "pinyin": "tiáojiàn", "english": "condition, term", "partOfSpeech": "noun", "example": "谈判条件", "exampleTranslation": "negotiation terms"},
+    {"id": "v7", "character": "价格", "pinyin": "jiàgé", "english": "price", "partOfSpeech": "noun", "example": "合理的价格", "exampleTranslation": "reasonable price"},
+    {"id": "v8", "character": "合同", "pinyin": "hétonɡ", "english": "contract", "partOfSpeech": "noun", "example": "签订合同", "exampleTranslation": "sign a contract"},
+    {"id": "v9", "character": "规模", "pinyin": "ɡuīmó", "english": "scale, scope", "partOfSpeech": "noun", "example": "大规模合作", "exampleTranslation": "large-scale cooperation"},
+    {"id": "v10", "character": "优势", "pinyin": "yōushì", "english": "advantage", "partOfSpeech": "noun", "example": "竞争优势", "exampleTranslation": "competitive advantage"}
+  ],
+  "dialogue": {
+    "title": "Business Meeting",
+    "lines": [
+      {"speaker": "Wang", "chinese": "感谢您今天抽空来参加我们的会议。", "pinyin": "Gǎnxiè nín jīntiān chōu kòng lái cānjiā wǒmen de huìyì.", "english": "Thank you for taking the time to attend our meeting today."},
+      {"speaker": "Lee", "chinese": "很高兴认识您。我们对贵公司的产品很感兴趣。", "pinyin": "Hěn ɡāoxìnɡ rènshi nín. Wǒmen duì ɡuì ɡōnɡsī de chǎnpǐn hěn ɡǎn xìnɡqù.", "english": "It's great to meet you. We're very interested in your company's products."},
+      {"speaker": "Wang", "chinese": "太好了。我们可以谈一下合作的具体条件吗？", "pinyin": "Tài hǎo le. Wǒmen kěyǐ tán yì xià hézuò de jùtǐ tiáojiàn ma?", "english": "Excellent. Can we discuss the specific terms of cooperation?"},
+      {"speaker": "Lee", "chinese": "当然。首先，我们对价格有一些建议。", "pinyin": "Dānɡrán. Shǒuxiān, wǒmen duì jiàɡé yǒu yìxiē jiànyì.", "english": "Of course. First, we have some suggestions regarding the price."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "感谢您...来... (Thank you for... coming...)",
+      "explanation": "Formal way to express gratitude",
+      "example": "感谢您抽空来参加会议。",
+      "translation": "Thank you for taking the time to attend the meeting."
+    },
+    {
+      "point": "我们对...很感兴趣 (We're interested in...)",
+      "explanation": "Expressing interest in something",
+      "example": "我们对这个项目很感兴趣。",
+      "translation": "We're very interested in this project."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "商", "pinyin": "shāng", "meaning": "commerce, business", "radical": "口", "radicalMeaning": "mouth", "strokeCount": 11, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "竖", "横"]},
+    {"id": "c2", "character": "务", "pinyin": "wù", "meaning": "duty, matter", "radical": "力", "radicalMeaning": "strength", "strokeCount": 8, "strokeOrder": ["横", "竖", "竖", "横", "竖", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match business vocabulary",
+      "pairs": [
+        {"chinese": "谈判", "english": "negotiation", "id": "m1"},
+        {"chinese": "合同", "english": "contract", "id": "m2"},
+        {"chinese": "合作", "english": "cooperation", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Lesson 46 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What is 谈判?",
+        "options": [
+          {"text": "Translation", "correct": false},
+          {"text": "Negotiation", "correct": true},
+          {"text": "Presentation", "correct": false}
+        ]
+      }
+    ]
+  }
+}

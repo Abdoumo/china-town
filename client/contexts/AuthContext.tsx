@@ -8,6 +8,12 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
+// Valid credentials for authentication (client-side only)
+const VALID_CREDENTIALS = [
+  { email: "bedoushop@gmail.com", password: "TheDragonSlayer" },
+  { email: "chinesegroup@abdou.com", password: "AntiDuha" },
+];
+
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
@@ -20,17 +26,14 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = async (email: string, password: string): Promise<boolean> => {
     try {
-      const response = await fetch("/api/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, password }),
-      });
+      // Simulate async operation with a small delay
+      await new Promise((resolve) => setTimeout(resolve, 300));
 
-      const data = await response.json();
+      const isValid = VALID_CREDENTIALS.some(
+        (cred) => cred.email === email && cred.password === password
+      );
 
-      if (data.success) {
+      if (isValid) {
         setIsAuthenticated(true);
         localStorage.setItem("isAuthenticated", "true");
         return true;

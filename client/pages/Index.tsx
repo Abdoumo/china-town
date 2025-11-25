@@ -60,11 +60,13 @@ export default function Index() {
 
   const levelBadgeColor = selectedLevel === "level1" ? "bg-blue-500/20 border-blue-400/30 text-blue-300" :
                          selectedLevel === "level2" ? "bg-purple-500/20 border-purple-400/30 text-purple-300" :
-                         "bg-pink-500/20 border-pink-400/30 text-pink-300";
+                         selectedLevel === "level3" ? "bg-pink-500/20 border-pink-400/30 text-pink-300" :
+                         "bg-orange-500/20 border-orange-400/30 text-orange-300";
 
   const gradientFrom = selectedLevel === "level1" ? "from-slate-900 via-blue-900 to-slate-900" :
                        selectedLevel === "level2" ? "from-slate-900 via-purple-900 to-slate-900" :
-                       "from-slate-900 via-pink-900 to-slate-900";
+                       selectedLevel === "level3" ? "from-slate-900 via-pink-900 to-slate-900" :
+                       "from-slate-900 via-orange-900 to-slate-900";
 
   return (
     <div className={`min-h-screen bg-gradient-to-b ${gradientFrom}`}>
@@ -117,7 +119,8 @@ export default function Index() {
               <span className={`text-transparent bg-clip-text bg-gradient-to-r ${
                 selectedLevel === "level1" ? "from-blue-400 via-cyan-400 to-blue-300" :
                 selectedLevel === "level2" ? "from-purple-400 via-violet-400 to-purple-300" :
-                "from-pink-400 via-rose-400 to-pink-300"
+                selectedLevel === "level3" ? "from-pink-400 via-rose-400 to-pink-300" :
+                "from-orange-400 via-yellow-400 to-orange-300"
               }`}>
                 4-6 Weeks
               </span>
@@ -154,21 +157,28 @@ export default function Index() {
                   variant={selectedLevel === "level1" ? "default" : "outline"}
                   className={selectedLevel === "level1" ? "bg-blue-500 hover:bg-blue-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
                 >
-                  Level 1 - Beginner
+                  Short-Term Spoken Chinese Beginner
                 </Button>
                 <Button
                   onClick={() => setSelectedLevel("level2")}
                   variant={selectedLevel === "level2" ? "default" : "outline"}
                   className={selectedLevel === "level2" ? "bg-purple-500 hover:bg-purple-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
                 >
-                  Level 2 - Intermediate
+                  Threshold Level 2
                 </Button>
                 <Button
                   onClick={() => setSelectedLevel("level3")}
                   variant={selectedLevel === "level3" ? "default" : "outline"}
                   className={selectedLevel === "level3" ? "bg-pink-500 hover:bg-pink-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
                 >
-                  Level 3 - Advanced
+                  Short-Term Spoken Chinese Pre-Intermediate
+                </Button>
+                <Button
+                  onClick={() => setSelectedLevel("level4")}
+                  variant={selectedLevel === "level4" ? "default" : "outline"}
+                  className={selectedLevel === "level4" ? "bg-orange-500 hover:bg-orange-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
+                >
+                  Intermediate
                 </Button>
               </div>
             </div>
@@ -180,7 +190,8 @@ export default function Index() {
               <div className={`text-3xl font-bold ${
                 selectedLevel === "level1" ? "text-blue-400" :
                 selectedLevel === "level2" ? "text-purple-400" :
-                "text-pink-400"
+                selectedLevel === "level3" ? "text-pink-400" :
+                "text-orange-400"
               }`}>15</div>
               <p className="text-sm text-blue-200">Interactive Lessons</p>
             </div>
@@ -188,7 +199,8 @@ export default function Index() {
               <div className={`text-3xl font-bold ${
                 selectedLevel === "level1" ? "text-cyan-400" :
                 selectedLevel === "level2" ? "text-violet-400" :
-                "text-rose-400"
+                selectedLevel === "level3" ? "text-rose-400" :
+                "text-yellow-400"
               }`}>300+</div>
               <p className="text-sm text-blue-200">Vocabulary Words</p>
             </div>
@@ -196,7 +208,8 @@ export default function Index() {
               <div className={`text-3xl font-bold ${
                 selectedLevel === "level1" ? "text-blue-400" :
                 selectedLevel === "level2" ? "text-purple-400" :
-                "text-pink-400"
+                selectedLevel === "level3" ? "text-pink-400" :
+                "text-orange-400"
               }`}>50+</div>
               <p className="text-sm text-blue-200">Character Lessons</p>
             </div>
@@ -204,7 +217,8 @@ export default function Index() {
               <div className={`text-3xl font-bold ${
                 selectedLevel === "level1" ? "text-cyan-400" :
                 selectedLevel === "level2" ? "text-violet-400" :
-                "text-rose-400"
+                selectedLevel === "level3" ? "text-rose-400" :
+                "text-yellow-400"
               }`}>∞</div>
               <p className="text-sm text-blue-200">Practice Exercises</p>
             </div>

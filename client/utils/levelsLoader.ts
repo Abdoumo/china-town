@@ -52,6 +52,23 @@ import level3_lesson43 from "@/data/lessons/level3/lesson43.json";
 import level3_lesson44 from "@/data/lessons/level3/lesson44.json";
 import level3_lesson45 from "@/data/lessons/level3/lesson45.json";
 
+// Level 4 lessons
+import level4_lesson46 from "@/data/lessons/level4/lesson46.json";
+import level4_lesson47 from "@/data/lessons/level4/lesson47.json";
+import level4_lesson48 from "@/data/lessons/level4/lesson48.json";
+import level4_lesson49 from "@/data/lessons/level4/lesson49.json";
+import level4_lesson50 from "@/data/lessons/level4/lesson50.json";
+import level4_lesson51 from "@/data/lessons/level4/lesson51.json";
+import level4_lesson52 from "@/data/lessons/level4/lesson52.json";
+import level4_lesson53 from "@/data/lessons/level4/lesson53.json";
+import level4_lesson54 from "@/data/lessons/level4/lesson54.json";
+import level4_lesson55 from "@/data/lessons/level4/lesson55.json";
+import level4_lesson56 from "@/data/lessons/level4/lesson56.json";
+import level4_lesson57 from "@/data/lessons/level4/lesson57.json";
+import level4_lesson58 from "@/data/lessons/level4/lesson58.json";
+import level4_lesson59 from "@/data/lessons/level4/lesson59.json";
+import level4_lesson60 from "@/data/lessons/level4/lesson60.json";
+
 const level1Lessons: Record<string, LessonData> = {
   lesson1: level1_lesson1 as LessonData,
   lesson2: level1_lesson2 as LessonData,
@@ -108,6 +125,25 @@ const level3Lessons: Record<string, LessonData> = {
   lesson45: level3_lesson45 as LessonData,
 };
 
+// Level 4 lessons structure
+const level4Lessons: Record<string, LessonData> = {
+  lesson46: level4_lesson46 as LessonData,
+  lesson47: level4_lesson47 as LessonData,
+  lesson48: level4_lesson48 as LessonData,
+  lesson49: level4_lesson49 as LessonData,
+  lesson50: level4_lesson50 as LessonData,
+  lesson51: level4_lesson51 as LessonData,
+  lesson52: level4_lesson52 as LessonData,
+  lesson53: level4_lesson53 as LessonData,
+  lesson54: level4_lesson54 as LessonData,
+  lesson55: level4_lesson55 as LessonData,
+  lesson56: level4_lesson56 as LessonData,
+  lesson57: level4_lesson57 as LessonData,
+  lesson58: level4_lesson58 as LessonData,
+  lesson59: level4_lesson59 as LessonData,
+  lesson60: level4_lesson60 as LessonData,
+};
+
 export function getLessonsByLevel(level: ThresholdLevel): Record<string, LessonData> {
   switch (level) {
     case "level1":
@@ -116,6 +152,8 @@ export function getLessonsByLevel(level: ThresholdLevel): Record<string, LessonD
       return level2Lessons;
     case "level3":
       return level3Lessons;
+    case "level4":
+      return level4Lessons;
   }
 }
 
