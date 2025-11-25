@@ -1,15 +1,15 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/spa",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "/spa/index.html"
     }
   ],
   "headers": [
     {
-      "source": "/index.html",
+      "source": "/spa/index.html",
       "headers": [
         {
           "key": "Cache-Control",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "source": "/assets/(.*)",
+      "source": "/spa/assets/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
