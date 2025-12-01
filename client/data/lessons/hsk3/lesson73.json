@@ -64,11 +64,50 @@
       {
         "id": "q1",
         "type": "multipleChoice",
-        "question": "What does 饭店 mean?",
+        "question": "When checking into a hotel, which document do you need to show?",
         "options": [
-          {"text": "Restaurant", "correct": true},
-          {"text": "Hospital", "correct": false},
-          {"text": "Bank", "correct": false}
+          {"text": "Passport", "correct": true},
+          {"text": "Credit card only", "correct": false},
+          {"text": "Driver's license", "correct": false},
+          {"text": "Bank statement", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fillInBlank",
+        "question": "Choose the correct word to complete the sentence",
+        "fillInBlank": {
+          "sentence": "我想____去中国旅行。",
+          "blank": "今年",
+          "options": [
+            {"text": "今年", "correct": true},
+            {"text": "明年", "correct": false},
+            {"text": "去年", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q3",
+        "type": "translation",
+        "question": "How would you ask 'What floor is the room on?' in Chinese?",
+        "translation": {
+          "english": "What floor is the room on?",
+          "options": [
+            {"text": "房间在几楼？", "correct": true},
+            {"text": "房间有多大？", "correct": false},
+            {"text": "房间多少钱？", "correct": false},
+            {"text": "房间有窗户吗？", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q4",
+        "type": "matching",
+        "question": "Match travel-related terms with their meanings",
+        "pairs": [
+          {"prompt": "护照", "answer": "Passport", "id": "m1"},
+          {"prompt": "景点", "answer": "Scenic spot", "id": "m2"},
+          {"prompt": "房间", "answer": "Room", "id": "m3"}
         ]
       }
     ]

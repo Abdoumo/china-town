@@ -111,6 +111,9 @@ import hsk6_lesson88 from "@/data/lessons/hsk6/lesson88.json";
 import hsk6_lesson89 from "@/data/lessons/hsk6/lesson89.json";
 import hsk6_lesson90 from "@/data/lessons/hsk6/lesson90.json";
 
+// Final Exams
+import finalExamHSK3 from "@/data/final-exam-hsk3.json";
+
 const level1Lessons: Record<string, LessonData> = {
   lesson1: level1_lesson1 as LessonData,
   lesson2: level1_lesson2 as LessonData,
@@ -369,6 +372,12 @@ export function getHSKLevelSessions(hskLevel: string) {
 }
 
 export function getHSKFinalExamQuestions(hskLevel: string): any[] {
+  // Use dedicated final exam data if available
+  if (hskLevel === "3") {
+    return (finalExamHSK3 as any).questions || [];
+  }
+
+  // Fallback: combine all lesson questions
   const hskId = `hsk${hskLevel}`;
   const lessons = getLessonsByLevel(hskId as ThresholdLevel);
   if (!lessons) return [];

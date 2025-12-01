@@ -64,11 +64,50 @@
       {
         "id": "q1",
         "type": "multipleChoice",
-        "question": "What does 公司 mean?",
+        "question": "Which word means 'deadline' in Chinese?",
         "options": [
-          {"text": "School", "correct": false},
-          {"text": "Company", "correct": true},
-          {"text": "Hospital", "correct": false}
+          {"text": "截止", "correct": true},
+          {"text": "项目", "correct": false},
+          {"text": "会议", "correct": false},
+          {"text": "报告", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fillInBlank",
+        "question": "Complete the professional sentence",
+        "fillInBlank": {
+          "sentence": "我们需要在今周____完成这个项目。",
+          "blank": "五",
+          "options": [
+            {"text": "五", "correct": true},
+            {"text": "七", "correct": false},
+            {"text": "十", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q3",
+        "type": "translation",
+        "question": "How would you say 'I need to submit the report by Friday'?",
+        "translation": {
+          "english": "I need to submit the report by Friday",
+          "options": [
+            {"text": "我需要在星期五之前提交报告", "correct": true},
+            {"text": "我在星期五工作", "correct": false},
+            {"text": "报告在星期五", "correct": false},
+            {"text": "我有一个报告", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q4",
+        "type": "matching",
+        "question": "Match workplace terms with definitions",
+        "pairs": [
+          {"prompt": "经理", "answer": "Manager", "id": "m1"},
+          {"prompt": "项目", "answer": "Project", "id": "m2"},
+          {"prompt": "会议", "answer": "Meeting", "id": "m3"}
         ]
       }
     ]

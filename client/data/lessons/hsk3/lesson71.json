@@ -68,7 +68,67 @@
         "options": [
           {"text": "Work", "correct": false},
           {"text": "Hobby", "correct": true},
-          {"text": "School", "correct": false}
+          {"text": "School", "correct": false},
+          {"text": "Fear", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fillInBlank",
+        "question": "Choose the correct word to fill in the blank",
+        "fillInBlank": {
+          "sentence": "我____喜欢运动，特别是足球。",
+          "blank": "经常",
+          "options": [
+            {"text": "经常", "correct": true},
+            {"text": "特别", "correct": false},
+            {"text": "现在", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q3",
+        "type": "readingComprehension",
+        "question": "Based on the passage, what is the speaker's hobby?",
+        "passage": {
+          "title": "Reading Comprehension",
+          "text": "李明很喜欢艺术。他经常看画展和电影。每个周末，他都和朋友一起去美术馆或电影院。他认为艺术可以让生活更有意思。",
+          "questions": [
+            {
+              "id": "rc1",
+              "question": "李明最喜欢什么？",
+              "options": [
+                {"text": "Sports and exercise", "correct": false},
+                {"text": "Art", "correct": true},
+                {"text": "Music", "correct": false},
+                {"text": "Dancing", "correct": false}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "q4",
+        "type": "translation",
+        "question": "Which Chinese phrase means 'I like sports very much'?",
+        "translation": {
+          "english": "I like sports very much",
+          "options": [
+            {"text": "我很喜欢运动", "correct": true},
+            {"text": "我不喜欢运动", "correct": false},
+            {"text": "我喜欢看运动", "correct": false},
+            {"text": "运动很有意思", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q5",
+        "type": "matching",
+        "question": "Match the hobbies with their descriptions",
+        "pairs": [
+          {"prompt": "唱歌", "answer": "Sing", "id": "m1"},
+          {"prompt": "跳舞", "answer": "Dance", "id": "m2"},
+          {"prompt": "看电影", "answer": "Watch movies", "id": "m3"}
         ]
       }
     ]

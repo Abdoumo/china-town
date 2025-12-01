@@ -191,6 +191,7 @@ export default function Lesson({ isHSK = false }: LessonProps) {
                     </Card>
                     {lessonData.quiz.questions.length > 0 ? (
                       <QuizEngine
+                        key={`final-exam-${hskLevel}`}
                         questions={lessonData.quiz.questions}
                         title={lessonData.quiz.title}
                         onQuizComplete={handleQuizComplete}
@@ -289,6 +290,7 @@ export default function Lesson({ isHSK = false }: LessonProps) {
                         </h2>
                         {lessonData.quiz.questions.length > 0 ? (
                           <QuizEngine
+                            key={`lesson-quiz-${lessonId}`}
                             questions={lessonData.quiz.questions}
                             title={lessonData.quiz.title}
                             onQuizComplete={handleQuizComplete}

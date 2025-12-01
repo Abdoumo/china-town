@@ -68,7 +68,67 @@
         "options": [
           {"text": "Student", "correct": false},
           {"text": "Teacher", "correct": true},
-          {"text": "Classroom", "correct": false}
+          {"text": "Classroom", "correct": false},
+          {"text": "School", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fillInBlank",
+        "question": "Complete the sentence with the correct word",
+        "fillInBlank": {
+          "sentence": "我最____英语和数学。",
+          "blank": "喜欢",
+          "options": [
+            {"text": "喜欢", "correct": true},
+            {"text": "学习", "correct": false},
+            {"text": "参加", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q3",
+        "type": "readingComprehension",
+        "question": "What is the main topic of the passage?",
+        "passage": {
+          "title": "School Life",
+          "text": "张老师是我们的英语老师。他很有耐心，经常帮助学生提高英语水平。每个星期，他都给我们布置一些有意思的功课。他认为学英语很重要，可以打开世界的窗户。",
+          "questions": [
+            {
+              "id": "rc1",
+              "question": "张老师教什么科目？",
+              "options": [
+                {"text": "Math", "correct": false},
+                {"text": "English", "correct": true},
+                {"text": "History", "correct": false},
+                {"text": "Science", "correct": false}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "q4",
+        "type": "translation",
+        "question": "How would you say 'I study at the Third Middle School'?",
+        "translation": {
+          "english": "I study at the Third Middle School",
+          "options": [
+            {"text": "我在第三中学学习", "correct": true},
+            {"text": "我喜欢第三中学", "correct": false},
+            {"text": "第三中学在我家附近", "correct": false},
+            {"text": "我的学校是第三中学", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q5",
+        "type": "matching",
+        "question": "Match school subjects with descriptions",
+        "pairs": [
+          {"prompt": "英语", "answer": "English", "id": "m1"},
+          {"prompt": "数学", "answer": "Mathematics", "id": "m2"},
+          {"prompt": "历史", "answer": "History", "id": "m3"}
         ]
       }
     ]

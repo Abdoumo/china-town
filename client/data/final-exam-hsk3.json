@@ -1,0 +1,303 @@
+{
+  "id": "hsk3-final-exam",
+  "title": "HSK Level 3 - Final Exam",
+  "description": "Comprehensive final examination covering all HSK Level 3 vocabulary, grammar, and communication skills",
+  "difficulty": "intermediate",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "What does the phrase '特别是' (especially) express?",
+      "options": [
+        {"text": "A general statement", "correct": false},
+        {"text": "Emphasis on something specific", "correct": true},
+        {"text": "A question", "correct": false},
+        {"text": "A command", "correct": false}
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "readingComprehension",
+      "question": "What is Lisa's main hobby?",
+      "passage": {
+        "title": "About Lisa's Hobbies",
+        "text": "我叫Lisa，我有很多爱好。我特别喜欢看电影和听音乐。每个周末，我都会和朋友去电影院看最新的电影。我也喜欢唱歌和跳舞，经常参加学校的艺术活动。此外，我还喜欢读书，通过书籍可以学到很多知识。",
+        "questions": [
+          {
+            "id": "rc1",
+            "question": "Lisa最喜欢的活动是什么?",
+            "options": [
+              {"text": "Reading books", "correct": false},
+              {"text": "Watching movies and listening to music", "correct": true},
+              {"text": "Singing and dancing only", "correct": false},
+              {"text": "Going to art exhibitions", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "fillInBlank",
+      "question": "Select the correct word for the blank",
+      "fillInBlank": {
+        "sentence": "我____在第三中学学习。",
+        "blank": "正在",
+        "options": [
+          {"text": "正在", "correct": true},
+          {"text": "曾经", "correct": false},
+          {"text": "已经", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "translation",
+      "question": "What is the correct Chinese translation?",
+      "translation": {
+        "english": "My favorite subject is English and Math",
+        "options": [
+          {"text": "我最喜欢的科目是英语和数学", "correct": true},
+          {"text": "我喜欢英语和数学的老师", "correct": false},
+          {"text": "英语和数学是我的科目", "correct": false},
+          {"text": "我学习英语和数学", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "listening",
+      "question": "What is the person asking about in this conversation?",
+      "listening": {
+        "transcript": "A: 你好，请问你在哪个学校学习？B: 我在北京第一中学。",
+        "translation": "A: Hello, which school do you attend? B: I study at Beijing First Middle School.",
+        "audio": "conversation-school"
+      },
+      "options": [
+        {"text": "Where they work", "correct": false},
+        {"text": "Which school they attend", "correct": true},
+        {"text": "Their name", "correct": false},
+        {"text": "Their age", "correct": false}
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "matching",
+      "question": "Match Chinese phrases with their English meanings",
+      "pairs": [
+        {"prompt": "爱好", "answer": "Hobby", "id": "m1"},
+        {"prompt": "最喜欢", "answer": "Like best", "id": "m2"},
+        {"prompt": "兴趣", "answer": "Interest", "id": "m3"},
+        {"prompt": "经常", "answer": "Often", "id": "m4"}
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "readingComprehension",
+      "question": "Where does Zhang Ming study?",
+      "passage": {
+        "title": "Zhang Ming's School Life",
+        "text": "张明是一个高中二年级的学生，在上海第五中学读书。他非常喜欢学习，特别是喜欢数学和科学课程。他的数学老师很有才华，经常给学生布置有挑战性的题目。张明每天都在教室里认真听讲，积极参加课堂讨论。除了学习，他还在学校的科学俱乐部做志愿者。",
+        "questions": [
+          {
+            "id": "rc2",
+            "question": "张明在哪个学校学习?",
+            "options": [
+              {"text": "Beijing First Middle School", "correct": false},
+              {"text": "Shanghai Fifth Middle School", "correct": true},
+              {"text": "Shanghai Second Middle School", "correct": false},
+              {"text": "Third Middle School", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "type": "fillInBlank",
+      "question": "Choose the correct word to complete the sentence",
+      "fillInBlank": {
+        "sentence": "我喜欢____，我想今年去旅行。",
+        "blank": "旅行",
+        "options": [
+          {"text": "旅行", "correct": true},
+          {"text": "学习", "correct": false},
+          {"text": "工作", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "type": "translation",
+      "question": "How would you ask about someone's hobbies?",
+      "translation": {
+        "english": "What are your hobbies?",
+        "options": [
+          {"text": "你有什么爱好？", "correct": true},
+          {"text": "你喜欢什么？", "correct": false},
+          {"text": "你的爱好是什么？", "correct": false},
+          {"text": "你特别喜欢什么？", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "type": "listening",
+      "question": "According to the dialogue, what recommendation is being made?",
+      "listening": {
+        "transcript": "服务员: 我们的特色菜是宫保鸡丁，很多客人都特别喜欢。你想尝一下吗？",
+        "translation": "Waiter: Our specialty is Kung Pao Chicken, many customers particularly love it. Would you like to try some?",
+        "audio": "restaurant-recommendation"
+      },
+      "options": [
+        {"text": "A soup", "correct": false},
+        {"text": "Kung Pao Chicken", "correct": true},
+        {"text": "A beverage", "correct": false},
+        {"text": "Dessert", "correct": false}
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "matching",
+      "question": "Match travel-related vocabulary with descriptions",
+      "pairs": [
+        {"prompt": "护照", "answer": "Passport", "id": "m5"},
+        {"prompt": "饭店", "answer": "Hotel", "id": "m6"},
+        {"prompt": "景点", "answer": "Scenic spot", "id": "m7"},
+        {"prompt": "游客", "answer": "Tourist", "id": "m8"}
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "readingComprehension",
+      "question": "What is the person doing in the restaurant?",
+      "passage": {
+        "title": "At the Restaurant",
+        "text": "王先生和他的家人一起在一家著名的中餐厅吃饭。服务员拿来了菜单。王先生点了三道菜：一道是本店的特色菜——宫保鸡丁，一道是炒青菜，还有一道是清汤。他也为家人点了米饭和饮料。王先生对食物的味道非常满意，决定下次还会来这家餐厅。",
+        "questions": [
+          {
+            "id": "rc3",
+            "question": "王先生在哪里？",
+            "options": [
+              {"text": "At home", "correct": false},
+              {"text": "At a restaurant", "correct": true},
+              {"text": "At a hotel", "correct": false},
+              {"text": "At school", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q13",
+      "type": "fillInBlank",
+      "question": "Complete the restaurant dialogue",
+      "fillInBlank": {
+        "sentence": "我准备____菜。请给我推荐一道菜。",
+        "blank": "点",
+        "options": [
+          {"text": "点", "correct": true},
+          {"text": "吃", "correct": false},
+          {"text": "做", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q14",
+      "type": "translation",
+      "question": "How do you ask for the bill at a restaurant?",
+      "translation": {
+        "english": "Can you bring me the bill, please?",
+        "options": [
+          {"text": "请给我账单。", "correct": true},
+          {"text": "请给我菜单。", "correct": false},
+          {"text": "请给我菜。", "correct": false},
+          {"text": "请给我水。", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q15",
+      "type": "matching",
+      "question": "Match workplace vocabulary with meanings",
+      "pairs": [
+        {"prompt": "公司", "answer": "Company", "id": "m9"},
+        {"prompt": "经理", "answer": "Manager", "id": "m10"},
+        {"prompt": "项目", "answer": "Project", "id": "m11"},
+        {"prompt": "会议", "answer": "Meeting", "id": "m12"}
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "readingComprehension",
+      "question": "What is the main topic of the email?",
+      "passage": {
+        "title": "Workplace Email",
+        "text": "李经理给全体员工发送了一封邮件：亲爱的同事们，我们的新项目已经启动了。项目的截止日期是下个月的15号。所有的员工都需要参加下周一上午10点的会议，讨论项目的具体计划。请各位准时参加。如有疑问，欢迎和我讨论。谢谢！",
+        "questions": [
+          {
+            "id": "rc4",
+            "question": "李经理的邮件主要讲什么?",
+            "options": [
+              {"text": "Team vacation plans", "correct": false},
+              {"text": "New project and upcoming meeting", "correct": true},
+              {"text": "Employee salary information", "correct": false},
+              {"text": "Company merger news", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q17",
+      "type": "fillInBlank",
+      "question": "Complete the professional sentence",
+      "fillInBlank": {
+        "sentence": "我们需要在今周五____提交报告。",
+        "blank": "之前",
+        "options": [
+          {"text": "之前", "correct": true},
+          {"text": "之后", "correct": false},
+          {"text": "时间", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q18",
+      "type": "translation",
+      "question": "How would you say 'I have completed the project'?",
+      "translation": {
+        "english": "I have completed the project",
+        "options": [
+          {"text": "我已经完成了项目。", "correct": true},
+          {"text": "我正在完成项目。", "correct": false},
+          {"text": "我需要完成项目。", "correct": false},
+          {"text": "我喜欢这个项目。", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q19",
+      "type": "multipleChoice",
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        {"text": "我特别是喜欢运动。", "correct": false},
+        {"text": "我特别喜欢运动。", "correct": true},
+        {"text": "我喜欢特别运动。", "correct": false},
+        {"text": "我运动特别喜欢。", "correct": false}
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multipleChoice",
+      "question": "What is the most appropriate response to '你好，请问你在哪个学校？'",
+      "options": [
+        {"text": "我很好，谢谢你。", "correct": false},
+        {"text": "我在北京第一中学。", "correct": true},
+        {"text": "我是一个学生。", "correct": false},
+        {"text": "我喜欢学校。", "correct": false}
+      ]
+    }
+  ]
+}

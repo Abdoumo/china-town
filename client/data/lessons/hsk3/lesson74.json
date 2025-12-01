@@ -64,11 +64,50 @@
       {
         "id": "q1",
         "type": "multipleChoice",
-        "question": "What does 点菜 mean?",
+        "question": "When the waiter asks what you want to eat, you should say:",
         "options": [
-          {"text": "Cook food", "correct": false},
-          {"text": "Order food", "correct": true},
-          {"text": "Eat food", "correct": false}
+          {"text": "I am ready to order (我准备点菜)", "correct": true},
+          {"text": "The food looks good (食物很好看)", "correct": false},
+          {"text": "I am hungry (我很饿)", "correct": false},
+          {"text": "Where is the restroom (厕所在哪)", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fillInBlank",
+        "question": "Complete the sentence",
+        "fillInBlank": {
+          "sentence": "这道菜的____很好。",
+          "blank": "味道",
+          "options": [
+            {"text": "味道", "correct": true},
+            {"text": "颜色", "correct": false},
+            {"text": "价格", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q3",
+        "type": "translation",
+        "question": "How would you ask the waiter to recommend a dish?",
+        "translation": {
+          "english": "Can you recommend a dish for me?",
+          "options": [
+            {"text": "你能给我推荐一道菜吗？", "correct": true},
+            {"text": "这道菜多少钱？", "correct": false},
+            {"text": "你喜欢什么菜？", "correct": false},
+            {"text": "菜单在哪里？", "correct": false}
+          ]
+        }
+      },
+      {
+        "id": "q4",
+        "type": "matching",
+        "question": "Match dining terms with their meanings",
+        "pairs": [
+          {"prompt": "菜单", "answer": "Menu", "id": "m1"},
+          {"prompt": "服务员", "answer": "Waiter", "id": "m2"},
+          {"prompt": "账单", "answer": "Bill", "id": "m3"}
         ]
       }
     ]
