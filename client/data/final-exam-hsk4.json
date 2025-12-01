@@ -1,0 +1,151 @@
+{
+  "id": "hsk4-final-exam",
+  "title": "HSK Level 4 - Final Exam",
+  "description": "Intermediate comprehensive final examination",
+  "difficulty": "intermediate",
+  "passingScore": 85,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "What does 虽然...但是 express?",
+      "options": [
+        {"text": "Comparison", "correct": false},
+        {"text": "Concession/contrast", "correct": true},
+        {"text": "Sequence", "correct": false},
+        {"text": "Cause", "correct": false}
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "translation",
+      "question": "How would you express 'Although it was raining, I still went out'?",
+      "translation": {
+        "english": "Although it was raining, I still went out",
+        "options": [
+          {"text": "虽然下雨了，但是我还是出去了", "correct": true},
+          {"text": "因为下雨了，所以我出去了", "correct": false},
+          {"text": "下雨了，我很高兴", "correct": false},
+          {"text": "我不想下雨，就出去了", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "readingComprehension",
+      "question": "What is the person's main complaint?",
+      "passage": {
+        "title": "Daily Life",
+        "text": "现在城市生活越来越快。虽然生活条件改善了，但是人们的压力也增加了。很多人工作很忙，没有时间陪家人。有些人甚至不能按时睡觉。这样长期下去，会影响身体健康。我们应该学会平衡工作和生活。",
+        "questions": [
+          {
+            "id": "rc1",
+            "question": "文章主要讲什么问题?",
+            "options": [
+              {"text": "Living conditions improvement", "correct": false},
+              {"text": "Work pressure and lack of work-life balance", "correct": true},
+              {"text": "Economic development", "correct": false},
+              {"text": "Family relationships", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "fillInBlank",
+      "question": "Complete the complex sentence",
+      "fillInBlank": {
+        "sentence": "我虽然很忙，____我还是会陪孩子。",
+        "blank": "但是",
+        "options": [
+          {"text": "但是", "correct": true},
+          {"text": "所以", "correct": false},
+          {"text": "因为", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "matching",
+      "question": "Match advanced connectors with meanings",
+      "pairs": [
+        {"prompt": "虽然...但是", "answer": "Although...but", "id": "m1"},
+        {"prompt": "因为...所以", "answer": "Because...so", "id": "m2"},
+        {"prompt": "如果...就", "answer": "If...then", "id": "m3"},
+        {"prompt": "不仅...而且", "answer": "Not only...but also", "id": "m4"}
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "translation",
+      "question": "How do you say 'The more you practice, the better you become'?",
+      "translation": {
+        "english": "The more you practice, the better you become",
+        "options": [
+          {"text": "你练习得越多，就越进步", "correct": true},
+          {"text": "你应该练习很多", "correct": false},
+          {"text": "练习很有用", "correct": false},
+          {"text": "你练习很好", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "Which sentence uses conditional correctly?",
+      "options": [
+        {"text": "如果下雨了，我出去", "correct": false},
+        {"text": "如果下雨，我就不出去", "correct": true},
+        {"text": "如果下雨就下雨，我出去", "correct": false},
+        {"text": "我出去，如果下雨", "correct": false}
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "readingComprehension",
+      "question": "What is the author's suggestion?",
+      "passage": {
+        "title": "Environmental Protection",
+        "text": "环境污染是一个严重的问题。不仅工业污染环境，而且汽车尾气也很严重。如果我们不立即采取行动，后果将不堪设想。我们应该提高环保意识，鼓励人们使用公共交通，减少污染。",
+        "questions": [
+          {
+            "id": "rc2",
+            "question": "作者的建议是什么?",
+            "options": [
+              {"text": "Stop all industries", "correct": false},
+              {"text": "Raise environmental awareness and use public transport", "correct": true},
+              {"text": "Ban cars completely", "correct": false},
+              {"text": "Move to the countryside", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "type": "fillInBlank",
+      "question": "Complete with appropriate connector",
+      "fillInBlank": {
+        "sentence": "不仅他工作很努力，____他的成绩也很好。",
+        "blank": "而且",
+        "options": [
+          {"text": "而且", "correct": true},
+          {"text": "但是", "correct": false},
+          {"text": "所以", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "What does 越...越 structure mean?",
+      "options": [
+        {"text": "The more...the more/less", "correct": true},
+        {"text": "Both...and", "correct": false},
+        {"text": "Either...or", "correct": false},
+        {"text": "Although...but", "correct": false}
+      ]
+    }
+  ]
+}

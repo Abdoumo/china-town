@@ -1,0 +1,151 @@
+{
+  "id": "hsk6-final-exam",
+  "title": "HSK Level 6 - Final Exam",
+  "description": "Proficiency level comprehensive final examination",
+  "difficulty": "advanced",
+  "passingScore": 95,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "Which idiom best describes someone who is unwilling to accept advice?",
+      "options": [
+        {"text": "见风就是雨", "correct": false},
+        {"text": "本不听人劝", "correct": true},
+        {"text": "临危不惧", "correct": false},
+        {"text": "胸有成竹", "correct": false}
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "translation",
+      "question": "How would you express this sophisticated idea?",
+      "translation": {
+        "english": "The deeper you delve into this matter, the more complex and interconnected the issues become",
+        "options": [
+          {"text": "你对这个问题研究得越深入，就越发现其中的复杂性和关联性", "correct": true},
+          {"text": "这个问题太复杂了，无法研究", "correct": false},
+          {"text": "研究问题需要深入思考", "correct": false},
+          {"text": "很多问题都是相关联的", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "readingComprehension",
+      "question": "What is the author's primary argument?",
+      "passage": {
+        "title": "Philosophy of Change",
+        "text": "变化是社会发展的必然规律。从个人修养到社会制度，从经济结构到文化形式，一切都在不断演变。然而，很多人对变化充满恐惧，试图维持现状。这种保守态度往往导致停滞和衰退。相反，那些能够拥抱变化、适应时代要求的个人和社会，往往能够获得更强的生命力。因此，我们应当树立正确的变化观，既不盲目追随，也不固步自封。",
+        "questions": [
+          {
+            "id": "rc1",
+            "question": "作者认为对变化应该采取什么态度?",
+            "options": [
+              {"text": "Resist all changes", "correct": false},
+              {"text": "Embrace change while maintaining critical thinking", "correct": true},
+              {"text": "Follow all trends blindly", "correct": false},
+              {"text": "Avoid any form of change", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "fillInBlank",
+      "question": "Choose the most appropriate literary expression",
+      "fillInBlank": {
+        "sentence": "这场改革的成功____于领导层的远见卓识和全社会的共同努力。",
+        "blank": "归根于",
+        "options": [
+          {"text": "归根于", "correct": true},
+          {"text": "依赖于", "correct": false},
+          {"text": "决定于", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "matching",
+      "question": "Match advanced literary expressions with meanings",
+      "pairs": [
+        {"prompt": "见微知著", "answer": "Perceive significant from minor details", "id": "m1"},
+        {"prompt": "循循善诱", "answer": "Patiently and skillfully guide", "id": "m2"},
+        {"prompt": "深思熟虑", "answer": "Ponder deeply and carefully", "id": "m3"},
+        {"prompt": "相辅相成", "answer": "Complement each other", "id": "m4"}
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "translation",
+      "question": "How would you convey this nuanced meaning?",
+      "translation": {
+        "english": "While acknowledging the merits of traditional approaches, one cannot ignore the innovations that modern society requires",
+        "options": [
+          {"text": "虽然承认传统方法的优点，但不可否认现代社会发展所需的创新", "correct": true},
+          {"text": "传统方法很好，但现代也需要创新", "correct": false},
+          {"text": "我们应该选择传统还是创新", "correct": false},
+          {"text": "传统和现代都很重要", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "Which classical expression is most appropriate for expressing inevitable truth?",
+      "options": [
+        {"text": "不可抗拒的事实", "correct": false},
+        {"text": "不以人的意志为转移的规律", "correct": true},
+        {"text": "令人难以接受的现象", "correct": false},
+        {"text": "无法预见的后果", "correct": false}
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "readingComprehension",
+      "question": "What insight does the author offer about cultural heritage?",
+      "passage": {
+        "title": "Cultural Continuity and Innovation",
+        "text": "文化遗产是人类智慧的结晶，传承文化遗产是每一代人的责任。然而，继承与创新并非对立的概念。真正的文化活力来自于在尊重传统的基础上进行创新性的诠释和表达。那些流传至今的伟大文化，无一不是在不断的创新中保持了生命力。因此，我们应当既珍视历史，又勇于创新，使文化既传承历史的精髓，又跟上时代的步伐。",
+        "questions": [
+          {
+            "id": "rc2",
+            "question": "作者认为如何才能保持文化的活力?",
+            "options": [
+              {"text": "Preserve everything without change", "correct": false},
+              {"text": "Innovate while respecting tradition", "correct": true},
+              {"text": "Abandon all traditional practices", "correct": false},
+              {"text": "Follow modern trends exclusively", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "type": "fillInBlank",
+      "question": "Complete this philosophical statement",
+      "fillInBlank": {
+        "sentence": "社会的进步____于个人素质的提高和制度的完善____相互促进。",
+        "blank": "既",
+        "options": [
+          {"text": "既", "correct": true},
+          {"text": "虽然", "correct": false},
+          {"text": "因为", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "Which statement best reflects sophisticated academic discourse?",
+      "options": [
+        {"text": "这个问题很复杂", "correct": false},
+        {"text": "这个问题涉及多维度的理论分析和实践考量，需要我们进行深入而全面的研究", "correct": true},
+        {"text": "我们应该研究这个问题", "correct": false},
+        {"text": "这个问题值得关注", "correct": false}
+      ]
+    }
+  ]
+}

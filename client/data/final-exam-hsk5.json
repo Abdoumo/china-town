@@ -1,0 +1,151 @@
+{
+  "id": "hsk5-final-exam",
+  "title": "HSK Level 5 - Final Exam",
+  "description": "Advanced comprehensive final examination",
+  "difficulty": "advanced",
+  "passingScore": 90,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "What is the most appropriate use of 被?",
+      "options": [
+        {"text": "Active voice", "correct": false},
+        {"text": "Passive voice", "correct": true},
+        {"text": "Continuous action", "correct": false},
+        {"text": "Future tense", "correct": false}
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "translation",
+      "question": "How would you express this in the passive voice?",
+      "translation": {
+        "english": "The company's development was affected by the economic crisis",
+        "options": [
+          {"text": "公司的发展被经济危机影响了", "correct": true},
+          {"text": "经济危机影响了公司的发展", "correct": false},
+          {"text": "公司影响经济危机的发展", "correct": false},
+          {"text": "公司被发展了", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "readingComprehension",
+      "question": "What is the main theme of this passage?",
+      "passage": {
+        "title": "Technology and Society",
+        "text": "随着信息技术的发展，我们的生活方式发生了巨大的改变。互联网不仅改变了我们获取信息的方式，而且深刻影响了人们的社交、工作和学习。然而，在享受技术便利的同时，我们也面临着新的挑战，比如网络安全问题和信息泛滥。因此，我们需要学会合理利用技术，既要享受其便利，也要防范其潜在的风险。",
+        "questions": [
+          {
+            "id": "rc1",
+            "question": "文章讨论的核心问题是什么?",
+            "options": [
+              {"text": "How to use the internet", "correct": false},
+              {"text": "Technology's impact and challenges", "correct": true},
+              {"text": "Network security solutions", "correct": false},
+              {"text": "The history of computers", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "fillInBlank",
+      "question": "Choose the appropriate form for this complex sentence",
+      "fillInBlank": {
+        "sentence": "这个问题需要____才能解决。",
+        "blank": "深入思考",
+        "options": [
+          {"text": "深入思考", "correct": true},
+          {"text": "简单讨论", "correct": false},
+          {"text": "快速回答", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "matching",
+      "question": "Match advanced grammatical patterns",
+      "pairs": [
+        {"prompt": "被", "answer": "Passive voice marker", "id": "m1"},
+        {"prompt": "让/叫", "answer": "Causative", "id": "m2"},
+        {"prompt": "把", "answer": "Disposal construction", "id": "m3"},
+        {"prompt": "越...越", "answer": "The more...the more", "id": "m4"}
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "translation",
+      "question": "How would you express this complex idea?",
+      "translation": {
+        "english": "Judging from the current situation, if we don't take action now, the problem will only get worse",
+        "options": [
+          {"text": "从目前的情况来看，如果我们现在不采取行动，问题只会越来越糟", "correct": true},
+          {"text": "现在的问题很糟糕，我们应该思考一下", "correct": false},
+          {"text": "现在的情况让我们必须行动", "correct": false},
+          {"text": "这个问题越来越复杂了", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "Which form correctly uses 把 construction?",
+      "options": [
+        {"text": "我把书读了", "correct": true},
+        {"text": "我书把读了", "correct": false},
+        {"text": "我读把了书", "correct": false},
+        {"text": "把我读了书", "correct": false}
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "readingComprehension",
+      "question": "What does the author suggest about education?",
+      "passage": {
+        "title": "Education Reform",
+        "text": "传统教育强调知识的传授，但现代教育越来越重视培养学生的创新能力和实践能力。有些学校已经开始改革教学方法，不仅重视考试成绩，而且关注学生的全面发展。这种变化虽然带来了新的挑战，但它也为教育创造了新的可能性。只有通过不断的探索和实验，教育才能真正适应时代的需要。",
+        "questions": [
+          {
+            "id": "rc2",
+            "question": "现代教育相比传统教育的改变是什么?",
+            "options": [
+              {"text": "More emphasis on innovation and practical skills", "correct": true},
+              {"text": "Less focus on grades", "correct": false},
+              {"text": "Abandoning traditional methods", "correct": false},
+              {"text": "Reducing student workload", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "type": "fillInBlank",
+      "question": "Complete with the correct advanced connector",
+      "fillInBlank": {
+        "sentence": "从某种角度来说，这个问题____很复杂，____有其深层的原因。",
+        "blank": "既",
+        "options": [
+          {"text": "既", "correct": true},
+          {"text": "虽然", "correct": false},
+          {"text": "虽", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "What is the correct use of 让/叫 in causative construction?",
+      "options": [
+        {"text": "让他去做这个工作", "correct": true},
+        {"text": "让他这个工作去做", "correct": false},
+        {"text": "让做这个工作他", "correct": false},
+        {"text": "让去做他工作", "correct": false}
+      ]
+    }
+  ]
+}

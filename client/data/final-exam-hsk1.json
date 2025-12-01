@@ -1,0 +1,139 @@
+{
+  "id": "hsk1-final-exam",
+  "title": "HSK Level 1 - Final Exam",
+  "description": "Elementary level comprehensive final examination",
+  "difficulty": "elementary",
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "What does 你好 mean?",
+      "options": [
+        {"text": "Goodbye", "correct": false},
+        {"text": "Hello", "correct": true},
+        {"text": "Thank you", "correct": false},
+        {"text": "Excuse me", "correct": false}
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "translation",
+      "question": "How would you greet someone in the morning?",
+      "translation": {
+        "english": "Good morning",
+        "options": [
+          {"text": "早上好", "correct": true},
+          {"text": "晚上好", "correct": false},
+          {"text": "再见", "correct": false},
+          {"text": "谢谢", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "fillInBlank",
+      "question": "Complete the greeting",
+      "fillInBlank": {
+        "sentence": "你好，我____李明。",
+        "blank": "是",
+        "options": [
+          {"text": "是", "correct": true},
+          {"text": "有", "correct": false},
+          {"text": "叫", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "matching",
+      "question": "Match greetings with responses",
+      "pairs": [
+        {"prompt": "你好", "answer": "Hello", "id": "m1"},
+        {"prompt": "谢谢", "answer": "Thank you", "id": "m2"},
+        {"prompt": "再见", "answer": "Goodbye", "id": "m3"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "readingComprehension",
+      "question": "What is the main topic?",
+      "passage": {
+        "title": "Introduction",
+        "text": "我叫王小明。我来自中国。我是一个学生。",
+        "questions": [
+          {
+            "id": "rc1",
+            "question": "这个人叫什么名字?",
+            "options": [
+              {"text": "Wang Ming", "correct": false},
+              {"text": "Wang Xiaoming", "correct": true},
+              {"text": "Li Ming", "correct": false},
+              {"text": "Zhang Ming", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "type": "multipleChoice",
+      "question": "Which is a correct response to '你好吗?'",
+      "options": [
+        {"text": "再见", "correct": false},
+        {"text": "我很好，谢谢", "correct": true},
+        {"text": "我叫张明", "correct": false},
+        {"text": "这是笔", "correct": false}
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "translation",
+      "question": "How do you say 'My name is'?",
+      "translation": {
+        "english": "My name is",
+        "options": [
+          {"text": "我叫", "correct": true},
+          {"text": "你叫", "correct": false},
+          {"text": "他叫", "correct": false},
+          {"text": "我是", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "type": "matching",
+      "question": "Match basic words",
+      "pairs": [
+        {"prompt": "学生", "answer": "Student", "id": "m4"},
+        {"prompt": "老师", "answer": "Teacher", "id": "m5"},
+        {"prompt": "中国", "answer": "China", "id": "m6"}
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "fillInBlank",
+      "question": "Complete the sentence",
+      "fillInBlank": {
+        "sentence": "我____中国。",
+        "blank": "来自",
+        "options": [
+          {"text": "来自", "correct": true},
+          {"text": "是", "correct": false},
+          {"text": "有", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "type": "multipleChoice",
+      "question": "What does 谢谢 mean?",
+      "options": [
+        {"text": "Please", "correct": false},
+        {"text": "Thank you", "correct": true},
+        {"text": "Excuse me", "correct": false},
+        {"text": "Sorry", "correct": false}
+      ]
+    }
+  ]
+}

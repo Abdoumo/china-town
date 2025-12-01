@@ -1,0 +1,150 @@
+{
+  "id": "hsk2-final-exam",
+  "title": "HSK Level 2 - Final Exam",
+  "description": "Elementary-Intermediate comprehensive final examination",
+  "difficulty": "elementary",
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multipleChoice",
+      "question": "How would you ask someone's age?",
+      "options": [
+        {"text": "你叫什么名字?", "correct": false},
+        {"text": "你多大?", "correct": true},
+        {"text": "你从哪里来?", "correct": false},
+        {"text": "你好吗?", "correct": false}
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "translation",
+      "question": "What does 'I have a book' translate to?",
+      "translation": {
+        "english": "I have a book",
+        "options": [
+          {"text": "我有一本书", "correct": true},
+          {"text": "我喜欢书", "correct": false},
+          {"text": "这是书", "correct": false},
+          {"text": "书很好", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "readingComprehension",
+      "question": "Where does this person work?",
+      "passage": {
+        "title": "Work",
+        "text": "我是一个医生。我在医院工作。每天我都在医院里看病人。我很喜欢这个工作。",
+        "questions": [
+          {
+            "id": "rc1",
+            "question": "这个人在哪里工作?",
+            "options": [
+              {"text": "School", "correct": false},
+              {"text": "Hospital", "correct": true},
+              {"text": "Restaurant", "correct": false},
+              {"text": "Company", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "fillInBlank",
+      "question": "Select the correct measure word",
+      "fillInBlank": {
+        "sentence": "我有一____书。",
+        "blank": "本",
+        "options": [
+          {"text": "本", "correct": true},
+          {"text": "个", "correct": false},
+          {"text": "只", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "matching",
+      "question": "Match occupations with descriptions",
+      "pairs": [
+        {"prompt": "医生", "answer": "Doctor", "id": "m1"},
+        {"prompt": "学生", "answer": "Student", "id": "m2"},
+        {"prompt": "老师", "answer": "Teacher", "id": "m3"},
+        {"prompt": "工人", "answer": "Worker", "id": "m4"}
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "translation",
+      "question": "How do you say 'Do you have brothers and sisters'?",
+      "translation": {
+        "english": "Do you have brothers and sisters?",
+        "options": [
+          {"text": "你有哥哥和妹妹吗?", "correct": true},
+          {"text": "你有爸爸和妈妈吗?", "correct": false},
+          {"text": "你有儿子和女儿吗?", "correct": false},
+          {"text": "你有朋友吗?", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "type": "multipleChoice",
+      "question": "What does 家人 mean?",
+      "options": [
+        {"text": "Home", "correct": false},
+        {"text": "Family", "correct": true},
+        {"text": "Friend", "correct": false},
+        {"text": "House", "correct": false}
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "fillInBlank",
+      "question": "Complete the family introduction",
+      "fillInBlank": {
+        "sentence": "这是我的____。她是医生。",
+        "blank": "妈妈",
+        "options": [
+          {"text": "妈妈", "correct": true},
+          {"text": "妹妹", "correct": false},
+          {"text": "姐姐", "correct": false}
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "type": "readingComprehension",
+      "question": "How many people are in this family?",
+      "passage": {
+        "title": "Family",
+        "text": "我有一个幸福的家庭。我的爸爸是工人，我的妈妈是医生。我还有一个妹妹。我们一家人每周日一起吃饭。",
+        "questions": [
+          {
+            "id": "rc2",
+            "question": "这个家庭有多少个人?",
+            "options": [
+              {"text": "Two", "correct": false},
+              {"text": "Three", "correct": false},
+              {"text": "Four", "correct": true},
+              {"text": "Five", "correct": false}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "type": "matching",
+      "question": "Match family members",
+      "pairs": [
+        {"prompt": "爸爸", "answer": "Father", "id": "m5"},
+        {"prompt": "妈妈", "answer": "Mother", "id": "m6"},
+        {"prompt": "哥哥", "answer": "Older brother", "id": "m7"}
+      ]
+    }
+  ]
+}
