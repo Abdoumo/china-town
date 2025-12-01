@@ -1,0 +1,76 @@
+{
+  "id": "lesson84",
+  "sessionId": "session2",
+  "title": "心理学和行为",
+  "englishTitle": "Psychology and Behavior",
+  "pageNumber": 4,
+  "difficulty": "advanced",
+  "objectives": ["Understand psychological concepts", "Discuss behavior patterns", "Master psychology terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "心理", "pinyin": "xīnlǐ", "english": "psychology, mind", "partOfSpeech": "noun", "example": "心理学", "exampleTranslation": "psychology"},
+    {"id": "v2", "character": "心理学", "pinyin": "xīnlǐxué", "english": "psychology", "partOfSpeech": "noun", "example": "发展心理学", "exampleTranslation": "developmental psychology"},
+    {"id": "v3", "character": "行为", "pinyin": "xínɡwéi", "english": "behavior", "partOfSpeech": "noun", "example": "社会行为", "exampleTranslation": "social behavior"},
+    {"id": "v4", "character": "情绪", "pinyin": "qìnɡxù", "english": "emotion", "partOfSpeech": "noun", "example": "情绪波动", "exampleTranslation": "emotional fluctuation"},
+    {"id": "v5", "character": "压力", "pinyin": "yālì", "english": "pressure, stress", "partOfSpeech": "noun", "example": "工作压力", "exampleTranslation": "work pressure"},
+    {"id": "v6", "character": "动机", "pinyin": "dònɡjī", "english": "motivation", "partOfSpeech": "noun", "example": "内在动机", "exampleTranslation": "intrinsic motivation"},
+    {"id": "v7", "character": "认知", "pinyin": "rènzhī", "english": "cognition", "partOfSpeech": "noun", "example": "认知能力", "exampleTranslation": "cognitive ability"},
+    {"id": "v8", "character": "意识", "pinyin": "yìshi", "english": "consciousness", "partOfSpeech": "noun", "example": "自我意识", "exampleTranslation": "self-consciousness"},
+    {"id": "v9", "character": "习惯", "pinyin": "xíɡuàn", "english": "habit", "partOfSpeech": "noun", "example": "改变习惯", "exampleTranslation": "change habit"},
+    {"id": "v10", "character": "适应", "pinyin": "shìyìnɡ", "english": "adapt", "partOfSpeech": "verb", "example": "快速适应", "exampleTranslation": "quickly adapt"}
+  ],
+  "dialogue": {
+    "title": "Psychology discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "你最近在压力方面有什么感受？", "pinyin": "Nǐ zuìjìn zài yālì fāngmiàn yǒu shénme ɡǎnshòu?", "english": "How have you been feeling about stress recently?"},
+      {"speaker": "B", "chinese": "工作压力确实很大，有时候需要调整心态。", "pinyin": "Ɡōnɡzuò yālì quèshi hěn dà, yǒu shíhou xūyào tiáozhěnɡ xīntài.", "english": "Work pressure is indeed very high, sometimes I need to adjust my mindset."},
+      {"speaker": "A", "chinese": "你有什么方法来管理这些压力吗？", "pinyin": "Nǐ yǒu shénme fāngfǎ lái ɡuǎnlǐ zhèxiē yālì ma?", "english": "Do you have any methods to manage this stress?"},
+      {"speaker": "B", "chinese": "我通常通过运动和冥想来放松。", "pinyin": "Wǒ tōnɡcháng tōnɡɡuò yùndònɡ hé míɡxiǎnɡ lái fànɡsōnɡ.", "english": "I usually relax through exercise and meditation."},
+      {"speaker": "A", "chinese": "这是很好的心理调适方法。", "pinyin": "Zhè shì hěn hǎo de xīnlǐ tiáoshì fāngfǎ.", "english": "That's a good psychological adjustment method."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "在...方面 (in ... aspect)",
+      "explanation": "Indicating area or aspect",
+      "example": "在心理方面",
+      "translation": "in the psychological aspect"
+    },
+    {
+      "point": "通过...来... (through...to...)",
+      "explanation": "Indicating method and purpose",
+      "example": "通过运动来放松",
+      "translation": "relax through exercise"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "心", "pinyin": "xīn", "meaning": "heart, mind", "radical": "心", "radicalMeaning": "heart", "strokeCount": 4, "strokeOrder": ["竖", "横折", "横", "横"]},
+    {"id": "c2", "character": "理", "pinyin": "lǐ", "meaning": "principle, reason", "radical": "玉", "radicalMeaning": "jade", "strokeCount": 11, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match psychological terms",
+      "pairs": [
+        {"chinese": "压力", "english": "stress", "id": "m1"},
+        {"chinese": "情绪", "english": "emotion", "id": "m2"},
+        {"chinese": "习惯", "english": "habit", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 5 - Lesson 84 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 心理 mean?",
+        "options": [
+          {"text": "Mind", "correct": true},
+          {"text": "Body", "correct": false},
+          {"text": "Feeling", "correct": false}
+        ]
+      }
+    ]
+  }
+}

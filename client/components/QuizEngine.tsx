@@ -26,13 +26,39 @@ interface QuizEngineProps {
   questions: QuizQuestion[];
   title: string;
   onQuizComplete?: (score: number) => void;
+  hskLevel?: number;
+  isFinalExam?: boolean;
 }
 
-export default function QuizEngine({ questions, title, onQuizComplete }: QuizEngineProps) {
+export default function QuizEngine({ questions, title, onQuizComplete, hskLevel, isFinalExam }: QuizEngineProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [matchingAnswers, setMatchingAnswers] = useState<Record<string, string>>({});
   const [showResults, setShowResults] = useState(false);
+
+  // Create unique keys for each question based on index to avoid conflicts
+  const getQuestionKey = (index: number) => `question_${index}`;
+  const getMatchingAnswerKey = (index: number, pairId: string) => `question_${index}_pair_${pairId}`;
+
+  const getPassingScore = () => {
+    if (!hskLevel) return 70;
+    if (hskLevel === 1) return 70;
+    if (hskLevel === 2) return 75;
+    if (hskLevel === 3) return 80;
+    if (hskLevel === 4) return 85;
+    if (hskLevel === 5) return 90;
+    if (hskLevel === 6) return 95;
+    return 70;
+  };
+
+  const getDifficultyLabel = () => {
+    if (!hskLevel) return "Standard";
+    if (hskLevel === 1 || hskLevel === 2) return "Elementary";
+    if (hskLevel === 3 || hskLevel === 4) return "Intermediate";
+    return "Advanced";
+  };
+
+  const passingScore = getPassingScore();
 
   if (!questions || questions.length === 0) {
     return (
@@ -43,19 +69,21 @@ export default function QuizEngine({ questions, title, onQuizComplete }: QuizEng
   }
 
   const current = questions[currentIndex];
-  const userAnswer = answers[current.id];
+  const questionKey = getQuestionKey(currentIndex);
+  const userAnswer = answers[questionKey];
 
   const handleAnswer = (option: string) => {
     setAnswers({
       ...answers,
-      [current.id]: option,
+      [questionKey]: option,
     });
   };
 
   const handleMatchingAnswer = (pairId: string, selectedAnswer: string) => {
+    const matchingKey = getMatchingAnswerKey(currentIndex, pairId);
     setMatchingAnswers({
       ...matchingAnswers,
-      [pairId]: selectedAnswer,
+      [matchingKey]: selectedAnswer,
     });
   };
 
@@ -68,7 +96,7 @@ export default function QuizEngine({ questions, title, onQuizComplete }: QuizEng
     } else {
       const finalScore = Math.round((correctCount / questions.length) * 100);
       setShowResults(true);
-      if (onQuizComplete && finalScore === 100) {
+      if (onQuizComplete && finalScore >= passingScore) {
         onQuizComplete(finalScore);
       }
     }
@@ -114,18 +142,55 @@ export default function QuizEngine({ questions, title, onQuizComplete }: QuizEng
   };
 
   if (showResults) {
+    const passed = score >= passingScore;
+
     return (
       <Card className="p-8 text-center space-y-6">
         <div>
-          <h3 className="text-2xl font-bold mb-2">Quiz Complete!</h3>
+          <div className="flex items-center justify-center gap-2 mb-2">
+            <h3 className="text-2xl font-bold">Quiz Complete!</h3>
+            <span className={`text-sm font-semibold px-3 py-1 rounded-full ${
+              hskLevel
+                ? hskLevel <= 2 ? 'bg-emerald-100 text-emerald-700' :
+                  hskLevel <= 4 ? 'bg-orange-100 text-orange-700' :
+                  'bg-red-100 text-red-700'
+                : 'bg-blue-100 text-blue-700'
+            }`}>
+              {getDifficultyLabel()}
+            </span>
+          </div>
           <p className="text-gray-600">
             You got {correctCount} out of {questions.length} correct
+          </p>
+          <p className="text-sm text-gray-500 mt-2">
+            Passing score required: {passingScore}%
           </p>
         </div>
 
         <div className="flex justify-center">
-          <div className="text-6xl font-bold text-blue-600">{score}%</div>
+          <div className={`text-6xl font-bold ${
+            passed ? 'text-green-600' : 'text-red-600'
+          }`}>{score}%</div>
         </div>
+
+        {!passed && (
+          <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
+            <p className="text-red-700 font-medium">
+              You need {passingScore}% or higher to pass. {isFinalExam ? "This is the final exam - please review the material and try again!" : "Please try again!"}
+            </p>
+          </div>
+        )}
+
+        {passed && (
+          <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
+            <p className="text-green-700 font-medium">
+              {isFinalExam
+                ? `🎉 Excellent! You have successfully completed the HSK Level ${hskLevel} final exam!`
+                : "Congratulations! You passed this lesson!"
+              }
+            </p>
+          </div>
+        )}
 
         <div className="space-y-3">
           {questions.map((q) => {
@@ -192,7 +257,18 @@ export default function QuizEngine({ questions, title, onQuizComplete }: QuizEng
       <Card className="p-6">
         <div className="space-y-4">
           <div className="flex justify-between items-center">
-            <h3 className="text-lg font-semibold">{title}</h3>
+            <div className="flex items-center gap-3">
+              <h3 className="text-lg font-semibold">{title}</h3>
+              {hskLevel && (
+                <span className={`text-xs font-semibold px-3 py-1 rounded-full ${
+                  hskLevel <= 2 ? 'bg-emerald-100 text-emerald-700' :
+                  hskLevel <= 4 ? 'bg-orange-100 text-orange-700' :
+                  'bg-red-100 text-red-700'
+                }`}>
+                  {getDifficultyLabel()} - {passingScore}% required
+                </span>
+              )}
+            </div>
             <span className="text-sm text-gray-600">
               {currentIndex + 1} / {questions.length}
             </span>

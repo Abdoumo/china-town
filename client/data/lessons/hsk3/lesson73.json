@@ -1,0 +1,76 @@
+{
+  "id": "lesson73",
+  "sessionId": "session1",
+  "title": "旅行和住宿",
+  "englishTitle": "Travel and Accommodation",
+  "pageNumber": 3,
+  "difficulty": "intermediate",
+  "objectives": ["Learn travel vocabulary", "Practice booking accommodation", "Master tourism terms"],
+  "vocabulary": [
+    {"id": "v1", "character": "旅行", "pinyin": "lǚxíng", "english": "travel", "partOfSpeech": "noun", "example": "去旅行", "exampleTranslation": "go traveling"},
+    {"id": "v2", "character": "游客", "pinyin": "yóukè", "english": "tourist", "partOfSpeech": "noun", "example": "很多游客", "exampleTranslation": "many tourists"},
+    {"id": "v3", "character": "景点", "pinyin": "jǐngdiǎn", "english": "scenic spot", "partOfSpeech": "noun", "example": "著名景点", "exampleTranslation": "famous scenic spot"},
+    {"id": "v4", "character": "饭店", "pinyin": "fàndiàn", "english": "hotel, restaurant", "partOfSpeech": "noun", "example": "住饭店", "exampleTranslation": "stay at hotel"},
+    {"id": "v5", "character": "房间", "pinyin": "fángjiān", "english": "room", "partOfSpeech": "noun", "example": "单���房间", "exampleTranslation": "single room"},
+    {"id": "v6", "character": "登记", "pinyin": "dēngjì", "english": "register, check in", "partOfSpeech": "verb", "example": "登记入住", "exampleTranslation": "check in"},
+    {"id": "v7", "character": "护照", "pinyin": "hùzhào", "english": "passport", "partOfSpeech": "noun", "example": "出示护照", "exampleTranslation": "show passport"},
+    {"id": "v8", "character": "签证", "pinyin": "qiānzhèng", "english": "visa", "partOfSpeech": "noun", "example": "申请签证", "exampleTranslation": "apply for visa"},
+    {"id": "v9", "character": "行李", "pinyin": "xíngli", "english": "baggage, luggage", "partOfSpeech": "noun", "example": "放行李", "exampleTranslation": "put luggage"},
+    {"id": "v10", "character": "出国", "pinyin": "chūguó", "english": "go abroad", "partOfSpeech": "verb", "example": "想出国", "exampleTranslation": "want to go abroad"}
+  ],
+  "dialogue": {
+    "title": "Hotel check-in",
+    "lines": [
+      {"speaker": "Receptionist", "chinese": "欢迎光临。请问预定了吗？", "pinyin": "Huānyíng guānglín. Qǐngwèn yùdìng le ma?", "english": "Welcome. Do you have a reservation?"},
+      {"speaker": "Guest", "chinese": "有。我叫王小明。预定了两个晚上。", "pinyin": "Yǒu. Wǒ jiào Wáng Xiǎomíng. Yùdìng le liǎng ge wǎnshang.", "english": "Yes. My name is Wang Xiaoming. I reserved for two nights."},
+      {"speaker": "Receptionist", "chinese": "好的。请出示护照和信用卡。", "pinyin": "Hǎo de. Qǐng chūshì hùzhào hé xìnyòngkǎ.", "english": "Okay. Please show your passport and credit card."},
+      {"speaker": "Guest", "chinese": "给你。房间在几楼？", "pinyin": "Gěi nǐ. Fángjiān zài jǐ lóu?", "english": "Here you go. What floor is the room on?"},
+      {"speaker": "Receptionist", "chinese": "三楼。这是你的房间钥匙。", "pinyin": "Sān lóu. Zhè shì nǐ de fángjiān yàoshi.", "english": "Third floor. Here is your room key."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "预定了... (reserved...)",
+      "explanation": "Completed action of booking",
+      "example": "预定了两个���上",
+      "translation": "reserved for two nights"
+    },
+    {
+      "point": "在几楼？(What floor?)",
+      "explanation": "Asking which floor",
+      "example": "房间在几楼？",
+      "translation": "What floor is the room on?"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "旅", "pinyin": "lǚ", "meaning": "travel", "radical": "方", "radicalMeaning": "square", "strokeCount": 10, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "横", "竖", "竖", "横", "横"]},
+    {"id": "c2", "character": "行", "pinyin": "xíng", "meaning": "travel, go", "radical": "行", "radicalMeaning": "walk", "strokeCount": 6, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match travel terms",
+      "pairs": [
+        {"chinese": "饭店", "english": "hotel", "id": "m1"},
+        {"chinese": "护照", "english": "passport", "id": "m2"},
+        {"chinese": "房间", "english": "room", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 3 - Lesson 73 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 饭店 mean?",
+        "options": [
+          {"text": "Restaurant", "correct": true},
+          {"text": "Hospital", "correct": false},
+          {"text": "Bank", "correct": false}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "lesson80",
+  "sessionId": "session2",
+  "title": "文学和哲学",
+  "englishTitle": "Literature and Philosophy",
+  "pageNumber": 5,
+  "difficulty": "advanced",
+  "objectives": ["Understand literary concepts", "Discuss philosophical ideas", "Master literary terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "文学", "pinyin": "wénxué", "english": "literature", "partOfSpeech": "noun", "example": "中国文学", "exampleTranslation": "Chinese literature"},
+    {"id": "v2", "character": "诗", "pinyin": "shī", "english": "poetry", "partOfSpeech": "noun", "example": "唐诗", "exampleTranslation": "Tang poetry"},
+    {"id": "v3", "character": "小说", "pinyin": "xiǎoshuō", "english": "novel", "partOfSpeech": "noun", "example": "经典小说", "exampleTranslation": "classic novel"},
+    {"id": "v4", "character": "哲学", "pinyin": "zhéxué", "english": "philosophy", "partOfSpeech": "noun", "example": "西方哲学", "exampleTranslation": "Western philosophy"},
+    {"id": "v5", "character": "思想", "pinyin": "sīxiǎnɡ", "english": "thought, idea", "partOfSpeech": "noun", "example": "哲学思想", "exampleTranslation": "philosophical thought"},
+    {"id": "v6", "character": "理论", "pinyin": "lǐlùn", "english": "theory", "partOfSpeech": "noun", "example": "学术理论", "exampleTranslation": "academic theory"},
+    {"id": "v7", "character": "论点", "pinyin": "lùndiǎn", "english": "argument, viewpoint", "partOfSpeech": "noun", "example": "主要论点", "exampleTranslation": "main argument"},
+    {"id": "v8", "character": "意义", "pinyin": "yìyì", "english": "meaning, significance", "partOfSpeech": "noun", "example": "深刻的意义", "exampleTranslation": "profound meaning"},
+    {"id": "v9", "character": "解释", "pinyin": "jiěshi", "english": "explain, interpretation", "partOfSpeech": "verb", "example": "进行解释", "exampleTranslation": "give explanation"},
+    {"id": "v10", "character": "影响", "pinyin": "yǐnɡxiǎnɡ", "english": "influence, impact", "partOfSpeech": "noun", "example": "深���的影响", "exampleTranslation": "far-reaching impact"}
+  ],
+  "dialogue": {
+    "title": "Literary discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "你最近在读什么？", "pinyin": "Nǐ zuìjìn zài dú shénme?", "english": "What are you reading lately?"},
+      {"speaker": "B", "chinese": "我在读一部经典的中国小说。", "pinyin": "Wǒ zài dú yì búǰīnɡdiǎn de Zhōnɡɡuó xiǎoshuō.", "english": "I'm reading a classic Chinese novel."},
+      {"speaker": "A", "chinese": "是哪部呢？这部作品有什么特别之处吗？", "pinyin": "Shì nǎ búǰne? Zhè búzuòpǐn yǒu shénme tèbié zhī chù ma?", "english": "Which one? Is there anything special about this work?"},
+      {"speaker": "B", "chinese": "这部小说深刻地反映了当时社会的问题。", "pinyin": "Zhè búxiǎoshuō shēnkè de fǎnyìnɡ le dānɡshí shèhuì de wèntí.", "english": "This novel profoundly reflects the social problems of that time."},
+      {"speaker": "A", "chinese": "这样的作品对我们了解历史和文化很有意义。", "pinyin": "Zhèyàng de zuòpǐn duì wǒmen liǎojiě lìshǐ hé wénhuà hěn yǒu yìyì.", "english": "Such works are very meaningful for us to understand history and culture."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "深刻地...（profoundly...)",
+      "explanation": "Describing manner of action",
+      "example": "深刻地反映",
+      "translation": "profoundly reflect"
+    },
+    {
+      "point": "...对...很有意义 (is very meaningful for...)",
+      "explanation": "Expressing significance",
+      "example": "这对我们很有意义。",
+      "translation": "This is very meaningful for us."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "文", "pinyin": "wén", "meaning": "culture, text", "radical": "文", "radicalMeaning": "culture", "strokeCount": 4, "strokeOrder": ["竖", "横折", "横", "横"]},
+    {"id": "c2", "character": "学", "pinyin": "xué", "meaning": "study", "radical": "宀", "radicalMeaning": "roof", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match literary terms",
+      "pairs": [
+        {"chinese": "诗", "english": "poetry", "id": "m1"},
+        {"chinese": "小说", "english": "novel", "id": "m2"},
+        {"chinese": "哲学", "english": "philosophy", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 4 - Lesson 80 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 文学 mean?",
+        "options": [
+          {"text": "History", "correct": false},
+          {"text": "Literature", "correct": true},
+          {"text": "Language", "correct": false}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "lesson62",
+  "sessionId": "session1",
+  "title": "数字和计数",
+  "englishTitle": "Numbers and Counting",
+  "pageNumber": 2,
+  "difficulty": "beginner",
+  "objectives": ["Learn numbers 1-100", "Practice number pronunciation", "Master basic counting"],
+  "vocabulary": [
+    {"id": "v1", "character": "一", "pinyin": "yī", "english": "one", "partOfSpeech": "noun", "example": "一个苹果", "exampleTranslation": "one apple"},
+    {"id": "v2", "character": "二", "pinyin": "èr", "english": "two", "partOfSpeech": "noun", "example": "二十个", "exampleTranslation": "twenty"},
+    {"id": "v3", "character": "三", "pinyin": "sān", "english": "three", "partOfSpeech": "noun", "example": "三个��", "exampleTranslation": "three people"},
+    {"id": "v4", "character": "四", "pinyin": "sì", "english": "four", "partOfSpeech": "noun", "example": "四天", "exampleTranslation": "four days"},
+    {"id": "v5", "character": "五", "pinyin": "wǔ", "english": "five", "partOfSpeech": "noun", "example": "五块钱", "exampleTranslation": "five yuan"},
+    {"id": "v6", "character": "六", "pinyin": "liù", "english": "six", "partOfSpeech": "noun", "example": "六月", "exampleTranslation": "June"},
+    {"id": "v7", "character": "七", "pinyin": "qī", "english": "seven", "partOfSpeech": "noun", "example": "七点钟", "exampleTranslation": "seven o'clock"},
+    {"id": "v8", "character": "八", "pinyin": "bā", "english": "eight", "partOfSpeech": "noun", "example": "八个小时", "exampleTranslation": "eight hours"},
+    {"id": "v9", "character": "九", "pinyin": "jiǔ", "english": "nine", "partOfSpeech": "noun", "example": "九个学生", "exampleTranslation": "nine students"},
+    {"id": "v10", "character": "十", "pinyin": "shí", "english": "ten", "partOfSpeech": "noun", "example": "十个", "exampleTranslation": "ten"}
+  ],
+  "dialogue": {
+    "title": "Asking for prices",
+    "lines": [
+      {"speaker": "Customer", "chinese": "这个多少钱？", "pinyin": "Zhège duōshao qián?", "english": "How much is this?"},
+      {"speaker": "Seller", "chinese": "五块钱。", "pinyin": "Wǔ kuài qián.", "english": "Five yuan."},
+      {"speaker": "Customer", "chinese": "给我三个。", "pinyin": "Gěi wǒ sān ge.", "english": "Give me three."},
+      {"speaker": "Seller", "chinese": "好的，一共十五块钱。", "pinyin": "Hǎo de, yīgòng shíwǔ kuài qián.", "english": "Okay, that's fifteen yuan altogether."},
+      {"speaker": "Customer", "chinese": "谢谢！", "pinyin": "Xièxie!", "english": "Thank you!"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "多少钱？(How much?)",
+      "explanation": "Standard question for asking prices",
+      "example": "这个多少钱？",
+      "translation": "How much is this?"
+    },
+    {
+      "point": "给我... (Give me...)",
+      "explanation": "Request something politely",
+      "example": "给我三个。",
+      "translation": "Give me three."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "一", "pinyin": "yī", "meaning": "one", "radical": "一", "radicalMeaning": "one", "strokeCount": 1, "strokeOrder": ["横"]},
+    {"id": "c2", "character": "十", "pinyin": "shí", "meaning": "ten", "radical": "十", "radicalMeaning": "ten", "strokeCount": 2, "strokeOrder": ["竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match numbers",
+      "pairs": [
+        {"chinese": "一", "english": "one", "id": "m1"},
+        {"chinese": "二", "english": "two", "id": "m2"},
+        {"chinese": "三", "english": "three", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 1 - Lesson 62 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What is the number 五?",
+        "options": [
+          {"text": "Three", "correct": false},
+          {"text": "Five", "correct": true},
+          {"text": "Seven", "correct": false}
+        ]
+      }
+    ]
+  }
+}

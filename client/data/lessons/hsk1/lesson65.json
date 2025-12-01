@@ -1,0 +1,76 @@
+{
+  "id": "lesson65",
+  "sessionId": "session2",
+  "title": "日常活动",
+  "englishTitle": "Daily Activities",
+  "pageNumber": 5,
+  "difficulty": "beginner",
+  "objectives": ["Learn daily activity verbs", "Practice daily routines", "Master time expressions"],
+  "vocabulary": [
+    {"id": "v1", "character": "起床", "pinyin": "qǐchuáng", "english": "get up", "partOfSpeech": "verb", "example": "我七点起床。", "exampleTranslation": "I get up at seven."},
+    {"id": "v2", "character": "睡觉", "pinyin": "shuìjiào", "english": "sleep", "partOfSpeech": "verb", "example": "晚上十一点睡觉。", "exampleTranslation": "Sleep at 11pm."},
+    {"id": "v3", "character": "学习", "pinyin": "xuéxí", "english": "study", "partOfSpeech": "verb", "example": "我在学习汉语。", "exampleTranslation": "I am studying Chinese."},
+    {"id": "v4", "character": "工作", "pinyin": "gōngzuò", "english": "work", "partOfSpeech": "verb", "example": "我在工作。", "exampleTranslation": "I am working."},
+    {"id": "v5", "character": "走", "pinyin": "zǒu", "english": "walk, leave", "partOfSpeech": "verb", "example": "我走了。", "exampleTranslation": "I'm leaving."},
+    {"id": "v6", "character": "来", "pinyin": "lái", "english": "come", "partOfSpeech": "verb", "example": "你来了。", "exampleTranslation": "You've come."},
+    {"id": "v7", "character": "去", "pinyin": "qù", "english": "go", "partOfSpeech": "verb", "example": "我要去中国。", "exampleTranslation": "I want to go to China."},
+    {"id": "v8", "character": "看", "pinyin": "kàn", "english": "watch, look", "partOfSpeech": "verb", "example": "看电视", "exampleTranslation": "watch TV"},
+    {"id": "v9", "character": "听", "pinyin": "tīng", "english": "listen", "partOfSpeech": "verb", "example": "听音乐", "exampleTranslation": "listen to music"},
+    {"id": "v10", "character": "说话", "pinyin": "shuōhuà", "english": "speak, talk", "partOfSpeech": "verb", "example": "我们说话。", "exampleTranslation": "We talk."}
+  ],
+  "dialogue": {
+    "title": "Daily routine",
+    "lines": [
+      {"speaker": "A", "chinese": "你每天几点起床？", "pinyin": "Nǐ měi tiān jǐ diǎn qǐchuáng?", "english": "What time do you get up every day?"},
+      {"speaker": "B", "chinese": "我七点起床。", "pinyin": "Wǒ qī diǎn qǐchuáng.", "english": "I get up at seven."},
+      {"speaker": "A", "chinese": "然后你做什么？", "pinyin": "Ránhòu nǐ zuò shénme?", "english": "What do you do then?"},
+      {"speaker": "B", "chinese": "我吃早饭，然后去工作。", "pinyin": "Wǒ chī zǎofàn, ránhòu qù gōngzuò.", "english": "I eat breakfast, then go to work."},
+      {"speaker": "A", "chinese": "你晚上做什么？", "pinyin": "Nǐ wǎnshang zuò shénme?", "english": "What do you do in the evening?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "每天 (Every day)",
+      "explanation": "Expressing daily frequency",
+      "example": "我每天学习。",
+      "translation": "I study every day."
+    },
+    {
+      "point": "在... (at, in - location/ongoing action marker)",
+      "explanation": "Used before locations or ongoing actions",
+      "example": "我在工作。",
+      "translation": "I am working."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "工", "pinyin": "gōng", "meaning": "work", "radical": "工", "radicalMeaning": "work", "strokeCount": 3, "strokeOrder": ["竖", "横折", "竖"]},
+    {"id": "c2", "character": "学", "pinyin": "xué", "meaning": "study", "radical": "宀", "radicalMeaning": "roof", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match activities",
+      "pairs": [
+        {"chinese": "工作", "english": "work", "id": "m1"},
+        {"chinese": "学习", "english": "study", "id": "m2"},
+        {"chinese": "睡觉", "english": "sleep", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 1 - Lesson 65 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 学习 mean?",
+        "options": [
+          {"text": "Work", "correct": false},
+          {"text": "Study", "correct": true},
+          {"text": "Play", "correct": false}
+        ]
+      }
+    ]
+  }
+}

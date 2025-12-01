@@ -1,0 +1,76 @@
+{
+  "id": "lesson79",
+  "sessionId": "session2",
+  "title": "社会问题",
+  "englishTitle": "Social Issues",
+  "pageNumber": 4,
+  "difficulty": "advanced",
+  "objectives": ["Understand social issues", "Discuss complex topics", "Master social terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "社会", "pinyin": "shèhuì", "english": "society", "partOfSpeech": "noun", "example": "现代社会", "exampleTranslation": "modern society"},
+    {"id": "v2", "character": "问题", "pinyin": "wèntí", "english": "problem, issue", "partOfSpeech": "noun", "example": "社会问题", "exampleTranslation": "social problem"},
+    {"id": "v3", "character": "环境", "pinyin": "huánjìnɡ", "english": "environment", "partOfSpeech": "noun", "example": "自然环境", "exampleTranslation": "natural environment"},
+    {"id": "v4", "character": "污染", "pinyin": "wūrǎn", "english": "pollution", "partOfSpeech": "noun", "example": "空气污染", "exampleTranslation": "air pollution"},
+    {"id": "v5", "character": "资源", "pinyin": "zīyuán", "english": "resource", "partOfSpeech": "noun", "example": "自然资源", "exampleTranslation": "natural resource"},
+    {"id": "v6", "character": "保护", "pinyin": "bǎohù", "english": "protect", "partOfSpeech": "verb", "example": "保护环境", "exampleTranslation": "protect environment"},
+    {"id": "v7", "character": "可持续", "pinyin": "kěchíxù", "english": "sustainable", "partOfSpeech": "adjective", "example": "可持续发展", "exampleTranslation": "sustainable development"},
+    {"id": "v8", "character": "福利", "pinyin": "fúlì", "english": "welfare", "partOfSpeech": "noun", "example": "社会福利", "exampleTranslation": "social welfare"},
+    {"id": "v9", "character": "权利", "pinyin": "quánlì", "english": "rights", "partOfSpeech": "noun", "example": "人权", "exampleTranslation": "human rights"},
+    {"id": "v10", "character": "平等", "pinyin": "píɡnɡděnɡ", "english": "equality", "partOfSpeech": "noun", "example": "追求平等", "exampleTranslation": "pursue equality"}
+  ],
+  "dialogue": {
+    "title": "Environmental discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "现在环保已经成为了一个全球性的问题。", "pinyin": "Xiànzài huánbǎo yǐjinɡ chénɡwéi le yì ɡè quánɡiúxìnɡ de wèntí.", "english": "Environmental protection has become a global issue."},
+      {"speaker": "B", "chinese": "是的。空气污染特别严重。", "pinyin": "Shì de. Kōnɡqì wūrǎn tèbié yánzhònɡ.", "english": "Yes. Air pollution is particularly serious."},
+      {"speaker": "A", "chinese": "我们应该采取措施来改善环境。", "pinyin": "Wǒmen yīnɡɡāi cǎiqǔ cuòshi lái ɡǎishàn huánjìnɡ.", "english": "We should take measures to improve the environment."},
+      {"speaker": "B", "chinese": "可持续发展是长期的解决方案。", "pinyin": "Kěchíxù fāzhǎn shì chánɡqī de jiějuějué fāng'àn.", "english": "Sustainable development is a long-term solution."},
+      {"speaker": "A", "chinese": "完全同意。保护自然资源对子孙后代很重要。", "pinyin": "Wánquán tónɡyì. Bǎohù zìrán zīyuán duì zǐsūn hòudài hěn zhònɡyào.", "english": "Completely agree. Protecting natural resources is important for future generations."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "已经... (already)",
+      "explanation": "Perfect aspect marker",
+      "example": "已经成为了一个问题",
+      "translation": "has already become an issue"
+    },
+    {
+      "point": "应该...来... (should...to...)",
+      "explanation": "Expressing necessity and purpose",
+      "example": "应该采取措施来改善",
+      "translation": "should take measures to improve"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "社", "pinyin": "shè", "meaning": "society", "radical": "礻", "radicalMeaning": "spirit", "strokeCount": 7, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横"]},
+    {"id": "c2", "character": "会", "pinyin": "huì", "meaning": "meet, society", "radical": "人", "radicalMeaning": "person", "strokeCount": 6, "strokeOrder": ["竖", "横折", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match social terms",
+      "pairs": [
+        {"chinese": "环境", "english": "environment", "id": "m1"},
+        {"chinese": "污染", "english": "pollution", "id": "m2"},
+        {"chinese": "权利", "english": "rights", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 4 - Lesson 79 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 社会 mean?",
+        "options": [
+          {"text": "Community", "correct": false},
+          {"text": "Society", "correct": true},
+          {"text": "Country", "correct": false}
+        ]
+      }
+    ]
+  }
+}

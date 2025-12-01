@@ -69,6 +69,48 @@ import level4_lesson58 from "@/data/lessons/level4/lesson58.json";
 import level4_lesson59 from "@/data/lessons/level4/lesson59.json";
 import level4_lesson60 from "@/data/lessons/level4/lesson60.json";
 
+// HSK1 lessons
+import hsk1_lesson61 from "@/data/lessons/hsk1/lesson61.json";
+import hsk1_lesson62 from "@/data/lessons/hsk1/lesson62.json";
+import hsk1_lesson63 from "@/data/lessons/hsk1/lesson63.json";
+import hsk1_lesson64 from "@/data/lessons/hsk1/lesson64.json";
+import hsk1_lesson65 from "@/data/lessons/hsk1/lesson65.json";
+
+// HSK2 lessons
+import hsk2_lesson66 from "@/data/lessons/hsk2/lesson66.json";
+import hsk2_lesson67 from "@/data/lessons/hsk2/lesson67.json";
+import hsk2_lesson68 from "@/data/lessons/hsk2/lesson68.json";
+import hsk2_lesson69 from "@/data/lessons/hsk2/lesson69.json";
+import hsk2_lesson70 from "@/data/lessons/hsk2/lesson70.json";
+
+// HSK3 lessons
+import hsk3_lesson71 from "@/data/lessons/hsk3/lesson71.json";
+import hsk3_lesson72 from "@/data/lessons/hsk3/lesson72.json";
+import hsk3_lesson73 from "@/data/lessons/hsk3/lesson73.json";
+import hsk3_lesson74 from "@/data/lessons/hsk3/lesson74.json";
+import hsk3_lesson75 from "@/data/lessons/hsk3/lesson75.json";
+
+// HSK4 lessons
+import hsk4_lesson76 from "@/data/lessons/hsk4/lesson76.json";
+import hsk4_lesson77 from "@/data/lessons/hsk4/lesson77.json";
+import hsk4_lesson78 from "@/data/lessons/hsk4/lesson78.json";
+import hsk4_lesson79 from "@/data/lessons/hsk4/lesson79.json";
+import hsk4_lesson80 from "@/data/lessons/hsk4/lesson80.json";
+
+// HSK5 lessons
+import hsk5_lesson81 from "@/data/lessons/hsk5/lesson81.json";
+import hsk5_lesson82 from "@/data/lessons/hsk5/lesson82.json";
+import hsk5_lesson83 from "@/data/lessons/hsk5/lesson83.json";
+import hsk5_lesson84 from "@/data/lessons/hsk5/lesson84.json";
+import hsk5_lesson85 from "@/data/lessons/hsk5/lesson85.json";
+
+// HSK6 lessons
+import hsk6_lesson86 from "@/data/lessons/hsk6/lesson86.json";
+import hsk6_lesson87 from "@/data/lessons/hsk6/lesson87.json";
+import hsk6_lesson88 from "@/data/lessons/hsk6/lesson88.json";
+import hsk6_lesson89 from "@/data/lessons/hsk6/lesson89.json";
+import hsk6_lesson90 from "@/data/lessons/hsk6/lesson90.json";
+
 const level1Lessons: Record<string, LessonData> = {
   lesson1: level1_lesson1 as LessonData,
   lesson2: level1_lesson2 as LessonData,
@@ -144,6 +186,54 @@ const level4Lessons: Record<string, LessonData> = {
   lesson60: level4_lesson60 as LessonData,
 };
 
+const hsk1Lessons: Record<string, LessonData> = {
+  lesson61: hsk1_lesson61 as LessonData,
+  lesson62: hsk1_lesson62 as LessonData,
+  lesson63: hsk1_lesson63 as LessonData,
+  lesson64: hsk1_lesson64 as LessonData,
+  lesson65: hsk1_lesson65 as LessonData,
+};
+
+const hsk2Lessons: Record<string, LessonData> = {
+  lesson66: hsk2_lesson66 as LessonData,
+  lesson67: hsk2_lesson67 as LessonData,
+  lesson68: hsk2_lesson68 as LessonData,
+  lesson69: hsk2_lesson69 as LessonData,
+  lesson70: hsk2_lesson70 as LessonData,
+};
+
+const hsk3Lessons: Record<string, LessonData> = {
+  lesson71: hsk3_lesson71 as LessonData,
+  lesson72: hsk3_lesson72 as LessonData,
+  lesson73: hsk3_lesson73 as LessonData,
+  lesson74: hsk3_lesson74 as LessonData,
+  lesson75: hsk3_lesson75 as LessonData,
+};
+
+const hsk4Lessons: Record<string, LessonData> = {
+  lesson76: hsk4_lesson76 as LessonData,
+  lesson77: hsk4_lesson77 as LessonData,
+  lesson78: hsk4_lesson78 as LessonData,
+  lesson79: hsk4_lesson79 as LessonData,
+  lesson80: hsk4_lesson80 as LessonData,
+};
+
+const hsk5Lessons: Record<string, LessonData> = {
+  lesson81: hsk5_lesson81 as LessonData,
+  lesson82: hsk5_lesson82 as LessonData,
+  lesson83: hsk5_lesson83 as LessonData,
+  lesson84: hsk5_lesson84 as LessonData,
+  lesson85: hsk5_lesson85 as LessonData,
+};
+
+const hsk6Lessons: Record<string, LessonData> = {
+  lesson86: hsk6_lesson86 as LessonData,
+  lesson87: hsk6_lesson87 as LessonData,
+  lesson88: hsk6_lesson88 as LessonData,
+  lesson89: hsk6_lesson89 as LessonData,
+  lesson90: hsk6_lesson90 as LessonData,
+};
+
 export function getLessonsByLevel(level: ThresholdLevel): Record<string, LessonData> {
   switch (level) {
     case "level1":
@@ -154,6 +244,18 @@ export function getLessonsByLevel(level: ThresholdLevel): Record<string, LessonD
       return level3Lessons;
     case "level4":
       return level4Lessons;
+    case "hsk1":
+      return hsk1Lessons;
+    case "hsk2":
+      return hsk2Lessons;
+    case "hsk3":
+      return hsk3Lessons;
+    case "hsk4":
+      return hsk4Lessons;
+    case "hsk5":
+      return hsk5Lessons;
+    case "hsk6":
+      return hsk6Lessons;
   }
 }
 
@@ -191,4 +293,99 @@ export function getLevelSessions(level: ThresholdLevel) {
   if (currentSession) sessions.push(currentSession);
 
   return sessions;
+}
+
+export function getHSKLesson(hskLevel: string, lessonNumber: number): LessonData | null {
+  const hskId = `hsk${hskLevel}`;
+  const lessons = getLessonsByLevel(hskId as ThresholdLevel);
+  if (!lessons) return null;
+
+  // Map lesson number within HSK level to the actual lesson ID
+  // HSK1: lessons 1-5 map to lesson61-65
+  // HSK2: lessons 1-5 map to lesson66-70, etc.
+  const hskLevelNum = parseInt(hskLevel);
+  const actualLessonNum = (hskLevelNum - 1) * 5 + lessonNumber + 60;
+  const lessonId = `lesson${actualLessonNum}`;
+
+  return lessons[lessonId] || null;
+}
+
+export function getHSKLevelSessions(hskLevel: string) {
+  const hskId = `hsk${hskLevel}`;
+  const lessons = getLessonsByLevel(hskId as ThresholdLevel);
+  if (!lessons) return [];
+
+  const hskLevelNum = parseInt(hskLevel);
+  const sessions: any[] = [];
+  let currentSession: any = null;
+  let sessionIndex = 0;
+  let lessonNumberInHSKLevel = 1;
+
+  Object.entries(lessons)
+    .sort(([idA], [idB]) => {
+      const numA = parseInt(idA.replace('lesson', ''));
+      const numB = parseInt(idB.replace('lesson', ''));
+      return numA - numB;
+    })
+    .forEach(([lessonId, lesson]) => {
+      if (!currentSession || currentSession.lessons.length >= 3) {
+        if (currentSession) sessions.push(currentSession);
+
+        sessionIndex++;
+        currentSession = {
+          id: `session${sessionIndex}`,
+          title: `Session ${sessionIndex}`,
+          lessons: [],
+        };
+      }
+
+      // Map the lesson to its position within the HSK level (1-5)
+      const lessonNum = parseInt(lessonId.replace('lesson', ''));
+      const positionInHSKLevel = ((hskLevelNum - 1) * 5) + lessonNumberInHSKLevel;
+
+      currentSession.lessons.push({
+        id: `lesson${lessonNumberInHSKLevel}`,
+        title: lesson.title,
+      });
+
+      lessonNumberInHSKLevel++;
+    });
+
+  if (currentSession) sessions.push(currentSession);
+
+  // Add final exam as a separate item
+  sessions.push({
+    id: 'finalexam',
+    title: 'Final Exam',
+    lessons: [
+      {
+        id: 'final-exam',
+        title: `HSK Level ${hskLevel} - Final Exam`,
+      }
+    ],
+  });
+
+  return sessions;
+}
+
+export function getHSKFinalExamQuestions(hskLevel: string): any[] {
+  const hskId = `hsk${hskLevel}`;
+  const lessons = getLessonsByLevel(hskId as ThresholdLevel);
+  if (!lessons) return [];
+
+  const allQuestions: any[] = [];
+
+  Object.entries(lessons)
+    .sort(([idA], [idB]) => {
+      const numA = parseInt(idA.replace('lesson', ''));
+      const numB = parseInt(idB.replace('lesson', ''));
+      return numA - numB;
+    })
+    .forEach(([, lesson]) => {
+      if (lesson.quiz && lesson.quiz.questions) {
+        allQuestions.push(...lesson.quiz.questions);
+      }
+    });
+
+  return allQuestions;
 }

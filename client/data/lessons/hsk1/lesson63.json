@@ -1,0 +1,76 @@
+{
+  "id": "lesson63",
+  "sessionId": "session1",
+  "title": "食物和饮料",
+  "englishTitle": "Food and Drinks",
+  "pageNumber": 3,
+  "difficulty": "beginner",
+  "objectives": ["Learn food vocabulary", "Practice ordering food", "Master dining phrases"],
+  "vocabulary": [
+    {"id": "v1", "character": "水", "pinyin": "shuǐ", "english": "water", "partOfSpeech": "noun", "example": "一杯水", "exampleTranslation": "a glass of water"},
+    {"id": "v2", "character": "茶", "pinyin": "chá", "english": "tea", "partOfSpeech": "noun", "example": "喝茶", "exampleTranslation": "drink tea"},
+    {"id": "v3", "character": "咖啡", "pinyin": "kāfēi", "english": "coffee", "partOfSpeech": "noun", "example": "一杯咖啡", "exampleTranslation": "a cup of coffee"},
+    {"id": "v4", "character": "米饭", "pinyin": "mǐfàn", "english": "rice", "partOfSpeech": "noun", "example": "吃米饭", "exampleTranslation": "eat rice"},
+    {"id": "v5", "character": "面条", "pinyin": "miàntiáo", "english": "noodles", "partOfSpeech": "noun", "example": "要面条", "exampleTranslation": "want noodles"},
+    {"id": "v6", "character": "肉", "pinyin": "ròu", "english": "meat", "partOfSpeech": "noun", "example": "有肉吗？", "exampleTranslation": "Is there meat?"},
+    {"id": "v7", "character": "菜", "pinyin": "cài", "english": "vegetable, dish", "partOfSpeech": "noun", "example": "吃什么菜？", "exampleTranslation": "What dish do you eat?"},
+    {"id": "v8", "character": "饮料", "pinyin": "yǐnliào", "english": "beverage", "partOfSpeech": "noun", "example": "什么饮料？", "exampleTranslation": "What beverage?"},
+    {"id": "v9", "character": "好吃", "pinyin": "hǎochī", "english": "delicious", "partOfSpeech": "adjective", "example": "很好吃。", "exampleTranslation": "It's delicious."},
+    {"id": "v10", "character": "吃", "pinyin": "chī", "english": "eat", "partOfSpeech": "verb", "example": "我要吃米饭。", "exampleTranslation": "I want to eat rice."}
+  ],
+  "dialogue": {
+    "title": "At a restaurant",
+    "lines": [
+      {"speaker": "Waiter", "chinese": "欢迎光临！你要吃什么？", "pinyin": "Huānyíng guānglín! Nǐ yào chī shénme?", "english": "Welcome! What would you like to eat?"},
+      {"speaker": "Customer", "chinese": "我要米饭和菜。", "pinyin": "Wǒ yào mǐfàn hé cài.", "english": "I want rice and vegetables."},
+      {"speaker": "Waiter", "chinese": "好的。要喝什么？", "pinyin": "Hǎo de. Yào hē shénme?", "english": "Okay. What would you like to drink?"},
+      {"speaker": "Customer", "chinese": "一杯茶，谢谢。", "pinyin": "Yī bēi chá, xièxie.", "english": "A cup of tea, please."},
+      {"speaker": "Waiter", "chinese": "好的，请稍等。", "pinyin": "Hǎo de, qǐng shāoděng.", "english": "Okay, please wait a moment."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "我要... (I want...)",
+      "explanation": "Way to express what you want",
+      "example": "我要吃米饭。",
+      "translation": "I want to eat rice."
+    },
+    {
+      "point": "和 (and)",
+      "explanation": "Connecting words",
+      "example": "米饭和菜",
+      "translation": "rice and vegetables"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "水", "pinyin": "shuǐ", "meaning": "water", "radical": "水", "radicalMeaning": "water", "strokeCount": 4, "strokeOrder": ["竖", "横折", "竖", "横"]},
+    {"id": "c2", "character": "火", "pinyin": "huǒ", "meaning": "fire", "radical": "火", "radicalMeaning": "fire", "strokeCount": 4, "strokeOrder": ["竖", "横折", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match food items",
+      "pairs": [
+        {"chinese": "水", "english": "water", "id": "m1"},
+        {"chinese": "米饭", "english": "rice", "id": "m2"},
+        {"chinese": "茶", "english": "tea", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 1 - Lesson 63 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 吃 mean?",
+        "options": [
+          {"text": "Drink", "correct": false},
+          {"text": "Eat", "correct": true},
+          {"text": "Sleep", "correct": false}
+        ]
+      }
+    ]
+  }
+}

@@ -151,35 +151,91 @@ export default function Index() {
             {/* Level Selector */}
             <div className="pt-8 border-t border-white/20">
               <p className="text-blue-200 text-sm font-medium mb-4">Select Your Level</p>
-              <div className="flex flex-wrap gap-3 justify-center">
-                <Button
-                  onClick={() => setSelectedLevel("level1")}
-                  variant={selectedLevel === "level1" ? "default" : "outline"}
-                  className={selectedLevel === "level1" ? "bg-blue-500 hover:bg-blue-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
-                >
-                  Short-Term Spoken Chinese Beginner
-                </Button>
-                <Button
-                  onClick={() => setSelectedLevel("level2")}
-                  variant={selectedLevel === "level2" ? "default" : "outline"}
-                  className={selectedLevel === "level2" ? "bg-purple-500 hover:bg-purple-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
-                >
-                  Threshold Level 2
-                </Button>
-                <Button
-                  onClick={() => setSelectedLevel("level3")}
-                  variant={selectedLevel === "level3" ? "default" : "outline"}
-                  className={selectedLevel === "level3" ? "bg-pink-500 hover:bg-pink-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
-                >
-                  Short-Term Spoken Chinese Pre-Intermediate
-                </Button>
-                <Button
-                  onClick={() => setSelectedLevel("level4")}
-                  variant={selectedLevel === "level4" ? "default" : "outline"}
-                  className={selectedLevel === "level4" ? "bg-orange-500 hover:bg-orange-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
-                >
-                  Intermediate
-                </Button>
+              <div className="mb-4">
+                <p className="text-blue-100 text-xs font-medium mb-3 ml-3">Short-Term Spoken Chinese</p>
+                <div className="flex flex-wrap gap-3 justify-center">
+                  <Button
+                    onClick={() => setSelectedLevel("level1")}
+                    variant={selectedLevel === "level1" ? "default" : "outline"}
+                    className={selectedLevel === "level1" ? "bg-blue-500 hover:bg-blue-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
+                  >
+                    Level 1: Beginner
+                  </Button>
+                  <Button
+                    onClick={() => setSelectedLevel("level2")}
+                    variant={selectedLevel === "level2" ? "default" : "outline"}
+                    className={selectedLevel === "level2" ? "bg-purple-500 hover:bg-purple-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
+                  >
+                    Level 2: Beginner
+                  </Button>
+                  <Button
+                    onClick={() => setSelectedLevel("level3")}
+                    variant={selectedLevel === "level3" ? "default" : "outline"}
+                    className={selectedLevel === "level3" ? "bg-pink-500 hover:bg-pink-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
+                  >
+                    Level 3: Pre-Intermediate
+                  </Button>
+                  <Button
+                    onClick={() => setSelectedLevel("level4")}
+                    variant={selectedLevel === "level4" ? "default" : "outline"}
+                    className={selectedLevel === "level4" ? "bg-orange-500 hover:bg-orange-600" : "bg-white/5 border-white/20 text-white hover:bg-white/10"}
+                  >
+                    Level 4: Intermediate
+                  </Button>
+                </div>
+              </div>
+              <div>
+                <p className="text-blue-100 text-xs font-medium mb-3 ml-3">HSK Standardized Test Preparation</p>
+                <div className="flex flex-wrap gap-3 justify-center">
+                  <Link to="/hsk">
+                    <Button
+                      variant="outline"
+                      className="bg-emerald-500/20 border-emerald-400/30 text-emerald-300 hover:bg-emerald-500/30"
+                    >
+                      HSK 1: Elementary
+                    </Button>
+                  </Link>
+                  <Link to="/hsk">
+                    <Button
+                      variant="outline"
+                      className="bg-teal-500/20 border-teal-400/30 text-teal-300 hover:bg-teal-500/30"
+                    >
+                      HSK 2: Elementary
+                    </Button>
+                  </Link>
+                  <Link to="/hsk">
+                    <Button
+                      variant="outline"
+                      className="bg-cyan-500/20 border-cyan-400/30 text-cyan-300 hover:bg-cyan-500/30"
+                    >
+                      HSK 3: Intermediate
+                    </Button>
+                  </Link>
+                  <Link to="/hsk">
+                    <Button
+                      variant="outline"
+                      className="bg-sky-500/20 border-sky-400/30 text-sky-300 hover:bg-sky-500/30"
+                    >
+                      HSK 4: Intermediate
+                    </Button>
+                  </Link>
+                  <Link to="/hsk">
+                    <Button
+                      variant="outline"
+                      className="bg-indigo-500/20 border-indigo-400/30 text-indigo-300 hover:bg-indigo-500/30"
+                    >
+                      HSK 5: Advanced
+                    </Button>
+                  </Link>
+                  <Link to="/hsk">
+                    <Button
+                      variant="outline"
+                      className="bg-violet-500/20 border-violet-400/30 text-violet-300 hover:bg-violet-500/30"
+                    >
+                      HSK 6: Advanced
+                    </Button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -338,6 +394,73 @@ export default function Index() {
                 Quiz yourself with multiple formats and track your progress
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* HSK Preparation Section */}
+      <section className="relative py-24 px-6 border-t border-white/10">
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl -top-40 -left-40" />
+          <div className="absolute w-96 h-96 bg-teal-500/10 rounded-full blur-3xl -bottom-40 -right-40" />
+        </div>
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-16">
+            <h3 className="text-4xl font-bold text-white mb-4">
+              Official HSK Exam Preparation
+            </h3>
+            <p className="text-xl text-emerald-100 max-w-2xl mx-auto">
+              Prepare for the official Hanyu Shuiping Kaoshi (HSK) certification exam with our comprehensive preparation courses
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <Link to="/hsk" className="group">
+              <div className="bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-400/30 rounded-lg p-8 hover:border-emerald-400/60 hover:bg-emerald-500/30 transition-all h-full">
+                <div className="text-3xl font-bold text-emerald-400 mb-2">HSK 1-2</div>
+                <h4 className="text-xl font-semibold text-white mb-2">Elementary Level</h4>
+                <p className="text-emerald-200 mb-4">150-300 words, basic conversations</p>
+                <div className="flex items-center gap-2 text-emerald-300 group-hover:translate-x-1 transition-transform">
+                  <span className="text-sm font-medium">Start Prep</span>
+                  <ArrowRight className="w-4 h-4" />
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/hsk" className="group">
+              <div className="bg-gradient-to-br from-cyan-500/20 to-sky-500/20 border border-cyan-400/30 rounded-lg p-8 hover:border-cyan-400/60 hover:bg-cyan-500/30 transition-all h-full">
+                <div className="text-3xl font-bold text-cyan-400 mb-2">HSK 3-4</div>
+                <h4 className="text-xl font-semibold text-white mb-2">Intermediate Level</h4>
+                <p className="text-cyan-200 mb-4">600-1200 words, complex dialogue</p>
+                <div className="flex items-center gap-2 text-cyan-300 group-hover:translate-x-1 transition-transform">
+                  <span className="text-sm font-medium">Start Prep</span>
+                  <ArrowRight className="w-4 h-4" />
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/hsk" className="group">
+              <div className="bg-gradient-to-br from-indigo-500/20 to-violet-500/20 border border-indigo-400/30 rounded-lg p-8 hover:border-indigo-400/60 hover:bg-indigo-500/30 transition-all h-full">
+                <div className="text-3xl font-bold text-indigo-400 mb-2">HSK 5-6</div>
+                <h4 className="text-xl font-semibold text-white mb-2">Advanced Level</h4>
+                <p className="text-indigo-200 mb-4">2500-5000+ words, professional Chinese</p>
+                <div className="flex items-center gap-2 text-indigo-300 group-hover:translate-x-1 transition-transform">
+                  <span className="text-sm font-medium">Start Prep</span>
+                  <ArrowRight className="w-4 h-4" />
+                </div>
+              </div>
+            </Link>
+          </div>
+
+          <div className="text-center">
+            <Link to="/hsk">
+              <Button size="lg" className="gap-2 bg-emerald-500 hover:bg-emerald-600">
+                <Award className="w-5 h-5" />
+                Explore All HSK Levels
+                <ArrowRight className="w-5 h-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

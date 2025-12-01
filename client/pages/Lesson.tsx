@@ -9,17 +9,26 @@ import CharacterLearning from "@/components/CharacterLearning";
 import QuizEngine from "@/components/QuizEngine";
 import ProgressTracker from "@/components/ProgressTracker";
 import { useLevel } from "@/contexts/LevelContext";
-import { getLessonByLevelAndId, getLevelSessions } from "@/utils/levelsLoader";
+import { getLessonByLevelAndId, getLevelSessions, getHSKLesson, getHSKLevelSessions, getHSKFinalExamQuestions } from "@/utils/levelsLoader";
+import { Card } from "@/components/ui/card";
 
-export default function Lesson() {
-  const { lessonId } = useParams<{ lessonId: string }>();
+interface LessonProps {
+  isHSK?: boolean;
+}
+
+export default function Lesson({ isHSK = false }: LessonProps) {
+  const { lessonId, hskLevel } = useParams<{ lessonId: string; hskLevel: string }>();
   const { selectedLevel, setSelectedLevel } = useLevel();
   const [detectedLevel, setDetectedLevel] = useState(selectedLevel);
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set());
+  const isFinalExam = lessonId === 'final-exam';
 
   // Effect to detect and update level based on lesson ID
   useEffect(() => {
-    if (lessonId) {
+    if (isHSK && hskLevel) {
+      setDetectedLevel(`hsk${hskLevel}` as any);
+      setSelectedLevel(`hsk${hskLevel}` as any);
+    } else if (lessonId) {
       const lessonNum = parseInt(lessonId.replace('lesson', ''));
       let newLevel: typeof selectedLevel = selectedLevel;
 
@@ -29,6 +38,8 @@ export default function Lesson() {
         newLevel = 'level2';
       } else if (lessonNum >= 31 && lessonNum <= 45) {
         newLevel = 'level3';
+      } else if (lessonNum >= 46 && lessonNum <= 60) {
+        newLevel = 'level4';
       }
 
       setDetectedLevel(newLevel);
@@ -36,10 +47,41 @@ export default function Lesson() {
         setSelectedLevel(newLevel);
       }
     }
-  }, [lessonId, selectedLevel, setSelectedLevel]);
+  }, [lessonId, hskLevel, isHSK, selectedLevel, setSelectedLevel]);
 
-  const lessonData = lessonId ? getLessonByLevelAndId(detectedLevel, lessonId) : null;
-  const SESSIONS = getLevelSessions(detectedLevel);
+  let lessonData: any = null;
+
+  if (isFinalExam && isHSK && hskLevel) {
+    const finalExamQuestions = getHSKFinalExamQuestions(hskLevel);
+    lessonData = {
+      id: 'final-exam',
+      sessionId: 'final-exam',
+      title: `HSK Level ${hskLevel} - Final Exam`,
+      englishTitle: 'Comprehensive Final Examination',
+      pageNumber: 0,
+      difficulty: 'HSK',
+      vocabulary: [],
+      dialogue: { title: '', lines: [] },
+      grammar: [],
+      characters: [],
+      exercises: [],
+      quiz: {
+        title: `HSK Level ${hskLevel} - Final Exam`,
+        questions: finalExamQuestions,
+      },
+    };
+  } else if (isHSK && hskLevel) {
+    lessonData = getHSKLesson(hskLevel, parseInt(lessonId?.replace('lesson', '') || '0'));
+  } else {
+    lessonData = lessonId ? getLessonByLevelAndId(detectedLevel, lessonId) : null;
+  }
+
+  let SESSIONS: any[] = [];
+  if (isHSK && hskLevel) {
+    SESSIONS = getHSKLevelSessions(hskLevel);
+  } else {
+    SESSIONS = getLevelSessions(detectedLevel);
+  }
 
   useEffect(() => {
     const stored = localStorage.getItem("completedLessons");
@@ -83,8 +125,22 @@ export default function Lesson() {
     }))
   );
 
-  // Create level sections for sidebar
-  const levelSections = [
+  // Create level sections for sidebar - show all HSK levels, filtered based on what's available
+  const allHSKLevels = [
+    { number: "1", title: "HSK Level 1" },
+    { number: "2", title: "HSK Level 2" },
+    { number: "3", title: "HSK Level 3" },
+    { number: "4", title: "HSK Level 4" },
+    { number: "5", title: "HSK Level 5" },
+    { number: "6", title: "HSK Level 6" },
+  ];
+
+  const levelSections = isHSK ? allHSKLevels.map(hsk => ({
+    level: `hsk${hsk.number}` as any,
+    title: hsk.title,
+    sessions: getHSKLevelSessions(hsk.number),
+    isHSK: true,
+  })).filter((section) => section.sessions.length > 0) : [
     {
       level: "level1" as const,
       title: "Threshold Level 1",
@@ -99,6 +155,11 @@ export default function Lesson() {
       level: "level3" as const,
       title: "Threshold Level 3",
       sessions: getLevelSessions("level3"),
+    },
+    {
+      level: "level4" as const,
+      title: "Threshold Level 4",
+      sessions: getLevelSessions("level4"),
     },
   ].filter((section) => section.sessions.length > 0);
 
@@ -118,103 +179,130 @@ export default function Lesson() {
 
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="lg:col-span-2">
-                <Tabs defaultValue="vocabulary" className="space-y-6">
-                  <TabsList className="grid w-full grid-cols-5">
-                    <TabsTrigger value="vocabulary">Vocabulary</TabsTrigger>
-                    <TabsTrigger value="dialogue">Dialogue</TabsTrigger>
-                    <TabsTrigger value="characters">Characters</TabsTrigger>
-                    <TabsTrigger value="grammar">Grammar</TabsTrigger>
-                    <TabsTrigger value="quiz">Quiz</TabsTrigger>
-                  </TabsList>
-
-                  <TabsContent value="vocabulary" className="space-y-4">
-                    <div>
-                      <h2 className="text-2xl font-semibold mb-4">Vocabulary</h2>
-                      <VocabularyTrainer vocabulary={lessonData.vocabulary} />
-                    </div>
-                  </TabsContent>
-
-                  <TabsContent value="dialogue" className="space-y-4">
-                    <div>
-                      <h2 className="text-2xl font-semibold mb-4">Dialogue</h2>
-                      <DialoguePlayer
-                        title={lessonData.dialogue.title}
-                        lines={lessonData.dialogue.lines}
+                {isFinalExam ? (
+                  <div className="space-y-6">
+                    <Card className="p-6 border-2 border-emerald-200 bg-emerald-50">
+                      <h2 className="text-2xl font-bold text-emerald-900 mb-2">
+                        {lessonData.quiz.title}
+                      </h2>
+                      <p className="text-emerald-700">
+                        This comprehensive final exam covers all vocabulary, grammar, and concepts from this HSK level. Answer all questions correctly to demonstrate mastery.
+                      </p>
+                    </Card>
+                    {lessonData.quiz.questions.length > 0 ? (
+                      <QuizEngine
+                        questions={lessonData.quiz.questions}
+                        title={lessonData.quiz.title}
+                        onQuizComplete={handleQuizComplete}
+                        hskLevel={isHSK && hskLevel ? parseInt(hskLevel) : undefined}
+                        isFinalExam={true}
                       />
-                    </div>
-                  </TabsContent>
+                    ) : (
+                      <p className="text-gray-600">
+                        No questions available for this final exam yet
+                      </p>
+                    )}
+                  </div>
+                ) : (
+                  <Tabs defaultValue="vocabulary" className="space-y-6">
+                    <TabsList className="grid w-full grid-cols-5">
+                      <TabsTrigger value="vocabulary">Vocabulary</TabsTrigger>
+                      <TabsTrigger value="dialogue">Dialogue</TabsTrigger>
+                      <TabsTrigger value="characters">Characters</TabsTrigger>
+                      <TabsTrigger value="grammar">Grammar</TabsTrigger>
+                      <TabsTrigger value="quiz">Quiz</TabsTrigger>
+                    </TabsList>
 
-                  <TabsContent value="characters" className="space-y-4">
-                    <div>
-                      <h2 className="text-2xl font-semibold mb-4">
-                        Character Learning
-                      </h2>
-                      {lessonData.characters && lessonData.characters.length > 0 ? (
-                        <CharacterLearning characters={lessonData.characters} />
-                      ) : (
-                        <p className="text-gray-600">
-                          No characters for this lesson
-                        </p>
-                      )}
-                    </div>
-                  </TabsContent>
+                    <TabsContent value="vocabulary" className="space-y-4">
+                      <div>
+                        <h2 className="text-2xl font-semibold mb-4">Vocabulary</h2>
+                        <VocabularyTrainer vocabulary={lessonData.vocabulary} />
+                      </div>
+                    </TabsContent>
 
-                  <TabsContent value="grammar" className="space-y-4">
-                    <div>
-                      <h2 className="text-2xl font-semibold mb-4">
-                        Grammar Points
-                      </h2>
-                      <div className="space-y-4">
-                        {lessonData.grammar && lessonData.grammar.length > 0 ? (
-                          lessonData.grammar.map((point, index) => (
-                            <div
-                              key={index}
-                              className="bg-white p-6 rounded-lg border border-gray-200"
-                            >
-                              <h3 className="font-bold text-lg mb-2">
-                                {point.point}
-                              </h3>
-                              <p className="text-gray-700 mb-3">
-                                {point.explanation}
-                              </p>
-                              <div className="bg-blue-50 p-3 rounded">
-                                <p className="font-mono text-blue-900">
-                                  {point.example}
-                                </p>
-                                <p className="text-sm text-gray-600 mt-1">
-                                  {point.translation}
-                                </p>
-                              </div>
-                            </div>
-                          ))
+                    <TabsContent value="dialogue" className="space-y-4">
+                      <div>
+                        <h2 className="text-2xl font-semibold mb-4">Dialogue</h2>
+                        <DialoguePlayer
+                          title={lessonData.dialogue.title}
+                          lines={lessonData.dialogue.lines}
+                        />
+                      </div>
+                    </TabsContent>
+
+                    <TabsContent value="characters" className="space-y-4">
+                      <div>
+                        <h2 className="text-2xl font-semibold mb-4">
+                          Character Learning
+                        </h2>
+                        {lessonData.characters && lessonData.characters.length > 0 ? (
+                          <CharacterLearning characters={lessonData.characters} />
                         ) : (
                           <p className="text-gray-600">
-                            No grammar points for this lesson
+                            No characters for this lesson
                           </p>
                         )}
                       </div>
-                    </div>
-                  </TabsContent>
+                    </TabsContent>
 
-                  <TabsContent value="quiz" className="space-y-4">
-                    <div>
-                      <h2 className="text-2xl font-semibold mb-4">
-                        {lessonData.quiz.title}
-                      </h2>
-                      {lessonData.quiz.questions.length > 0 ? (
-                        <QuizEngine
-                          questions={lessonData.quiz.questions}
-                          title={lessonData.quiz.title}
-                          onQuizComplete={handleQuizComplete}
-                        />
-                      ) : (
-                        <p className="text-gray-600">
-                          No quiz questions available yet
-                        </p>
-                      )}
-                    </div>
-                  </TabsContent>
-                </Tabs>
+                    <TabsContent value="grammar" className="space-y-4">
+                      <div>
+                        <h2 className="text-2xl font-semibold mb-4">
+                          Grammar Points
+                        </h2>
+                        <div className="space-y-4">
+                          {lessonData.grammar && lessonData.grammar.length > 0 ? (
+                            lessonData.grammar.map((point, index) => (
+                              <div
+                                key={index}
+                                className="bg-white p-6 rounded-lg border border-gray-200"
+                              >
+                                <h3 className="font-bold text-lg mb-2">
+                                  {point.point}
+                                </h3>
+                                <p className="text-gray-700 mb-3">
+                                  {point.explanation}
+                                </p>
+                                <div className="bg-blue-50 p-3 rounded">
+                                  <p className="font-mono text-blue-900">
+                                    {point.example}
+                                  </p>
+                                  <p className="text-sm text-gray-600 mt-1">
+                                    {point.translation}
+                                  </p>
+                                </div>
+                              </div>
+                            ))
+                          ) : (
+                            <p className="text-gray-600">
+                              No grammar points for this lesson
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    </TabsContent>
+
+                    <TabsContent value="quiz" className="space-y-4">
+                      <div>
+                        <h2 className="text-2xl font-semibold mb-4">
+                          {lessonData.quiz.title}
+                        </h2>
+                        {lessonData.quiz.questions.length > 0 ? (
+                          <QuizEngine
+                            questions={lessonData.quiz.questions}
+                            title={lessonData.quiz.title}
+                            onQuizComplete={handleQuizComplete}
+                            hskLevel={isHSK && hskLevel ? parseInt(hskLevel) : undefined}
+                          />
+                        ) : (
+                          <p className="text-gray-600">
+                            No quiz questions available yet
+                          </p>
+                        )}
+                      </div>
+                    </TabsContent>
+                  </Tabs>
+                )}
               </div>
 
               <div className="lg:col-span-1">

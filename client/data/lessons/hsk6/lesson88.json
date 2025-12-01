@@ -1,0 +1,76 @@
+{
+  "id": "lesson88",
+  "sessionId": "session1",
+  "title": "未来愿景",
+  "englishTitle": "Future Visions",
+  "pageNumber": 3,
+  "difficulty": "advanced",
+  "objectives": ["Discuss future possibilities", "Understand visionary concepts", "Master future-oriented terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "未来", "pinyin": "wèilái", "english": "future", "partOfSpeech": "noun", "example": "美好的未来", "exampleTranslation": "beautiful future"},
+    {"id": "v2", "character": "愿景", "pinyin": "yuànjǐnɡ", "english": "vision", "partOfSpeech": "noun", "example": "共同愿景", "exampleTranslation": "shared vision"},
+    {"id": "v3", "character": "发展", "pinyin": "fāzhǎn", "english": "development", "partOfSpeech": "noun", "example": "可持续发展", "exampleTranslation": "sustainable development"},
+    {"id": "v4", "character": "进步", "pinyin": "jìnbù", "english": "progress", "partOfSpeech": "noun", "example": "社会进步", "exampleTranslation": "social progress"},
+    {"id": "v5", "character": "创造", "pinyin": "chuànɡzào", "english": "create", "partOfSpeech": "verb", "example": "创造美好生活", "exampleTranslation": "create beautiful life"},
+    {"id": "v6", "character": "潜力", "pinyin": "qiánlì", "english": "potential", "partOfSpeech": "noun", "example": "巨大潜力", "exampleTranslation": "huge potential"},
+    {"id": "v7", "character": "机遇", "pinyin": "jīyù", "english": "opportunity", "partOfSpeech": "noun", "example": "难得的机遇", "exampleTranslation": "rare opportunity"},
+    {"id": "v8", "character": "挑战", "pinyin": "tiǎozhàn", "english": "challenge", "partOfSpeech": "noun", "example": "迎接挑战", "exampleTranslation": "meet challenge"},
+    {"id": "v9", "character": "梦想", "pinyin": "mènɡxiǎnɡ", "english": "dream", "partOfSpeech": "noun", "example": "实现梦想", "exampleTranslation": "realize dream"},
+    {"id": "v10", "character": "信心", "pinyin": "xìnxīn", "english": "confidence", "partOfSpeech": "noun", "example": "充满信心", "exampleTranslation": "full of confidence"}
+  ],
+  "dialogue": {
+    "title": "Future discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "你对未来有什么愿景或期待？", "pinyin": "Nǐ duì wèilái yǒu shénme yuànjǐnɡ huò qīdài?", "english": "What visions or expectations do you have for the future?"},
+      {"speaker": "B", "chinese": "我希望看到一个更加和平、繁荣、可持续发展的世界。", "pinyin": "Wǒ xīwàng kàndào yì ɡè ɡènɡjiā héɡpínɡ, fánronɡ, kěchíxù fāzhǎn de shìjiè.", "english": "I hope to see a more peaceful, prosperous, and sustainably developed world."},
+      {"speaker": "A", "chinese": "你认为实现这个愿景的关键是什么？", "pinyin": "Nǐ rènwéi shíxiàn zhège yuànjǐnɡ de ɡuānjiàn shì shénme?", "english": "What do you think is the key to realizing this vision?"},
+      {"speaker": "B", "chinese": "我认为需要国际合作、科技创新和人类的团结一致。", "pinyin": "Wǒ rènwéi xūyào ɡuójì hézuò, kējì chuàngxīn hé rénlèi de tuánjié yìzhì.", "english": "I think it requires international cooperation, technological innovation, and human unity."},
+      {"speaker": "A", "chinese": "你对这个目标充满信心吗？", "pinyin": "Nǐ duì zhège mùbiāo chōnɡmǎn xìnxīn ma?", "english": "Are you confident about this goal?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "对...有... (have... towards...)",
+      "explanation": "Expressing feelings/opinions",
+      "example": "对未来有信心",
+      "translation": "have confidence in the future"
+    },
+    {
+      "point": "充满... (full of...)",
+      "explanation": "Describing state",
+      "example": "充满信心",
+      "translation": "full of confidence"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "未", "pinyin": "wèi", "meaning": "not yet", "radical": "木", "radicalMeaning": "wood", "strokeCount": 5, "strokeOrder": ["竖", "横折", "横", "竖", "横"]},
+    {"id": "c2", "character": "来", "pinyin": "lái", "meaning": "come, future", "radical": "木", "radicalMeaning": "wood", "strokeCount": 7, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match future-oriented terms",
+      "pairs": [
+        {"chinese": "梦想", "english": "dream", "id": "m1"},
+        {"chinese": "机遇", "english": "opportunity", "id": "m2"},
+        {"chinese": "信心", "english": "confidence", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 6 - Lesson 88 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 未来 mean?",
+        "options": [
+          {"text": "Present", "correct": false},
+          {"text": "Future", "correct": true},
+          {"text": "Past", "correct": false}
+        ]
+      }
+    ]
+  }
+}

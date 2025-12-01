@@ -1,0 +1,75 @@
+{
+  "id": "lesson66",
+  "sessionId": "session1",
+  "title": "方向和交通",
+  "englishTitle": "Directions and Transportation",
+  "pageNumber": 1,
+  "difficulty": "beginner",
+  "objectives": ["Learn direction vocabulary", "Practice asking for directions", "Master transportation terms"],
+  "vocabulary": [
+    {"id": "v1", "character": "东", "pinyin": "dōng", "english": "east", "partOfSpeech": "noun", "example": "往东走", "exampleTranslation": "go east"},
+    {"id": "v2", "character": "西", "pinyin": "xī", "english": "west", "partOfSpeech": "noun", "example": "西边", "exampleTranslation": "west side"},
+    {"id": "v3", "character": "南", "pinyin": "nán", "english": "south", "partOfSpeech": "noun", "example": "南方", "exampleTranslation": "south"},
+    {"id": "v4", "character": "北", "pinyin": "běi", "english": "north", "partOfSpeech": "noun", "example": "北边", "exampleTranslation": "north side"},
+    {"id": "v5", "character": "左", "pinyin": "zuǒ", "english": "left", "partOfSpeech": "noun", "example": "左边", "exampleTranslation": "left side"},
+    {"id": "v6", "character": "右", "pinyin": "yòu", "english": "right", "partOfSpeech": "noun", "example": "右边", "exampleTranslation": "right side"},
+    {"id": "v7", "character": "汽车", "pinyin": "qìchē", "english": "car", "partOfSpeech": "noun", "example": "开汽车", "exampleTranslation": "drive a car"},
+    {"id": "v8", "character": "公共汽车", "pinyin": "gōnggòng qìchē", "english": "bus", "partOfSpeech": "noun", "example": "坐公共汽车", "exampleTranslation": "take a bus"},
+    {"id": "v9", "character": "地铁", "pinyin": "dìtiě", "english": "subway", "partOfSpeech": "noun", "example": "坐地铁", "exampleTranslation": "take the subway"},
+    {"id": "v10", "character": "飞机", "pinyin": "fēijī", "english": "airplane", "partOfSpeech": "noun", "example": "坐飞机", "exampleTranslation": "take a plane"}
+  ],
+  "dialogue": {
+    "title": "Asking directions",
+    "lines": [
+      {"speaker": "Tourist", "chinese": "对不起，我要去火车站。请问往哪边走？", "pinyin": "Duìbùqǐ, w�� yào qù huǒchēzhàn. Qǐngwèn wǎng nǎ biān zǒu?", "english": "Excuse me, I want to go to the train station. Which way should I go?"},
+      {"speaker": "Local", "chinese": "往东走，大概五分钟。", "pinyin": "Wǎng dōng zǒu, dàgài wǔ fēnzhōng.", "english": "Go east, about five minutes."},
+      {"speaker": "Tourist", "chinese": "谢谢！我可以坐公共汽车吗？", "pinyin": "Xièxie! Wǒ kěyǐ zuò gōnggòng qìchē ma?", "english": "Thank you! Can I take a bus?"},
+      {"speaker": "Local", "chinese": "可以。你可以坐一号线。", "pinyin": "Kěyǐ. Nǐ kěyǐ zuò yī hào xiàn.", "english": "Yes, you can take line one."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "往... (towards...)",
+      "explanation": "Indicating direction of movement",
+      "example": "往东走",
+      "translation": "go towards east"
+    },
+    {
+      "point": "可以 (can, may)",
+      "explanation": "Expressing ability or permission",
+      "example": "我可以坐公共汽车。",
+      "translation": "I can take a bus."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "东", "pinyin": "dōng", "meaning": "east", "radical": "木", "radicalMeaning": "wood", "strokeCount": 5, "strokeOrder": ["竖", "横折", "横", "竖", "横"]},
+    {"id": "c2", "character": "西", "pinyin": "xī", "meaning": "west", "radical": "襾", "radicalMeaning": "cover", "strokeCount": 6, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match directions",
+      "pairs": [
+        {"chinese": "东", "english": "east", "id": "m1"},
+        {"chinese": "西", "english": "west", "id": "m2"},
+        {"chinese": "南", "english": "south", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 2 - Lesson 66 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 地铁 mean?",
+        "options": [
+          {"text": "Bus", "correct": false},
+          {"text": "Subway", "correct": true},
+          {"text": "Airplane", "correct": false}
+        ]
+      }
+    ]
+  }
+}

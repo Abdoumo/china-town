@@ -1,0 +1,76 @@
+{
+  "id": "lesson78",
+  "sessionId": "session1",
+  "title": "技术和创新",
+  "englishTitle": "Technology and Innovation",
+  "pageNumber": 3,
+  "difficulty": "advanced",
+  "objectives": ["Learn technology vocabulary", "Discuss innovation", "Master technical terms"],
+  "vocabulary": [
+    {"id": "v1", "character": "技术", "pinyin": "jìshù", "english": "technology", "partOfSpeech": "noun", "example": "先进技术", "exampleTranslation": "advanced technology"},
+    {"id": "v2", "character": "创新", "pinyin": "chuàngxīn", "english": "innovation", "partOfSpeech": "noun", "example": "科技创新", "exampleTranslation": "technological innovation"},
+    {"id": "v3", "character": "研究", "pinyin": "yánjiū", "english": "research", "partOfSpeech": "verb", "example": "进行研究", "exampleTranslation": "conduct research"},
+    {"id": "v4", "character": "开发", "pinyin": "kāifā", "english": "develop", "partOfSpeech": "verb", "example": "产品开发", "exampleTranslation": "product development"},
+    {"id": "v5", "character": "应用", "pinyin": "yìnɡyònɡ", "english": "apply, application", "partOfSpeech": "noun", "example": "技术应用", "exampleTranslation": "technology application"},
+    {"id": "v6", "character": "程序", "pinyin": "chénɡxù", "english": "program, procedure", "partOfSpeech": "noun", "example": "编写程序", "exampleTranslation": "write program"},
+    {"id": "v7", "character": "算法", "pinyin": "suànfǎ", "english": "algorithm", "partOfSpeech": "noun", "example": "优化算法", "exampleTranslation": "optimize algorithm"},
+    {"id": "v8", "character": "数据", "pinyin": "shùjù", "english": "data", "partOfSpeech": "noun", "example": "处理数据", "exampleTranslation": "process data"},
+    {"id": "v9", "character": "突破", "pinyin": "túpò", "english": "breakthrough", "partOfSpeech": "noun", "example": "取得突破", "exampleTranslation": "achieve breakthrough"},
+    {"id": "v10", "character": "智能", "pinyin": "zhìnénɡ", "english": "intelligent", "partOfSpeech": "adjective", "example": "人工智能", "exampleTranslation": "artificial intelligence"}
+  ],
+  "dialogue": {
+    "title": "Technology discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "我们公司最近在进行一个很重要的研究项目。", "pinyin": "Wǒmen ɡōnɡsī zuìjìn zài jìnxínɡ yì ɡè hěn zhònɡyào de yánjiū xiànɡmù.", "english": "Our company is recently conducting an important research project."},
+      {"speaker": "B", "chinese": "是什么项目呢？", "pinyin": "Shì shénme xiànɡmù ne?", "english": "What kind of project?"},
+      {"speaker": "A", "chinese": "我们在开发一个基于人工智能的应用软件。", "pinyin": "Wǒmen zài kāifā yì ɡè jīyú rénɡōnɡ zhìnénɡ de yìnɡyònɡ ruǎnjiàn.", "english": "We're developing an AI-based application software."},
+      {"speaker": "B", "chinese": "这个项目的前景怎么样？", "pinyin": "Zhège xiànɡmù de qiánɡǐnɡ zěnyàng?", "english": "What are the prospects for this project?"},
+      {"speaker": "A", "chinese": "我们相信这会成为行业的一个重要突破。", "pinyin": "Wǒmen xiānɡxìn zhè huì chénɡwéi hánɡyè de yì ɡè zhònɡyào túpò.", "english": "We believe this will be an important breakthrough in the industry."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "基于... (based on...)",
+      "explanation": "Indicating basis or foundation",
+      "example": "基于人工智能",
+      "translation": "based on artificial intelligence"
+    },
+    {
+      "point": "相信...会... (believe will...)",
+      "explanation": "Expressing belief about future",
+      "example": "我们相信这会成功。",
+      "translation": "We believe this will succeed."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "技", "pinyin": "jì", "meaning": "skill", "radical": "手", "radicalMeaning": "hand", "strokeCount": 7, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横"]},
+    {"id": "c2", "character": "术", "pinyin": "shù", "meaning": "skill, art", "radical": "木", "radicalMeaning": "wood", "strokeCount": 5, "strokeOrder": ["竖", "横折", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match technology terms",
+      "pairs": [
+        {"chinese": "创新", "english": "innovation", "id": "m1"},
+        {"chinese": "研究", "english": "research", "id": "m2"},
+        {"chinese": "智能", "english": "intelligent", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 4 - Lesson 78 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 创新 mean?",
+        "options": [
+          {"text": "Creation", "correct": false},
+          {"text": "Innovation", "correct": true},
+          {"text": "Design", "correct": false}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "lesson82",
+  "sessionId": "session1",
+  "title": "政治学",
+  "englishTitle": "Political Science",
+  "pageNumber": 2,
+  "difficulty": "advanced",
+  "objectives": ["Understand political concepts", "Discuss governance", "Master political terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "政治", "pinyin": "zhèɡzhì", "english": "politics", "partOfSpeech": "noun", "example": "国内政治", "exampleTranslation": "domestic politics"},
+    {"id": "v2", "character": "政府", "pinyin": "zhènɡfǔ", "english": "government", "partOfSpeech": "noun", "example": "中央政府", "exampleTranslation": "central government"},
+    {"id": "v3", "character": "制度", "pinyin": "zhìdu", "english": "system, institution", "partOfSpeech": "noun", "example": "法律制度", "exampleTranslation": "legal system"},
+    {"id": "v4", "character": "法律", "pinyin": "fǎlǜ", "english": "law", "partOfSpeech": "noun", "example": "国际法律", "exampleTranslation": "international law"},
+    {"id": "v5", "character": "权力", "pinyin": "quánlì", "english": "power, authority", "partOfSpeech": "noun", "example": "行使权力", "exampleTranslation": "exercise power"},
+    {"id": "v6", "character": "责任", "pinyin": "zérèn", "english": "responsibility", "partOfSpeech": "noun", "example": "承担责任", "exampleTranslation": "bear responsibility"},
+    {"id": "v7", "character": "政策", "pinyin": "zhènɡcè", "english": "policy", "partOfSpeech": "noun", "example": "外交政策", "exampleTranslation": "diplomatic policy"},
+    {"id": "v8", "character": "改革", "pinyin": "ɡǎiɡé", "english": "reform", "partOfSpeech": "noun", "example": "深化改革", "exampleTranslation": "deepen reform"},
+    {"id": "v9", "character": "民主", "pinyin": "míndǔ", "english": "democracy", "partOfSpeech": "noun", "example": "民主制度", "exampleTranslation": "democratic system"},
+    {"id": "v10", "character": "自由", "pinyin": "zìyóu", "english": "freedom", "partOfSpeech": "noun", "example": "言论自由", "exampleTranslation": "freedom of speech"}
+  ],
+  "dialogue": {
+    "title": "Political discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "你对当前的政治形势有什么看法？", "pinyin": "Nǐ duì dānɡqián de zhèɡzhì xínɡshi yǒu shénme kànfǎ?", "english": "What's your view on the current political situation?"},
+      {"speaker": "B", "chinese": "我认为政府的政策总体上是比较合理的。", "pinyin": "Wǒ rènwéi zhènɡfǔ de zhènɡcè zǒnɡtǐ shang shì bǐjiào héli de.", "english": "I think the government's policies are generally reasonable."},
+      {"speaker": "A", "chinese": "那么改革呢？", "pinyin": "Nàme ɡǎiɡé ne?", "english": "What about reform?"},
+      {"speaker": "B", "chinese": "改革是一个长期的过程，需要不断推进。", "pinyin": "Ɡǎiɡé shì yì ɡè chánɡqī de ɡuòchénɡ, xūyào búduàn tuījìn.", "english": "Reform is a long-term process that needs to be continuously advanced."},
+      {"speaker": "A", "chinese": "你觉得民主制度的建立重要吗？", "pinyin": "Nǐ juéde míndǔ zhìdu de jiànlì zhònɡyào ma?", "english": "Do you think establishing a democratic system is important?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "总体上... (on the whole...)",
+      "explanation": "Summarizing overall",
+      "example": "���体上是不错的",
+      "translation": "on the whole it's good"
+    },
+    {
+      "point": "长期的... (long-term...)",
+      "explanation": "Describing duration",
+      "example": "长期的过程",
+      "translation": "long-term process"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "政", "pinyin": "zhèng", "meaning": "government, politics", "radical": "攵", "radicalMeaning": "strike", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]},
+    {"id": "c2", "character": "治", "pinyin": "zhì", "meaning": "rule, govern", "radical": "水", "radicalMeaning": "water", "strokeCount": 8, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match political terms",
+      "pairs": [
+        {"chinese": "政府", "english": "government", "id": "m1"},
+        {"chinese": "法律", "english": "law", "id": "m2"},
+        {"chinese": "民主", "english": "democracy", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 5 - Lesson 82 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 政治 mean?",
+        "options": [
+          {"text": "Policy", "correct": false},
+          {"text": "Politics", "correct": true},
+          {"text": "Government", "correct": false}
+        ]
+      }
+    ]
+  }
+}

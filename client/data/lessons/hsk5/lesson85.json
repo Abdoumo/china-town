@@ -1,0 +1,76 @@
+{
+  "id": "lesson85",
+  "sessionId": "session2",
+  "title": "医学科学",
+  "englishTitle": "Medical Science",
+  "pageNumber": 5,
+  "difficulty": "advanced",
+  "objectives": ["Understand medical concepts", "Discuss healthcare", "Master medical terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "医学", "pinyin": "yīxué", "english": "medicine", "partOfSpeech": "noun", "example": "现代医学", "exampleTranslation": "modern medicine"},
+    {"id": "v2", "character": "患者", "pinyin": "huànzhě", "english": "patient", "partOfSpeech": "noun", "example": "病患者", "exampleTranslation": "sick patient"},
+    {"id": "v3", "character": "诊断", "pinyin": "zhěnduàn", "english": "diagnosis", "partOfSpeech": "noun", "example": "正确诊断", "exampleTranslation": "correct diagnosis"},
+    {"id": "v4", "character": "治疗", "pinyin": "zhìliáo", "english": "treatment", "partOfSpeech": "noun", "example": "有效治疗", "exampleTranslation": "effective treatment"},
+    {"id": "v5", "character": "症状", "pinyin": "zhènɡzhuànɡ", "english": "symptom", "partOfSpeech": "noun", "example": "典型症状", "exampleTranslation": "typical symptom"},
+    {"id": "v6", "character": "疾病", "pinyin": "jíbìnɡ", "english": "disease", "partOfSpeech": "noun", "example": "传染病", "exampleTranslation": "infectious disease"},
+    {"id": "v7", "character": "手术", "pinyin": "shǒushù", "english": "surgery", "partOfSpeech": "noun", "example": "进行手术", "exampleTranslation": "perform surgery"},
+    {"id": "v8", "character": "药物", "pinyin": "yàowù", "english": "medicine, drug", "partOfSpeech": "noun", "example": "处方药物", "exampleTranslation": "prescription drug"},
+    {"id": "v9", "character": "康复", "pinyin": "kānɡfù", "english": "rehabilitation", "partOfSpeech": "noun", "example": "身体康复", "exampleTranslation": "physical rehabilitation"},
+    {"id": "v10", "character": "预防", "pinyin": "yùfánɡ", "english": "prevent", "partOfSpeech": "verb", "example": "疾病预防", "exampleTranslation": "disease prevention"}
+  ],
+  "dialogue": {
+    "title": "Medical consultation",
+    "lines": [
+      {"speaker": "Doctor", "chinese": "请详细描述一下你的症状。", "pinyin": "Qǐnɡ xiánɡxì miáoshù yìxià nǐ de zhènɡzhuànɡ.", "english": "Please describe your symptoms in detail."},
+      {"speaker": "Patient", "chinese": "我最近感到很疲劳，而且没有食欲。", "pinyin": "Wǒ zuìjìn ɡǎndào hěn píláo, érqiě méiyǒu shíyù.", "english": "I've been feeling very tired recently and have lost appetite."},
+      {"speaker": "Doctor", "chinese": "这些症状持续了多长时间？", "pinyin": "Zhèxiē zhènɡzhuànɡ chíxùle duōcháng shíjiān?", "english": "How long have these symptoms lasted?"},
+      {"speaker": "Patient", "chinese": "大约一周了。", "pinyin": "Dàyuē yì zhōu le.", "english": "About a week."},
+      {"speaker": "Doctor", "chinese": "我建议你进行一些基本检查来诊断病因。", "pinyin": "Wǒ jiànyì nǐ jìnxínɡ yìxiē jīběn jiǎnchá lái zhěnduàn bìnɡyīn.", "english": "I suggest you have some basic tests to diagnose the cause."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "详细...（in detail...)",
+      "explanation": "Describing thoroughness",
+      "example": "详细描述",
+      "translation": "describe in detail"
+    },
+    {
+      "point": "...了（completed action)",
+      "explanation": "Perfect aspect",
+      "example": "持续了一周",
+      "translation": "lasted for a week"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "医", "pinyin": "yī", "meaning": "medicine", "radical": "矢", "radicalMeaning": "arrow", "strokeCount": 7, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "竖", "横"]},
+    {"id": "c2", "character": "学", "pinyin": "xué", "meaning": "study", "radical": "宀", "radicalMeaning": "roof", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match medical terms",
+      "pairs": [
+        {"chinese": "诊断", "english": "diagnosis", "id": "m1"},
+        {"chinese": "治疗", "english": "treatment", "id": "m2"},
+        {"chinese": "症状", "english": "symptom", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 5 - Lesson 85 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 医学 mean?",
+        "options": [
+          {"text": "Medicine", "correct": true},
+          {"text": "Doctor", "correct": false},
+          {"text": "Hospital", "correct": false}
+        ]
+      }
+    ]
+  }
+}

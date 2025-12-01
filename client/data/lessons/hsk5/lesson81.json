@@ -1,0 +1,76 @@
+{
+  "id": "lesson81",
+  "sessionId": "session1",
+  "title": "高级经济学",
+  "englishTitle": "Advanced Economics",
+  "pageNumber": 1,
+  "difficulty": "advanced",
+  "objectives": ["Understand economic concepts", "Discuss financial topics", "Master economic terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "经济", "pinyin": "jīnɡjì", "english": "economy", "partOfSpeech": "noun", "example": "经济发展", "exampleTranslation": "economic development"},
+    {"id": "v2", "character": "市场", "pinyin": "shìchǎnɡ", "english": "market", "partOfSpeech": "noun", "example": "全球市场", "exampleTranslation": "global market"},
+    {"id": "v3", "character": "投资", "pinyin": "tóuzī", "english": "investment", "partOfSpeech": "noun", "example": "长期投资", "exampleTranslation": "long-term investment"},
+    {"id": "v4", "character": "收益", "pinyin": "shōuyì", "english": "income, revenue", "partOfSpeech": "noun", "example": "投资收益", "exampleTranslation": "investment income"},
+    {"id": "v5", "character": "贸易", "pinyin": "màoyì", "english": "trade", "partOfSpeech": "noun", "example": "国际贸易", "exampleTranslation": "international trade"},
+    {"id": "v6", "character": "通胀", "pinyin": "tōnɡzhànɡ", "english": "inflation", "partOfSpeech": "noun", "example": "控制通胀", "exampleTranslation": "control inflation"},
+    {"id": "v7", "character": "汇率", "pinyin": "huìlǜ", "english": "exchange rate", "partOfSpeech": "noun", "example": "汇率波动", "exampleTranslation": "exchange rate fluctuation"},
+    {"id": "v8", "character": "债券", "pinyin": "zhàiquàn", "english": "bond", "partOfSpeech": "noun", "example": "政府债券", "exampleTranslation": "government bond"},
+    {"id": "v9", "character": "股票", "pinyin": "ɡǔpiào", "english": "stock, share", "partOfSpeech": "noun", "example": "股票市场", "exampleTranslation": "stock market"},
+    {"id": "v10", "character": "金融", "pinyin": "jīnronɡ", "english": "finance", "partOfSpeech": "noun", "example": "金融市场", "exampleTranslation": "financial market"}
+  ],
+  "dialogue": {
+    "title": "Economic analysis",
+    "lines": [
+      {"speaker": "A", "chinese": "最近经济形势怎样？", "pinyin": "Zuìjìn jīnɡjì xínɡshi zěnyàng?", "english": "How is the recent economic situation?"},
+      {"speaker": "B", "chinese": "总的来说还是比较稳定，但是也面临一些挑战。", "pinyin": "Zǒnɡ de láishuō háishi bǐjiào wěndìnɡ, dànshi yě miànlín yìxiē tiǎozhàn.", "english": "Overall it's relatively stable, but we face some challenges."},
+      {"speaker": "A", "chinese": "你认为投资的前景如何？", "pinyin": "Nǐ rènwéi tóuzī de qiánɡǐnɡ rúhé?", "english": "What do you think about investment prospects?"},
+      {"speaker": "B", "chinese": "我认为长期投资仍然有机会，但要谨慎选择。", "pinyin": "Wǒ rènwéi chánɡqī tóuzī rénɡrán yǒu jīhuì, dàn yào jǐnshèn xuǎnzé.", "english": "I think long-term investment still has opportunities, but we need to choose carefully."},
+      {"speaker": "A", "chinese": "您对股票市场的看法呢？", "pinyin": "Nín duì ɡǔpiào shìchǎnɡ de kànfǎ ne?", "english": "What's your view on the stock market?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "总的来说... (overall, in general...)",
+      "explanation": "Summarizing opinion",
+      "example": "总的来说还是不错",
+      "translation": "overall it's still good"
+    },
+    {
+      "point": "仍然... (still, yet...)",
+      "explanation": "Indicating continuance",
+      "example": "仍然有机会",
+      "translation": "still has opportunities"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "经", "pinyin": "jīng", "meaning": "warp, pass through", "radical": "纟", "radicalMeaning": "silk", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]},
+    {"id": "c2", "character": "济", "pinyin": "jì", "meaning": "help, benefit", "radical": "水", "radicalMeaning": "water", "strokeCount": 10, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "横", "竖", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match economic terms",
+      "pairs": [
+        {"chinese": "投资", "english": "investment", "id": "m1"},
+        {"chinese": "股票", "english": "stock", "id": "m2"},
+        {"chinese": "金融", "english": "finance", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 5 - Lesson 81 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 经济 mean?",
+        "options": [
+          {"text": "Industry", "correct": false},
+          {"text": "Economy", "correct": true},
+          {"text": "Business", "correct": false}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "lesson67",
+  "sessionId": "session1",
+  "title": "天气和季节",
+  "englishTitle": "Weather and Seasons",
+  "pageNumber": 2,
+  "difficulty": "beginner",
+  "objectives": ["Learn weather vocabulary", "Practice weather descriptions", "Master seasonal terms"],
+  "vocabulary": [
+    {"id": "v1", "character": "晴天", "pinyin": "qīngtiān", "english": "sunny day", "partOfSpeech": "noun", "example": "今天是晴天。", "exampleTranslation": "Today is a sunny day."},
+    {"id": "v2", "character": "下雨", "pinyin": "xiàyǔ", "english": "rain", "partOfSpeech": "verb", "example": "下雨了。", "exampleTranslation": "It's raining."},
+    {"id": "v3", "character": "下雪", "pinyin": "xiàxuě", "english": "snow", "partOfSpeech": "verb", "example": "下雪了。", "exampleTranslation": "It's snowing."},
+    {"id": "v4", "character": "冷", "pinyin": "lěng", "english": "cold", "partOfSpeech": "adjective", "example": "很冷。", "exampleTranslation": "It's very cold."},
+    {"id": "v5", "character": "热", "pinyin": "rè", "english": "hot", "partOfSpeech": "adjective", "example": "很热。", "exampleTranslation": "It's very hot."},
+    {"id": "v6", "character": "春天", "pinyin": "chūntiān", "english": "spring", "partOfSpeech": "noun", "example": "春天来了。", "exampleTranslation": "Spring has come."},
+    {"id": "v7", "character": "夏天", "pinyin": "xiàtiān", "english": "summer", "partOfSpeech": "noun", "example": "夏天很热。", "exampleTranslation": "Summer is hot."},
+    {"id": "v8", "character": "秋天", "pinyin": "qiūtiān", "english": "autumn", "partOfSpeech": "noun", "example": "秋天很美。", "exampleTranslation": "Autumn is beautiful."},
+    {"id": "v9", "character": "冬天", "pinyin": "dōngtiān", "english": "winter", "partOfSpeech": "noun", "example": "冬天下雪。", "exampleTranslation": "It snows in winter."},
+    {"id": "v10", "character": "天气", "pinyin": "tiānqì", "english": "weather", "partOfSpeech": "noun", "example": "今天天气很好。", "exampleTranslation": "The weather is nice today."}
+  ],
+  "dialogue": {
+    "title": "Weather conversation",
+    "lines": [
+      {"speaker": "A", "chinese": "今天天气怎么样？", "pinyin": "Jīntiān tiānqì zěnyàng?", "english": "How is the weather today?"},
+      {"speaker": "B", "chinese": "今天晴天，很好。", "pinyin": "Jīntiān qīngtiān, hěn hǎo.", "english": "It's sunny today, very nice."},
+      {"speaker": "A", "chinese": "明天呢？", "pinyin": "Míngtiān ne?", "english": "What about tomorrow?"},
+      {"speaker": "B", "chinese": "明天可能下雨。", "pinyin": "Míngtiān kěnéng xiàyǔ.", "english": "It might rain tomorrow."},
+      {"speaker": "A", "chinese": "哦，那你要带伞。", "pinyin": "Ò, nà nǐ yào dài sǎn.", "english": "Oh, then you should bring an umbrella."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "怎么样？(How is...?)",
+      "explanation": "Asking for description or opinion",
+      "example": "今天天气怎么样？",
+      "translation": "How is the weather today?"
+    },
+    {
+      "point": "可能 (probably, might)",
+      "explanation": "Expressing possibility",
+      "example": "明天可能下雨。",
+      "translation": "It might rain tomorrow."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "晴", "pinyin": "qíng", "meaning": "clear, sunny", "radical": "日", "radicalMeaning": "sun", "strokeCount": 12, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "竖", "横", "横"]},
+    {"id": "c2", "character": "雨", "pinyin": "yǔ", "meaning": "rain", "radical": "雨", "radicalMeaning": "rain", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match weather terms",
+      "pairs": [
+        {"chinese": "晴天", "english": "sunny day", "id": "m1"},
+        {"chinese": "下雨", "english": "rain", "id": "m2"},
+        {"chinese": "冷", "english": "cold", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 2 - Lesson 67 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 冷 mean?",
+        "options": [
+          {"text": "Hot", "correct": false},
+          {"text": "Cold", "correct": true},
+          {"text": "Wet", "correct": false}
+        ]
+      }
+    ]
+  }
+}

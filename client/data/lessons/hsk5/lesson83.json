@@ -1,0 +1,76 @@
+{
+  "id": "lesson83",
+  "sessionId": "session1",
+  "title": "科学发现",
+  "englishTitle": "Scientific Discovery",
+  "pageNumber": 3,
+  "difficulty": "advanced",
+  "objectives": ["Understand scientific concepts", "Discuss discoveries", "Master scientific terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "科学", "pinyin": "kēxué", "english": "science", "partOfSpeech": "noun", "example": "自然科学", "exampleTranslation": "natural science"},
+    {"id": "v2", "character": "发现", "pinyin": "fāxiàn", "english": "discover", "partOfSpeech": "verb", "example": "重要发现", "exampleTranslation": "important discovery"},
+    {"id": "v3", "character": "实验", "pinyin": "shíyàn", "english": "experiment", "partOfSpeech": "noun", "example": "��学实验", "exampleTranslation": "scientific experiment"},
+    {"id": "v4", "character": "证明", "pinyin": "zhèngmínɡ", "english": "prove", "partOfSpeech": "verb", "example": "科学证明", "exampleTranslation": "scientific proof"},
+    {"id": "v5", "character": "现象", "pinyin": "xiànxiànɡ", "english": "phenomenon", "partOfSpeech": "noun", "example": "自然现象", "exampleTranslation": "natural phenomenon"},
+    {"id": "v6", "character": "规律", "pinyin": "ɡuīlǜ", "english": "law, rule", "partOfSpeech": "noun", "example": "自然规律", "exampleTranslation": "natural law"},
+    {"id": "v7", "character": "原理", "pinyin": "yuánlǐ", "english": "principle", "partOfSpeech": "noun", "example": "科学原理", "exampleTranslation": "scientific principle"},
+    {"id": "v8", "character": "假设", "pinyin": "jiǎshè", "english": "hypothesis", "partOfSpeech": "noun", "example": "科学假设", "exampleTranslation": "scientific hypothesis"},
+    {"id": "v9", "character": "验证", "pinyin": "yànzhènɡ", "english": "verify", "partOfSpeech": "verb", "example": "多次验证", "exampleTranslation": "verify multiple times"},
+    {"id": "v10", "character": "突破", "pinyin": "túpò", "english": "breakthrough", "partOfSpeech": "noun", "example": "科学突破", "exampleTranslation": "scientific breakthrough"}
+  ],
+  "dialogue": {
+    "title": "Scientific discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "最近有什么重要的科学发现吗？", "pinyin": "Zuìjìn yǒu shénme zhònɡyào de kēxué fāxiàn ma?", "english": "Have there been any important scientific discoveries recently?"},
+      {"speaker": "B", "chinese": "是的，我听说有关于气候变化的新发现。", "pinyin": "Shì de, wǒ tīnɡshuō yǒuɡuānyu qìhòu biànhuà de xīn fāxiàn.", "english": "Yes, I heard there are new discoveries about climate change."},
+      {"speaker": "A", "chinese": "这些发现是通过什么方式获得的？", "pinyin": "Zhèxiē fāxiàn shì tōnɡɡuò shénme fāngshi huòdé de?", "english": "How were these discoveries obtained?"},
+      {"speaker": "B", "chinese": "通过长期的科学实���和数据分析。", "pinyin": "Tōnɡɡuò chánɡqī de kēxué shíyàn hé shùjù fēnxī.", "english": "Through long-term scientific experiments and data analysis."},
+      {"speaker": "A", "chinese": "这对我们理解自然规律很有帮助。", "pinyin": "Zhè duì wǒmen lǐjiě zìrán ɡuīlǜ hěn yǒu bānɡzhù.", "english": "This is very helpful for us to understand natural laws."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "有关于... (concerning, about...)",
+      "explanation": "Indicating topic",
+      "example": "有关于气候的发现",
+      "translation": "discoveries about climate"
+    },
+    {
+      "point": "通过...获得 (obtain through...)",
+      "explanation": "Expressing method",
+      "example": "通过实验获得",
+      "translation": "obtain through experiments"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "科", "pinyin": "kē", "meaning": "subject, division", "radical": "禾", "radicalMeaning": "grain", "strokeCount": 9, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横"]},
+    {"id": "c2", "character": "学", "pinyin": "xué", "meaning": "study", "radical": "宀", "radicalMeaning": "roof", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match scientific terms",
+      "pairs": [
+        {"chinese": "实验", "english": "experiment", "id": "m1"},
+        {"chinese": "假设", "english": "hypothesis", "id": "m2"},
+        {"chinese": "突破", "english": "breakthrough", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 5 - Lesson 83 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 科学 mean?",
+        "options": [
+          {"text": "Subject", "correct": false},
+          {"text": "Science", "correct": true},
+          {"text": "Study", "correct": false}
+        ]
+      }
+    ]
+  }
+}

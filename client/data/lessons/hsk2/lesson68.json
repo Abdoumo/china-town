@@ -1,0 +1,76 @@
+{
+  "id": "lesson68",
+  "sessionId": "session1",
+  "title": "购物和金钱",
+  "englishTitle": "Shopping and Money",
+  "pageNumber": 3,
+  "difficulty": "beginner",
+  "objectives": ["Learn shopping vocabulary", "Practice bargaining", "Master money terms"],
+  "vocabulary": [
+    {"id": "v1", "character": "钱", "pinyin": "qián", "english": "money", "partOfSpeech": "noun", "example": "花钱", "exampleTranslation": "spend money"},
+    {"id": "v2", "character": "块", "pinyin": "kuài", "english": "yuan (currency unit)", "partOfSpeech": "measure word", "example": "十块钱", "exampleTranslation": "ten yuan"},
+    {"id": "v3", "character": "便宜", "pinyin": "piányi", "english": "cheap", "partOfSpeech": "adjective", "example": "很便宜", "exampleTranslation": "very cheap"},
+    {"id": "v4", "character": "贵", "pinyin": "guì", "english": "expensive", "partOfSpeech": "adjective", "example": "太贵了", "exampleTranslation": "too expensive"},
+    {"id": "v5", "character": "打折", "pinyin": "dǎzhé", "english": "discount", "partOfSpeech": "verb", "example": "打折了", "exampleTranslation": "there's a discount"},
+    {"id": "v6", "character": "衣服", "pinyin": "yīfu", "english": "clothes", "partOfSpeech": "noun", "example": "买衣服", "exampleTranslation": "buy clothes"},
+    {"id": "v7", "character": "书", "pinyin": "shū", "english": "book", "partOfSpeech": "noun", "example": "读书", "exampleTranslation": "read a book"},
+    {"id": "v8", "character": "东西", "pinyin": "dōngxi", "english": "thing", "partOfSpeech": "noun", "example": "买东西", "exampleTranslation": "buy things"},
+    {"id": "v9", "character": "买", "pinyin": "mǎi", "english": "buy", "partOfSpeech": "verb", "example": "我要买书。", "exampleTranslation": "I want to buy books."},
+    {"id": "v10", "character": "卖", "pinyin": "mài", "english": "sell", "partOfSpeech": "verb", "example": "店铺卖衣服。", "exampleTranslation": "The shop sells clothes."}
+  ],
+  "dialogue": {
+    "title": "Shopping",
+    "lines": [
+      {"speaker": "Customer", "chinese": "这件衣服多少钱？", "pinyin": "Zhè jiàn yīfu duōshao qián?", "english": "How much is this piece of clothing?"},
+      {"speaker": "Shopkeeper", "chinese": "一百块。", "pinyin": "Yībǎi kuài.", "english": "One hundred yuan."},
+      {"speaker": "Customer", "chinese": "太贵了。能便宜一点吗？", "pinyin": "Tài guì le. Néng piányi yìdiǎn ma?", "english": "Too expensive. Can it be cheaper?"},
+      {"speaker": "Shopkeeper", "chinese": "可以，八十块。", "pinyin": "Kěyǐ, bāshí kuài.", "english": "Okay, eighty yuan."},
+      {"speaker": "Customer", "chinese": "好的，我要了。", "pinyin": "Hǎo de, wǒ yào le.", "english": "Okay, I'll take it."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "能... (can, be able to)",
+      "explanation": "Expressing ability or possibility",
+      "example": "能便宜一点吗？",
+      "translation": "Can it be cheaper?"
+    },
+    {
+      "point": "了 (particle indicating completed action or change)",
+      "explanation": "Shows action completion",
+      "example": "我要了。",
+      "translation": "I'll take it. / I'm done."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "买", "pinyin": "mǎi", "meaning": "buy", "radical": "网", "radicalMeaning": "net", "strokeCount": 6, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "横"]},
+    {"id": "c2", "character": "钱", "pinyin": "qián", "meaning": "money", "radical": "钅", "radicalMeaning": "metal", "strokeCount": 10, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "横", "竖", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match shopping terms",
+      "pairs": [
+        {"chinese": "便宜", "english": "cheap", "id": "m1"},
+        {"chinese": "贵", "english": "expensive", "id": "m2"},
+        {"chinese": "买", "english": "buy", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 2 - Lesson 68 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 便宜 mean?",
+        "options": [
+          {"text": "Expensive", "correct": false},
+          {"text": "Cheap", "correct": true},
+          {"text": "Beautiful", "correct": false}
+        ]
+      }
+    ]
+  }
+}

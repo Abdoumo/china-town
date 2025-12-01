@@ -1,0 +1,76 @@
+{
+  "id": "lesson77",
+  "sessionId": "session1",
+  "title": "高级文化交流",
+  "englishTitle": "Advanced Cultural Exchange",
+  "pageNumber": 2,
+  "difficulty": "advanced",
+  "objectives": ["Understand Chinese culture deeply", "Practice cultural discussions", "Master cultural terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "文化", "pinyin": "wénhuà", "english": "culture", "partOfSpeech": "noun", "example": "中国文化", "exampleTranslation": "Chinese culture"},
+    {"id": "v2", "character": "传统", "pinyin": "chuántǒng", "english": "tradition", "partOfSpeech": "noun", "example": "中国传统", "exampleTranslation": "Chinese tradition"},
+    {"id": "v3", "character": "习俗", "pinyin": "xísú", "english": "custom", "partOfSpeech": "noun", "example": "民族习俗", "exampleTranslation": "ethnic custom"},
+    {"id": "v4", "character": "节日", "pinyin": "jiérì", "english": "festival, holiday", "partOfSpeech": "noun", "example": "传统节日", "exampleTranslation": "traditional festival"},
+    {"id": "v5", "character": "庆祝", "pinyin": "qìngzhù", "english": "celebrate", "partOfSpeech": "verb", "example": "庆祝春节", "exampleTranslation": "celebrate Spring Festival"},
+    {"id": "v6", "character": "文物", "pinyin": "wénwù", "english": "cultural relic", "partOfSpeech": "noun", "example": "历史文物", "exampleTranslation": "historical relic"},
+    {"id": "v7", "character": "遗产", "pinyin": "yíchǎn", "english": "heritage", "partOfSpeech": "noun", "example": "文化遗产", "exampleTranslation": "cultural heritage"},
+    {"id": "v8", "character": "艺术", "pinyin": "yìshù", "english": "art", "partOfSpeech": "noun", "example": "传统艺术", "exampleTranslation": "traditional art"},
+    {"id": "v9", "character": "民俗", "pinyin": "mínsú", "english": "folk custom", "partOfSpeech": "noun", "example": "民俗文化", "exampleTranslation": "folk culture"},
+    {"id": "v10", "character": "保护", "pinyin": "bǎohù", "english": "protect", "partOfSpeech": "verb", "example": "保护文化遗产", "exampleTranslation": "protect cultural heritage"}
+  ],
+  "dialogue": {
+    "title": "Cultural discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "中国的传统文化真的很有意思。", "pinyin": "Zhōnɡɡuó de chuántǒnɡ wénhuà zhēnde hěn yǒu yìsi.", "english": "Chinese traditional culture is really interesting."},
+      {"speaker": "B", "chinese": "是啊。你对哪些方面特别感兴趣？", "pinyin": "Shì a. Nǐ duì nǎxiē fāngmiàn tèbié ɡǎn xìnɡqù?", "english": "Yes. Which aspects are you particularly interested in?"},
+      {"speaker": "A", "chinese": "我很想了解春节的习俗和庆祝方式。", "pinyin": "Wǒ hěn xiǎnɡ liǎojiě chūnjiē de xísú hé qìngzhù fāngshì.", "english": "I'd like to learn about Spring Festival customs and celebrations."},
+      {"speaker": "B", "chinese": "春节是中国最重要的传统节日。人们会进行各种庆祝活动。", "pinyin": "Chūnjiē shì Zhōnɡɡuó zuì zhònɡyào de chuántǒnɡ jiérì. Rénmen huì jìnxínɡ ɡèzhǒnɡ qìngzhù huódònɡ.", "english": "Spring Festival is the most important traditional Chinese festival. People engage in various celebrations."},
+      {"speaker": "A", "chinese": "这些文化遗产应该被好好保护。", "pinyin": "Zhèxiē wénhuà yíchǎn yīnɡɡāi bèi hǎohāo bǎohù.", "english": "These cultural heritages should be well protected."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "特别... (especially, particularly)",
+      "explanation": "Emphasizing something specific",
+      "example": "特别感兴趣",
+      "translation": "particularly interested"
+    },
+    {
+      "point": "应该...被... (should be...)",
+      "explanation": "Passive voice expressing obligation",
+      "example": "应该被保护",
+      "translation": "should be protected"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "文", "pinyin": "wén", "meaning": "culture", "radical": "文", "radicalMeaning": "culture", "strokeCount": 4, "strokeOrder": ["竖", "横折", "横", "横"]},
+    {"id": "c2", "character": "化", "pinyin": "huà", "meaning": "change, transform", "radical": "匕", "radicalMeaning": "spoon", "strokeCount": 4, "strokeOrder": ["撇", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match cultural terms",
+      "pairs": [
+        {"chinese": "传统", "english": "tradition", "id": "m1"},
+        {"chinese": "习俗", "english": "custom", "id": "m2"},
+        {"chinese": "节日", "english": "festival", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 4 - Lesson 77 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 文化 mean?",
+        "options": [
+          {"text": "History", "correct": false},
+          {"text": "Culture", "correct": true},
+          {"text": "Language", "correct": false}
+        ]
+      }
+    ]
+  }
+}

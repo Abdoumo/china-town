@@ -1,0 +1,76 @@
+{
+  "id": "lesson89",
+  "sessionId": "session2",
+  "title": "人类卓越",
+  "englishTitle": "Human Excellence",
+  "pageNumber": 4,
+  "difficulty": "advanced",
+  "objectives": ["Discuss human achievement", "Understand excellence concepts", "Master achievement terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "卓越", "pinyin": "zhuóyuè", "english": "excellence", "partOfSpeech": "adjective", "example": "卓越的成就", "exampleTranslation": "outstanding achievement"},
+    {"id": "v2", "character": "成就", "pinyin": "chénɡjiù", "english": "achievement", "partOfSpeech": "noun", "example": "伟大的成就", "exampleTranslation": "great achievement"},
+    {"id": "v3", "character": "杰出", "pinyin": "jiéchū", "english": "outstanding", "partOfSpeech": "adjective", "example": "杰出人物", "exampleTranslation": "outstanding person"},
+    {"id": "v4", "character": "才能", "pinyin": "cáinénɡ", "english": "talent", "partOfSpeech": "noun", "example": "发挥才能", "exampleTranslation": "display talent"},
+    {"id": "v5", "character": "努力", "pinyin": "nǔlì", "english": "effort, strive", "partOfSpeech": "noun", "example": "不懈的努力", "exampleTranslation": "tireless effort"},
+    {"id": "v6", "character": "坚持", "pinyin": "jiānchí", "english": "persist, insist", "partOfSpeech": "verb", "example": "长期坚持", "exampleTranslation": "persist for long"},
+    {"id": "v7", "character": "突破", "pinyin": "túpò", "english": "breakthrough", "partOfSpeech": "noun", "example": "取得突破", "exampleTranslation": "achieve breakthrough"},
+    {"id": "v8", "character": "卓越", "pinyin": "zhuóyuè", "english": "excellence", "partOfSpeech": "noun", "example": "追求卓越", "exampleTranslation": "pursue excellence"},
+    {"id": "v9", "character": "��界", "pinyin": "jìnɡjiè", "english": "realm, level", "partOfSpeech": "noun", "example": "更高的境界", "exampleTranslation": "higher level"},
+    {"id": "v10", "character": "精神", "pinyin": "jīnɡshén", "english": "spirit", "partOfSpeech": "noun", "example": "伟大精神", "exampleTranslation": "great spirit"}
+  ],
+  "dialogue": {
+    "title": "Excellence discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "什么是真正的卓越？", "pinyin": "Shénme shì zhēnzhènɡ de zhuóyuè?", "english": "What is true excellence?"},
+      {"speaker": "B", "chinese": "我认为卓越不仅需要才能，更需要持久的努力和不懈的坚持。", "pinyin": "Wǒ rènwéi zhuóyuè búj ǐnɡ xūyào cáinénɡ, ɡènɡ xūyào chíjiǔ de nǔlì hé búxiè de jiānchí.", "english": "I think excellence requires not only talent but also sustained effort and tireless persistence."},
+      {"speaker": "A", "chinese": "在历史上有哪些卓越的人物？", "pinyin": "Zài lìshǐ shang yǒu nǎxiē zhuóyuè de rénwù?", "english": "Who are some outstanding figures in history?"},
+      {"speaker": "B", "chinese": "有许多。他们通过不断的学习和探索，取得了伟大的成就。", "pinyin": "Yǒu xǔduō. Tāmen tōnɡɡuò búduàn de xuéxí hé tànsuǒ, qǔdéle wěidà de chénɡjiù.", "english": "Many. They achieved great accomplishments through continuous learning and exploration."},
+      {"speaker": "A", "chinese": "我们应该向他们学习什么？", "pinyin": "Wǒmen yīnɡɡāi xiànɡ tāmen xuéxí shénme?", "english": "What should we learn from them?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "不仅...更... (not only... but also...)",
+      "explanation": "Progressive emphasis",
+      "example": "不仅要努力，更要坚持",
+      "translation": "not only must work hard, but also must persist"
+    },
+    {
+      "point": "通过...取得 (achieve through...)",
+      "explanation": "Expressing method and result",
+      "example": "通过努力取得成就",
+      "translation": "achieve success through effort"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "卓", "pinyin": "zhuó", "meaning": "excellent", "radical": "卓", "radicalMeaning": "excellent", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]},
+    {"id": "c2", "character": "越", "pinyin": "yuè", "meaning": "exceed, surpass", "radical": "走", "radicalMeaning": "walk", "strokeCount": 12, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match excellence terms",
+      "pairs": [
+        {"chinese": "卓越", "english": "excellence", "id": "m1"},
+        {"chinese": "成就", "english": "achievement", "id": "m2"},
+        {"chinese": "才能", "english": "talent", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 6 - Lesson 89 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 卓越 mean?",
+        "options": [
+          {"text": "Excellent", "correct": false},
+          {"text": "Excellence", "correct": true},
+          {"text": "Outstanding", "correct": false}
+        ]
+      }
+    ]
+  }
+}

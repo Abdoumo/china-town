@@ -1,0 +1,111 @@
+{
+  "id": "lesson61",
+  "sessionId": "session1",
+  "title": "基本问候",
+  "englishTitle": "Basic Greetings",
+  "pageNumber": 1,
+  "difficulty": "beginner",
+  "objectives": ["Learn basic greetings", "Practice tone pronunciation", "Master essential survival phrases"],
+  "vocabulary": [
+    {"id": "v1", "character": "你好", "pinyin": "nǐ hǎo", "english": "hello", "partOfSpeech": "interjection", "example": "你好，我叫王明。", "exampleTranslation": "Hello, my name is Wang Ming."},
+    {"id": "v2", "character": "再见", "pinyin": "zàijiàn", "english": "goodbye", "partOfSpeech": "interjection", "example": "再见！", "exampleTranslation": "Goodbye!"},
+    {"id": "v3", "character": "谢谢", "pinyin": "xièxie", "english": "thank you", "partOfSpeech": "interjection", "example": "谢谢你的帮助。", "exampleTranslation": "Thank you for your help."},
+    {"id": "v4", "character": "对不起", "pinyin": "duìbùqǐ", "english": "sorry", "partOfSpeech": "interjection", "example": "对不起，我迟到了。", "exampleTranslation": "Sorry, I'm late."},
+    {"id": "v5", "character": "没关系", "pinyin": "méi guānxi", "english": "never mind, it doesn't matter", "partOfSpeech": "phrase", "example": "没关系，不用担心。", "exampleTranslation": "Never mind, don't worry."},
+    {"id": "v6", "character": "请", "pinyin": "qǐng", "english": "please", "partOfSpeech": "verb", "example": "请坐。", "exampleTranslation": "Please sit."},
+    {"id": "v7", "character": "早上好", "pinyin": "zǎo shang hǎo", "english": "good morning", "partOfSpeech": "phrase", "example": "早上好！", "exampleTranslation": "Good morning!"},
+    {"id": "v8", "character": "晚上好", "pinyin": "wǎn shang hǎo", "english": "good evening", "partOfSpeech": "phrase", "example": "晚上好，今天怎么样？", "exampleTranslation": "Good evening, how are you today?"},
+    {"id": "v9", "character": "欢迎", "pinyin": "huānyíng", "english": "welcome", "partOfSpeech": "verb", "example": "欢迎来到中国。", "exampleTranslation": "Welcome to China."},
+    {"id": "v10", "character": "高兴", "pinyin": "gāoxìng", "english": "happy", "partOfSpeech": "adjective", "example": "很高兴认识你。", "exampleTranslation": "Nice to meet you."}
+  ],
+  "dialogue": {
+    "title": "First Meeting",
+    "lines": [
+      {"speaker": "Li Wei", "chinese": "你好！我叫李薇。", "pinyin": "Nǐ hǎo! Wǒ jiào Lǐ Wēi.", "english": "Hello! My name is Li Wei."},
+      {"speaker": "Zhang", "chinese": "你好，很高兴认识你。我是张磊。", "pinyin": "Nǐ hǎo, hěn gāoxìng rènshi nǐ. Wǒ shì Zhāng Lěi.", "english": "Hello, nice to meet you. I'm Zhang Lei."},
+      {"speaker": "Li Wei", "chinese": "你好吗？", "pinyin": "Nǐ hǎo ma?", "english": "How are you?"},
+      {"speaker": "Zhang", "chinese": "很好，谢谢你。你呢？", "pinyin": "Hěn hǎo, xièxie nǐ. Nǐ ne?", "english": "I'm well, thank you. And you?"},
+      {"speaker": "Li Wei", "chinese": "我也很好。欢迎你！", "pinyin": "Wǒ yě hěn hǎo. Huānyíng nǐ!", "english": "I'm well too. Welcome!"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "你好 (Hello)",
+      "explanation": "Most common greeting used at any time of day",
+      "example": "你好，我叫王明。",
+      "translation": "Hello, my name is Wang Ming."
+    },
+    {
+      "point": "我叫... (My name is...)",
+      "explanation": "Simple way to introduce yourself",
+      "example": "我叫李薇。",
+      "translation": "My name is Li Wei."
+    },
+    {
+      "point": "很...Thank you",
+      "explanation": "Adding 很 (very) before adjectives",
+      "example": "很好，谢谢。",
+      "translation": "Very good, thank you."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "你", "pinyin": "nǐ", "meaning": "you", "radical": "人", "radicalMeaning": "person", "strokeCount": 6, "strokeOrder": ["撇", "竖", "横折", "横", "横", "竖"]},
+    {"id": "c2", "character": "好", "pinyin": "hǎo", "meaning": "good", "radical": "女", "radicalMeaning": "woman", "strokeCount": 6, "strokeOrder": ["竖", "横折", "横", "竖", "横", "横"]},
+    {"id": "c3", "character": "再", "pinyin": "zài", "meaning": "again, then", "radical": "冂", "radicalMeaning": "box", "strokeCount": 6, "strokeOrder": ["竖", "横折钩", "横", "竖", "竖", "横"]},
+    {"id": "c4", "character": "见", "pinyin": "jiàn", "meaning": "see, meet", "radical": "见", "radicalMeaning": "see", "strokeCount": 4, "strokeOrder": ["竖", "横折", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match greetings with responses",
+      "pairs": [
+        {"chinese": "你好", "english": "Hello", "id": "m1"},
+        {"chinese": "再见", "english": "Goodbye", "id": "m2"},
+        {"chinese": "谢谢", "english": "Thank you", "id": "m3"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fillBlank",
+      "title": "Complete the greeting",
+      "sentence": "你好，我叫___。",
+      "answer": "王明"
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 1 - Lesson 61 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 你好 mean?",
+        "options": [
+          {"text": "Thank you", "correct": false},
+          {"text": "Hello", "correct": true},
+          {"text": "Goodbye", "correct": false}
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "multipleChoice",
+        "question": "How do you say goodbye in Chinese?",
+        "options": [
+          {"text": "你好", "correct": false},
+          {"text": "再见", "correct": true},
+          {"text": "谢谢", "correct": false}
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "multipleChoice",
+        "question": "What is 对不起?",
+        "options": [
+          {"text": "Thank you", "correct": false},
+          {"text": "Hello", "correct": false},
+          {"text": "Sorry", "correct": true}
+        ]
+      }
+    ]
+  }
+}

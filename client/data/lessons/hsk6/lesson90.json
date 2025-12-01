@@ -1,0 +1,76 @@
+{
+  "id": "lesson90",
+  "sessionId": "session2",
+  "title": "终身学习",
+  "englishTitle": "Lifelong Learning",
+  "pageNumber": 5,
+  "difficulty": "advanced",
+  "objectives": ["Understand lifelong learning concepts", "Discuss continuous education", "Master learning terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "终身", "pinyin": "zhōngshēn", "english": "lifelong", "partOfSpeech": "adjective", "example": "终身学习", "exampleTranslation": "lifelong learning"},
+    {"id": "v2", "character": "学习", "pinyin": "xuéxí", "english": "study, learn", "partOfSpeech": "verb", "example": "持续学习", "exampleTranslation": "continuous learning"},
+    {"id": "v3", "character": "教育", "pinyin": "jiàoyù", "english": "education", "partOfSpeech": "noun", "example": "终身教育", "exampleTranslation": "lifelong education"},
+    {"id": "v4", "character": "探索", "pinyin": "tànsuǒ", "english": "explore", "partOfSpeech": "verb", "example": "知识探索", "exampleTranslation": "explore knowledge"},
+    {"id": "v5", "character": "发现", "pinyin": "fāxiàn", "english": "discover", "partOfSpeech": "verb", "example": "不断发现", "exampleTranslation": "continuous discovery"},
+    {"id": "v6", "character": "成长", "pinyin": "chénɡzhǎnɡ", "english": "grow, development", "partOfSpeech": "noun", "example": "个人成长", "exampleTranslation": "personal growth"},
+    {"id": "v7", "character": "完善", "pinyin": "wánshàn", "english": "improve, perfect", "partOfSpeech": "verb", "example": "完善自我", "exampleTranslation": "improve oneself"},
+    {"id": "v8", "character": "智识", "pinyin": "zhìshi", "english": "knowledge, wisdom", "partOfSpeech": "noun", "example": "扩展智识", "exampleTranslation": "expand knowledge"},
+    {"id": "v9", "character": "思维", "pinyin": "sīwéi", "english": "thinking, thought", "partOfSpeech": "noun", "example": "开阔思维", "exampleTranslation": "broaden thinking"},
+    {"id": "v10", "character": "能力", "pinyin": "néngonɡ", "english": "ability, capability", "partOfSpeech": "noun", "example": "提升能力", "exampleTranslation": "enhance ability"}
+  ],
+  "dialogue": {
+    "title": "Lifelong learning discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "你如何理解终身学习的概念？", "pinyin": "Nǐ rúhé lǐjiě zhōngshēn xuéxí de ɡàiniàn?", "english": "How do you understand the concept of lifelong learning?"},
+      {"speaker": "B", "chinese": "我认为学习不应该只限于学生时代，而应该贯穿我们的整个人生。", "pinyin": "Wǒ rènwéi xuéxí búyīnɡɡāi zhǐ xiànzhì yu xuésheng shídài, érъ yīnɡɡāi ɡuànchuān wǒmen de zhěnɡɡè rénshēnɡ.", "english": "I think learning shouldn't be limited to student years, but should span our entire life."},
+      {"speaker": "A", "chinese": "终身学习能给我们带来什么好处？", "pinyin": "Zhōngshēn xuéxí néɡ ɡěi wǒmen dàilái shénme hǎochù?", "english": "What benefits can lifelong learning bring us?"},
+      {"speaker": "B", "chinese": "它能帮助我们不断成长，开阔思维，提升个人能力。", "pinyin": "Tā néɡ bānɡzhù wǒmen búduàn chénɡzhǎnɡ, kāikuò sīwéi, tíshēnɡ ɡèrén néɡonɡ.", "english": "It helps us grow continuously, broaden our thinking, and enhance our personal abilities."},
+      {"speaker": "A", "chinese": "我们应该如何开始终身学习之旅？", "pinyin": "Wǒmen yīnɡɡāi rúhé kāishǐ zhōngshēn xuéxí zhī lǚ?", "english": "How should we begin our lifelong learning journey?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "不仅...而且... (not only... but also...)",
+      "explanation": "Progressive emphasis",
+      "example": "不仅要努力，而且要坚持",
+      "translation": "not only must work hard, but also must persist"
+    },
+    {
+      "point": "能...来... (can... to...)",
+      "explanation": "Expressing purpose",
+      "example": "能帮助我们成长",
+      "translation": "can help us grow"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "终", "pinyin": "zhōng", "meaning": "end, finish", "radical": "纟", "radicalMeaning": "silk", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]},
+    {"id": "c2", "character": "身", "pinyin": "shēn", "meaning": "body, self", "radical": "身", "radicalMeaning": "body", "strokeCount": 7, "strokeOrder": ["竖", "横折", "竖", "横", "竖", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match learning terms",
+      "pairs": [
+        {"chinese": "学习", "english": "study", "id": "m1"},
+        {"chinese": "探索", "english": "explore", "id": "m2"},
+        {"chinese": "成长", "english": "grow", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 6 - Lesson 90 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 终身学习 mean?",
+        "options": [
+          {"text": "School learning", "correct": false},
+          {"text": "Lifelong learning", "correct": true},
+          {"text": "Quick learning", "correct": false}
+        ]
+      }
+    ]
+  }
+}

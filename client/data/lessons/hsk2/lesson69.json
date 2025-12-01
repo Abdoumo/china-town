@@ -1,0 +1,76 @@
+{
+  "id": "lesson69",
+  "sessionId": "session2",
+  "title": "时间和日期",
+  "englishTitle": "Time and Dates",
+  "pageNumber": 4,
+  "difficulty": "beginner",
+  "objectives": ["Learn time vocabulary", "Practice telling time", "Master date expressions"],
+  "vocabulary": [
+    {"id": "v1", "character": "时间", "pinyin": "shíjiān", "english": "time", "partOfSpeech": "noun", "example": "没有时间。", "exampleTranslation": "no time"},
+    {"id": "v2", "character": "点", "pinyin": "diǎn", "english": "o'clock", "partOfSpeech": "measure word", "example": "三点", "exampleTranslation": "three o'clock"},
+    {"id": "v3", "character": "分", "pinyin": "fēn", "english": "minute", "partOfSpeech": "measure word", "example": "十分", "exampleTranslation": "ten minutes"},
+    {"id": "v4", "character": "小时", "pinyin": "xiǎoshí", "english": "hour", "partOfSpeech": "noun", "example": "两个小时", "exampleTranslation": "two hours"},
+    {"id": "v5", "character": "天", "pinyin": "tiān", "english": "day", "partOfSpeech": "noun", "example": "一天", "exampleTranslation": "one day"},
+    {"id": "v6", "character": "星期", "pinyin": "xīngqī", "english": "week", "partOfSpeech": "noun", "example": "星期一", "exampleTranslation": "Monday"},
+    {"id": "v7", "character": "月", "pinyin": "yuè", "english": "month", "partOfSpeech": "noun", "example": "一月", "exampleTranslation": "January"},
+    {"id": "v8", "character": "年", "pinyin": "nián", "english": "year", "partOfSpeech": "noun", "example": "二〇二四年", "exampleTranslation": "2024"},
+    {"id": "v9", "character": "早上", "pinyin": "zǎoshang", "english": "morning", "partOfSpeech": "noun", "example": "早上八点", "exampleTranslation": "eight in the morning"},
+    {"id": "v10", "character": "晚上", "pinyin": "wǎnshang", "english": "evening", "partOfSpeech": "noun", "example": "晚上六点", "exampleTranslation": "six in the evening"}
+  ],
+  "dialogue": {
+    "title": "Asking the time",
+    "lines": [
+      {"speaker": "A", "chinese": "现在几点了？", "pinyin": "Xiànzài jǐ diǎn le?", "english": "What time is it now?"},
+      {"speaker": "B", "chinese": "三点二十。", "pinyin": "Sān diǎn èrshí.", "english": "Three twenty."},
+      {"speaker": "A", "chinese": "你什么时候有空？", "pinyin": "Nǐ shénme shíhou yǒu kòng?", "english": "When do you have time?"},
+      {"speaker": "B", "chinese": "下午五点有空。", "pinyin": "Xiàwǔ wǔ diǎn yǒu kòng.", "english": "I have time at five o'clock in the afternoon."},
+      {"speaker": "A", "chinese": "好的，那我们五点见。", "pinyin": "Hǎo de, nà wǒmen wǔ diǎn jiàn.", "english": "Okay, let's meet at five."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "几点？(What time?)",
+      "explanation": "Asking what time it is",
+      "example": "现在几点？",
+      "translation": "What time is it now?"
+    },
+    {
+      "point": "时候 (when, time)",
+      "explanation": "Used to ask when something happens",
+      "example": "什么时候有空？",
+      "translation": "When do you have time?"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "时", "pinyin": "shí", "meaning": "time", "radical": "日", "radicalMeaning": "sun", "strokeCount": 10, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "横"]},
+    {"id": "c2", "character": "间", "pinyin": "jiān", "meaning": "between", "radical": "门", "radicalMeaning": "gate", "strokeCount": 7, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match time expressions",
+      "pairs": [
+        {"chinese": "早上", "english": "morning", "id": "m1"},
+        {"chinese": "晚上", "english": "evening", "id": "m2"},
+        {"chinese": "点", "english": "o'clock", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 2 - Lesson 69 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 早上 mean?",
+        "options": [
+          {"text": "Morning", "correct": true},
+          {"text": "Evening", "correct": false},
+          {"text": "Night", "correct": false}
+        ]
+      }
+    ]
+  }
+}

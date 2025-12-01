@@ -1,0 +1,76 @@
+{
+  "id": "lesson72",
+  "sessionId": "session1",
+  "title": "学校和教育",
+  "englishTitle": "School and Education",
+  "pageNumber": 2,
+  "difficulty": "intermediate",
+  "objectives": ["Learn school vocabulary", "Practice academic discussions", "Master education terms"],
+  "vocabulary": [
+    {"id": "v1", "character": "学校", "pinyin": "xuéxiào", "english": "school", "partOfSpeech": "noun", "example": "去学校", "exampleTranslation": "go to school"},
+    {"id": "v2", "character": "老师", "pinyin": "lǎoshī", "english": "teacher", "partOfSpeech": "noun", "example": "我的老师", "exampleTranslation": "my teacher"},
+    {"id": "v3", "character": "学生", "pinyin": "xuésheng", "english": "student", "partOfSpeech": "noun", "example": "做学生", "exampleTranslation": "be a student"},
+    {"id": "v4", "character": "教室", "pinyin": "jiàoshì", "english": "classroom", "partOfSpeech": "noun", "example": "在教室里", "exampleTranslation": "in the classroom"},
+    {"id": "v5", "character": "课", "pinyin": "kè", "english": "class, lesson", "partOfSpeech": "noun", "example": "上课", "exampleTranslation": "attend class"},
+    {"id": "v6", "character": "考试", "pinyin": "kǎoshì", "english": "exam, test", "partOfSpeech": "noun", "example": "参加考试", "exampleTranslation": "take an exam"},
+    {"id": "v7", "character": "成绩", "pinyin": "chéngjī", "english": "grade, score", "partOfSpeech": "noun", "example": "好的成绩", "exampleTranslation": "good grades"},
+    {"id": "v8", "character": "功课", "pinyin": "gōngkè", "english": "homework", "partOfSpeech": "noun", "example": "做功课", "exampleTranslation": "do homework"},
+    {"id": "v9", "character": "知识", "pinyin": "zhīshi", "english": "knowledge", "partOfSpeech": "noun", "example": "学习知识", "exampleTranslation": "learn knowledge"},
+    {"id": "v10", "character": "科目", "pinyin": "kēmù", "english": "subject", "partOfSpeech": "noun", "example": "主要科目", "exampleTranslation": "main subjects"}
+  ],
+  "dialogue": {
+    "title": "School life",
+    "lines": [
+      {"speaker": "A", "chinese": "你在哪个学校学习？", "pinyin": "Nǐ zài nǎ ge xuéxiào xuéxí?", "english": "Which school do you attend?"},
+      {"speaker": "B", "chinese": "我在第三中学。你呢？", "pinyin": "Wǒ zài dì sān zhōngxué. Nǐ ne?", "english": "I attend the Third Middle School. How about you?"},
+      {"speaker": "A", "chinese": "我也在那里。你最喜欢哪个科目？", "pinyin": "Wǒ yě zài nàli. Nǐ zuì xǐhuān nǎ ge kēmù?", "english": "I'm there too. Which subject do you like best?"},
+      {"speaker": "B", "chinese": "我最喜欢英语和数学。你呢？", "pinyin": "Wǒ zuì xǐhuān Yīngyǔ hé shùxué. Nǐ ne?", "english": "I like English and Math best. How about you?"},
+      {"speaker": "A", "chinese": "我喜欢历史和中文。", "pinyin": "Wǒ xǐhuān lìshǐ hé Zhōngwén.", "english": "I like History and Chinese."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "最喜欢 (like best, prefer most)",
+      "explanation": "Superlative preference",
+      "example": "我最喜欢英语。",
+      "translation": "I like English best."
+    },
+    {
+      "point": "在... (at, in)",
+      "explanation": "Location marker",
+      "example": "我在学校。",
+      "translation": "I'm at school."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "学", "pinyin": "xué", "meaning": "study", "radical": "宀", "radicalMeaning": "roof", "strokeCount": 8, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "横"]},
+    {"id": "c2", "character": "校", "pinyin": "xiào", "meaning": "school", "radical": "木", "radicalMeaning": "wood", "strokeCount": 10, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match school terms",
+      "pairs": [
+        {"chinese": "老师", "english": "teacher", "id": "m1"},
+        {"chinese": "学生", "english": "student", "id": "m2"},
+        {"chinese": "考试", "english": "exam", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 3 - Lesson 72 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 老师 mean?",
+        "options": [
+          {"text": "Student", "correct": false},
+          {"text": "Teacher", "correct": true},
+          {"text": "Classroom", "correct": false}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "lesson71",
+  "sessionId": "session1",
+  "title": "爱好和兴趣",
+  "englishTitle": "Hobbies and Interests",
+  "pageNumber": 1,
+  "difficulty": "intermediate",
+  "objectives": ["Learn hobby vocabulary", "Practice discussing interests", "Master preference expressions"],
+  "vocabulary": [
+    {"id": "v1", "character": "爱好", "pinyin": "àihào", "english": "hobby, interest", "partOfSpeech": "noun", "example": "我的爱好是读书。", "exampleTranslation": "My hobby is reading books."},
+    {"id": "v2", "character": "喜欢", "pinyin": "xǐhuān", "english": "like, prefer", "partOfSpeech": "verb", "example": "我喜欢体育。", "exampleTranslation": "I like sports."},
+    {"id": "v3", "character": "运动", "pinyin": "yùndòng", "english": "sport, exercise", "partOfSpeech": "noun", "example": "喜欢运动", "exampleTranslation": "like sports"},
+    {"id": "v4", "character": "音乐", "pinyin": "yīnyuè", "english": "music", "partOfSpeech": "noun", "example": "听音乐", "exampleTranslation": "listen to music"},
+    {"id": "v5", "character": "艺术", "pinyin": "yìshù", "english": "art", "partOfSpeech": "noun", "example": "喜欢艺术", "exampleTranslation": "like art"},
+    {"id": "v6", "character": "电影", "pinyin": "diànyǐng", "english": "movie, film", "partOfSpeech": "noun", "example": "看电影", "exampleTranslation": "watch a movie"},
+    {"id": "v7", "character": "画", "pinyin": "huà", "english": "paint, drawing", "partOfSpeech": "noun", "example": "画画", "exampleTranslation": "draw, paint"},
+    {"id": "v8", "character": "跳舞", "pinyin": "tiàowǔ", "english": "dance", "partOfSpeech": "verb", "example": "喜欢跳舞", "exampleTranslation": "like dancing"},
+    {"id": "v9", "character": "唱歌", "pinyin": "chànggē", "english": "sing", "partOfSpeech": "verb", "example": "唱歌很好听。", "exampleTranslation": "Singing sounds nice."},
+    {"id": "v10", "character": "兴趣", "pinyin": "xìngqù", "english": "interest", "partOfSpeech": "noun", "example": "有兴趣吗？", "exampleTranslation": "Are you interested?"}
+  ],
+  "dialogue": {
+    "title": "Discussing hobbies",
+    "lines": [
+      {"speaker": "A", "chinese": "你有什么爱好？", "pinyin": "Nǐ yǒu shénme àihào?", "english": "What are your hobbies?"},
+      {"speaker": "B", "chinese": "我喜欢看电影和听音乐。你呢？", "pinyin": "Wǒ xǐhuān kàn diànyǐng hé tīng yīnyuè. Nǐ ne?", "english": "I like watching movies and listening to music. How about you?"},
+      {"speaker": "A", "chinese": "我喜欢运动，特别是足球。", "pinyin": "Wǒ xǐhuān yùndòng, tèbié shì zúqiú.", "english": "I like sports, especially football."},
+      {"speaker": "B", "chinese": "那很好！你经常踢足球吗？", "pinyin": "Nà hěn hǎo! Nǐ jīngcháng tī zúqiú ma?", "english": "That's great! Do you often play football?"},
+      {"speaker": "A", "chinese": "是的，每周两次。", "pinyin": "Shì de, měi zhōu liǎng cì.", "english": "Yes, twice a week."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "特别是 (especially)",
+      "explanation": "Emphasizing something specific",
+      "example": "特别是足球",
+      "translation": "especially football"
+    },
+    {
+      "point": "经常 (often)",
+      "explanation": "Frequency adverb",
+      "example": "经常踢足球",
+      "translation": "often play football"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "爱", "pinyin": "ài", "meaning": "love, like", "radical": "爫", "radicalMeaning": "claw", "strokeCount": 10, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "横"]},
+    {"id": "c2", "character": "好", "pinyin": "hǎo", "meaning": "good", "radical": "女", "radicalMeaning": "woman", "strokeCount": 6, "strokeOrder": ["竖", "横折", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match hobbies",
+      "pairs": [
+        {"chinese": "运动", "english": "sport", "id": "m1"},
+        {"chinese": "音乐", "english": "music", "id": "m2"},
+        {"chinese": "电影", "english": "movie", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 3 - Lesson 71 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 爱好 mean?",
+        "options": [
+          {"text": "Work", "correct": false},
+          {"text": "Hobby", "correct": true},
+          {"text": "School", "correct": false}
+        ]
+      }
+    ]
+  }
+}

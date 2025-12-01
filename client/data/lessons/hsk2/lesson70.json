@@ -1,0 +1,76 @@
+{
+  "id": "lesson70",
+  "sessionId": "session2",
+  "title": "健康和身体",
+  "englishTitle": "Health and Body",
+  "pageNumber": 5,
+  "difficulty": "beginner",
+  "objectives": ["Learn body parts", "Practice health expressions", "Master medical terms"],
+  "vocabulary": [
+    {"id": "v1", "character": "头", "pinyin": "tóu", "english": "head", "partOfSpeech": "noun", "example": "头疼", "exampleTranslation": "headache"},
+    {"id": "v2", "character": "眼睛", "pinyin": "yǎnjing", "english": "eyes", "partOfSpeech": "noun", "example": "眼睛很大", "exampleTranslation": "big eyes"},
+    {"id": "v3", "character": "耳朵", "pinyin": "ěrduo", "english": "ear", "partOfSpeech": "noun", "example": "耳朵痛", "exampleTranslation": "ear pain"},
+    {"id": "v4", "character": "嘴", "pinyin": "zuǐ", "english": "mouth", "partOfSpeech": "noun", "example": "开嘴", "exampleTranslation": "open mouth"},
+    {"id": "v5", "character": "手", "pinyin": "shǒu", "english": "hand", "partOfSpeech": "noun", "example": "伸手", "exampleTranslation": "stretch hand"},
+    {"id": "v6", "character": "脚", "pinyin": "jiǎo", "english": "foot", "partOfSpeech": "noun", "example": "脚痛", "exampleTranslation": "foot pain"},
+    {"id": "v7", "character": "病", "pinyin": "bìng", "english": "illness", "partOfSpeech": "noun", "example": "生病了", "exampleTranslation": "got sick"},
+    {"id": "v8", "character": "医生", "pinyin": "yīshēng", "english": "doctor", "partOfSpeech": "noun", "example": "我是医生。", "exampleTranslation": "I am a doctor."},
+    {"id": "v9", "character": "药", "pinyin": "yào", "english": "medicine", "partOfSpeech": "noun", "example": "吃药", "exampleTranslation": "take medicine"},
+    {"id": "v10", "character": "健康", "pinyin": "jiànkāng", "english": "healthy", "partOfSpeech": "adjective", "example": "很健康", "exampleTranslation": "very healthy"}
+  ],
+  "dialogue": {
+    "title": "At the doctor",
+    "lines": [
+      {"speaker": "Patient", "chinese": "医生，我不舒服。", "pinyin": "Yīshēng, wǒ bù shūfu.", "english": "Doctor, I don't feel well."},
+      {"speaker": "Doctor", "chinese": "怎么了？哪里痛？", "pinyin": "Zěnyàng le? Nǎli téng?", "english": "What's wrong? Where does it hurt?"},
+      {"speaker": "Patient", "chinese": "我的头疼，还有喉咙痛。", "pinyin": "Wǒ de tóu téng, háiyǒu hóulóng téng.", "english": "My head aches and my throat hurts."},
+      {"speaker": "Doctor", "chinese": "你可能感冒了。吃这个药。", "pinyin": "Nǐ kěnéng gǎnmào le. Chī zhège yào.", "english": "You probably have a cold. Take this medicine."},
+      {"speaker": "Patient", "chinese": "谢谢医生。", "pinyin": "Xièxie yīshēng.", "english": "Thank you, doctor."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "不舒服 (not feeling well)",
+      "explanation": "Expressing discomfort",
+      "example": "我不舒服。",
+      "translation": "I don't feel well."
+    },
+    {
+      "point": "哪里...？(where...?)",
+      "explanation": "Asking where something is",
+      "example": "哪里痛？",
+      "translation": "Where does it hurt?"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "头", "pinyin": "tóu", "meaning": "head", "radical": "大", "radicalMeaning": "big", "strokeCount": 5, "strokeOrder": ["竖", "横折", "横", "竖", "横"]},
+    {"id": "c2", "character": "手", "pinyin": "shǒu", "meaning": "hand", "radical": "手", "radicalMeaning": "hand", "strokeCount": 4, "strokeOrder": ["竖", "横折", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match body parts",
+      "pairs": [
+        {"chinese": "头", "english": "head", "id": "m1"},
+        {"chinese": "手", "english": "hand", "id": "m2"},
+        {"chinese": "脚", "english": "foot", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 2 - Lesson 70 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 医生 mean?",
+        "options": [
+          {"text": "Patient", "correct": false},
+          {"text": "Doctor", "correct": true},
+          {"text": "Medicine", "correct": false}
+        ]
+      }
+    ]
+  }
+}

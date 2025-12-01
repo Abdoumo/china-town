@@ -1,0 +1,76 @@
+{
+  "id": "lesson64",
+  "sessionId": "session2",
+  "title": "家庭成员",
+  "englishTitle": "Family Members",
+  "pageNumber": 4,
+  "difficulty": "beginner",
+  "objectives": ["Learn family member vocabulary", "Practice family introductions", "Master family relationships"],
+  "vocabulary": [
+    {"id": "v1", "character": "爸爸", "pinyin": "bàba", "english": "father", "partOfSpeech": "noun", "example": "这是我的爸爸。", "exampleTranslation": "This is my father."},
+    {"id": "v2", "character": "妈妈", "pinyin": "māma", "english": "mother", "partOfSpeech": "noun", "example": "我的妈妈很好。", "exampleTranslation": "My mother is very good."},
+    {"id": "v3", "character": "哥哥", "pinyin": "gēge", "english": "older brother", "partOfSpeech": "noun", "example": "我有一个哥哥。", "exampleTranslation": "I have one older brother."},
+    {"id": "v4", "character": "妹妹", "pinyin": "mèimei", "english": "younger sister", "partOfSpeech": "noun", "example": "我的妹妹很小。", "exampleTranslation": "My younger sister is very small."},
+    {"id": "v5", "character": "弟弟", "pinyin": "dìdi", "english": "younger brother", "partOfSpeech": "noun", "example": "有弟弟吗？", "exampleTranslation": "Do you have a younger brother?"},
+    {"id": "v6", "character": "姐姐", "pinyin": "jiějie", "english": "older sister", "partOfSpeech": "noun", "example": "我有一个姐姐。", "exampleTranslation": "I have one older sister."},
+    {"id": "v7", "character": "家人", "pinyin": "jiārén", "english": "family member", "partOfSpeech": "noun", "example": "这是我的家人。", "exampleTranslation": "These are my family members."},
+    {"id": "v8", "character": "孩子", "pinyin": "háizi", "english": "child", "partOfSpeech": "noun", "example": "有孩子吗？", "exampleTranslation": "Do you have children?"},
+    {"id": "v9", "character": "男人", "pinyin": "nánrén", "english": "man", "partOfSpeech": "noun", "example": "这是一个男人。", "exampleTranslation": "This is a man."},
+    {"id": "v10", "character": "女人", "pinyin": "nǚrén", "english": "woman", "partOfSpeech": "noun", "example": "这是一个女人。", "exampleTranslation": "This is a woman."}
+  ],
+  "dialogue": {
+    "title": "Family introduction",
+    "lines": [
+      {"speaker": "A", "chinese": "你有家人吗？", "pinyin": "Nǐ yǒu jiārén ma?", "english": "Do you have family?"},
+      {"speaker": "B", "chinese": "有。我有爸爸、妈妈和一个妹妹。", "pinyin": "Yǒu. Wǒ yǒu bàba, māma hé yī ge mèimei.", "english": "Yes. I have father, mother, and a younger sister."},
+      {"speaker": "A", "chinese": "你的妹妹多大了？", "pinyin": "Nǐ de mèimei duō dà le?", "english": "How old is your younger sister?"},
+      {"speaker": "B", "chinese": "她今年十二岁。", "pinyin": "Tā jīnnián shí'èr suì.", "english": "She is twelve years old this year."},
+      {"speaker": "A", "chinese": "很好。你的家人呢？", "pinyin": "Hěn hǎo. Nǐ de jiārén ne?", "english": "That's nice. What about your family?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "有... (Have...)",
+      "explanation": "Expressing possession",
+      "example": "我有一个妹妹。",
+      "translation": "I have a younger sister."
+    },
+    {
+      "point": "的 (possessive particle)",
+      "explanation": "Shows possession between nouns",
+      "example": "我的妹妹",
+      "translation": "my younger sister"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "人", "pinyin": "rén", "meaning": "person", "radical": "人", "radicalMeaning": "person", "strokeCount": 2, "strokeOrder": ["撇", "竖"]},
+    {"id": "c2", "character": "女", "pinyin": "nǚ", "meaning": "woman", "radical": "女", "radicalMeaning": "woman", "strokeCount": 3, "strokeOrder": ["竖", "横折", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match family members",
+      "pairs": [
+        {"chinese": "爸爸", "english": "father", "id": "m1"},
+        {"chinese": "妈妈", "english": "mother", "id": "m2"},
+        {"chinese": "妹妹", "english": "younger sister", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 1 - Lesson 64 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 爸爸 mean?",
+        "options": [
+          {"text": "Mother", "correct": false},
+          {"text": "Father", "correct": true},
+          {"text": "Sister", "correct": false}
+        ]
+      }
+    ]
+  }
+}

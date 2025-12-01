@@ -1,0 +1,76 @@
+{
+  "id": "lesson86",
+  "sessionId": "session1",
+  "title": "全球视角",
+  "englishTitle": "Global Perspectives",
+  "pageNumber": 1,
+  "difficulty": "advanced",
+  "objectives": ["Understand global issues", "Discuss international topics", "Master global terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "全球", "pinyin": "quánqiú", "english": "global", "partOfSpeech": "adjective", "example": "全球变暖", "exampleTranslation": "global warming"},
+    {"id": "v2", "character": "国际", "pinyin": "ɡuójì", "english": "international", "partOfSpeech": "adjective", "example": "国际关系", "exampleTranslation": "international relations"},
+    {"id": "v3", "character": "文明", "pinyin": "wénmínɡ", "english": "civilization", "partOfSpeech": "noun", "example": "人类文明", "exampleTranslation": "human civilization"},
+    {"id": "v4", "character": "冲突", "pinyin": "chōnɡtū", "english": "conflict", "partOfSpeech": "noun", "example": "国际冲突", "exampleTranslation": "international conflict"},
+    {"id": "v5", "character": "和平", "pinyin": "héɡpínɡ", "english": "peace", "partOfSpeech": "noun", "example": "维护和平", "exampleTranslation": "maintain peace"},
+    {"id": "v6", "character": "合作", "pinyin": "hézuò", "english": "cooperation", "partOfSpeech": "noun", "example": "国际合作", "exampleTranslation": "international cooperation"},
+    {"id": "v7", "character": "交流", "pinyin": "jiāoliú", "english": "exchange, communicate", "partOfSpeech": "verb", "example": "文化交流", "exampleTranslation": "cultural exchange"},
+    {"id": "v8", "character": "联系", "pinyin": "liánxi", "english": "contact, connection", "partOfSpeech": "noun", "example": "保持联系", "exampleTranslation": "maintain contact"},
+    {"id": "v9", "character": "相互", "pinyin": "xiānɡhù", "english": "mutual, each other", "partOfSpeech": "adverb", "example": "相互理解", "exampleTranslation": "mutual understanding"},
+    {"id": "v10", "character": "融合", "pinyin": "rónɡhé", "english": "integrate, blend", "partOfSpeech": "verb", "example": "文化融合", "exampleTranslation": "cultural integration"}
+  ],
+  "dialogue": {
+    "title": "Global discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "你认为当今世界面临的最大挑战是什么？", "pinyin": "Nǐ rènwéi dānɡjīn shìjiè miànlín de zuìdà tiǎozhàn shì shénme?", "english": "What do you think is the biggest challenge facing the world today?"},
+      {"speaker": "B", "chinese": "我认为气候变化和可持续发展是最紧迫的问题。", "pinyin": "Wǒ rènwéi qìhòu biànhuà hé kěchíxù fāzhǎn shì zuì jǐnpò de wèntí.", "english": "I think climate change and sustainable development are the most urgent issues."},
+      {"speaker": "A", "chinese": "国际合作在解决这些问题中的作用怎样？", "pinyin": "Ɡuójì hézuò zài jiějuějué zhèxiē wèntí zhōnɡ de zuòyònɡ zěnyàng?", "english": "What is the role of international cooperation in solving these problems?"},
+      {"speaker": "B", "chinese": "国际合作至关重要，需要各国相互支持和理解。", "pinyin": "Ɡuójì hézuò zhìɡuān zhònɡyào, xūyào ɡèɡuó xiānɡhù zhīchí hé lǐjiě.", "english": "International cooperation is crucial, requiring mutual support and understanding among nations."},
+      {"speaker": "A", "chinese": "文化交流也很重要吧？", "pinyin": "Wénhuà jiāoliú yě hěn zhònɡyào ba?", "english": "Cultural exchange is also important, isn't it?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "最...的 (the most... )",
+      "explanation": "Superlative form",
+      "example": "最大的挑战",
+      "translation": "the biggest challenge"
+    },
+    {
+      "point": "至关重要 (crucial, of vital importance)",
+      "explanation": "Expressing importance",
+      "example": "这至关重要",
+      "translation": "this is crucial"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "全", "pinyin": "quán", "meaning": "whole, complete", "radical": "八", "radicalMeaning": "eight", "strokeCount": 6, "strokeOrder": ["竖", "横折", "横", "竖", "竖", "横"]},
+    {"id": "c2", "character": "球", "pinyin": "qiú", "meaning": "ball, sphere", "radical": "王", "radicalMeaning": "jade", "strokeCount": 12, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match global terms",
+      "pairs": [
+        {"chinese": "国际", "english": "international", "id": "m1"},
+        {"chinese": "和平", "english": "peace", "id": "m2"},
+        {"chinese": "合作", "english": "cooperation", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 6 - Lesson 86 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 全球 mean?",
+        "options": [
+          {"text": "World", "correct": false},
+          {"text": "Global", "correct": true},
+          {"text": "International", "correct": false}
+        ]
+      }
+    ]
+  }
+}

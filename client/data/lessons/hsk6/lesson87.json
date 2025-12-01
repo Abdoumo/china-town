@@ -1,0 +1,76 @@
+{
+  "id": "lesson87",
+  "sessionId": "session1",
+  "title": "古代智慧",
+  "englishTitle": "Ancient Wisdom",
+  "pageNumber": 2,
+  "difficulty": "advanced",
+  "objectives": ["Understand ancient philosophies", "Discuss traditional wisdom", "Master classical terminology"],
+  "vocabulary": [
+    {"id": "v1", "character": "古代", "pinyin": "ɡǔdài", "english": "ancient", "partOfSpeech": "adjective", "example": "古代中国", "exampleTranslation": "ancient China"},
+    {"id": "v2", "character": "智慧", "pinyin": "zhìhuì", "english": "wisdom", "partOfSpeech": "noun", "example": "古代智慧", "exampleTranslation": "ancient wisdom"},
+    {"id": "v3", "character": "哲学家", "pinyin": "zhéxuéjiā", "english": "philosopher", "partOfSpeech": "noun", "example": "古代哲学家", "exampleTranslation": "ancient philosopher"},
+    {"id": "v4", "character": "道德", "pinyin": "dàodé", "english": "morality, ethics", "partOfSpeech": "noun", "example": "道德规范", "exampleTranslation": "moral norms"},
+    {"id": "v5", "character": "修养", "pinyin": "xiūyǎnɡ", "english": "cultivation, refinement", "partOfSpeech": "noun", "example": "提高修养", "exampleTranslation": "improve cultivation"},
+    {"id": "v6", "character": "境界", "pinyin": "jìnɡjiè", "english": "realm, state", "partOfSpeech": "noun", "example": "精神境界", "exampleTranslation": "spiritual realm"},
+    {"id": "v7", "character": "和谐", "pinyin": "héxié", "english": "harmony", "partOfSpeech": "noun", "example": "社会和谐", "exampleTranslation": "social harmony"},
+    {"id": "v8", "character": "均衡", "pinyin": "jūnhénɡ", "english": "balance", "partOfSpeech": "noun", "example": "身心均衡", "exampleTranslation": "mind-body balance"},
+    {"id": "v9", "character": "本质", "pinyin": "běnzhì", "english": "essence", "partOfSpeech": "noun", "example": "问题的本质", "exampleTranslation": "essence of the problem"},
+    {"id": "v10", "character": "传承", "pinyin": "chuánchénɡ", "english": "inherit, legacy", "partOfSpeech": "verb", "example": "文化传承", "exampleTranslation": "cultural inheritance"}
+  ],
+  "dialogue": {
+    "title": "Ancient philosophy discussion",
+    "lines": [
+      {"speaker": "A", "chinese": "古代中国哲学家们的思想对现代社会还有指导意义吗？", "pinyin": "Ɡǔdài Zhōnɡɡuó zhéxuéjiāmen de sīxiǎnɡ duì xiàndài shèhuì háiyǒu zhǐdǎo yìyì ma?", "english": "Do ancient Chinese philosophers' ideas still have guiding significance for modern society?"},
+      {"speaker": "B", "chinese": "当然有。他们关于道德和修养的论述仍然很有价值。", "pinyin": "Dānɡrán yǒu. Tāmen ɡuānyu dàodé hé xiūyǎnɡ de lùnshù rénɡrán hěn yǒu jiàzhí.", "english": "Absolutely. Their discussions on morality and cultivation are still valuable."},
+      {"speaker": "A", "chinese": "你认为他���最强调的是什么？", "pinyin": "Nǐ rènwéi tāmen zuì qiánɡdiào de shì shénme?", "english": "What do you think they emphasized most?"},
+      {"speaker": "B", "chinese": "我认为是人与自然的和谐、心灵的修养和社会的和谐。", "pinyin": "Wǒ rènwéi shì rén yǔ zìrán de héxié, xīnlínɡ de xiūyǎnɡ hé shèhuì de héxié.", "english": "I think it's harmony between humans and nature, spiritual cultivation, and social harmony."},
+      {"speaker": "A", "chinese": "这些智慧对解决现代问题很有帮助。", "pinyin": "Zhèxiē zhìhuì duì jiějuějué xiàndài wèntí hěn yǒu bānɡzhù.", "english": "This wisdom is very helpful for solving modern problems."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "...对...有...意义 (has... significance for...)",
+      "explanation": "Expressing impact",
+      "example": "对现代社会有重要意义",
+      "translation": "has important significance for modern society"
+    },
+    {
+      "point": "人与... (humans and...)",
+      "explanation": "Expressing relationship",
+      "example": "人与自然",
+      "translation": "humans and nature"
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "古", "pinyin": "ɡǔ", "meaning": "ancient", "radical": "口", "radicalMeaning": "mouth", "strokeCount": 5, "strokeOrder": ["竖", "横折", "横", "竖", "横"]},
+    {"id": "c2", "character": "代", "pinyin": "dài", "meaning": "generation, era", "radical": "亻", "radicalMeaning": "person", "strokeCount": 5, "strokeOrder": ["撇", "竖", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match ancient wisdom terms",
+      "pairs": [
+        {"chinese": "道德", "english": "morality", "id": "m1"},
+        {"chinese": "和谐", "english": "harmony", "id": "m2"},
+        {"chinese": "修养", "english": "cultivation", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 6 - Lesson 87 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 智慧 mean?",
+        "options": [
+          {"text": "Intelligence", "correct": false},
+          {"text": "Wisdom", "correct": true},
+          {"text": "Knowledge", "correct": false}
+        ]
+      }
+    ]
+  }
+}

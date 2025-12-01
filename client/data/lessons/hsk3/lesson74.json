@@ -1,0 +1,76 @@
+{
+  "id": "lesson74",
+  "sessionId": "session2",
+  "title": "餐饮外出",
+  "englishTitle": "Dining Out",
+  "pageNumber": 4,
+  "difficulty": "intermediate",
+  "objectives": ["Learn restaurant vocabulary", "Practice ordering meals", "Master food descriptions"],
+  "vocabulary": [
+    {"id": "v1", "character": "餐厅", "pinyin": "cāntīng", "english": "restaurant", "partOfSpeech": "noun", "example": "去餐厅", "exampleTranslation": "go to restaurant"},
+    {"id": "v2", "character": "菜单", "pinyin": "càidān", "english": "menu", "partOfSpeech": "noun", "example": "看菜单", "exampleTranslation": "look at menu"},
+    {"id": "v3", "character": "服务员", "pinyin": "fúwùyuán", "english": "waiter, waitress", "partOfSpeech": "noun", "example": "叫服务员", "exampleTranslation": "call waiter"},
+    {"id": "v4", "character": "点菜", "pinyin": "diǎncài", "english": "order food", "partOfSpeech": "verb", "example": "准备点菜", "exampleTranslation": "ready to order"},
+    {"id": "v5", "character": "推荐", "pinyin": "tuījiàn", "english": "recommend", "partOfSpeech": "verb", "example": "推荐这道菜", "exampleTranslation": "recommend this dish"},
+    {"id": "v6", "character": "特色", "pinyin": "tèsè", "english": "specialty, feature", "partOfSpeech": "noun", "example": "本店特色", "exampleTranslation": "restaurant specialty"},
+    {"id": "v7", "character": "炒", "pinyin": "chǎo", "english": "stir-fry", "partOfSpeech": "verb", "example": "炒菜", "exampleTranslation": "stir-fry"},
+    {"id": "v8", "character": "烤", "pinyin": "kǎo", "english": "roast, grill", "partOfSpeech": "verb", "example": "烤鸡", "exampleTranslation": "roasted chicken"},
+    {"id": "v9", "character": "味道", "pinyin": "wèidào", "english": "taste, flavor", "partOfSpeech": "noun", "example": "很好的味道", "exampleTranslation": "great flavor"},
+    {"id": "v10", "character": "账单", "pinyin": "zhàngdān", "english": "bill, account", "partOfSpeech": "noun", "example": "看账单", "exampleTranslation": "look at bill"}
+  ],
+  "dialogue": {
+    "title": "Restaurant ordering",
+    "lines": [
+      {"speaker": "Waiter", "chinese": "欢迎来到我们餐厅。请问几位？", "pinyin": "Huānyíng lái dào wǒmen cāntīng. Qǐngwèn jǐ wèi?", "english": "Welcome to our restaurant. How many people?"},
+      {"speaker": "Customer", "chinese": "两位。我们要看菜单。", "pinyin": "Liǎng wèi. Wǒmen yào kàn càidān.", "english": "Two people. We'd like to see the menu."},
+      {"speaker": "Waiter", "chinese": "好的，这是菜单。我们今天的特色菜是清蒸鱼。", "pinyin": "Hǎo de, zhè shì càidān. Wǒmen jīntiān de tèsè cài shì qīngzhēng yú.", "english": "Here is the menu. Our specialty today is steamed fish."},
+      {"speaker": "Customer", "chinese": "听起来很不错。我们就要这个，还有炒青菜。", "pinyin": "Tīng qǐlai hěn búcuò. Wǒmen jiù yào zhège, háiyǒu chǎo qīngcài.", "english": "That sounds great. We'll have that, and also stir-fried vegetables."},
+      {"speaker": "Waiter", "chinese": "好的。请稍等。", "pinyin": "Hǎo de. Qǐng shāoděng.", "english": "Okay, please wait a moment."}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "听起来... (sounds like...)",
+      "explanation": "Describing impressions",
+      "example": "听起来很好。",
+      "translation": "Sounds great."
+    },
+    {
+      "point": "就要... (will have, want)",
+      "explanation": "Decision after consideration",
+      "example": "我们就要这个。",
+      "translation": "We'll have this."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "食", "pinyin": "shí", "meaning": "food", "radical": "食", "radicalMeaning": "eat", "strokeCount": 9, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横"]},
+    {"id": "c2", "character": "饮", "pinyin": "yǐn", "meaning": "drink", "radical": "食", "radicalMeaning": "eat", "strokeCount": 12, "strokeOrder": ["竖", "横折", "横", "竖", "横", "竖", "横", "竖", "横", "竖", "横", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match restaurant terms",
+      "pairs": [
+        {"chinese": "菜单", "english": "menu", "id": "m1"},
+        {"chinese": "服务员", "english": "waiter", "id": "m2"},
+        {"chinese": "账单", "english": "bill", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 3 - Lesson 74 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 点菜 mean?",
+        "options": [
+          {"text": "Cook food", "correct": false},
+          {"text": "Order food", "correct": true},
+          {"text": "Eat food", "correct": false}
+        ]
+      }
+    ]
+  }
+}

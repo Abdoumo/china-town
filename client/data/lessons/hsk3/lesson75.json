@@ -1,0 +1,76 @@
+{
+  "id": "lesson75",
+  "sessionId": "session2",
+  "title": "工作场所交流",
+  "englishTitle": "Workplace Communication",
+  "pageNumber": 5,
+  "difficulty": "intermediate",
+  "objectives": ["Learn workplace vocabulary", "Practice professional communication", "Master business terms"],
+  "vocabulary": [
+    {"id": "v1", "character": "公司", "pinyin": "gōngsī", "english": "company", "partOfSpeech": "noun", "example": "在公司工作", "exampleTranslation": "work at company"},
+    {"id": "v2", "character": "办公室", "pinyin": "bàngōngshì", "english": "office", "partOfSpeech": "noun", "example": "在办公室", "exampleTranslation": "in the office"},
+    {"id": "v3", "character": "员工", "pinyin": "yuángōng", "english": "employee", "partOfSpeech": "noun", "example": "公司员工", "exampleTranslation": "company employees"},
+    {"id": "v4", "character": "经理", "pinyin": "jīnglǐ", "english": "manager", "partOfSpeech": "noun", "example": "部门经理", "exampleTranslation": "department manager"},
+    {"id": "v5", "character": "会议", "pinyin": "huìyì", "english": "meeting", "partOfSpeech": "noun", "example": "参加会议", "exampleTranslation": "attend meeting"},
+    {"id": "v6", "character": "项目", "pinyin": "xiàngmù", "english": "project", "partOfSpeech": "noun", "example": "新项目", "exampleTranslation": "new project"},
+    {"id": "v7", "character": "报告", "pinyin": "bàogào", "english": "report", "partOfSpeech": "noun", "example": "提交报告", "exampleTranslation": "submit report"},
+    {"id": "v8", "character": "截止", "pinyin": "jiēzhǐ", "english": "deadline", "partOfSpeech": "noun", "example": "截止日期", "exampleTranslation": "deadline"},
+    {"id": "v9", "character": "完成", "pinyin": "wánchéng", "english": "complete, finish", "partOfSpeech": "verb", "example": "完成工作", "exampleTranslation": "complete work"},
+    {"id": "v10", "character": "讨论", "pinyin": "tǎolùn", "english": "discuss", "partOfSpeech": "verb", "example": "讨论方案", "exampleTranslation": "discuss plan"}
+  ],
+  "dialogue": {
+    "title": "Office meeting",
+    "lines": [
+      {"speaker": "Manager", "chinese": "各位，感谢大家参加今天的会议。", "pinyin": "Gèwèi, gǎnxiè dàjiā cānjiā jīntiān de huìyì.", "english": "Everyone, thank you for attending today's meeting."},
+      {"speaker": "Employee1", "chinese": "您好，经理。今天的议题是什么？", "pinyin": "Nín hǎo, jīnglǐ. Jīntiān de yìtí shì shénme?", "english": "Hello, Manager. What is today's agenda?"},
+      {"speaker": "Manager", "chinese": "我们需要讨论新项目的进展。", "pinyin": "Wǒmen xūyào tǎolùn xīn xiàngmù de jìnzhǎn.", "english": "We need to discuss the progress of the new project."},
+      {"speaker": "Employee2", "chinese": "这个项目的截止日期是什么时候？", "pinyin": "Zhège xiàngmù de jiēzhǐ rìqī shì shénme shíhou?", "english": "When is the deadline for this project?"},
+      {"speaker": "Manager", "chinese": "下个月底。各位有什么想法吗？", "pinyin": "Xiàge yuè dǐ. Gèwèi yǒu shénme xiǎngfǎ ma?", "english": "End of next month. Does anyone have any ideas?"}
+    ]
+  },
+  "grammar": [
+    {
+      "point": "各位 (everyone, all)",
+      "explanation": "Respectful way to address group",
+      "example": "各位，谢谢。",
+      "translation": "Everyone, thank you."
+    },
+    {
+      "point": "需要 (need)",
+      "explanation": "Expressing necessity",
+      "example": "我们需要讨论。",
+      "translation": "We need to discuss."
+    }
+  ],
+  "characters": [
+    {"id": "c1", "character": "公", "pinyin": "gōng", "meaning": "public", "radical": "八", "radicalMeaning": "eight", "strokeCount": 4, "strokeOrder": ["竖", "横折", "竖", "横"]},
+    {"id": "c2", "character": "司", "pinyin": "sī", "meaning": "company", "radical": "口", "radicalMeaning": "mouth", "strokeCount": 5, "strokeOrder": ["竖", "横折", "横", "竖", "横"]}
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match workplace terms",
+      "pairs": [
+        {"chinese": "经理", "english": "manager", "id": "m1"},
+        {"chinese": "员工", "english": "employee", "id": "m2"},
+        {"chinese": "会��", "english": "meeting", "id": "m3"}
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "HSK Level 3 - Lesson 75 Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "multipleChoice",
+        "question": "What does 公司 mean?",
+        "options": [
+          {"text": "School", "correct": false},
+          {"text": "Company", "correct": true},
+          {"text": "Hospital", "correct": false}
+        ]
+      }
+    ]
+  }
+}
